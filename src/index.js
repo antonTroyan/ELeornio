@@ -11,6 +11,9 @@ import store from "./redux/redux-store";
 const darkTheme = createMuiTheme({
     palette: {
         type: "dark",
+        primary: {
+            main: '#90caf9'
+        }
     }
 });
 

@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
-import MaterialCardHolderContainer from "./component/materialCard/MaterialCardHolderContainer";
+import MaterialCardHolderContainer from "./component/material-card/MaterialCardHolderContainer";
+import Header from "./component/header/Hearder";
 
 function App() {
     return (
-        <MaterialCardHolderContainer/>
+        <div>
+            <Header/>
+            <MaterialCardHolderContainer/>
+        </div>
     );
 }
 

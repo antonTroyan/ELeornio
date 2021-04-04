@@ -15,7 +15,6 @@ const MaterialCardHolder = (props) => {
 
     return (
         <div className={classes.root}>
-            <h2>Select material</h2>
             <Grid container spacing={3}>
                 {props.materialPage.materials.map(
                     (element) => {
