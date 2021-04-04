@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     },
 });
 
-const MaterialCard = () => {
+const MaterialCard = ({imageProp, hintProp, titleProp, mainTextProp}) => {
 
     const classes = useStyles();
 
@@ -22,18 +22,16 @@ const MaterialCard = () => {
             <CardActionArea>
                 <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
                     height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="Contemplative Reptile"
+                    image={imageProp}
+                    title={hintProp}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                        Lizard
+                        {titleProp}
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                        across all continents except Antarctica
+                        {mainTextProp}
                     </Typography>
                 </CardContent>
             </CardActionArea>
