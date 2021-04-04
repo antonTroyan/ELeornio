@@ -4,7 +4,6 @@ import MaterialCardHolder from "./MaterialCardHolder";
 
 
 const mapStateToProps = (state) => {
-    debugger
     return {
         materialPage : state.mainPageReducer
     }
