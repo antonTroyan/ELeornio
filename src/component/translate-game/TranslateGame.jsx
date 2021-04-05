@@ -17,6 +17,7 @@ const styles = {
 const TranslateGame = (props) => {
 
     const [currentTaskId, setCurrentTaskId] = useState(1)
+    const [isAnswerClicked, setIsAnswerClicked] = useState(false)
 
     const shuffle = (a) => {
         let j, x, i;
@@ -60,6 +61,11 @@ const TranslateGame = (props) => {
         } else {
             alert("Its not true")
         }
+        setIsAnswerClicked(true)
+    }
+
+    const handleClickNext = () => {
+        setCurrentTaskId((prev) => ++prev)
     }
 
     return (
@@ -70,6 +76,11 @@ const TranslateGame = (props) => {
                 </div>
                 <div style={{width: '50%', float: 'right'}}>
                     {prepareAnswers()}
+
+                    <div style={{margin: 100}}>
+                        {isAnswerClicked &&  <Button onClick={handleClickNext} style={{backgroundColor: 'green'}}
+                                                     variant="outlined">Next</Button>}
+                    </div>
                 </div>
             </div>
         </div>
