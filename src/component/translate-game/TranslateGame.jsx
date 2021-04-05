@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import Button from "@material-ui/core/Button";
 import cloneDeep from 'lodash/cloneDeep';
 import takeRandomElementsFromArray from "../../util/util";
+import Alert from "@material-ui/lab/Alert";
+import AlertTitle from "@material-ui/lab/AlertTitle";
 
 const styles = {
     mainContainer: {
@@ -75,16 +77,12 @@ const TranslateGame = (props) => {
     const handleClick = (e) => {
         let enteredAnswer = e.currentTarget.textContent
         if (enteredAnswer === props.tasks[currentTaskId].correctAnswer) {
-            alert("Its true")
-
             setTestResult((prev) => {
                 const result = cloneDeep(prev)
                 result[currentTaskId] = true
                 return result
             })
         } else {
-            alert("Its not true")
-
             setTestResult((prev) => {
                 const result = cloneDeep(prev)
                 result[currentTaskId] = false
@@ -100,6 +98,13 @@ const TranslateGame = (props) => {
 
     return (
         <div>
+            {testResult[currentTaskId] &&
+            <Alert severity="success">
+                <AlertTitle>Success</AlertTitle>
+                This is a success alert — <strong>check it out!</strong>
+            </Alert>
+            }
+
             <div style={styles.mainContainer}>
                 <div style={{width: '50%', float: 'left'}}>
                     {props.tasks[currentTaskId].russianWord}
@@ -109,8 +114,10 @@ const TranslateGame = (props) => {
 
                     <div style={{margin: 100}}>
                         {testResult[currentTaskId] &&
-                        <Button onClick={handleClickNext} style={{backgroundColor: 'green'}}
-                                variant="outlined">Next</Button>}
+                        <Button onClick={handleClickNext}
+                                style={{backgroundColor: 'green'}}
+                                variant="outlined">Next
+                        </Button>}
                     </div>
                 </div>
             </div>
