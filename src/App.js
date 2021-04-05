@@ -3,7 +3,7 @@ import './App.css';
 import MaterialCardHolderContainer from "./component/material-card/MaterialCardHolderContainer";
 import Header from "./component/header/Hearder";
 import {Route, Switch} from 'react-router-dom';
-import TranslateGame from "./component/translate-game/TranslateGame";
+import TranslateGameContainer from "./component/translate-game/TranslateGameContainer";
 
 function App() {
     return (
@@ -11,7 +11,7 @@ function App() {
             <Header/>
             <Switch>
                 <Route path='/game/:materialId?'
-                       render={() => <TranslateGame/>}/>
+                       render={() => <TranslateGameContainer/>}/>
                 <Route path='/'
                        render={() => <MaterialCardHolderContainer/>}/>
             </Switch>

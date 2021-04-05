@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import Button from "@material-ui/core/Button";
 import Alert from '@material-ui/lab/Alert';
 
-
 const styles = {
     mainContainer: {
         position: 'absolute',
@@ -15,14 +14,9 @@ const styles = {
     }
 }
 
-const props = {
-    russianWord: 'Привет мир',
-    incorrectAnswers: ['Hello cat', 'Good World', 'Cool World'],
-    correctAnswer: 'Hello world'
-}
+const TranslateGame = (props) => {
 
-
-const TranslateGame = () => {
+    const [currentTaskId, setCurrentTaskId] = useState(1)
 
     const shuffle = (a) => {
         let j, x, i;
@@ -36,21 +30,32 @@ const TranslateGame = () => {
     }
 
     const prepareAnswers = () => {
-        const result = props.incorrectAnswers.map((element) => {
+        let isCorrectAnswerAlreadyIn = false
+
+        const result = props.translatePage.tasks.slice(0, 4).map((element) => {
+            if (element.correctAnswer === props.translatePage.tasks[currentTaskId].correctAnswer) {
+                isCorrectAnswerAlreadyIn = true
+            }
             return (
-                <Button key={element}
+                <Button key={element.correctAnswer}
                         onClick={handleClick}
-                        variant="outlined">{element}</Button>
+                        variant="outlined">{element.correctAnswer}</Button>
             )
         })
-        result.push(<Button onClick={handleClick}
-                            variant="outlined">{props.correctAnswer}</Button>)
+
+        const correctAnswer = <Button onClick={handleClick}
+                                      variant="outlined">{props.translatePage.tasks[currentTaskId].correctAnswer}</Button>
+
+        if (!isCorrectAnswerAlreadyIn){
+            result.push(correctAnswer)
+        }
+
         return shuffle(result)
     }
 
     const handleClick = (e) => {
         let enteredAnswer = e.currentTarget.textContent
-        if (enteredAnswer === props.correctAnswer) {
+        if (enteredAnswer === props.translatePage.tasks[currentTaskId].correctAnswer) {
             alert("Its true")
         } else {
             alert("Its not true")
@@ -61,7 +66,7 @@ const TranslateGame = () => {
         <div>
             <div style={styles.mainContainer}>
                 <div style={{width: '50%', float: 'left'}}>
-                    {props.russianWord}
+                    {props.translatePage.tasks[currentTaskId].russianWord}
                 </div>
                 <div style={{width: '50%', float: 'right'}}>
                     {prepareAnswers()}
