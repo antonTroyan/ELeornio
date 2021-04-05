@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Button from "@material-ui/core/Button";
 import Alert from '@material-ui/lab/Alert';
+import cloneDeep from 'lodash/cloneDeep';
 
 const styles = {
     mainContainer: {
@@ -14,10 +15,25 @@ const styles = {
     }
 }
 
+const initialTestResult = {
+    1 : undefined,
+    2 : undefined,
+    3 : undefined,
+    4 : undefined,
+    5 : undefined,
+    6 : undefined,
+    7 : undefined,
+    8 : undefined,
+    9 : undefined,
+    10 : undefined
+}
+
 const TranslateGame = (props) => {
 
     const [currentTaskId, setCurrentTaskId] = useState(1)
     const [isAnswerClicked, setIsAnswerClicked] = useState(false)
+
+    const [testResult, setTestResult] = useState(initialTestResult)
 
     const shuffle = (a) => {
         let j, x, i;
@@ -38,13 +54,14 @@ const TranslateGame = (props) => {
                 isCorrectAnswerAlreadyIn = true
             }
             return (
-                <Button key={element.correctAnswer}
+                <Button style={{width: 150}}
+                        key={element.correctAnswer}
                         onClick={handleClick}
                         variant="outlined">{element.correctAnswer}</Button>
             )
         })
 
-        const correctAnswer = <Button onClick={handleClick}
+        const correctAnswer = <Button style={{width: 150}} onClick={handleClick}
                                       variant="outlined">{props.translatePage.tasks[currentTaskId].correctAnswer}</Button>
 
         if (!isCorrectAnswerAlreadyIn){
@@ -58,10 +75,22 @@ const TranslateGame = (props) => {
         let enteredAnswer = e.currentTarget.textContent
         if (enteredAnswer === props.translatePage.tasks[currentTaskId].correctAnswer) {
             alert("Its true")
+
+            setTestResult((prev) => {
+                const result = cloneDeep(prev)
+                result[currentTaskId] = true
+                return result
+            })
         } else {
             alert("Its not true")
+
+            setTestResult((prev) => {
+                const result = cloneDeep(prev)
+                result[currentTaskId] = true
+                return result
+            })
         }
-        setIsAnswerClicked(true)
+
     }
 
     const handleClickNext = () => {
@@ -78,7 +107,7 @@ const TranslateGame = (props) => {
                     {prepareAnswers()}
 
                     <div style={{margin: 100}}>
-                        {isAnswerClicked &&  <Button onClick={handleClickNext} style={{backgroundColor: 'green'}}
+                        {testResult[currentTaskId] !== undefined &&  <Button onClick={handleClickNext} style={{backgroundColor: 'green'}}
                                                      variant="outlined">Next</Button>}
                     </div>
                 </div>
