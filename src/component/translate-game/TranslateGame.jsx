@@ -4,6 +4,7 @@ import cloneDeep from 'lodash/cloneDeep';
 import takeRandomElementsFromArray from "../../util/util";
 import Alert from "@material-ui/lab/Alert";
 import AlertTitle from "@material-ui/lab/AlertTitle";
+import TestResult from "./TestResult";
 
 const styles = {
     mainContainer: {
@@ -70,7 +71,6 @@ const TranslateGame = (props) => {
             result.push(correctAnswer)
         }
 
-        debugger
         return shuffle(result)
     }
 
@@ -96,6 +96,12 @@ const TranslateGame = (props) => {
         setCurrentTaskId((prev) => ++prev)
     }
 
+    if (currentTaskId >= props.tasks.length){
+        return (
+            <TestResult testResult={testResult}/>
+        )
+    }
+
     return (
         <div>
             {testResult[currentTaskId] &&
@@ -113,7 +119,7 @@ const TranslateGame = (props) => {
                     {prepareAnswers()}
 
                     <div style={{margin: 100}}>
-                        {testResult[currentTaskId] &&
+                        {testResult[currentTaskId] !== undefined &&
                         <Button onClick={handleClickNext}
                                 style={{backgroundColor: 'green'}}
                                 variant="outlined">Next
