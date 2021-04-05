@@ -22,7 +22,7 @@ const Header = () => {
                 onChange={handleChange}
                 aria-label="disabled tabs example">
                 <Tab label="All Materials" />
-                <Tab label="Blocked" disabled />
+                <Tab label="Donate to unlock" disabled />
                 <Tab label="Add material" />
             </Tabs>
         </Paper>

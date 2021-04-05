@@ -19,6 +19,7 @@ const MaterialCardHolder = (props) => {
                 {props.materialPage.materials.map(
                     (element) => {
                         return <MaterialCard key={element.key}
+                                             id={element.key}
                                              titleProp={element.title}
                                              mainTextProp={element.mainText}
                                              imageProp={element.image}

@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Grid from "@material-ui/core/Grid";
+import {NavLink} from 'react-router-dom';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -20,21 +21,25 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const MaterialCard = ({imageProp, hintProp, titleProp, mainTextProp}) => {
+const MaterialCard = ({id, imageProp, hintProp, titleProp, mainTextProp}) => {
 
     const classes = useStyles();
+
+    const path = '/game/' + id
 
     return (
         <Grid item xs>
             <div className={classes.paper}>
                 <Card className={classes.root}>
                     <CardActionArea>
+                        <NavLink to={path}>
                         <CardMedia
                             component="img"
                             height="140"
                             image={imageProp}
                             title={hintProp}
                         />
+                        </NavLink>
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">
                                 {titleProp}

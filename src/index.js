@@ -7,6 +7,7 @@ import {createMuiTheme, ThemeProvider} from "@material-ui/core/styles";
 import CssBaseline from '@material-ui/core/CssBaseline';
 import {Provider} from "react-redux";
 import store from "./redux/redux-store";
+import {BrowserRouter} from "react-router-dom";
 
 const darkTheme = createMuiTheme({
     palette: {
@@ -19,12 +20,14 @@ const darkTheme = createMuiTheme({
 
 ReactDOM.render(
     <React.StrictMode>
-        <ThemeProvider theme={darkTheme}>
-            <CssBaseline/>
-            <Provider store={store}>
-                <App/>
-            </Provider>
-        </ThemeProvider>
+        <BrowserRouter>
+            <ThemeProvider theme={darkTheme}>
+                <CssBaseline/>
+                <Provider store={store}>
+                    <App/>
+                </Provider>
+            </ThemeProvider>
+        </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('root')
 );
