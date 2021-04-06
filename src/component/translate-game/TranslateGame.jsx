@@ -36,8 +36,8 @@ const TranslateGame = (props) => {
     const tasks = takeRandomElementsFromArray(10, props.materials[props.match.params.materialId].tasks)
 
     const [currentTaskId, setCurrentTaskId] = useState(1)
-
     const [testResult, setTestResult] = useState(initialTestResult)
+    const [preparedAnswers, setPreparedAnswers] = useState(null)
 
     const shuffle = (a) => {
         let j, x, i;
@@ -91,11 +91,18 @@ const TranslateGame = (props) => {
                 return result
             })
         }
+    }
 
+    const handlePrepareAnswer = () => {
+        if (preparedAnswers === null) {
+            setPreparedAnswers(prepareAnswers())
+        }
+        return preparedAnswers
     }
 
     const handleClickNext = () => {
         setCurrentTaskId((prev) => ++prev)
+        setPreparedAnswers(null)
     }
 
     if (currentTaskId >= tasks.length){
@@ -118,7 +125,7 @@ const TranslateGame = (props) => {
                     {tasks[currentTaskId].russianWord}
                 </div>
                 <div style={{width: '50%', float: 'right'}}>
-                    {prepareAnswers()}
+                    {handlePrepareAnswer()}
 
                     <div style={{margin: 100}}>
                         {testResult[currentTaskId] !== undefined &&
