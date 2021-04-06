@@ -33,6 +33,8 @@ const initialTestResult = {
 
 const TranslateGame = (props) => {
 
+    const tasks = takeRandomElementsFromArray(10, props.materials[props.match.params.materialId].tasks)
+
     const [currentTaskId, setCurrentTaskId] = useState(1)
 
     const [testResult, setTestResult] = useState(initialTestResult)
@@ -51,9 +53,9 @@ const TranslateGame = (props) => {
     const prepareAnswers = () => {
         let isCorrectAnswerAlreadyIn = false
 
-        const wrongAnswers = takeRandomElementsFromArray(4, props.tasks)
+        const wrongAnswers = takeRandomElementsFromArray(4, tasks)
         const result = wrongAnswers.map((element) => {
-            if (element.correctAnswer === props.tasks[currentTaskId].correctAnswer) {
+            if (element.correctAnswer === tasks[currentTaskId].correctAnswer) {
                 isCorrectAnswerAlreadyIn = true
             }
             return (
@@ -65,7 +67,7 @@ const TranslateGame = (props) => {
         })
 
         const correctAnswer = <Button style={{width: 150}} onClick={handleClick}
-                                      variant="outlined">{props.tasks[currentTaskId].correctAnswer}</Button>
+                                      variant="outlined">{tasks[currentTaskId].correctAnswer}</Button>
 
         if (!isCorrectAnswerAlreadyIn) {
             result.push(correctAnswer)
@@ -76,7 +78,7 @@ const TranslateGame = (props) => {
 
     const handleClick = (e) => {
         let enteredAnswer = e.currentTarget.textContent
-        if (enteredAnswer === props.tasks[currentTaskId].correctAnswer) {
+        if (enteredAnswer === tasks[currentTaskId].correctAnswer) {
             setTestResult((prev) => {
                 const result = cloneDeep(prev)
                 result[currentTaskId] = true
@@ -96,7 +98,7 @@ const TranslateGame = (props) => {
         setCurrentTaskId((prev) => ++prev)
     }
 
-    if (currentTaskId >= props.tasks.length){
+    if (currentTaskId >= tasks.length){
         return (
             <TestResult testResult={testResult}/>
         )
@@ -113,7 +115,7 @@ const TranslateGame = (props) => {
 
             <div style={styles.mainContainer}>
                 <div style={{width: '50%', float: 'left'}}>
-                    {props.tasks[currentTaskId].russianWord}
+                    {tasks[currentTaskId].russianWord}
                 </div>
                 <div style={{width: '50%', float: 'right'}}>
                     {prepareAnswers()}
