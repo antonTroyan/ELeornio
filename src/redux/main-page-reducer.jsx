@@ -28,7 +28,7 @@ const initialState = {
             image: 'https://api.time.com/wp-content/uploads/2014/06/whitney_cummings_iloveyou_still51_cc.jpg',
             mainText: 'Getting Pushed Off After Sex - Whitney Cummings',
             title: '',
-            youtubeLink: 'https://www.youtube.com/watch?v=F5hA5vuQ9AM&ab_channel=ComedyCentralStand-Up',
+            linkToMaterial: 'https://www.youtube.com/watch?v=F5hA5vuQ9AM&ab_channel=ComedyCentralStand-Up',
             tasks: [
                 {russianWord: 'интенсивный', correctAnswer: 'intense'},
                 {russianWord: 'разобрался', correctAnswer: 'figured out'},
@@ -42,6 +42,37 @@ const initialState = {
                 {russianWord: 'понимать', correctAnswer: 'figure out'},
                 {russianWord: 'смущающий', correctAnswer: 'embarrasing'},
                 {russianWord: 'странный', correctAnswer: 'weird'}
+            ]
+        },
+        {
+            key: 2,
+            hint: 'Alexandr Hamilton Main Song',
+            image: 'https://media.vanityfair.com/photos/55a6a0fe9e9755183d972088/16:9/w_1280,c_limit/t-culture-list-hamilton.jpg',
+            mainText: 'Alexandr Hamilton Main Song',
+            title: '',
+            linkToMaterial: 'https://music.yandex.ru/album/2972890/track/25250614',
+            tasks: [
+                {russianWord: 'сирота', correctAnswer: 'orphan'},
+                {russianWord: 'убожество ', correctAnswer: 'squalor'},
+                {russianWord: 'бедный ', correctAnswer: 'impoverished'},
+                {russianWord: 'самоучка', correctAnswer: 'self-starter'},
+                {russianWord: 'устав', correctAnswer: 'charter'},
+                {russianWord: 'быть настороже', correctAnswer: 'keep his guard up'},
+                {russianWord: 'опустошение ', correctAnswer: 'devastation'},
+                {russianWord: 'капать', correctAnswer: 'drip'},
+                {russianWord: 'канализация', correctAnswer: 'drain'},
+                {russianWord: 'припев', correctAnswer: 'refrain'},
+                {russianWord: 'завещание', correctAnswer: 'testament'},
+                {russianWord: 'погрязший в долгах', correctAnswer: 'debt-ridden'},
+                {russianWord: 'прикованный к постели ', correctAnswer: 'bed-ridden'},
+                {russianWord: 'запах', correctAnswer: 'scent'},
+                {russianWord: 'покончить жизнь самоубийством', correctAnswer: 'commit suicide'},
+                {russianWord: 'постоять за себя', correctAnswer: 'fend for yourself'},
+                {russianWord: 'научный труд', correctAnswer: 'treatise'},
+                {russianWord: 'проницательный', correctAnswer: 'astute'},
+                {russianWord: 'обездоленный', correctAnswer: 'destitute'},
+                {russianWord: 'сахарный тростник', correctAnswer: 'sugar cane'},
+                {russianWord: 'гавань', correctAnswer: 'harbor'},
             ]
         },
     ]

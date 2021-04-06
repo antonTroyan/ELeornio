@@ -12,7 +12,8 @@ import {NavLink} from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        width : 300
+        width : 300,
+        height : 250
     },
     paper: {
         padding: theme.spacing(2),
