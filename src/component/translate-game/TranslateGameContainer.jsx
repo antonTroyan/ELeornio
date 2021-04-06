@@ -4,7 +4,7 @@ import takeRandomElementsFromArray from "../../util/util";
 
 const correctTaskSelector = (state) => {
 
-    return takeRandomElementsFromArray(10, state.translateGameReducer.tasks)
+    return takeRandomElementsFromArray(10, state.mainPageReducer.materials[0].tasks)
 }
 
 const mapStateToProps = (state) => {
