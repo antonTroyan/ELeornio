@@ -1,6 +1,8 @@
 import {connect} from "react-redux";
 import TranslateGame from "./TranslateGame";
 import takeRandomElementsFromArray from "../../util/util";
+import {compose} from 'redux';
+import {withRouter} from "react-router-dom";
 
 const correctTaskSelector = (state) => {
 
@@ -13,4 +15,7 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps, {})(TranslateGame)
+export default compose(
+    connect(mapStateToProps, {}),
+    withRouter)
+(TranslateGame)

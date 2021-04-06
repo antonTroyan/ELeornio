@@ -1,5 +1,17 @@
 import React from 'react';
 
+const styles = {
+    mainContainer: {
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        'margin-top': '-50px',
+        'margin-left': '-50px',
+        width: '300px',
+        height: '100px'
+    }
+}
+
 const TestResult = (props) => {
 
     const getElements = () => {
@@ -25,8 +37,8 @@ const TestResult = (props) => {
 
 
     return (
-        <div>
-            Your have {getElements().success} / {getElements().all} points
+        <div style={styles.mainContainer}>
+            <h2>Your have {getElements().success} / {getElements().all} points</h2>
         </div>
     )
 }
