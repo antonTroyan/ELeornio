@@ -19,6 +19,7 @@ const styles = {
 }
 
 const initialTestResult = {
+    0: undefined,
     1: undefined,
     2: undefined,
     3: undefined,

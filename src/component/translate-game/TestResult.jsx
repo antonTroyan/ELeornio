@@ -22,7 +22,7 @@ const TestResult = (props) => {
             all: 0
         }
 
-        for (let i = 1; i < 10; i++){
+        for (let i = 1; i <= 10; i++){
             if (testResult[i] === true) {
                 result.success = result.success + 1
             }

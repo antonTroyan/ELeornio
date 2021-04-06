@@ -27,7 +27,7 @@ const initialState = {
             hint: 'Getting Pushed Off After Sex - Whitney Cummings',
             image: 'https://api.time.com/wp-content/uploads/2014/06/whitney_cummings_iloveyou_still51_cc.jpg',
             mainText: 'Getting Pushed Off After Sex - Whitney Cummings',
-            title: 'Getting Pushed Off After Sex - Whitney Cummings',
+            title: '',
             youtubeLink: 'https://www.youtube.com/watch?v=F5hA5vuQ9AM&ab_channel=ComedyCentralStand-Up',
             tasks: [
                 {russianWord: 'интенсивный', correctAnswer: 'intense'},
