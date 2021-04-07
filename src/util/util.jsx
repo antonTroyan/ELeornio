@@ -1,5 +1,5 @@
 
-const takeRandomElementsFromArray = (numberOfElements, array) => {
+const takeRandomElements = (numberOfElements, array) => {
     const result = []
 
     for (let i = 0; i <= numberOfElements;){
@@ -12,4 +12,4 @@ const takeRandomElementsFromArray = (numberOfElements, array) => {
     return result
 }
 
-export default takeRandomElementsFromArray
+export default takeRandomElements

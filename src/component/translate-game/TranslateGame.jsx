@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Button from "@material-ui/core/Button";
 import cloneDeep from 'lodash/cloneDeep';
-import takeRandomElementsFromArray from "../../util/util";
+import takeRandomElements from "../../util/util";
 import Alert from "@material-ui/lab/Alert";
 import AlertTitle from "@material-ui/lab/AlertTitle";
 import TestResult from "./TestResult";
@@ -34,12 +34,10 @@ const initialTestResult = {
 
 const TranslateGame = (props) => {
 
-    const tasks = takeRandomElementsFromArray(10, props.materials[props.match.params.materialId].tasks)
-
     const [currentTaskId, setCurrentTaskId] = useState(1)
-
     const [testResult, setTestResult] = useState(initialTestResult)
 
+    const [tasks, setTasks] = useState(takeRandomElements(10, props.materials[props.match.params.materialId].tasks))
     const [preparedAnswers, setPreparedAnswers] = useState(null)
     const [russianWord, setRussianWord] = useState(null)
 
@@ -57,7 +55,7 @@ const TranslateGame = (props) => {
     const prepareAnswers = () => {
         let isCorrectAnswerAlreadyIn = false
 
-        const wrongAnswers = takeRandomElementsFromArray(4, tasks)
+        const wrongAnswers = takeRandomElements(4, tasks)
         const result = wrongAnswers.map((element) => {
             if (element.correctAnswer === tasks[currentTaskId].correctAnswer) {
                 isCorrectAnswerAlreadyIn = true

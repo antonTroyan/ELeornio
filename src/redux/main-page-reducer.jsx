@@ -31,7 +31,6 @@ const initialState = {
             linkToMaterial: 'https://www.youtube.com/watch?v=F5hA5vuQ9AM&ab_channel=ComedyCentralStand-Up',
             tasks: [
                 {russianWord: 'интенсивный', correctAnswer: 'intense'},
-                {russianWord: 'разобрался', correctAnswer: 'figured out'},
                 {russianWord: 'скрученный', correctAnswer: 'twisted'},
                 {russianWord: 'относиться', correctAnswer: 'treat'},
                 {russianWord: 'спешиваться', correctAnswer: 'dismount'},
