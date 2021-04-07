@@ -1,31 +1,35 @@
+
+const createYouTubeImageLink = (videoId) => {
+    return 'https://img.youtube.com/vi/' + videoId + '/hqdefault.jpg'
+}
+
 const initialState = {
     materials: [
         {
             key: 0,
-            hint: 'this is hint 1',
-            image: 'https://i.natgeofe.com/n/9135ca87-0115-4a22-8caf-d1bdef97a814/75552.jpg?w=636&h=424',
-            mainText: 'test main text 1',
-            title: 'this is test title 1',
+            hint: 'What It Takes for a Man to Get Called Crazy - Whitney Cummings',
+            image: createYouTubeImageLink('yOgWRpTiKzE'),
+            mainText: 'What It Takes for a Man to Get Called Crazy - Whitney Cummings',
+            title: '',
+            linkToMaterial: 'https://www.youtube.com/watch?v=yOgWRpTiKzE',
             tasks: [
-                {russianWord: 'привет', correctAnswer: 'hello'},
-                {russianWord: 'стол', correctAnswer: 'table'},
-                {russianWord: 'стул', correctAnswer: 'chair'},
-                {russianWord: 'монитор', correctAnswer: 'monitor'},
-                {russianWord: 'колонки', correctAnswer: 'dynamics'},
-                {russianWord: 'мышь', correctAnswer: 'mouse'},
-                {russianWord: 'книга', correctAnswer: 'book'},
-                {russianWord: 'пульт', correctAnswer: 'pult'},
-                {russianWord: 'ручка', correctAnswer: 'pen'},
-                {russianWord: 'кружка', correctAnswer: 'cup'},
-                {russianWord: 'шторм', correctAnswer: 'storm'},
-                {russianWord: 'доступен', correctAnswer: 'available'},
-                {russianWord: 'обновление', correctAnswer: 'update'}
+                {russianWord: 'тусоваться', correctAnswer: 'hang out'},
+                {russianWord: 'преследование', correctAnswer: 'stalking'},
+                {russianWord: 'одержимый', correctAnswer: 'obsessed'},
+                {russianWord: 'самый подлый', correctAnswer: 'meanest'},
+                {russianWord: 'раздражительный ', correctAnswer: 'irritable'},
+                {russianWord: 'обиженный', correctAnswer: 'resentful'},
+                {russianWord: 'вдыхать', correctAnswer: 'inhale'},
+                {russianWord: 'зажигать', correctAnswer: 'lit up'},
+                {russianWord: 'пытка', correctAnswer: 'torture'},
+                {russianWord: 'обратный огонь', correctAnswer: 'backfiring'},
+                {russianWord: 'голодающий', correctAnswer: 'starving'},
             ]
         },
         {
             key: 1,
             hint: 'Getting Pushed Off After Sex - Whitney Cummings',
-            image: 'https://api.time.com/wp-content/uploads/2014/06/whitney_cummings_iloveyou_still51_cc.jpg',
+            image: createYouTubeImageLink('F5hA5vuQ9AM'),
             mainText: 'Getting Pushed Off After Sex - Whitney Cummings',
             title: '',
             linkToMaterial: 'https://www.youtube.com/watch?v=F5hA5vuQ9AM&ab_channel=ComedyCentralStand-Up',

@@ -126,7 +126,7 @@ const TranslateGame = (props) => {
             {testResult[currentTaskId] &&
             <Alert severity="success">
                 <AlertTitle>Success</AlertTitle>
-                This is a success alert — <strong>check it out!</strong>
+                You choose right variant — <strong>cool!</strong>
             </Alert>
             }
 
