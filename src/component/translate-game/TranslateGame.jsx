@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import Button from "@material-ui/core/Button";
 import cloneDeep from 'lodash/cloneDeep';
 import takeRandomElements from "../../util/util";
@@ -37,7 +37,7 @@ const TranslateGame = (props) => {
     const [currentTaskId, setCurrentTaskId] = useState(1)
     const [testResult, setTestResult] = useState(initialTestResult)
 
-    const [tasks, setTasks] = useState(takeRandomElements(10, props.materials[props.match.params.materialId].tasks))
+    const [tasks] = useState(takeRandomElements(10, props.materials[props.match.params.materialId].tasks))
     const [preparedAnswers, setPreparedAnswers] = useState(null)
     const [russianWord, setRussianWord] = useState(null)
 
@@ -121,12 +121,19 @@ const TranslateGame = (props) => {
         return russianWord
     }
 
+    debugger
     return (
         <div>
             {testResult[currentTaskId] &&
             <Alert severity="success">
                 <AlertTitle>Success</AlertTitle>
                 You choose right variant — <strong>cool!</strong>
+            </Alert>
+            }
+            {testResult[currentTaskId] === false &&
+            <Alert severity="warning">
+                <AlertTitle>You choose wrong</AlertTitle>
+                The right answer is [<strong>{tasks[currentTaskId].correctAnswer}</strong>]
             </Alert>
             }
 
