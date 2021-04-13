@@ -24,6 +24,13 @@ const initialState = {
                 {russianWord: 'пытка', correctAnswer: 'torture'},
                 {russianWord: 'обратный огонь', correctAnswer: 'backfiring'},
                 {russianWord: 'голодающий', correctAnswer: 'starving'},
+                {russianWord: 'страстный', correctAnswer: 'passionate'},
+                {russianWord: 'консервная банка', correctAnswer: 'tin can'},
+                {russianWord: 'стержень', correctAnswer: 'rod'},
+                {russianWord: 'брюшной', correctAnswer: 'abdominal'},
+                {russianWord: 'сводит меня с ума', correctAnswer: 'drive me nuts'},
+                {russianWord: 'оскорбительный', correctAnswer: 'insulting'},
+                {russianWord: 'потомство', correctAnswer: 'offspring'},
             ]
         },
         {
@@ -76,6 +83,28 @@ const initialState = {
                 {russianWord: 'обездоленный', correctAnswer: 'destitute'},
                 {russianWord: 'сахарный тростник', correctAnswer: 'sugar cane'},
                 {russianWord: 'гавань', correctAnswer: 'harbor'},
+            ]
+        },
+        {
+            key: 3,
+            hint: 'The McDonald’s Commercial White People Have Never Seen - Roy Wood Jr.',
+            image: createYouTubeImageLink('I_nXmYxsiag'),
+            mainText: 'The McDonald’s Commercial White People Have Never Seen - Roy Wood Jr.',
+            title: '',
+            linkToMaterial: 'https://www.youtube.com/watch?v=I_nXmYxsiag&ab_channel=ComedyCentralStand-Up',
+            tasks: [
+                {russianWord: 'жесткий', correctAnswer: 'tough'},
+                {russianWord: 'возмущение', correctAnswer: 'outrage'},
+                {russianWord: 'пропитание', correctAnswer: 'sustenance'},
+                {russianWord: 'высокомерный', correctAnswer: 'arrogant'},
+                {russianWord: 'царапины', correctAnswer: 'scratching'},
+                {russianWord: 'ловкий', correctAnswer: 'slick'},
+                {russianWord: 'резюмировать', correctAnswer: 'recap'},
+                {russianWord: 'кувырок', correctAnswer: 'flip'},
+                {russianWord: 'коммерческий', correctAnswer: 'commercial'},
+                {russianWord: 'тезка', correctAnswer: 'namesake'},
+                {russianWord: 'игральная кость', correctAnswer: 'dice'},
+                {russianWord: 'наркотик', correctAnswer: 'dope'},
             ]
         },
     ]
