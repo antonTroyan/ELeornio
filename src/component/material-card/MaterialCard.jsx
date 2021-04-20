@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Grid from "@material-ui/core/Grid";
 import {NavLink} from 'react-router-dom';
+import {Button} from "@material-ui/core";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -22,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const MaterialCard = ({id, imageProp, hintProp, titleProp, mainTextProp}) => {
+const MaterialCard = ({id, imageProp, hintProp, titleProp, mainTextProp, linkToMaterial}) => {
 
     const classes = useStyles();
 
@@ -48,6 +49,9 @@ const MaterialCard = ({id, imageProp, hintProp, titleProp, mainTextProp}) => {
                             <Typography variant="body2" color="textSecondary" component="p">
                                 {mainTextProp}
                             </Typography>
+                            <Button href={linkToMaterial} color={"secondary"}>
+                                Link
+                            </Button>
                         </CardContent>
                     </CardActionArea>
                 </Card>

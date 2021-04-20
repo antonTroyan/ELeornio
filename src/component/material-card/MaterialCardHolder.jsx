@@ -23,7 +23,8 @@ const MaterialCardHolder = (props) => {
                                              titleProp={element.title}
                                              mainTextProp={element.mainText}
                                              imageProp={element.image}
-                                             hintProp={element.hint}/>
+                                             hintProp={element.hint}
+                                             linkToMaterial={element.linkToMaterial}/>
                     }
                 )}
             </Grid>
