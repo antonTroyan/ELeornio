@@ -50,7 +50,7 @@ const MaterialCard = ({id, imageProp, hintProp, titleProp, mainTextProp, linkToM
                                 {mainTextProp}
                             </Typography>
                             <Button href={linkToMaterial} color={"secondary"}>
-                                Link
+                                View source
                             </Button>
                         </CardContent>
                     </CardActionArea>
