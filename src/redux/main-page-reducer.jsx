@@ -188,6 +188,18 @@ const initialState = {
                 {russianWord: 'мрачный', correctAnswer: 'somber'},
                 {russianWord: 'негодяй', correctAnswer: 'rascal'},
                 {russianWord: 'вещи', correctAnswer: 'stuff'},
+                {russianWord: 'предвидеть', correctAnswer: 'foresee'},
+                {russianWord: 'винт', correctAnswer: 'screw'},
+                {russianWord: 'пошел вон', correctAnswer: 'screw you'},
+                {russianWord: 'лужайка', correctAnswer: 'lawn'},
+                {russianWord: 'размышлять', correctAnswer: 'ponder'},
+                {russianWord: 'выпускник ', correctAnswer: 'alumnus [эламнэс]'},
+                {russianWord: 'равный', correctAnswer: 'peer'},
+                {russianWord: 'сверстники', correctAnswer: 'peers'},
+                {russianWord: 'придурок ', correctAnswer: 'dork'},
+                {russianWord: 'проповедь', correctAnswer: 'sermon'},
+                {russianWord: 'лапша', correctAnswer: 'noodles'},
+                {russianWord: 'палец на ноге ', correctAnswer: 'toe [тоу]'},
             ]
         },
     ]

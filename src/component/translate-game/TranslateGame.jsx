@@ -72,7 +72,7 @@ const TranslateGame = (props) => {
                                       variant="outlined">{tasks[currentTaskId].correctAnswer}</Button>
 
         if (!isCorrectAnswerAlreadyIn) {
-            result.push(correctAnswer)
+            result[0] = correctAnswer
         }
 
         return shuffle(result)
