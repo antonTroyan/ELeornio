@@ -63,12 +63,12 @@ const TranslateGame = (props) => {
             return (
                 <Button style={{width: 150}}
                         key={element.correctAnswer}
-                        onClick={handleClick}
+                        onClick={handleClickOnButton}
                         variant="outlined">{element.correctAnswer}</Button>
             )
         })
 
-        const correctAnswer = <Button style={{width: 150}} onClick={handleClick}
+        const correctAnswer = <Button style={{width: 150}} onClick={handleClickOnButton}
                                       variant="outlined">{tasks[currentTaskId].correctAnswer}</Button>
 
         if (!isCorrectAnswerAlreadyIn) {
@@ -78,21 +78,14 @@ const TranslateGame = (props) => {
         return shuffle(result)
     }
 
-    const handleClick = (e) => {
+    const handleClickOnButton = (e) => {
         let enteredAnswer = e.currentTarget.textContent
-        if (enteredAnswer === tasks[currentTaskId].correctAnswer) {
-            setTestResult((prev) => {
-                const result = cloneDeep(prev)
-                result[currentTaskId] = true
-                return result
-            })
-        } else {
-            setTestResult((prev) => {
-                const result = cloneDeep(prev)
-                result[currentTaskId] = false
-                return result
-            })
-        }
+
+        setTestResult((prev) => {
+            const result = cloneDeep(prev)
+            result[currentTaskId] = enteredAnswer === tasks[currentTaskId].correctAnswer
+            return result
+        })
     }
 
     const handleClickNext = () => {
