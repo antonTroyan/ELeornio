@@ -61,15 +61,14 @@ const TranslateGame = (props) => {
                 isCorrectAnswerAlreadyIn = true
             }
             return (
-                <Button style={{width: 150}}
+                <Button style={{width: '200px'}}
                         key={element.correctAnswer}
-                        onClick={handleClickOnButton}
-                        variant="outlined">{element.correctAnswer}</Button>
+                        onClick={handleClickOnButton}>{element.correctAnswer}</Button>
             )
         })
 
-        const correctAnswer = <Button style={{width: 150}} onClick={handleClickOnButton}
-                                      variant="outlined">{tasks[currentTaskId].correctAnswer}</Button>
+        const correctAnswer = <Button style={{width: '200px'}} onClick={handleClickOnButton}>
+            {tasks[currentTaskId].correctAnswer}</Button>
 
         if (!isCorrectAnswerAlreadyIn) {
             result[0] = correctAnswer
