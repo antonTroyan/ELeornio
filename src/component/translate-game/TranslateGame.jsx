@@ -10,11 +10,11 @@ import {ListItem, ListItemText} from "@material-ui/core";
 const styles = {
     mainContainer: {
         position: 'absolute',
-        top: '50%',
-        left: '50%',
+        top: '40%',
+        left: '40%',
         'margin-top': '-50px',
         'margin-left': '-50px',
-        width: '300px',
+        width: '500px',
         height: '100px'
     }
 }
@@ -125,7 +125,6 @@ const TranslateGame = (props) => {
         return russianWord
     }
 
-    debugger
     return (
         <div>
             {testResult[currentTaskId] &&
@@ -142,9 +141,8 @@ const TranslateGame = (props) => {
             }
 
             <div style={styles.mainContainer}>
-                <div style={{width: '50%', float: 'left'}}>
-                    {handleRussianWord()}
-                </div>
+
+                <ListItemText style={{width: '50%', float: 'left', height: '50%'}} primary={handleRussianWord()} />
                 <div style={{width: '50%', float: 'right'}}>
                     {handlePreparedAnswers()}
                     <div style={{margin: 100}}>
