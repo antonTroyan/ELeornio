@@ -5,6 +5,7 @@ import takeRandomElements from "../../util/util";
 import Alert from "@material-ui/lab/Alert";
 import AlertTitle from "@material-ui/lab/AlertTitle";
 import TestResult from "./TestResult";
+import {ListItem, ListItemText} from "@material-ui/core";
 
 const styles = {
     mainContainer: {
@@ -52,6 +53,10 @@ const TranslateGame = (props) => {
         return a;
     }
 
+    function ListItemLink(props) {
+        return <ListItem button component="a" {...props} />;
+    }
+
     const prepareAnswers = () => {
         let isCorrectAnswerAlreadyIn = false
 
@@ -61,20 +66,27 @@ const TranslateGame = (props) => {
                 isCorrectAnswerAlreadyIn = true
             }
             return (
-                <Button style={{width: '200px'}}
-                        key={element.correctAnswer}
-                        onClick={handleClickOnButton}>{element.correctAnswer}</Button>
+                createAnswerItem(element.correctAnswer)
             )
         })
-
-        const correctAnswer = <Button style={{width: '200px'}} onClick={handleClickOnButton}>
-            {tasks[currentTaskId].correctAnswer}</Button>
-
+        const correctAnswer = createAnswerItem(tasks[currentTaskId].correctAnswer)
         if (!isCorrectAnswerAlreadyIn) {
             result[0] = correctAnswer
         }
 
         return shuffle(result)
+    }
+
+
+    const createAnswerItem = (correctAnswer) => {
+        return (
+            <ListItemLink
+                style={{width: '250px'}}
+                key={correctAnswer}
+                onClick={handleClickOnButton}>
+                <ListItemText primary={correctAnswer} />
+            </ListItemLink>
+            )
     }
 
     const handleClickOnButton = (e) => {
