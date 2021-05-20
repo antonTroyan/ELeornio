@@ -228,6 +228,41 @@ const initialState = {
                 {russianWord: 'Не повезло [вытянуть короткую спичку]', correctAnswer: 'To get short end of stick'},
                 {russianWord: 'Поступать подло', correctAnswer: 'To move low'},
                 {russianWord: 'Детка, малышка', correctAnswer: 'Shorty'},
+                {russianWord: 'Ярый фанат, фанатеть', correctAnswer: 'Stan'},
+                {russianWord: 'Затемнять, омрачать', correctAnswer: 'To cloud'},
+                {russianWord: 'Оторвать что-нибудь со стены', correctAnswer: 'To rip something off the wall'},
+                {russianWord: 'Быть польщенным', correctAnswer: 'To be flattered'},
+                {russianWord: 'У меня что то закончилось', correctAnswer: 'To be out of something'},
+                {russianWord: 'Дама в беде', correctAnswer: 'Damsel in distress'},
+                {russianWord: 'Усмирять, приручать', correctAnswer: 'Tame'},
+                {russianWord: 'Неудачник, кто плохо вписывается', correctAnswer: 'Misfit'},
+                {russianWord: 'Запутано, переплетено', correctAnswer: 'Twisted'},
+                {russianWord: 'Сойти с ума', correctAnswer: 'To go out of one\'s mind'},
+                {russianWord: 'Смотреть пристально', correctAnswer: 'To look  stare'},
+            ]
+        },
+
+
+        {
+            key: 7,
+            hint: 'Mark Normand: Out To Lunch - Full Special',
+            image: createYouTubeImageLink('tDolNU89SXI'),
+            mainText: 'Mark Normand: Out To Lunch - Full Special',
+            title: '',
+            linkToMaterial: 'https://www.youtube.com/watch?v=tDolNU89SXI',
+            tasks: [
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
+                {russianWord: '!!!!!!!', correctAnswer: '!!!!'},
             ]
         },
     ]
