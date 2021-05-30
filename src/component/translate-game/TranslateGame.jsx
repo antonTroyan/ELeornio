@@ -5,7 +5,7 @@ import takeRandomElements from "../../util/util";
 import Alert from "@material-ui/lab/Alert";
 import AlertTitle from "@material-ui/lab/AlertTitle";
 import TestResult from "./TestResult";
-import {ListItem, ListItemText} from "@material-ui/core";
+import {LinearProgress, ListItem, ListItemText} from "@material-ui/core";
 
 const styles = {
     mainContainer: {
@@ -141,7 +141,7 @@ const TranslateGame = (props) => {
             }
 
             <div style={styles.mainContainer}>
-
+                <p><LinearProgress variant="determinate" value={(currentTaskId - 1) * 10} /></p>
                 <ListItemText style={{width: '50%', float: 'left', height: '50%'}} primary={handleRussianWord()} />
                 <div style={{width: '50%', float: 'right'}}>
                     {handlePreparedAnswers()}
