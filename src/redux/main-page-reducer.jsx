@@ -7,6 +7,15 @@ const initialState = {
     materials: [
         {
             key: 0,
+            hint: 'Shuffle',
+            image: 'https://media.istockphoto.com/vectors/shuffle-icon-filled-shuffle-icon-for-website-design-and-mobile-app-vector-id1168505957?b=1&k=6&m=1168505957&s=612x612&w=0&h=qtf1JFqKkv4UqsXcbhw7GHJrJXxzrSLGfxvztP1tVhI=',
+            mainText: 'Shuffle',
+            title: '',
+            linkToMaterial: 'https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%84%D1%84%D0%BB',
+            tasks: []
+        },
+        {
+            key: 1,
             hint: 'What It Takes for a Man to Get Called Crazy - Whitney Cummings',
             image: createYouTubeImageLink('yOgWRpTiKzE'),
             mainText: 'What It Takes for a Man to Get Called Crazy - Whitney Cummings',
@@ -34,7 +43,7 @@ const initialState = {
             ]
         },
         {
-            key: 1,
+            key: 2,
             hint: 'Getting Pushed Off After Sex - Whitney Cummings',
             image: createYouTubeImageLink('F5hA5vuQ9AM'),
             mainText: 'Getting Pushed Off After Sex - Whitney Cummings',
@@ -55,7 +64,7 @@ const initialState = {
             ]
         },
         {
-            key: 2,
+            key: 3,
             hint: 'Alexandr Hamilton Main Song',
             image: 'https://media.vanityfair.com/photos/55a6a0fe9e9755183d972088/16:9/w_1280,c_limit/t-culture-list-hamilton.jpg',
             mainText: 'Alexandr Hamilton Main Song',
@@ -86,7 +95,7 @@ const initialState = {
             ]
         },
         {
-            key: 3,
+            key: 4,
             hint: 'The McDonald’s Commercial White People Have Never Seen - Roy Wood Jr.',
             image: createYouTubeImageLink('I_nXmYxsiag'),
             mainText: 'The McDonald’s Commercial White People Have Never Seen - Roy Wood Jr.',
@@ -107,7 +116,7 @@ const initialState = {
             ]
         },
         {
-            key: 4,
+            key: 5,
             hint: 'Joe List: I Hate Myself - Full Special',
             image: createYouTubeImageLink('odtAJ2kPdqc'),
             mainText: 'Joe List: I Hate Myself - Full Special',
@@ -159,7 +168,7 @@ const initialState = {
         },
 
         {
-            key: 5,
+            key: 6,
             hint: 'Nick Thune: Good Guy - Full Special',
             image: createYouTubeImageLink('HnMSJVRgopc'),
             mainText: 'Nick Thune: Good Guy - Full Special',
@@ -204,7 +213,7 @@ const initialState = {
         },
 
         {
-            key: 6,
+            key: 7,
             hint: 'Английский по песням',
             image: 'https://avatars.yandex.net/get-music-content/2110367/30528cde.a.9340513-1/m1000x1000',
             mainText: 'Английский по песням',
@@ -242,7 +251,7 @@ const initialState = {
             ]
         },
         {
-            key: 7,
+            key: 8,
             hint: 'Mark Normand: Out To Lunch - Full Special',
             image: createYouTubeImageLink('tDolNU89SXI'),
             mainText: 'Mark Normand: Out To Lunch - Full Special',

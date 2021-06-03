@@ -35,10 +35,24 @@ const initialTestResult = {
 
 const TranslateGame = (props) => {
 
+    const extractCorrectArray = (materials) => {
+        const materialId = props.match.params.materialId;
+        if (materialId === '0') {
+            let arrayWithAllWords = [];
+            materials.forEach(material => {
+                material.tasks.forEach(task => {
+                    arrayWithAllWords.push(task);
+                })
+            })
+            return takeRandomElements(10, arrayWithAllWords);
+        } else {
+            return takeRandomElements(10, props.materials[materialId].tasks);
+        }
+    }
+
     const [currentTaskId, setCurrentTaskId] = useState(1)
     const [testResult, setTestResult] = useState(initialTestResult)
-
-    const [tasks] = useState(takeRandomElements(10, props.materials[props.match.params.materialId].tasks))
+    const [tasks] = useState(takeRandomElements(10, extractCorrectArray(props.materials)))
     const [preparedAnswers, setPreparedAnswers] = useState(null)
     const [russianWord, setRussianWord] = useState(null)
 
@@ -84,9 +98,9 @@ const TranslateGame = (props) => {
                 style={{width: '250px'}}
                 key={correctAnswer}
                 onClick={handleClickOnButton}>
-                <ListItemText primary={correctAnswer} />
+                <ListItemText primary={correctAnswer}/>
             </ListItemLink>
-            )
+        )
     }
 
     const handleClickOnButton = (e) => {
@@ -105,7 +119,7 @@ const TranslateGame = (props) => {
         setRussianWord(null)
     }
 
-    if (currentTaskId >= tasks.length){
+    if (currentTaskId >= tasks.length) {
         return (
             <TestResult testResult={testResult}/>
         )
@@ -141,8 +155,8 @@ const TranslateGame = (props) => {
             }
 
             <div style={styles.mainContainer}>
-                <p><LinearProgress variant="determinate" value={(currentTaskId - 1) * 10} /></p>
-                <ListItemText style={{width: '50%', float: 'left', height: '50%'}} primary={handleRussianWord()} />
+                <p><LinearProgress variant="determinate" value={(currentTaskId - 1) * 10}/></p>
+                <ListItemText style={{width: '50%', float: 'left', height: '50%'}} primary={handleRussianWord()}/>
                 <div style={{width: '50%', float: 'right'}}>
                     {handlePreparedAnswers()}
                     <div style={{margin: 100}}>
