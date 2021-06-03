@@ -35,24 +35,30 @@ const initialTestResult = {
 
 const TranslateGame = (props) => {
 
-    const extractCorrectArray = (materials) => {
-        const materialId = props.match.params.materialId;
-        if (materialId === '0') {
-            let arrayWithAllWords = [];
-            materials.forEach(material => {
-                material.tasks.forEach(task => {
-                    arrayWithAllWords.push(task);
-                })
+    const shuffleUrl = '0';
+
+    function createArrayAllWords(materials) {
+        let arrayWithAllWords = [];
+        materials.forEach(material => {
+            material.tasks.forEach(task => {
+                arrayWithAllWords.push(task);
             })
-            return takeRandomElements(10, arrayWithAllWords);
+        })
+        return arrayWithAllWords;
+    }
+
+    const extractCorrectArray = (materials) => {
+        const materialIdUrl = props.match.params.materialId;
+        if (materialIdUrl === shuffleUrl) {
+            return takeRandomElements(10, createArrayAllWords(materials));
         } else {
-            return takeRandomElements(10, props.materials[materialId].tasks);
+            return takeRandomElements(10, props.materials[materialIdUrl].tasks);
         }
     }
 
     const [currentTaskId, setCurrentTaskId] = useState(1)
     const [testResult, setTestResult] = useState(initialTestResult)
-    const [tasks] = useState(takeRandomElements(10, extractCorrectArray(props.materials)))
+    const [tasks] = useState(extractCorrectArray(props.materials))
     const [preparedAnswers, setPreparedAnswers] = useState(null)
     const [russianWord, setRussianWord] = useState(null)
 
@@ -97,13 +103,13 @@ const TranslateGame = (props) => {
             <ListItemLink
                 style={{width: '250px'}}
                 key={correctAnswer}
-                onClick={handleClickOnButton}>
+                onClick={handleChooseVariant}>
                 <ListItemText primary={correctAnswer}/>
             </ListItemLink>
         )
     }
 
-    const handleClickOnButton = (e) => {
+    const handleChooseVariant = (e) => {
         let enteredAnswer = e.currentTarget.textContent
 
         setTestResult((prev) => {
