@@ -1,10 +1,9 @@
-
-const takeRandomElements = (numberOfElements, array) => {
+export const takeRandomElements = (numberOfElements, array) => {
     const result = []
 
-    for (let i = 0; i <= numberOfElements;){
+    for (let i = 0; i <= numberOfElements;) {
         const randomElementIndex = Math.floor(Math.random() * array.length)
-        if (!result.includes(array[randomElementIndex])){
+        if (!result.includes(array[randomElementIndex])) {
             result.push(array[randomElementIndex])
             i++
         }
@@ -12,4 +11,10 @@ const takeRandomElements = (numberOfElements, array) => {
     return result
 }
 
-export default takeRandomElements
+export const invertRussianEnglish = (array) => {
+    return array.map(element => {
+        return {
+            russianWord: element.correctAnswer, correctAnswer: element.russianWord
+        }
+    })
+}

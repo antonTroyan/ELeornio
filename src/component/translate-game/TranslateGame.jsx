@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Button from "@material-ui/core/Button";
 import cloneDeep from 'lodash/cloneDeep';
-import takeRandomElements from "../../util/util";
+import {takeRandomElements, invertRussianEnglish} from "../../util/util";
 import Alert from "@material-ui/lab/Alert";
 import AlertTitle from "@material-ui/lab/AlertTitle";
 import TestResult from "./TestResult";
@@ -48,12 +48,18 @@ const TranslateGame = (props) => {
     }
 
     const extractCorrectArray = (materials) => {
+        let result;
         const materialIdUrl = props.match.params.materialId;
         if (materialIdUrl === shuffleUrl) {
-            return takeRandomElements(10, createArrayAllWords(materials));
+            result = takeRandomElements(10, createArrayAllWords(materials));
         } else {
-            return takeRandomElements(10, props.materials[materialIdUrl].tasks);
+            result = takeRandomElements(10, props.materials[materialIdUrl].tasks);
         }
+        const shouldInvert = Math.random() < 0.5;
+        if (shouldInvert) {
+            return invertRussianEnglish(result)
+        }
+        return result;
     }
 
     const [currentTaskId, setCurrentTaskId] = useState(1)
