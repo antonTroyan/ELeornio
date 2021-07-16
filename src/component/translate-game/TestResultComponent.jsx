@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from "@material-ui/core/Button";
-import createHistory from 'history/createBrowserHistory'
+import {NavLink} from "react-router-dom";
 
 const styles = {
     mainContainer: {
@@ -15,8 +15,6 @@ const styles = {
 }
 
 const TestResultComponent = (props) => {
-
-    const history = createHistory()
 
     const getElements = () => {
         const testResult = props.testResult
@@ -40,9 +38,12 @@ const TestResultComponent = (props) => {
     return (
         <div style={styles.mainContainer}>
             <h2>Your have {getElements().success} / {getElements().all} points</h2>
-            <Button onClick={() => {
-                history.go(0)
-            }}>Try Again</Button>
+            <NavLink to={"/game/" + props.materialId}>
+                <Button style={{backgroundColor: 'green'}}
+                        onClick={() => {
+                            props.clearGameData()
+                        }}>Try Again</Button>
+            </NavLink>
         </div>
     )
 }

@@ -50,7 +50,7 @@ const MaterialCard = ({id, imageProp, hintProp, titleProp, mainTextProp, linkToM
                             <NavLink to={path}>
                                 <Button>Exercise</Button>
                             </NavLink>
-                            <Button href={linkToMaterial} color={"secondary"}>
+                            <Button href={linkToMaterial} color={"secondary"} target="_blank">
                                 View source
                             </Button>
                         </CardContent>

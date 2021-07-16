@@ -64,9 +64,17 @@ const TranslateGameComponent = (props) => {
 
     const [currentTaskId, setCurrentTaskId] = useState(1)
     const [testResult, setTestResult] = useState(initialTestResult)
-    const [tasks] = useState(extractCorrectArray(props.materials))
+    const [tasks, setTasks] = useState(extractCorrectArray(props.materials))
     const [preparedAnswers, setPreparedAnswers] = useState(null)
     const [russianWord, setRussianWord] = useState(null)
+
+    const clearGameData = () => {
+        setCurrentTaskId(1)
+        setTestResult(initialTestResult)
+        setTasks((extractCorrectArray(props.materials)))
+        setPreparedAnswers(null)
+        setRussianWord(null)
+    }
 
     const shuffle = (a) => {
         let j, x, i;
@@ -135,7 +143,7 @@ const TranslateGameComponent = (props) => {
         return (
             <TestResultComponent testResult={testResult}
                                  materialId={materialIdUrl}
-                                 translateGameProps={props}/>
+                                 clearGameData={clearGameData}/>
         )
     }
 
