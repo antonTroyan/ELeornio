@@ -4,7 +4,7 @@ import cloneDeep from 'lodash/cloneDeep';
 import {takeRandomElements, invertRussianEnglish} from "../../util/util";
 import Alert from "@material-ui/lab/Alert";
 import AlertTitle from "@material-ui/lab/AlertTitle";
-import TestResult from "./TestResult";
+import TestResultComponent from "./TestResultComponent";
 import {LinearProgress, ListItem, ListItemText} from "@material-ui/core";
 
 const styles = {
@@ -33,9 +33,10 @@ const initialTestResult = {
     10: undefined
 }
 
-const TranslateGame = (props) => {
+const TranslateGameComponent = (props) => {
 
     const shuffleUrl = '0';
+    const materialIdUrl = props.match.params.materialId;
 
     function createArrayAllWords(materials) {
         let arrayWithAllWords = [];
@@ -49,7 +50,6 @@ const TranslateGame = (props) => {
 
     const extractCorrectArray = (materials) => {
         let result;
-        const materialIdUrl = props.match.params.materialId;
         if (materialIdUrl === shuffleUrl) {
             result = takeRandomElements(10, createArrayAllWords(materials));
         } else {
@@ -133,7 +133,9 @@ const TranslateGame = (props) => {
 
     if (currentTaskId >= tasks.length) {
         return (
-            <TestResult testResult={testResult}/>
+            <TestResultComponent testResult={testResult}
+                                 materialId={materialIdUrl}
+                                 translateGameProps={props}/>
         )
     }
 
@@ -184,4 +186,4 @@ const TranslateGame = (props) => {
     )
 }
 
-export default TranslateGame
+export default TranslateGameComponent

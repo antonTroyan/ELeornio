@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from "@material-ui/core/Button";
+import createHistory from 'history/createBrowserHistory'
 
 const styles = {
     mainContainer: {
@@ -12,7 +14,9 @@ const styles = {
     }
 }
 
-const TestResult = (props) => {
+const TestResultComponent = (props) => {
+
+    const history = createHistory()
 
     const getElements = () => {
         const testResult = props.testResult
@@ -21,8 +25,7 @@ const TestResult = (props) => {
             failed: 0,
             all: 0
         }
-
-        for (let i = 1; i <= 10; i++){
+        for (let i = 1; i <= 10; i++) {
             if (testResult[i] === true) {
                 result.success = result.success + 1
             }
@@ -34,13 +37,15 @@ const TestResult = (props) => {
         return result
     }
 
-
-
     return (
         <div style={styles.mainContainer}>
             <h2>Your have {getElements().success} / {getElements().all} points</h2>
+            <Button onClick={() => {
+                history.go(0)
+            }}>Try Again</Button>
         </div>
     )
 }
 
-export default TestResult
+
+export default TestResultComponent

@@ -1,5 +1,5 @@
 import {connect} from "react-redux";
-import TranslateGame from "./TranslateGame";
+import TranslateGameComponent from "./TranslateGameComponent";
 import {compose} from 'redux';
 import {withRouter} from "react-router-dom";
 
@@ -12,4 +12,4 @@ const mapStateToProps = (state) => {
 export default compose(
     connect(mapStateToProps, {}),
     withRouter)
-(TranslateGame)
+(TranslateGameComponent)
