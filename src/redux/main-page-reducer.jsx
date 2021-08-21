@@ -383,6 +383,30 @@ const initialState = {
                 {russianWord: 'плод', correctAnswer: 'fetus'},
             ]
         },
+        {
+            key: 10,
+            hint: 'Вот это английский! Интервью',
+            image: 'https://headlineplanet.com/home/wp-content/uploads/2019/10/Natalie-Portman-Fallon-2-1-e1570065821181-1280x720.jpg',
+            mainText: 'Вот это английский! Интервью',
+            title: '',
+            linkToMaterial: 'https://www.youtube.com/playlist?list=PLOheXwuTHHNQ22sSu3jd8D0Gc55Rt-A_V',
+            tasks: [
+                {russianWord: 'великолепно, шикарно', correctAnswer: 'gorgeous [горджес]'},
+                {russianWord: 'шокирующий, сногсшибательный', correctAnswer: 'stunning'},
+                {russianWord: 'это началось давно', correctAnswer: 'it goes back a while'},
+                {russianWord: 'впоследствии', correctAnswer: 'afterward[s]'},
+                {russianWord: 'хозяин, ведущий', correctAnswer: 'host'},
+                {russianWord: 'французский поцелуй', correctAnswer: 'french'},
+                {russianWord: 'кто либо из нас', correctAnswer: 'either of us'},
+                {russianWord: 'иду по улице', correctAnswer: 'walking down the street'},
+                {russianWord: 'хорошо сложен', correctAnswer: 'well put together'},
+                {russianWord: 'сдержанный', correctAnswer: 'restrained'},
+                {russianWord: 'хорошие манеры', correctAnswer: 'well-mannered'},
+                {russianWord: 'признавать', correctAnswer: 'acknowledge'},
+                {russianWord: 'скупой', correctAnswer: 'mean'},
+                {russianWord: 'привыкнуть', correctAnswer: 'to be used to'},
+            ]
+        },
     ]
 }
 
