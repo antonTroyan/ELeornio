@@ -375,8 +375,15 @@ const initialState = {
                 {russianWord: 'уничтожить', correctAnswer: 'wipe out'},
                 {russianWord: 'бред', correctAnswer: 'delusion'},
                 {russianWord: 'расплывчатый', correctAnswer: 'vague'},
-                {russianWord: 'ругаться', correctAnswer: 'swear'},
-
+                {russianWord: 'ругаться, присягать', correctAnswer: 'swear'},
+                {russianWord: 'предписания', correctAnswer: 'stipulations'},
+                {russianWord: 'вылететь из головы', correctAnswer: 'slip his mind'},
+                {russianWord: 'скука', correctAnswer: 'boredom'},
+                {russianWord: 'заповедь', correctAnswer: 'commandment'},
+                {russianWord: 'преднамеренно', correctAnswer: 'deliberately'},
+                {russianWord: 'верность', correctAnswer: 'fidelity'},
+                {russianWord: 'жаждать', correctAnswer: 'covet'},
+                {russianWord: 'плод', correctAnswer: 'fetus'},
             ]
         },
     ]
