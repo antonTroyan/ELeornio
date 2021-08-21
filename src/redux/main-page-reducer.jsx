@@ -405,6 +405,13 @@ const initialState = {
                 {russianWord: 'признавать', correctAnswer: 'acknowledge'},
                 {russianWord: 'скупой', correctAnswer: 'mean'},
                 {russianWord: 'привыкнуть', correctAnswer: 'to be used to'},
+                {russianWord: 'пресс конференция', correctAnswer: 'press'},
+                {russianWord: 'неожиданно, из неоткуда', correctAnswer: 'out of nowhere'},
+                {russianWord: 'вызвать у кого то мурашки', correctAnswer: 'to give someone chill'},
+                {russianWord: 'раздражающе', correctAnswer: 'irritating'},
+                {russianWord: 'сделать что то очень удачное', correctAnswer: 'to hit a home run'},
+                {russianWord: 'удовлетворяющее', correctAnswer: 'gratifying'},
+                {russianWord: 'предпосылка', correctAnswer: 'premise'},
             ]
         },
     ]
