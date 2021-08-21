@@ -165,7 +165,6 @@ const initialState = {
                 {russianWord: 'солдат', correctAnswer: 'trooper'},
             ]
         },
-
         {
             key: 6,
             hint: 'Nick Thune: Good Guy - Full Special',
@@ -210,7 +209,6 @@ const initialState = {
                 {russianWord: 'палец на ноге ', correctAnswer: 'toe [тоу]'},
             ]
         },
-
         {
             key: 7,
             hint: 'Английский по песням',
@@ -343,7 +341,6 @@ const initialState = {
 
             ]
         },
-
         {
             key: 9,
             hint: 'George Carlin - Stand Up About Religion',
