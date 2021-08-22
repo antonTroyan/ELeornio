@@ -414,6 +414,27 @@ const initialState = {
                 {russianWord: 'предпосылка', correctAnswer: 'premise'},
             ]
         },
+        {
+            key: 11,
+            hint: 'Вот это английский! Новости',
+            image: 'https://i.pinimg.com/originals/12/2d/8d/122d8d2269116d702b730a263b2a4141.jpg',
+            mainText: 'Вот это английский! Новости',
+            title: '',
+            linkToMaterial: 'https://www.youtube.com/watch?v=-FSngDXo6io&list=PLOheXwuTHHNSoe_SAput7WsbnCF-_Z9yb&index=1',
+            tasks: [
+                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: '!!!', correctAnswer: '!!!'},
+            ]
+        },
     ]
 }
 
