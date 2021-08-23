@@ -412,6 +412,13 @@ const initialState = {
                 {russianWord: 'сделать что то очень удачное', correctAnswer: 'to hit a home run'},
                 {russianWord: 'удовлетворяющее', correctAnswer: 'gratifying'},
                 {russianWord: 'предпосылка', correctAnswer: 'premise'},
+                {russianWord: 'реклама', correctAnswer: 'advertisement [ad]'},
+                {russianWord: 'подбегать', correctAnswer: 'run up'},
+                {russianWord: 'бросать косые взгляды', correctAnswer: 'side-eying each other'},
+                {russianWord: 'вставать', correctAnswer: 'get up'},
+                {russianWord: 'душить', correctAnswer: 'strangle'},
+                {russianWord: 'обнять', correctAnswer: 'give a hug'},
+                {russianWord: 'намного лучше', correctAnswer: 'way better'},
             ]
         },
         {
