@@ -16,10 +16,10 @@ const initialState = {
         {
             key: 1,
             hint: 'Programming dictionary',
-            image: 'https://en.wikipedia.org/wiki/Computer_programming',
+            image: 'https://repository-images.githubusercontent.com/155638338/82ecf400-6f73-11e9-8908-dfadfe1aa923',
             mainText: 'Programming dictionary',
             title: '',
-            linkToMaterial: 'https://repository-images.githubusercontent.com/155638338/82ecf400-6f73-11e9-8908-dfadfe1aa923',
+            linkToMaterial: 'https://en.wikipedia.org/wiki/Computer_programming',
             tasks: [
                  {russianWord: 'надежный', correctAnswer: 'robust'},
                  {russianWord: 'устойчивый', correctAnswer: 'resilient'},
