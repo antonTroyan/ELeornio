@@ -33,6 +33,8 @@ const initialState = {
                  {russianWord: 'предусмотрительность', correctAnswer: 'forethought'},
                  {russianWord: 'огромный', correctAnswer: 'tremendous'},
                  {russianWord: 'быть похороненным', correctAnswer: 'getting buried'},
+                 {russianWord: 'специальный', correctAnswer: 'ad hoc'},
+                 {russianWord: 'свидетель', correctAnswer: 'witness'},
             ]
         },
         {
