@@ -31,14 +31,11 @@ const initialState = {
                  {russianWord: 'безжалостно', correctAnswer: 'ruthlessly'},
                  {russianWord: 'связанный', correctAnswer: 'coupled'},
                  {russianWord: 'предусмотрительность', correctAnswer: 'forethought'},
-                 {russianWord: '!!!', correctAnswer: '!!!'},
-                 {russianWord: '!!!', correctAnswer: '!!!'},
-                 {russianWord: '!!!', correctAnswer: '!!!'},
-                 {russianWord: '!!!', correctAnswer: '!!!'},
-                 {russianWord: '!!!', correctAnswer: '!!!'},
-                 {russianWord: '!!!', correctAnswer: '!!!'},
-                 {russianWord: '!!!', correctAnswer: '!!!'},
-                 {russianWord: '!!!', correctAnswer: '!!!'},
+                 {russianWord: '', correctAnswer: ''},
+                 {russianWord: '', correctAnswer: ''},
+                 {russianWord: '', correctAnswer: ''},
+                 {russianWord: '', correctAnswer: ''},
+
             ]
         },
         {
@@ -437,6 +434,15 @@ const initialState = {
                 {russianWord: 'душить', correctAnswer: 'strangle'},
                 {russianWord: 'обнять', correctAnswer: 'give a hug'},
                 {russianWord: 'намного лучше', correctAnswer: 'way better'},
+                {russianWord: 'большой, главный', correctAnswer: 'major'},
+                {russianWord: 'сжимать, сдавливать', correctAnswer: 'squeeze'},
+                {russianWord: 'признание', correctAnswer: 'confession'},
+                {russianWord: 'ерзать', correctAnswer: 'squirm [скворм]'},
+                {russianWord: 'без отдыха', correctAnswer: 'restlessly'},
+                {russianWord: 'считать, почтение', correctAnswer: 'regard'},
+                {russianWord: 'не иметь дурных намерений', correctAnswer: 'mean no harm'},
+                {russianWord: 'внезапно', correctAnswer: 'all of a sudden'},
+
             ]
         },
         {
@@ -448,16 +454,11 @@ const initialState = {
             linkToMaterial: 'https://www.youtube.com/watch?v=-FSngDXo6io&list=PLOheXwuTHHNSoe_SAput7WsbnCF-_Z9yb&index=1',
             tasks: [
                 {russianWord: 'тревожащие картины', correctAnswer: 'disturbing images'},
-                {russianWord: 'troops', correctAnswer: 'солдаты'},
-                {russianWord: 'amid', correctAnswer: 'посередине'},
-                {russianWord: 'crush [stampedes]', correctAnswer: 'давка толпы'},
-                {russianWord: 'tens of thousands', correctAnswer: 'десятки тысяч'},
-                {russianWord: 'desperate', correctAnswer: 'отчаянный'},
-                {russianWord: '!!!', correctAnswer: '!!!'},
-                {russianWord: '!!!', correctAnswer: '!!!'},
-                {russianWord: '!!!', correctAnswer: '!!!'},
-                {russianWord: '!!!', correctAnswer: '!!!'},
-                {russianWord: '!!!', correctAnswer: '!!!'},
+                {russianWord: 'солдаты', correctAnswer: 'troops'},
+                {russianWord: 'посередине', correctAnswer: 'amid'},
+                {russianWord: 'давка толпы', correctAnswer: 'crush [stampedes]'},
+                {russianWord: 'десятки тысяч', correctAnswer: 'tens of thousands'},
+                {russianWord: 'отчаянный', correctAnswer: 'desperate'},
             ]
         },
     ]
