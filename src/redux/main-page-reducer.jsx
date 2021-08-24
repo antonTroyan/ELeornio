@@ -31,11 +31,8 @@ const initialState = {
                  {russianWord: 'безжалостно', correctAnswer: 'ruthlessly'},
                  {russianWord: 'связанный', correctAnswer: 'coupled'},
                  {russianWord: 'предусмотрительность', correctAnswer: 'forethought'},
-                 {russianWord: '', correctAnswer: ''},
-                 {russianWord: '', correctAnswer: ''},
-                 {russianWord: '', correctAnswer: ''},
-                 {russianWord: '', correctAnswer: ''},
-
+                 {russianWord: 'огромный', correctAnswer: 'tremendous'},
+                 {russianWord: 'быть похороненным', correctAnswer: 'getting buried'},
             ]
         },
         {
