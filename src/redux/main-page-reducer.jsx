@@ -441,7 +441,10 @@ const initialState = {
                 {russianWord: 'считать, почтение', correctAnswer: 'regard'},
                 {russianWord: 'не иметь дурных намерений', correctAnswer: 'mean no harm'},
                 {russianWord: 'внезапно', correctAnswer: 'all of a sudden'},
-
+                {russianWord: 'запоминать', correctAnswer: 'memorize'},
+                {russianWord: 'предполагается', correctAnswer: 'suppose'},
+                {russianWord: 'узнать настроения собеседников', correctAnswer: 'read a room'},
+                {russianWord: 'широкий диапазон', correctAnswer: 'broad band'},
             ]
         },
         {
