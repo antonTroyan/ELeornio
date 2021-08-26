@@ -35,6 +35,8 @@ const initialState = {
                  {russianWord: 'быть похороненным', correctAnswer: 'getting buried'},
                  {russianWord: 'специальный', correctAnswer: 'ad hoc'},
                  {russianWord: 'свидетель', correctAnswer: 'witness'},
+                 {russianWord: 'кусок', correctAnswer: 'chunk'},
+                 {russianWord: 'разъединять', correctAnswer: 'tease apart'},
             ]
         },
         {
@@ -445,6 +447,13 @@ const initialState = {
                 {russianWord: 'предполагается', correctAnswer: 'suppose'},
                 {russianWord: 'узнать настроения собеседников', correctAnswer: 'read a room'},
                 {russianWord: 'широкий диапазон', correctAnswer: 'broad band'},
+                {russianWord: 'вводить в заблуждение', correctAnswer: 'misrepresent'},
+                {russianWord: 'искажать', correctAnswer: 'distort'},
+                {russianWord: 'я тоже нет', correctAnswer: 'neither do I'},
+                {russianWord: 'перевернуться', correctAnswer: 'flip out'},
+                {russianWord: '', correctAnswer: ''},
+                {russianWord: '', correctAnswer: ''},
+
             ]
         },
         {

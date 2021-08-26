@@ -3,8 +3,9 @@ export const takeRandomElements = (numberOfElements, array) => {
 
     for (let i = 0; i <= numberOfElements;) {
         const randomElementIndex = Math.floor(Math.random() * array.length)
-        if (!result.includes(array[randomElementIndex])) {
-            result.push(array[randomElementIndex])
+        const randomElement = array[randomElementIndex]
+        if (!result.includes(array[randomElementIndex]) && randomElement.correctAnswer !== '') {
+            result.push(randomElement)
             i++
         }
     }
