@@ -468,9 +468,17 @@ const initialState = {
                 {russianWord: 'искажать', correctAnswer: 'distort'},
                 {russianWord: 'я тоже нет', correctAnswer: 'neither do I'},
                 {russianWord: 'перевернуться', correctAnswer: 'flip out'},
+                {russianWord: 'прошло много времени', correctAnswer: 'it`s been a while'},
+                {russianWord: 'младенец', correctAnswer: 'toddler'},
+                {russianWord: 'увлекаться чем то', correctAnswer: 'to be into smthg'},
+                {russianWord: 'лапа', correctAnswer: 'paw'},
+                {russianWord: 'ты пробовал что то?', correctAnswer: 'have you done smthg?'},
+                {russianWord: 'притворяться', correctAnswer: 'act out'},
+                {russianWord: 'отстой, мусор', correctAnswer: 'rubbish'},
+                {russianWord: 'отругать кого то', correctAnswer: 'tell someone off'},
+                {russianWord: 'привыкнуть', correctAnswer: 'get used to'},
                 {russianWord: '', correctAnswer: ''},
                 {russianWord: '', correctAnswer: ''},
-
             ]
         },
         {
