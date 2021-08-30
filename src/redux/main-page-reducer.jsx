@@ -342,7 +342,7 @@ const initialState = {
                 {russianWord: 'возбужденный ', correctAnswer: 'aroused'},
                 {russianWord: 'вытащить это', correctAnswer: 'whip it out'},
                 {russianWord: 'смелый', correctAnswer: 'bold'},
-                {russianWord: 'призрак', correctAnswer: 'spooke'},
+                {russianWord: 'призрак', correctAnswer: 'spoke'},
                 {russianWord: 'напуганный', correctAnswer: 'spooked'},
                 {russianWord: 'разгромить, подавить', correctAnswer: 'crack down'},
                 {russianWord: 'попрошайничество', correctAnswer: 'begging'},
