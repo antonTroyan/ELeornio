@@ -477,6 +477,11 @@ const initialState = {
                 {russianWord: 'отстой, мусор', correctAnswer: 'rubbish'},
                 {russianWord: 'отругать кого то', correctAnswer: 'tell someone off'},
                 {russianWord: 'привыкнуть', correctAnswer: 'get used to'},
+                {russianWord: 'облом', correctAnswer: 'bummer [баммер]'},
+                {russianWord: 'если мы заходим так далеко', correctAnswer: 'if we are going that far'},
+                {russianWord: 'постоянно', correctAnswer: 'consistently'},
+                {russianWord: 'захват, хват', correctAnswer: 'grip'},
+                {russianWord: 'действовать так как будто', correctAnswer: 'act as if'},
                 {russianWord: '', correctAnswer: ''},
                 {russianWord: '', correctAnswer: ''},
             ]
