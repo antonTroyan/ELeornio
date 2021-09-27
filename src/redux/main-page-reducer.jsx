@@ -491,6 +491,12 @@ const initialState = {
                 {russianWord: 'ты к чему?', correctAnswer: 'where are you going with this?'},
                 {russianWord: 'родственники, народ', correctAnswer: 'folks'},
                 {russianWord: 'быть зависимым', correctAnswer: 'be addicted'},
+                {russianWord: 'снимать фильм', correctAnswer: 'to shoot a film'},
+                {russianWord: 'смягчать, добираться до работы', correctAnswer: 'commute'},
+                {russianWord: '', correctAnswer: ''},
+                {russianWord: '', correctAnswer: ''},
+                {russianWord: '', correctAnswer: ''},
+                {russianWord: '', correctAnswer: ''},
             ]
         },
         {
@@ -538,7 +544,7 @@ const initialState = {
                 {russianWord: 'проголосовать', correctAnswer: 'cast a ballot'},
                 {russianWord: 'утверждать', correctAnswer: 'to allege'},
                 {russianWord: 'вмешиваться', correctAnswer: 'interfere'},
-                {russianWord: '', correctAnswer: ''},
+                {russianWord: 'сомнительный', correctAnswer: 'doubtful'},
                 {russianWord: '', correctAnswer: ''},
                 {russianWord: '', correctAnswer: ''},
             ]
