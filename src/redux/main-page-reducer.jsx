@@ -125,16 +125,6 @@ const initialState = {
                 {russianWord: 'обездоленный', correctAnswer: 'destitute'},
                 {russianWord: 'сахарный тростник', correctAnswer: 'sugar cane'},
                 {russianWord: 'гавань', correctAnswer: 'harbor'},
-            ]
-        },
-        {
-            key: 4,
-            hint: 'The McDonald’s Commercial White People Have Never Seen - Roy Wood Jr.',
-            image: createYouTubeImageLink('I_nXmYxsiag'),
-            mainText: 'The McDonald’s Commercial White People Have Never Seen - Roy Wood Jr.',
-            title: '',
-            linkToMaterial: 'https://www.youtube.com/watch?v=I_nXmYxsiag&ab_channel=ComedyCentralStand-Up',
-            tasks: [
                 {russianWord: 'жесткий', correctAnswer: 'tough'},
                 {russianWord: 'возмущение', correctAnswer: 'outrage'},
                 {russianWord: 'пропитание', correctAnswer: 'sustenance'},
@@ -146,6 +136,30 @@ const initialState = {
                 {russianWord: 'тезка', correctAnswer: 'namesake'},
                 {russianWord: 'игральная кость', correctAnswer: 'dice'},
                 {russianWord: 'наркотик', correctAnswer: 'dope'},
+            ]
+        },
+        {
+            key: 4,
+            hint: 'Godel english lessons',
+            image: 'https://cdn.eventfinda.co.nz/uploads/events/transformed/1162486-520708-34.jpg?v=2',
+            mainText: 'Godel english lessons',
+            title: '',
+            linkToMaterial: '',
+            tasks: [
+                {russianWord: 'эгоистическая жилка', correctAnswer: 'selfish streak'},
+                {russianWord: 'живое воображение', correctAnswer: 'vivid imagination'},
+                {russianWord: 'острый ум', correctAnswer: 'razor sharp mind'},
+                {russianWord: 'яростно', correctAnswer: 'fiercely'},
+                {russianWord: 'быстрые решения', correctAnswer: 'snap decisions'},
+                {russianWord: 'держать обиду', correctAnswer: 'bear a grudge'},
+                {russianWord: 'темперамент', correctAnswer: 'temper'},
+                {russianWord: 'уверенно', correctAnswer: 'confident'},
+                {russianWord: 'сохранять самообладание', correctAnswer: 'keep your temper'},
+                {russianWord: 'Я люблю', correctAnswer: 'I am fond of'},
+                {russianWord: 'в высшей степени', correctAnswer: 'supremely'},
+                {russianWord: 'закатывать истерики', correctAnswer: 'throw a tantrum'},
+                {russianWord: 'смириться с', correctAnswer: 'come to terms with'},
+                {russianWord: 'обманывать', correctAnswer: 'deceive'},
             ]
         },
         {
