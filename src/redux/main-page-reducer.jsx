@@ -507,9 +507,9 @@ const initialState = {
                 {russianWord: 'быть зависимым', correctAnswer: 'be addicted'},
                 {russianWord: 'снимать фильм', correctAnswer: 'to shoot a film'},
                 {russianWord: 'смягчать, добираться до работы', correctAnswer: 'commute'},
-                {russianWord: '', correctAnswer: ''},
-                {russianWord: '', correctAnswer: ''},
-                {russianWord: '', correctAnswer: ''},
+                {russianWord: 'man that make drinks in a bar', correctAnswer: 'bartender'},
+                {russianWord: 'my friends', correctAnswer: 'couple friends of mine'},
+                {russianWord: 'seemed to be true, is likely', correctAnswer: 'apparently'},
                 {russianWord: '', correctAnswer: ''},
             ]
         },
