@@ -510,7 +510,10 @@ const initialState = {
                 {russianWord: 'man that make drinks in a bar', correctAnswer: 'bartender'},
                 {russianWord: 'my friends', correctAnswer: 'couple friends of mine'},
                 {russianWord: 'seemed to be true, is likely', correctAnswer: 'apparently'},
-                {russianWord: '', correctAnswer: ''},
+                {russianWord: 'threat', correctAnswer: 'menace'},
+                {russianWord: 'average, disgusting', correctAnswer: 'mean'},
+                {russianWord: 'remove problem', correctAnswer: 'so relieved'},
+                {russianWord: 'students, followers', correctAnswer: 'disciples'},
             ]
         },
         {
