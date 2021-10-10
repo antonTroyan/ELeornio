@@ -392,11 +392,11 @@ const initialState = {
         },
         {
             key: 9,
-            hint: 'George Carlin - Stand Up About Religion',
-            image: 'https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_GLOBAL/mjycm-30306751993-Full-Image_GalleryBackground-en-US-1504731917884._VzoEB8K222xNIheAn2gfh5zUtqg7HuV08_SX1080_.jpg',
-            mainText: 'George Carlin - Stand Up About Religion',
+            hint: 'Films',
+            image: 'https://englishlive.ef.com/blog/wp-content/uploads/sites/2/2015/08/best-british-films-for-learning-english-fast.jpg',
+            mainText: 'Films',
             title: '',
-            linkToMaterial: 'https://www.youtube.com/watch?v=2tp0UNcjzl8&t',
+            linkToMaterial: 'https://www.google.com/search?channel=fs&client=ubuntu&q=Films+in+english',
             tasks: [
                 {russianWord: 'священнослужитель', correctAnswer: 'clergyman'},
                 {russianWord: 'благоговение', correctAnswer: 'awe'},
@@ -430,6 +430,8 @@ const initialState = {
                 {russianWord: 'верность', correctAnswer: 'fidelity'},
                 {russianWord: 'жаждать', correctAnswer: 'covet'},
                 {russianWord: 'плод', correctAnswer: 'fetus'},
+                {russianWord: 'набожный', correctAnswer: 'devout'},
+                {russianWord: 'restricted time on street', correctAnswer: 'curfew'},
             ]
         },
         {
