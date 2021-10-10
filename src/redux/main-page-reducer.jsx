@@ -514,6 +514,11 @@ const initialState = {
                 {russianWord: 'average, disgusting', correctAnswer: 'mean'},
                 {russianWord: 'remove problem', correctAnswer: 'so relieved'},
                 {russianWord: 'students, followers', correctAnswer: 'disciples'},
+                {russianWord: 'сериал', correctAnswer: 'series'},
+                {russianWord: '', correctAnswer: ''},
+                {russianWord: '', correctAnswer: ''},
+                {russianWord: '', correctAnswer: ''},
+
             ]
         },
         {
