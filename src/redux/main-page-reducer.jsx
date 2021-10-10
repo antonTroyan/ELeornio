@@ -3,6 +3,7 @@ const createYouTubeImageLink = (videoId) => {
 }
 
 const initialState = {
+    score: 0,
     materials: [
         {
             key: 0,
@@ -574,9 +575,25 @@ const initialState = {
     ]
 }
 
+const INCREMENT_SCORE = "INCREMENT_SCORE"
+const RESET_SCORE = "RESET_SCORE"
+
 export const mainPageReducer = (state = initialState, action) => {
+
     switch (action.type) {
-        default:
+
+       case INCREMENT_SCORE: {
+            return {...state, score: state.score + 1}
+       }
+
+       case RESET_SCORE: {
+            return {...state, score: 0}
+       }
+
+       default:
             return state;
     }
 }
+
+export const incrementScoreActionCreator = () => ({type: INCREMENT_SCORE})
+export const resetScoreActionCreator = () => ({type: RESET_SCORE})

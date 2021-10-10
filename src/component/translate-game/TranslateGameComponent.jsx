@@ -129,6 +129,11 @@ const TranslateGameComponent = (props) => {
         setTestResult((prev) => {
             const result = cloneDeep(prev)
             result[currentTaskId] = enteredAnswer === tasks[currentTaskId].correctAnswer
+            if (result[currentTaskId]) {
+                props.incrementScoreActionCreator()
+            } else {
+                props.resetScoreActionCreator()
+            }
             return result
         })
     }
@@ -189,6 +194,7 @@ const TranslateGameComponent = (props) => {
                         </Button>}
                     </div>
                 </div>
+                <h1>{props.score}</h1>
             </div>
         </div>
     )
