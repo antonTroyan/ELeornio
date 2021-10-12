@@ -432,6 +432,13 @@ const initialState = {
                 {russianWord: 'плод', correctAnswer: 'fetus'},
                 {russianWord: 'набожный', correctAnswer: 'devout'},
                 {russianWord: 'restricted time on street', correctAnswer: 'curfew'},
+                {russianWord: 'материальный', correctAnswer: 'tangible'},
+                {russianWord: 'мученик', correctAnswer: 'martyr'},
+                {russianWord: 'man that acting now', correctAnswer: 'incumbent'},
+                {russianWord: 'fragile', correctAnswer: 'brittle'},
+                {russianWord: 'overestimation', correctAnswer: 'exaggeration'},
+                {russianWord: 'запечатанный', correctAnswer: 'sealed'},
+                {russianWord: 'запечатанный', correctAnswer: 'coward'},
             ]
         },
         {
