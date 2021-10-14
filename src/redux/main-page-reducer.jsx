@@ -525,7 +525,9 @@ const initialState = {
                 {russianWord: 'remove problem', correctAnswer: 'so relieved'},
                 {russianWord: 'students, followers', correctAnswer: 'disciples'},
                 {russianWord: 'сериал', correctAnswer: 'series'},
-                {russianWord: '', correctAnswer: ''},
+                {russianWord: 'укрыться', correctAnswer: 'hunker down'},
+                {russianWord: 'ракета', correctAnswer: 'missile'},
+                {russianWord: 'сдерживание', correctAnswer: 'deterrent'},
                 {russianWord: '', correctAnswer: ''},
                 {russianWord: '', correctAnswer: ''},
 
