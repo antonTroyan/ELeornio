@@ -453,6 +453,16 @@ const initialState = {
                 {russianWord: 'безмятежность', correctAnswer: 'serenity'},
                 {russianWord: 'to fix smth', correctAnswer: 'mend'},
                 {russianWord: 'нахмуриться', correctAnswer: 'frown'},
+                {russianWord: 'похоронить', correctAnswer: 'bury'},
+                {russianWord: 'евангелие', correctAnswer: 'gospel'},
+                {russianWord: 'deep', correctAnswer: 'profound'},
+                {russianWord: 'община', correctAnswer: 'congregation'},
+                {russianWord: 'жертвы', correctAnswer: 'casualties [кажуалтис]'},
+                {russianWord: 'проливать', correctAnswer: 'shed'},
+                {russianWord: 'нажать на тормоза', correctAnswer: 'tap the brakes'},
+                {russianWord: 'раскаяние', correctAnswer: 'remorse'},
+                {russianWord: 'насмешка, имитация', correctAnswer: 'mock'},
+                {russianWord: 'тупой', correctAnswer: 'obtuse'},
             ]
         },
         {
