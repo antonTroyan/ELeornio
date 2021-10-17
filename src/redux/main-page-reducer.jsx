@@ -463,6 +463,11 @@ const initialState = {
                 {russianWord: 'раскаяние', correctAnswer: 'remorse'},
                 {russianWord: 'насмешка, имитация', correctAnswer: 'mock'},
                 {russianWord: 'тупой', correctAnswer: 'obtuse'},
+                {russianWord: 'выплюнул его', correctAnswer: 'spat it out'},
+                {russianWord: 'паром', correctAnswer: 'ferry'},
+                {russianWord: 'лишать', correctAnswer: 'deprive'},
+                {russianWord: 'пастух', correctAnswer: 'shepherd'},
+                {russianWord: 'добродетель', correctAnswer: 'virtue'},
             ]
         },
         {
