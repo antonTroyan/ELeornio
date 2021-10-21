@@ -551,7 +551,7 @@ const initialState = {
                 {russianWord: 'seemed to be true, is likely', correctAnswer: 'apparently'},
                 {russianWord: 'threat', correctAnswer: 'menace'},
                 {russianWord: 'average, disgusting', correctAnswer: 'mean'},
-                {russianWord: 'облегчать', correctAnswer: 'so relieved'},
+                {russianWord: 'облегчать', correctAnswer: 'relieve'},
                 {russianWord: 'students, followers', correctAnswer: 'disciples'},
                 {russianWord: 'сериал', correctAnswer: 'series'},
                 {russianWord: 'укрыться', correctAnswer: 'hunker down'},
