@@ -469,6 +469,11 @@ const initialState = {
                 {russianWord: 'пастух', correctAnswer: 'shepherd'},
                 {russianWord: 'добродетель', correctAnswer: 'virtue'},
                 {russianWord: 'кто платит тот и музыку заказывает', correctAnswer: 'He who pays the piper calls the tune'},
+                {russianWord: 'указ', correctAnswer: 'decree'},
+                {russianWord: 'угнетатель', correctAnswer: 'oppressor'},
+                {russianWord: 'danger', correctAnswer: 'hazard'},
+                {russianWord: 'растрачивать', correctAnswer: 'squander'},
+                {russianWord: '', correctAnswer: ''},
             ]
         },
         {
@@ -552,7 +557,7 @@ const initialState = {
                 {russianWord: 'seemed to be true, is likely', correctAnswer: 'apparently'},
                 {russianWord: 'threat', correctAnswer: 'menace'},
                 {russianWord: 'average, disgusting', correctAnswer: 'mean'},
-                {russianWord: 'облегчать', correctAnswer: 'relieve'},
+                {russianWord: 'remove problem', correctAnswer: 'so relieved'},
                 {russianWord: 'students, followers', correctAnswer: 'disciples'},
                 {russianWord: 'сериал', correctAnswer: 'series'},
                 {russianWord: 'укрыться', correctAnswer: 'hunker down'},
