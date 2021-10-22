@@ -468,6 +468,7 @@ const initialState = {
                 {russianWord: 'лишать', correctAnswer: 'deprive'},
                 {russianWord: 'пастух', correctAnswer: 'shepherd'},
                 {russianWord: 'добродетель', correctAnswer: 'virtue'},
+                {russianWord: 'кто платит тот и музыку заказывает', correctAnswer: 'He who pays the piper calls the tune'},
             ]
         },
         {
