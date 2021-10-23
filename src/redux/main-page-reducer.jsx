@@ -41,7 +41,7 @@ const initialState = {
                  {russianWord: 'свидетель', correctAnswer: 'witness', complexity: 60},
                  {russianWord: 'кусок', correctAnswer: 'chunk', complexity: 60},
                  {russianWord: 'разъединять', correctAnswer: 'tease apart', complexity: 60},
-                 {russianWord: 'болтливый', correctAnswer: 'chatty', complexity: 40},
+                 {russianWord: 'болтливый', correctAnswer: 'chatty', complexity: 60},
                  {russianWord: 'подрыв', correctAnswer: 'subvert', complexity: 60},
                  {russianWord: 'разрастание', correctAnswer: 'sprawl', complexity: 60},
                  {russianWord: 'огромный', correctAnswer: 'tremendous', complexity: 60},
@@ -638,7 +638,23 @@ export const mainPageReducer = (state = initialState, action) => {
             result.materials.map(material => {
                 return material.tasks.map(wordPair => {
                     if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
-                        let actualComplexity = wordPair.complexity < 80 ? wordPair.complexity + 20 : wordPair.complexity
+                        let actualComplexity = wordPair.complexity < 90 ? wordPair.complexity + 10 : wordPair.complexity
+                        wordPair.complexity = actualComplexity
+                        return wordPair
+                    }
+                    return wordPair
+                })
+            })
+            return result;
+       }
+
+
+       case DECREASE_COMPLEXITY: {
+            const result = cloneDeep(state)
+            result.materials.map(material => {
+                return material.tasks.map(wordPair => {
+                    if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
+                        let actualComplexity = wordPair.complexity > 10 ? wordPair.complexity - 10 : wordPair.complexity
                         wordPair.complexity = actualComplexity
                         return wordPair
                     }
@@ -662,6 +678,7 @@ export const mainPageReducer = (state = initialState, action) => {
 }
 
 export const increaseComplexityActionCreator = (key) => ({type: INCREASE_COMPLEXITY, key: key})
+export const decreaseComplexityActionCreator = (key) => ({type: DECREASE_COMPLEXITY, key: key})
 
 export const incrementScoreActionCreator = () => ({type: INCREMENT_SCORE})
 export const resetScoreActionCreator = () => ({type: RESET_SCORE})
