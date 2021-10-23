@@ -15,7 +15,9 @@ export const takeRandomElements = (numberOfElements, array) => {
 export const invertRussianEnglish = (array) => {
     return array.map(element => {
         return {
-            russianWord: element.correctAnswer, correctAnswer: element.russianWord
+            russianWord: element.correctAnswer,
+            correctAnswer: element.russianWord,
+            complexity: element.complexity
         }
     })
 }

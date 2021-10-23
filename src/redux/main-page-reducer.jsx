@@ -1,3 +1,5 @@
+import cloneDeep from 'lodash/cloneDeep';
+
 const createYouTubeImageLink = (videoId) => {
     return 'https://img.youtube.com/vi/' + videoId + '/hqdefault.jpg'
 }
@@ -40,7 +42,7 @@ const initialState = {
                  {russianWord: 'кусок', correctAnswer: 'chunk', complexity: 60},
                  {russianWord: 'разъединять', correctAnswer: 'tease apart', complexity: 60},
                  {russianWord: 'болтливый', correctAnswer: 'chatty', complexity: 40},
-                 {russianWord: 'подрыв', correctAnswer: 'subvert', complexity: 80},
+                 {russianWord: 'подрыв', correctAnswer: 'subvert', complexity: 60},
                  {russianWord: 'разрастание', correctAnswer: 'sprawl', complexity: 60},
                  {russianWord: 'огромный', correctAnswer: 'tremendous', complexity: 60},
                  {russianWord: 'избегать', correctAnswer: 'eschew [эшеф]', complexity: 60},
@@ -632,22 +634,18 @@ export const mainPageReducer = (state = initialState, action) => {
     switch (action.type) {
 
        case INCREASE_COMPLEXITY: {
-            return {
-            ...state,
-            state: state.materials.map(material => {
+            const result = cloneDeep(state)
+            result.materials.map(material => {
                 return material.tasks.map(wordPair => {
                     if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
-                        let currentComplexity = wordPair.complexity < 80 ? wordPair.complexity + 20 : wordPair.complexity
-                        return {
-                            russianWord : wordPair.russianWord,
-                            correctAnswer : wordPair.correctAnswer,
-                            complexity : currentComplexity
-                        }
+                        let actualComplexity = wordPair.complexity < 80 ? wordPair.complexity + 20 : wordPair.complexity
+                        wordPair.complexity = actualComplexity
+                        return wordPair
                     }
                     return wordPair
                 })
             })
-         }
+            return result;
        }
 
        case INCREMENT_SCORE: {
