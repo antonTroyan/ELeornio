@@ -4,7 +4,8 @@ import {compose} from 'redux';
 import {withRouter} from "react-router-dom";
 import {
     incrementScoreActionCreator,
-    resetScoreActionCreator
+    resetScoreActionCreator,
+    increaseComplexityActionCreator
 } from '../../redux/main-page-reducer';
 
 const mapStateToProps = (state) => {
@@ -17,7 +18,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         incrementScoreActionCreator: () => dispatch(incrementScoreActionCreator()),
-        resetScoreActionCreator: () => dispatch(resetScoreActionCreator())
+        resetScoreActionCreator: () => dispatch(resetScoreActionCreator()),
+        increaseComplexityActionCreator : (key) => dispatch(increaseComplexityActionCreator(key))
     }
 };
 

@@ -22,40 +22,40 @@ const initialState = {
             title: '',
             linkToMaterial: 'https://en.wikipedia.org/wiki/Computer_programming',
             tasks: [
-                 {russianWord: 'надежный', correctAnswer: 'robust'},
-                 {russianWord: 'устойчивый', correctAnswer: 'resilient'},
-                 {russianWord: 'выставить', correctAnswer: 'expose'},
-                 {russianWord: 'крупнозернистый', correctAnswer: 'coarse-grained'},
-                 {russianWord: 'мелкозернистый', correctAnswer: 'fine-grained'},
-                 {russianWord: 'переборка', correctAnswer: 'bulkhead'},
-                 {russianWord: 'разделять', correctAnswer: 'compartmentalize'},
-                 {russianWord: 'галстук, привязать', correctAnswer: 'tie'},
-                 {russianWord: 'безжалостно', correctAnswer: 'ruthlessly'},
-                 {russianWord: 'связанный', correctAnswer: 'coupled'},
-                 {russianWord: 'предусмотрительность', correctAnswer: 'forethought'},
-                 {russianWord: 'огромный', correctAnswer: 'tremendous'},
-                 {russianWord: 'быть похороненным', correctAnswer: 'getting buried'},
-                 {russianWord: 'специальный', correctAnswer: 'ad hoc'},
-                 {russianWord: 'свидетель', correctAnswer: 'witness'},
-                 {russianWord: 'кусок', correctAnswer: 'chunk'},
-                 {russianWord: 'разъединять', correctAnswer: 'tease apart'},
-                 {russianWord: 'болтливый', correctAnswer: 'chatty'},
-                 {russianWord: 'подрыв', correctAnswer: 'subvert'},
-                 {russianWord: 'разрастание', correctAnswer: 'sprawl'},
-                 {russianWord: 'огромный', correctAnswer: 'tremendous'},
-                 {russianWord: 'избегать', correctAnswer: 'eschew [эшеф]'},
-                 {russianWord: 'строгость', correctAnswer: 'rigor'},
-                 {russianWord: 'снесённый', correctAnswer: 'torn down'},
-                 {russianWord: 'сборка', correctAnswer: 'assembly'},
-                 {russianWord: 'перебои в работе', correctAnswer: 'outage'},
-                 {russianWord: 'поверхность', correctAnswer: 'surface'},
-                 {russianWord: 'невыполнимо', correctAnswer: 'unfeasible'},
-                 {russianWord: 'задержка', correctAnswer: 'latency'},
-                 {russianWord: 'одноразовый', correctAnswer: 'disposable'},
-                 {russianWord: 'обманчиво', correctAnswer: 'deceptively'},
-                 {russianWord: 'узкий', correctAnswer: 'narrow'},
-                 {russianWord: 'границы', correctAnswer: 'boundaries'},
-                 {russianWord: 'обыденное', correctAnswer: 'mundane'},
+                 {russianWord: 'надежный', correctAnswer: 'robust', complexity: 60},
+                 {russianWord: 'устойчивый', correctAnswer: 'resilient', complexity: 60},
+                 {russianWord: 'выставить', correctAnswer: 'expose', complexity: 60},
+                 {russianWord: 'крупнозернистый', correctAnswer: 'coarse-grained', complexity: 60},
+                 {russianWord: 'мелкозернистый', correctAnswer: 'fine-grained', complexity: 60},
+                 {russianWord: 'переборка', correctAnswer: 'bulkhead', complexity: 60},
+                 {russianWord: 'разделять', correctAnswer: 'compartmentalize', complexity: 60},
+                 {russianWord: 'галстук, привязать', correctAnswer: 'tie', complexity: 60},
+                 {russianWord: 'безжалостно', correctAnswer: 'ruthlessly', complexity: 60},
+                 {russianWord: 'связанный', correctAnswer: 'coupled', complexity: 60},
+                 {russianWord: 'предусмотрительность', correctAnswer: 'forethought', complexity: 60},
+                 {russianWord: 'огромный', correctAnswer: 'tremendous', complexity: 60},
+                 {russianWord: 'быть похороненным', correctAnswer: 'getting buried', complexity: 60},
+                 {russianWord: 'специальный', correctAnswer: 'ad hoc', complexity: 60},
+                 {russianWord: 'свидетель', correctAnswer: 'witness', complexity: 60},
+                 {russianWord: 'кусок', correctAnswer: 'chunk', complexity: 60},
+                 {russianWord: 'разъединять', correctAnswer: 'tease apart', complexity: 60},
+                 {russianWord: 'болтливый', correctAnswer: 'chatty', complexity: 40},
+                 {russianWord: 'подрыв', correctAnswer: 'subvert', complexity: 80},
+                 {russianWord: 'разрастание', correctAnswer: 'sprawl', complexity: 60},
+                 {russianWord: 'огромный', correctAnswer: 'tremendous', complexity: 60},
+                 {russianWord: 'избегать', correctAnswer: 'eschew [эшеф]', complexity: 60},
+                 {russianWord: 'строгость', correctAnswer: 'rigor', complexity: 60},
+                 {russianWord: 'снесённый', correctAnswer: 'torn down', complexity: 60},
+                 {russianWord: 'сборка', correctAnswer: 'assembly', complexity: 60},
+                 {russianWord: 'перебои в работе', correctAnswer: 'outage', complexity: 60},
+                 {russianWord: 'поверхность', correctAnswer: 'surface', complexity: 20},
+                 {russianWord: 'невыполнимо', correctAnswer: 'unfeasible', complexity: 60},
+                 {russianWord: 'задержка', correctAnswer: 'latency', complexity: 60},
+                 {russianWord: 'одноразовый', correctAnswer: 'disposable', complexity: 60},
+                 {russianWord: 'обманчиво', correctAnswer: 'deceptively', complexity: 60},
+                 {russianWord: 'узкий', correctAnswer: 'narrow', complexity: 60},
+                 {russianWord: 'границы', correctAnswer: 'boundaries', complexity: 60},
+                 {russianWord: 'обыденное', correctAnswer: 'mundane', complexity: 60},
             ]
         },
         {
@@ -624,9 +624,31 @@ const initialState = {
 const INCREMENT_SCORE = "INCREMENT_SCORE"
 const RESET_SCORE = "RESET_SCORE"
 
+const INCREASE_COMPLEXITY = "INCREASE_COMPLEXITY"
+const DECREASE_COMPLEXITY = "DECREASE_COMPLEXITY"
+
 export const mainPageReducer = (state = initialState, action) => {
 
     switch (action.type) {
+
+       case INCREASE_COMPLEXITY: {
+            return {
+            ...state,
+            state: state.materials.map(material => {
+                return material.tasks.map(wordPair => {
+                    if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
+                        let currentComplexity = wordPair.complexity < 80 ? wordPair.complexity + 20 : wordPair.complexity
+                        return {
+                            russianWord : wordPair.russianWord,
+                            correctAnswer : wordPair.correctAnswer,
+                            complexity : currentComplexity
+                        }
+                    }
+                    return wordPair
+                })
+            })
+         }
+       }
 
        case INCREMENT_SCORE: {
             return {...state, score: state.score + 1}
@@ -640,6 +662,8 @@ export const mainPageReducer = (state = initialState, action) => {
             return state;
     }
 }
+
+export const increaseComplexityActionCreator = (key) => ({type: INCREASE_COMPLEXITY, key: key})
 
 export const incrementScoreActionCreator = () => ({type: INCREMENT_SCORE})
 export const resetScoreActionCreator = () => ({type: RESET_SCORE})

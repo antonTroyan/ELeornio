@@ -132,6 +132,7 @@ const TranslateGameComponent = (props) => {
             if (result[currentTaskId]) {
                 props.incrementScoreActionCreator()
             } else {
+                props.increaseComplexityActionCreator(tasks[currentTaskId].correctAnswer)
                 props.resetScoreActionCreator()
             }
             return result
@@ -183,7 +184,10 @@ const TranslateGameComponent = (props) => {
 
             <div style={styles.mainContainer}>
                 <p><LinearProgress variant="determinate" value={(currentTaskId - 1) * 10}/></p>
-                <ListItemText style={{width: '50%', float: 'left', height: '50%'}} primary={handleRussianWord()}/>
+
+                <ListItemText style={{width: '50%', float: 'left', height: '50%'}}
+                primary={handleRussianWord()}/>
+
                 <div style={{width: '50%', float: 'right'}}>
                     {handlePreparedAnswers()}
                     <div style={{margin: 100}}>
