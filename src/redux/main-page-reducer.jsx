@@ -394,9 +394,9 @@ const initialState = {
         },
         {
             key: 9,
-            hint: 'Films',
+            hint: 'Films, cartoons',
             image: 'https://englishlive.ef.com/blog/wp-content/uploads/sites/2/2015/08/best-british-films-for-learning-english-fast.jpg',
-            mainText: 'Films',
+            mainText: 'Films, cartoons',
             title: '',
             linkToMaterial: 'https://www.google.com/search?channel=fs&client=ubuntu&q=Films+in+english',
             tasks: [
@@ -475,6 +475,8 @@ const initialState = {
                 {russianWord: 'угнетатель', correctAnswer: 'oppressor', complexity: 60},
                 {russianWord: 'danger', correctAnswer: 'hazard', complexity: 60},
                 {russianWord: 'растрачивать', correctAnswer: 'squander', complexity: 60},
+                {russianWord: 'инсульт', correctAnswer: 'stroke'},
+                {russianWord: 'таран', correctAnswer: 'ram'},
                 {russianWord: '', correctAnswer: ''},
             ]
         },
