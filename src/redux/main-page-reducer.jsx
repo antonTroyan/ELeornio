@@ -567,7 +567,12 @@ const initialState = {
                 {russianWord: 'укрыться', correctAnswer: 'hunker down', complexity: 60},
                 {russianWord: 'ракета', correctAnswer: 'missile', complexity: 60},
                 {russianWord: 'сдерживание', correctAnswer: 'deterrent', complexity: 60},
-                {russianWord: '', correctAnswer: ''},
+                {russianWord: 'сарай', correctAnswer: 'barn'},
+                {russianWord: 'племянница', correctAnswer: 'niece'},
+                {russianWord: 'русло реки', correctAnswer: 'riverbed'},
+                {russianWord: 'судебная экспертиза', correctAnswer: 'forensics'},
+                {russianWord: 'ремень', correctAnswer: 'strap'},
+                {russianWord: 'задворки', correctAnswer: 'boondocks'},
                 {russianWord: '', correctAnswer: ''},
 
             ]
