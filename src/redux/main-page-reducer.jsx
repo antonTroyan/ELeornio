@@ -436,7 +436,7 @@ const initialState = {
                 {russianWord: 'restricted time on street', correctAnswer: 'curfew', complexity: 60},
                 {russianWord: 'материальный', correctAnswer: 'tangible', complexity: 60},
                 {russianWord: 'мученик', correctAnswer: 'martyr', complexity: 60},
-                {russianWord: 'man that acting now', correctAnswer: 'incumbent', complexity: 60},
+                {russianWord: 'действующий', correctAnswer: 'incumbent', complexity: 60},
                 {russianWord: 'fragile', correctAnswer: 'brittle', complexity: 60},
                 {russianWord: 'overestimation', correctAnswer: 'exaggeration', complexity: 60},
                 {russianWord: 'запечатанный', correctAnswer: 'sealed', complexity: 60},
