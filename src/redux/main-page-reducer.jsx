@@ -163,6 +163,14 @@ const initialState = {
                 {russianWord: 'hysterical', correctAnswer: 'throw a tantrum', complexity: 60},
                 {russianWord: 'abide, keep calm about smth', correctAnswer: 'come to terms with', complexity: 60},
                 {russianWord: 'to fraud smb', correctAnswer: 'deceive', complexity: 60},
+                {russianWord: 'вариться в собств соку', correctAnswer: 'to stew in one`s own juices', complexity: 60},
+                {russianWord: 'быть сдавленным', correctAnswer: 'to be sandwiched', complexity: 60},
+                {russianWord: 'подсластить пилюлю', correctAnswer: 'to sugarcoat smth', complexity: 60},
+                {russianWord: 'папик', correctAnswer: 'sugar daddy', complexity: 60},
+                {russianWord: 'хорошо устроиться', correctAnswer: 'to be on a gravy train', complexity: 60},
+                {russianWord: 'лентяй', correctAnswer: 'lazy bone / coach potato', complexity: 60},
+                {russianWord: 'расписание', correctAnswer: 'timetable', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
             ]
         },
         {
