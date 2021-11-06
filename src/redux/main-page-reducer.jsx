@@ -673,7 +673,7 @@ export const mainPageReducer = (state = initialState, action) => {
             result.materials.map(material => {
                 return material.tasks.map(wordPair => {
                     if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
-                        let actualComplexity = wordPair.complexity < 90 ? wordPair.complexity + 10 : wordPair.complexity
+                        let actualComplexity = wordPair.complexity < 70 ? wordPair.complexity + 20 : wordPair.complexity
                         wordPair.complexity = actualComplexity
                         return wordPair
                     }
@@ -689,8 +689,8 @@ export const mainPageReducer = (state = initialState, action) => {
             result.materials.map(material => {
                 return material.tasks.map(wordPair => {
                     if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
-                        let actualComplexity = wordPair.complexity > 10 ? wordPair.complexity - 10 : wordPair.complexity
-                        wordPair.complexity = actualComplexity
+                        let actualComplexity = wordPair.complexity >= 20 ? wordPair.complexity - 20 : wordPair.complexity
+                        wordPair.complexity = actualComplexity == 0 ? 5 : actualComplexity
                         return wordPair
                     }
                     return wordPair
