@@ -516,6 +516,12 @@ const initialState = {
                 {russianWord: 'растрачивать', correctAnswer: 'squander', complexity: 60},
                 {russianWord: 'инсульт', correctAnswer: 'stroke'},
                 {russianWord: 'таран', correctAnswer: 'ram'},
+                {russianWord: 'greatest', correctAnswer: 'maxie'},
+                {russianWord: 'a stupid or worthless person', correctAnswer: 'putz'},
+                {russianWord: 'плюхнуться', correctAnswer: 'flop'},
+                {russianWord: 'русалка', correctAnswer: 'mermaid'},
+                {russianWord: 'принять беспорядок', correctAnswer: 'embrace the mess'},
+                {russianWord: 'с нетерпением ждать ', correctAnswer: 'long for'},
                 {russianWord: '', correctAnswer: ''},
             ]
         },
@@ -701,7 +707,7 @@ export const mainPageReducer = (state = initialState, action) => {
                 return material.tasks.map(wordPair => {
                     if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
                         let actualComplexity = wordPair.complexity >= 20 ? wordPair.complexity - 20 : wordPair.complexity
-                        wordPair.complexity = actualComplexity == 0 ? 5 : actualComplexity
+                        wordPair.complexity = actualComplexity === 0 ? 5 : actualComplexity
                         return wordPair
                     }
                     return wordPair
