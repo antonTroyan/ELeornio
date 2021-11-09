@@ -522,6 +522,7 @@ const initialState = {
                 {russianWord: 'русалка', correctAnswer: 'mermaid'},
                 {russianWord: 'принять беспорядок', correctAnswer: 'embrace the mess'},
                 {russianWord: 'с нетерпением ждать ', correctAnswer: 'long for'},
+                {russianWord: 'обманщик', correctAnswer: 'shifty'},
                 {russianWord: '', correctAnswer: ''},
             ]
         },
