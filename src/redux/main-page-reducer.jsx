@@ -734,7 +734,7 @@ export const mainPageReducer = (state = initialState, action) => {
                 return material.tasks.map(wordPair => {
                     if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
                         let actualComplexity = wordPair.complexity >= 20 ? wordPair.complexity - 20 : wordPair.complexity
-                        wordPair.complexity = actualComplexity === 0 ? 5 : actualComplexity
+                        wordPair.complexity = actualComplexity < 1 ? 5 : actualComplexity
                         return wordPair
                     }
                     return wordPair
