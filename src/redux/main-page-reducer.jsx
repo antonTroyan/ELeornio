@@ -242,7 +242,11 @@ const initialState = {
                 {russianWord: 'vodka, scotch etc', correctAnswer: 'hard liquor', complexity: 60},
                 {russianWord: 'трезвенник', correctAnswer: 'teetotaler', complexity: 60},
                 {russianWord: 'воздержаться от выпивки [в данный момент]', correctAnswer: 'abstain from drinking', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: 'you do not want to eat', correctAnswer: 'be of your food', complexity: 60},
+                {russianWord: 'smth cannot be obtained in sufficient amounts', correctAnswer: 'shortage', complexity: 60},
+                {russianWord: 'слюнки потекли', correctAnswer: 'make my mouth water', complexity: 60},
+                {russianWord: 'пролить выпивку', correctAnswer: 'spill your drink', complexity: 60},
+                {russianWord: 'крепкие напитки', correctAnswer: 'stiff drink', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
         },
