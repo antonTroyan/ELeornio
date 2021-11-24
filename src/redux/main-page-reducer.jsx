@@ -746,6 +746,8 @@ const RESET_SCORE = "RESET_SCORE"
 const INCREASE_COMPLEXITY = "INCREASE_COMPLEXITY"
 const DECREASE_COMPLEXITY = "DECREASE_COMPLEXITY"
 
+const INCREASE_COMPLEXITY_STEP = 30
+
 export const mainPageReducer = (state = initialState, action) => {
 
     switch (action.type) {
@@ -755,9 +757,10 @@ export const mainPageReducer = (state = initialState, action) => {
             result.materials.map(material => {
                 return material.tasks.map(wordPair => {
                     if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
-                        let actualComplexity = wordPair.complexity >= 100 ? wordPair.complexity : wordPair.complexity + 30
-                        wordPair.complexity = actualComplexity
-                        return wordPair
+                        const increasedResult = wordPair.complexity + INCREASE_COMPLEXITY_STEP
+                        if (increasedResult < 100) {
+                            wordPair.complexity = increasedResult
+                        }
                     }
                     return wordPair
                 })
@@ -771,8 +774,10 @@ export const mainPageReducer = (state = initialState, action) => {
             result.materials.map(material => {
                 return material.tasks.map(wordPair => {
                     if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
-                        wordPair.complexity = wordPair.complexity <= 1 ? 5 : wordPair.complexity - 30
-                        return wordPair
+                        const decreasedResult = wordPair.complexity - DECREASE_COMPLEXITY
+                        if (decreasedResult > 1) {
+                            wordPair.complexity = decreasedResult
+                        }
                     }
                     return wordPair
                 })
