@@ -747,6 +747,7 @@ const INCREASE_COMPLEXITY = "INCREASE_COMPLEXITY"
 const DECREASE_COMPLEXITY = "DECREASE_COMPLEXITY"
 
 const INCREASE_COMPLEXITY_STEP = 30
+const DECREASE_COMPLEXITY_STEP = 30
 
 export const mainPageReducer = (state = initialState, action) => {
 
@@ -774,7 +775,7 @@ export const mainPageReducer = (state = initialState, action) => {
             result.materials.map(material => {
                 return material.tasks.map(wordPair => {
                     if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
-                        const decreasedResult = wordPair.complexity - DECREASE_COMPLEXITY
+                        const decreasedResult = wordPair.complexity - DECREASE_COMPLEXITY_STEP
                         if (decreasedResult > 1) {
                             wordPair.complexity = decreasedResult
                         }
