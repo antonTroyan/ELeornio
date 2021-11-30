@@ -283,7 +283,7 @@ const initialState = {
                 {russianWord: 'an idea or opinion produced by thinking', correctAnswer: 'thought', complexity: 60},
                 {russianWord: 'luxurious / deluxe', correctAnswer: 'sumptuous', complexity: 60},
                 {russianWord: 'make angry or excited / cause to stop sleeping', correctAnswer: 'rouse', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: 'a noisy argument or fight / one after another without a break', correctAnswer: 'row', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
         },
