@@ -186,8 +186,10 @@ const TranslateGameComponent = (props) => {
             <div style={styles.mainContainer}>
                 <p><LinearProgress variant="determinate" value={(currentTaskId - 1) * 10}/></p>
 
-                <ListItemText style={{width: '50%', float: 'left', height: '50%'}}
-                primary={handleRussianWord()}/>
+                <div style={{width: '50%', float: 'left', height: '50%'}}>
+                    <ListItemText primary={handleRussianWord()}/>
+                    <h1>{props.score}</h1>
+                </div>
 
                 <div style={{width: '50%', float: 'right'}}>
                     {handlePreparedAnswers()}
@@ -199,7 +201,6 @@ const TranslateGameComponent = (props) => {
                         </Button>}
                     </div>
                 </div>
-                <h1>{props.score}</h1>
             </div>
         </div>
     )
