@@ -12,10 +12,10 @@ const styles = {
     mainContainer: {
         position: 'absolute',
         top: '40%',
-        left: '40%',
+        left: '30%',
         'margin-top': '-50px',
         'margin-left': '-50px',
-        width: '500px',
+        width: '700px',
         height: '100px'
     }
 }
@@ -116,7 +116,6 @@ const TranslateGameComponent = (props) => {
     const createAnswerItem = (correctAnswer) => {
         return (
             <ListItemLink
-                style={{width: '250px'}}
                 key={correctAnswer}
                 onClick={handleChooseVariant}>
                 <ListItemText primary={correctAnswer}/>
