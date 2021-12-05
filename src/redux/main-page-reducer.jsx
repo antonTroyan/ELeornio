@@ -1,9 +1,5 @@
 import cloneDeep from 'lodash/cloneDeep';
 
-const createYouTubeImageLink = (videoId) => {
-return 'https://img.youtube.com/vi/' + videoId + '/hqdefault.jpg'
-}
-
 const initialState = {
 score: 0,
 materials: [
