@@ -1,11 +1,17 @@
 import cloneDeep from 'lodash/cloneDeep';
+import books from "../resources/books.jpg";
+import english from "../resources/english.jpg";
+import films from "../resources/films.jpg";
+import internet from "../resources/internet.jpg";
+import series from "../resources/series.jpg";
+import shuffle from "../resources/shuffle.jpg";
 
 const initialState = {
 score: 0,
 materials: [
 {
 key: 0,
-image: 'https://media.istockphoto.com/vectors/shuffle-icon-filled-shuffle-icon-for-website-design-and-mobile-app-vector-id1168505957?b=1&k=6&m=1168505957&s=612x612&w=0&h=qtf1JFqKkv4UqsXcbhw7GHJrJXxzrSLGfxvztP1tVhI=',
+image: shuffle,
 title: 'Shuffle',
 linkToMaterial: 'https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%84%D1%84%D0%BB',
 tasks: []
@@ -13,7 +19,7 @@ tasks: []
 
 {
 key: 1,
-image: 'https://image.shutterstock.com/z/stock-photo-child-english-classes-learn-english-491958946.jpg',
+image: english,
 title: 'Godel classes',
 linkToMaterial: '',
 tasks: [
@@ -135,7 +141,7 @@ tasks: [
 
 {
 key: 2,
-image: 'https://assets.gqindia.com/photos/5cdc0cd562fe407c3d83f8c4/master/pass/netflix-shows-amazon-prime-series-best-shows-on-hotstar-premium-sonlyliv1.jpg',
+image: series,
 title: 'Series',
 linkToMaterial: '',
 tasks: [
@@ -145,7 +151,7 @@ tasks: [
 
 {
 key: 3,
-image: 'https://static2.srcdn.com/wordpress/wp-content/uploads/2019/10/10-Pieces-of-Movie-Artwork-Every-Fan-Must-Own.jpg',
+image: films,
 title: 'Films',
 linkToMaterial: 'https://en.wikipedia.org/wiki/Computer_programming',
 tasks: [
@@ -155,7 +161,7 @@ tasks: [
 
 {
 key: 4,
-image: 'https://i.pinimg.com/474x/b8/a5/8c/b8a58cc88ce4f5f31cdb222ef925cb6e--artist-sketchbook-sketchbook-ideas.jpg',
+image: books,
 title: 'Books',
 linkToMaterial: '',
 tasks: [
@@ -165,7 +171,7 @@ tasks: [
 
 {
 key: 5,
-image: 'https://habrastorage.org/webt/vs/pj/b8/vspjb8cc5wxheixgc52g-46yjfo.jpeg',
+image: internet,
 title: 'Internet',
 linkToMaterial: '',
 tasks: [
