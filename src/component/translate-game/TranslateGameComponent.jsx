@@ -163,7 +163,7 @@ const TranslateGameComponent = (props) => {
 
     const handleRussianWord = () => {
         if (russianWord === null) {
-            setRussianWord(tasks[currentTaskId].russianWord + ' [' + tasks[currentTaskId].complexity + ']')
+            setRussianWord(tasks[currentTaskId].russianWord)
         }
         return russianWord
     }
