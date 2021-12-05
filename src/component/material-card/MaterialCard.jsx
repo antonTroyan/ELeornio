@@ -31,9 +31,9 @@ const MaterialCard = ({id, imageProp, titleProp}) => {
     return (
         <Grid item xs>
             <div className={classes.paper}>
-            <NavLink to={path} style={{ textDecoration: 'none' }}>
-                <Card className={classes.root} style={{height: "140"}}>
+                <Card className={classes.root} >
                     <CardActionArea style={{height: '100%'}}>
+                    <NavLink to={path} style={{ textDecoration: 'none', color: "white"}}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -44,9 +44,9 @@ const MaterialCard = ({id, imageProp, titleProp}) => {
                                 {titleProp}
                             </Typography>
                         </CardContent>
+                        </NavLink>
                     </CardActionArea>
                 </Card>
-                </NavLink>
             </div>
         </Grid>
     )
