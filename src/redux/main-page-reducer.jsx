@@ -9,10 +9,8 @@ score: 0,
 materials: [
 {
 key: 0,
-hint: 'Shuffle',
 image: 'https://media.istockphoto.com/vectors/shuffle-icon-filled-shuffle-icon-for-website-design-and-mobile-app-vector-id1168505957?b=1&k=6&m=1168505957&s=612x612&w=0&h=qtf1JFqKkv4UqsXcbhw7GHJrJXxzrSLGfxvztP1tVhI=',
-mainText: 'Shuffle',
-title: '',
+title: 'Shuffle',
 linkToMaterial: 'https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%84%D1%84%D0%BB',
 tasks: []
 },

@@ -8,7 +8,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Grid from "@material-ui/core/Grid";
 import {NavLink} from 'react-router-dom';
-import {Button} from "@material-ui/core";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -23,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const MaterialCard = ({id, imageProp, hintProp, titleProp, mainTextProp, linkToMaterial}) => {
+const MaterialCard = ({id, imageProp, titleProp}) => {
 
     const classes = useStyles();
 
@@ -32,30 +31,22 @@ const MaterialCard = ({id, imageProp, hintProp, titleProp, mainTextProp, linkToM
     return (
         <Grid item xs>
             <div className={classes.paper}>
+            <NavLink to={path} style={{ textDecoration: 'none' }}>
                 <Card className={classes.root}>
                     <CardActionArea>
                         <CardMedia
                             component="img"
                             height="140"
                             image={imageProp}
-                            title={hintProp}
-                        />
+                            />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">
                                 {titleProp}
                             </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
-                                {mainTextProp}
-                            </Typography>
-                            <NavLink to={path}>
-                                <Button>Exercise</Button>
-                            </NavLink>
-                            <Button href={linkToMaterial} color={"secondary"} target="_blank">
-                                View source
-                            </Button>
                         </CardContent>
                     </CardActionArea>
                 </Card>
+                </NavLink>
             </div>
         </Grid>
     )
