@@ -32,8 +32,8 @@ const MaterialCard = ({id, imageProp, titleProp}) => {
         <Grid item xs>
             <div className={classes.paper}>
             <NavLink to={path} style={{ textDecoration: 'none' }}>
-                <Card className={classes.root}>
-                    <CardActionArea>
+                <Card className={classes.root} style={{height: "140"}}>
+                    <CardActionArea style={{height: '100%'}}>
                         <CardMedia
                             component="img"
                             height="140"
