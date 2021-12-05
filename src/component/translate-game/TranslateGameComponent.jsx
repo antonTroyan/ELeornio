@@ -6,6 +6,7 @@ import Alert from "@material-ui/lab/Alert";
 import AlertTitle from "@material-ui/lab/AlertTitle";
 import TestResultComponent from "./TestResultComponent";
 import {LinearProgress, ListItem, ListItemText} from "@material-ui/core";
+import {NavLink} from 'react-router-dom';
 
 const styles = {
     mainContainer: {
@@ -202,6 +203,9 @@ const TranslateGameComponent = (props) => {
                     </div>
                 </div>
             </div>
+            <NavLink to={"/"}>
+               <Button style={{backgroundColor: 'green'}}>Home Page</Button>
+            </NavLink>
         </div>
     )
 }
