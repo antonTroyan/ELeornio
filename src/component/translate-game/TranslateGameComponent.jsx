@@ -203,7 +203,7 @@ const TranslateGameComponent = (props) => {
                 </div>
             </div>
             <NavLink to={"/"}>
-               <Button style={{backgroundColor: 'green'}}>Home Page</Button>
+                <Button style={{backgroundColor: 'green'}}>Home Page</Button>
             </NavLink>
         </div>
     )

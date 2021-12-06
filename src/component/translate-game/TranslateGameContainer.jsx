@@ -11,7 +11,7 @@ import {
 
 const mapStateToProps = (state) => {
     return {
-        materials : state.mainPageReducer.materials,
+        materials: state.mainPageReducer.materials,
         score: state.mainPageReducer.score
     }
 }
@@ -20,8 +20,8 @@ const mapDispatchToProps = (dispatch) => {
     return {
         incrementScoreActionCreator: () => dispatch(incrementScoreActionCreator()),
         resetScoreActionCreator: () => dispatch(resetScoreActionCreator()),
-        increaseComplexityActionCreator : (key) => dispatch(increaseComplexityActionCreator(key)),
-        decreaseComplexityActionCreator : (key) => dispatch(decreaseComplexityActionCreator(key))
+        increaseComplexityActionCreator: (key) => dispatch(increaseComplexityActionCreator(key)),
+        decreaseComplexityActionCreator: (key) => dispatch(decreaseComplexityActionCreator(key))
     }
 };
 

@@ -3,7 +3,7 @@ import MaterialCardHolder from "./MaterialCardHolder";
 
 const mapStateToProps = (state) => {
     return {
-        materialPage : state.mainPageReducer
+        materialPage: state.mainPageReducer
     }
 }
 

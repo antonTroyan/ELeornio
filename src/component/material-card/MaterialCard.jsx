@@ -31,19 +31,19 @@ const MaterialCard = ({id, imageProp, titleProp}) => {
     return (
         <Grid item xs>
             <div className={classes.paper}>
-                <Card className={classes.root} >
+                <Card className={classes.root}>
                     <CardActionArea style={{height: '100%'}}>
-                    <NavLink to={path} style={{ textDecoration: 'none', color: "white"}}>
-                        <CardMedia
-                            component="img"
-                            height="140"
-                            image={imageProp}
+                        <NavLink to={path} style={{textDecoration: 'none', color: "white"}}>
+                            <CardMedia
+                                component="img"
+                                height="140"
+                                image={imageProp}
                             />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                                {titleProp}
-                            </Typography>
-                        </CardContent>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="h2">
+                                    {titleProp}
+                                </Typography>
+                            </CardContent>
                         </NavLink>
                     </CardActionArea>
                 </Card>
