@@ -383,8 +383,15 @@ const initialState = {
                     correctAnswer: 'the fibrous interior of a fruit that resembles a marrow, dried and used as a sponge for washing the body',
                     complexity: 60
                 },
-                {russianWord: '', correctAnswer: '', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: 'duct tape', correctAnswer: 'strong cloth-backed waterproof adhesive tape', complexity: 60},
+                {russianWord: 'tape', correctAnswer: 'a narrow strip of material, typically used to hold or fasten something.', complexity: 60},
+                {russianWord: 'adhesive', correctAnswer: 'a substance used for sticking objects or materials together; glue', complexity: 60},
+                {russianWord: 'wrench', correctAnswer: 'adjustable metal tool used for tightening or loosening metal nuts of different sizes. ', complexity: 60},
+                {russianWord: 'ham', correctAnswer: 'salted or smoked meat from the upper part of a pig\'s leg', complexity: 60},
+                {russianWord: 'rustle up', correctAnswer: 'to make, find, or prepare something quickly', complexity: 60},
+                {russianWord: 'scam', correctAnswer: 'a dishonest scheme; a fraud', complexity: 60},
+                {russianWord: 'pipe dream', correctAnswer: 'an unattainable or fanciful hope or scheme', complexity: 60},
+                {russianWord: 'hustle', correctAnswer: 'a state of great activity', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
