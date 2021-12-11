@@ -299,8 +299,16 @@ const initialState = {
                 {russianWord: 'casual acquaintances', correctAnswer: 'someone you know a little', complexity: 60},
                 {russianWord: 'keep in contact', correctAnswer: 'to maintain (close) contact (with someone)', complexity: 60},
                 {russianWord: 'affair', correctAnswer: 'a sexual relationship between two people, one or both of whom are married to someone else', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
+
+                // describe peoples
+                {russianWord: 'fishy', correctAnswer: 'arousing feelings of doubt or suspicion', complexity: 60},
+                {russianWord: 'something fishy going on', correctAnswer: 'smth suspicion going on', complexity: 60},
+                {russianWord: 'backstabber / snake', correctAnswer: 'one who betrays a trust or an allegiance', complexity: 60},
+                {russianWord: 'allegiance', correctAnswer: 'loyalty or commitment to a superior or to a group or cause', complexity: 60},
+                {russianWord: 'sheepish', correctAnswer: 'showing or feeling embarrassment from shame or a lack of self-confidence', complexity: 60},
+                {russianWord: 'do you have a beef with me', correctAnswer: 'outstanding or unsettled dispute or disagreement with someone', complexity: 60},
+                {russianWord: 'squirrelly', correctAnswer: 'restless, nervous, or unpredictable', complexity: 60},
+                {russianWord: 'asinine / donkey', correctAnswer: 'stupid', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
         },
