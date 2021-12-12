@@ -405,7 +405,7 @@ const initialState = {
                 {russianWord: 'recital', correctAnswer: 'a performance of a programme of music', complexity: 60},
                 {russianWord: 'be on the lam ', correctAnswer: 'running away / in escape status.', complexity: 60},
                 {russianWord: 'lewd', correctAnswer: 'crude and offensive in a sexual way', complexity: 60},
-                {russianWord: 'vagary', correctAnswer: 'an unexpected and inexplicable change in a situation or in someone's behaviour', complexity: 60},
+                {russianWord: 'vagary', correctAnswer: 'an unexpected and inexplicable change in a situation or in someone\'s behaviour', complexity: 60},
                 {russianWord: 'minutiae', correctAnswer: 'the small, precise, or trivial details of something', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
