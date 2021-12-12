@@ -400,6 +400,13 @@ const initialState = {
                 {russianWord: 'scam', correctAnswer: 'a dishonest scheme; a fraud', complexity: 60},
                 {russianWord: 'pipe dream', correctAnswer: 'an unattainable or fanciful hope or scheme', complexity: 60},
                 {russianWord: 'hustle', correctAnswer: 'a state of great activity', complexity: 60},
+                {russianWord: 'interstellar', correctAnswer: 'occurring or situated between stars', complexity: 60},
+                {russianWord: 'kink', correctAnswer: 'a sharp twist or curve in something that is otherwise straight', complexity: 60},
+                {russianWord: 'recital', correctAnswer: 'a performance of a programme of music', complexity: 60},
+                {russianWord: 'be on the lam ', correctAnswer: 'running away / in escape status.', complexity: 60},
+                {russianWord: 'lewd', correctAnswer: 'crude and offensive in a sexual way', complexity: 60},
+                {russianWord: 'vagary', correctAnswer: 'an unexpected and inexplicable change in a situation or in someone's behaviour', complexity: 60},
+                {russianWord: 'minutiae', correctAnswer: 'the small, precise, or trivial details of something', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
