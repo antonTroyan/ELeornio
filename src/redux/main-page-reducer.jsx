@@ -241,7 +241,7 @@ const initialState = {
                 },
                 {russianWord: 'colour slightly', correctAnswer: 'tinge', complexity: 60},
                 {
-                    russianWord: 'drupe, in botany, simple fleshy fruit that usually contains a single seed',
+                    russianWord: 'simple fleshy fruit that usually contains a single seed',
                     correctAnswer: 'drupe',
                     complexity: 60
                 },
@@ -322,7 +322,10 @@ const initialState = {
                 {russianWord: 'strain', correctAnswer: 'a force tending to pull or stretch something to an extreme or damaging degree', complexity: 60},
                 {russianWord: 'to stick up for smb', correctAnswer: 'to support someone or something', complexity: 60},
                 {russianWord: 'aloof', correctAnswer: 'not friendly or forthcoming; cool and distant', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: 'whoop', correctAnswer: 'a loud cry of joy or excitement', complexity: 60},
+                {russianWord: 'ruck', correctAnswer: 'a tightly packed crowd of people', complexity: 60},
+                {russianWord: 'muck', correctAnswer: 'dirt, rubbish, or waste matter', complexity: 60},
+                {russianWord: 'ruck the muck', correctAnswer: 'remove dirt / make clean', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
         },
