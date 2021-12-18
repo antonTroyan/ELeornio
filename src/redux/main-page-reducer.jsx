@@ -326,6 +326,12 @@ const initialState = {
                 {russianWord: 'ruck', correctAnswer: 'a tightly packed crowd of people', complexity: 60},
                 {russianWord: 'muck', correctAnswer: 'dirt, rubbish, or waste matter', complexity: 60},
                 {russianWord: 'ruck the muck', correctAnswer: 'remove dirt / make clean', complexity: 60},
+                {russianWord: 'phony', correctAnswer: 'having a misleading appearance', complexity: 60},
+                {russianWord: 'pass the torch', correctAnswer: 'to give one\'s job, duties, etc', complexity: 60},
+                {russianWord: 'hinge on it ', correctAnswer: 'to be determined or decided by (something)', complexity: 60},
+                {russianWord: 'rotten', correctAnswer: 'suffering from decay / very bad', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
         },
