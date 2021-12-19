@@ -330,7 +330,11 @@ const initialState = {
                 {russianWord: 'pass the torch', correctAnswer: 'to give one\'s job, duties, etc', complexity: 60},
                 {russianWord: 'hinge on it ', correctAnswer: 'to be determined or decided by (something)', complexity: 60},
                 {russianWord: 'rotten', correctAnswer: 'suffering from decay / very bad', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: 'look up', correctAnswer: '(of a situation) improve / search for and find a piece of information in a book or database', complexity: 60},
+                {russianWord: 'reluctant', correctAnswer: 'unwilling and hesitant; disinclined', complexity: 60},
+                {russianWord: 'fault', correctAnswer: 'responsibility for an accident or misfortune', complexity: 60},
+                {russianWord: 'screw up', correctAnswer: 'cause something to fail or go wrong', complexity: 60},
+                {russianWord: 'culprit', correctAnswer: 'a person who is responsible for a crime or other misdeed', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
