@@ -309,7 +309,6 @@ const initialState = {
                 {russianWord: 'do you have a beef with me', correctAnswer: 'outstanding or unsettled dispute or disagreement with someone', complexity: 60},
                 {russianWord: 'squirrelly', correctAnswer: 'restless, nervous, or unpredictable', complexity: 60},
                 {russianWord: 'asinine / donkey', correctAnswer: 'stupid', complexity: 60},
-
                 {russianWord: 'take instant dislike', correctAnswer: 'do not like smb', complexity: 60},
                 {russianWord: 'tough', correctAnswer: 'able to endure hardship or pain / a rough and violent man', complexity: 60},
                 {russianWord: 'inevitable', correctAnswer: 'certain to happen; unavoidable', complexity: 60},
@@ -335,8 +334,17 @@ const initialState = {
                 {russianWord: 'fault', correctAnswer: 'responsibility for an accident or misfortune', complexity: 60},
                 {russianWord: 'screw up', correctAnswer: 'cause something to fail or go wrong', complexity: 60},
                 {russianWord: 'culprit', correctAnswer: 'a person who is responsible for a crime or other misdeed', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: 'chatterbox', correctAnswer: 'one who engages in much idle talk / talkative', complexity: 60},
+                {russianWord: 'idle', correctAnswer: '(of a person) avoiding work; lazy / without purpose or effect; pointless', complexity: 60},
+                {russianWord: 'make up your mind', correctAnswer: 'make a decision; decide', complexity: 60},
+                {russianWord: 'make of somebody', correctAnswer: 'understand a person or thing\'s meaning or character', complexity: 60},
+                {russianWord: 'come across as timid', correctAnswer: '', complexity: 60},
+                {russianWord: 'timid', correctAnswer: '(neutral) a person who is nervous and shy', complexity: 60},
+                {russianWord: 'come across', correctAnswer: 'give a specified impression', complexity: 60},
+                {russianWord: 'conscientious [коншиеншес]', correctAnswer: 'wishing to do one\'s work or duty well and thoroughly', complexity: 60},
+                {russianWord: 'take to someone', correctAnswer: 'you like someone, especially after knowing someone for only a short time', complexity: 60},
+                {russianWord: 'strike someone as confident', correctAnswer: 'make someone have particular opinion or feeling [impress as confident]', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60}
             ]
         },
 
