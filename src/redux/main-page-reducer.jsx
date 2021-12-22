@@ -338,7 +338,7 @@ const initialState = {
                 {russianWord: 'idle', correctAnswer: '(of a person) avoiding work; lazy / without purpose or effect; pointless', complexity: 60},
                 {russianWord: 'make up your mind', correctAnswer: 'make a decision; decide', complexity: 60},
                 {russianWord: 'make of somebody', correctAnswer: 'understand a person or thing\'s meaning or character', complexity: 60},
-                {russianWord: 'come across as timid', correctAnswer: '', complexity: 60},
+                {russianWord: 'come across', correctAnswer: '(of a person) appear or sound in a specified way; give a specified impression', complexity: 60},
                 {russianWord: 'timid', correctAnswer: '(neutral) a person who is nervous and shy', complexity: 60},
                 {russianWord: 'come across', correctAnswer: 'give a specified impression', complexity: 60},
                 {russianWord: 'conscientious [коншиеншес]', correctAnswer: 'wishing to do one\'s work or duty well and thoroughly', complexity: 60},
