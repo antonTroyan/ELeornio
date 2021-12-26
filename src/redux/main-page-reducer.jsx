@@ -205,7 +205,7 @@ const initialState = {
                 {russianWord: 'regarded with great fear or apprehension.', correctAnswer: 'dreaded', complexity: 60},
                 {
                     russianWord: 'anxiety or fear that something bad or unpleasant will happen',
-                    correctAnswer: 'apprehension ',
+                    correctAnswer: 'apprehension / misgiving',
                     complexity: 60
                 },
                 {russianWord: 'consider or think of in a specified way', correctAnswer: 'regarded', complexity: 60},
@@ -344,7 +344,13 @@ const initialState = {
                 {russianWord: 'conscientious [коншиеншес]', correctAnswer: 'wishing to do one\'s work or duty well and thoroughly', complexity: 60},
                 {russianWord: 'take to someone', correctAnswer: 'you like someone, especially after knowing someone for only a short time', complexity: 60},
                 {russianWord: 'strike someone as confident', correctAnswer: 'make someone have particular opinion or feeling [impress as confident]', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60}
+                {russianWord: 'envy', correctAnswer: 'a feeling of discontented or resentful longing aroused by someone else\'s possessions, qualities, or luck', complexity: 60},
+                {russianWord: 'coward', correctAnswer: 'a person who is contemptibly lacking in the courage to do or endure dangerous or unpleasant things', complexity: 60},
+                {russianWord: 'cupboard', correctAnswer: 'a recess or piece of furniture with a door and typically shelves, used for storage', complexity: 60},
+                {russianWord: 'discontented', correctAnswer: 'dissatisfied, especially with one\'s circumstances', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
             ]
         },
 
@@ -452,7 +458,18 @@ const initialState = {
             image: films,
             title: 'Films',
             linkToMaterial: 'https://en.wikipedia.org/wiki/Computer_programming',
-            tasks: []
+            tasks: [
+                {russianWord: 'inquiry', correctAnswer: 'an act of asking for information', complexity: 60},
+                {russianWord: 'tenured professor', correctAnswer: 'with permanent job contract', complexity: 60},
+                {russianWord: 'heavy hitter', correctAnswer: 'a very important or influential person', complexity: 60},
+                {russianWord: 'gesture', correctAnswer: 'a movement of part of the body, especially a hand or the head, to express an idea or meaning', complexity: 60},
+                {russianWord: 'soothe', correctAnswer: 'gently calm (a person or their feelings)', complexity: 60},
+                {russianWord: 'fruition', correctAnswer: 'the realization or fulfilment of a plan or project', complexity: 60},
+                {russianWord: 'relieved', correctAnswer: 'no longer feeling distressed or anxious; reassured', complexity: 60},
+                {russianWord: 'misgiving', correctAnswer: '', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
+
+            ]
         },
 
         {
