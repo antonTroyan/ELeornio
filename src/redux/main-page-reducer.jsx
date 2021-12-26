@@ -360,6 +360,7 @@ const initialState = {
             title: 'Series',
             linkToMaterial: '',
             tasks: [
+                // Cowboy Bebop 2021
                 {russianWord: 'team up', correctAnswer: 'to join with someone to work together', complexity: 60},
                 {
                     russianWord: 'tie',
@@ -459,6 +460,7 @@ const initialState = {
             title: 'Films',
             linkToMaterial: 'https://en.wikipedia.org/wiki/Computer_programming',
             tasks: [
+                // Don't Look Up 2021
                 {russianWord: 'inquiry', correctAnswer: 'an act of asking for information', complexity: 60},
                 {russianWord: 'tenured professor', correctAnswer: 'with permanent job contract', complexity: 60},
                 {russianWord: 'heavy hitter', correctAnswer: 'a very important or influential person', complexity: 60},
@@ -466,6 +468,12 @@ const initialState = {
                 {russianWord: 'soothe', correctAnswer: 'gently calm (a person or their feelings)', complexity: 60},
                 {russianWord: 'fruition', correctAnswer: 'the realization or fulfilment of a plan or project', complexity: 60},
                 {russianWord: 'relieved', correctAnswer: 'no longer feeling distressed or anxious; reassured', complexity: 60},
+                // Red notice 2021
+                {russianWord: 'sought after', correctAnswer: 'much in demand; generally desired', complexity: 60},
+                {russianWord: 'bejewel', correctAnswer: 'cover or adorn with jewels', complexity: 60},
+                {russianWord: 'adorn', correctAnswer: 'make more beautiful or attractive', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
 
             ]
