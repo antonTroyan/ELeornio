@@ -466,27 +466,26 @@ const initialState = {
                 {russianWord: 'soothe', correctAnswer: 'gently calm (a person or their feelings)', complexity: 60},
                 {russianWord: 'fruition', correctAnswer: 'the realization or fulfilment of a plan or project', complexity: 60},
                 {russianWord: 'relieved', correctAnswer: 'no longer feeling distressed or anxious; reassured', complexity: 60},
-                {russianWord: 'misgiving', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
 
             ]
         },
 
-        {
-            key: 4,
-            image: books,
-            title: 'Books',
-            linkToMaterial: '',
-            tasks: []
-        },
-
-        {
-            key: 5,
-            image: internet,
-            title: 'Internet',
-            linkToMaterial: '',
-            tasks: []
-        },
+//         {
+//             key: 4,
+//             image: books,
+//             title: 'Books',
+//             linkToMaterial: '',
+//             tasks: []
+//         },
+//
+//         {
+//             key: 5,
+//             image: internet,
+//             title: 'Internet',
+//             linkToMaterial: '',
+//             tasks: []
+//         },
 
     ]
 }
