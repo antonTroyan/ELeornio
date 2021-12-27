@@ -299,7 +299,6 @@ const initialState = {
                 {russianWord: 'casual acquaintances', correctAnswer: 'someone you know a little', complexity: 60},
                 {russianWord: 'keep in contact', correctAnswer: 'to maintain (close) contact (with someone)', complexity: 60},
                 {russianWord: 'affair', correctAnswer: 'a sexual relationship between two people, one or both of whom are married to someone else', complexity: 60},
-
                 // describe peoples
                 {russianWord: 'fishy', correctAnswer: 'arousing feelings of doubt or suspicion', complexity: 60},
                 {russianWord: 'something fishy going on', correctAnswer: 'smth suspicion going on', complexity: 60},
@@ -363,6 +362,14 @@ const initialState = {
                 {russianWord: 'take a shine to', correctAnswer: 'to like someone immediately [informal]', complexity: 60},
                 {russianWord: 'have a soft spot for', correctAnswer: 'feel a lot of affection for one particular person', complexity: 60},
                 {russianWord: 'affection', correctAnswer: 'a gentle feeling of fondness or liking', complexity: 60},
+                {russianWord: 'chimney', correctAnswer: 'a vertical channel or pipe which conducts smoke and combustion gases up from a fire', complexity: 60},
+                {russianWord: 'roast', correctAnswer: 'cook (food, especially meat) by prolonged exposure to heat in an oven or over a fire', complexity: 60},
+                {russianWord: 'mayhem', correctAnswer: 'violent or extreme disorder; chaos', complexity: 60},
+                {russianWord: 'grumpy', correctAnswer: 'bad-tempered and irritable', complexity: 60},
+                {russianWord: 'penny-pinching', correctAnswer: 'unwilling to spend money; miserly', complexity: 60},
+                {russianWord: 'loath', correctAnswer: 'reluctant; unwilling', complexity: 60},
+                {russianWord: 'guinea pig', correctAnswer: 'a person or thing used as a subject for experiment', complexity: 60},
+                {russianWord: 'admission', correctAnswer: 'a statement acknowledging the truth of something', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
@@ -489,7 +496,11 @@ const initialState = {
                 {russianWord: 'chaps', correctAnswer: 'leather trousers without a seat, worn by a cowboy over ordinary trousers to protect the legs', complexity: 60},
                 {russianWord: 'ingress', correctAnswer: 'the action or fact of going in or entering; the capacity or right of entrance', complexity: 60},
                 {russianWord: 'compel', correctAnswer: 'force or oblige (someone) to do something', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: 'kinks', correctAnswer: 'a mental or physical peculiarity : eccentricity, quirk', complexity: 60},
+                {russianWord: 'peculiarity', correctAnswer: 'a strange or unusual feature or habit', complexity: 60},
+                {russianWord: 'quirk', correctAnswer: 'a peculiar aspect of a person\'s character or behaviour', complexity: 60},
+                {russianWord: 'sparkly', correctAnswer: 'shining with glittering flashes of light / bright', complexity: 60},
+                {russianWord: 'convict', correctAnswer: 'someone to be guilty of a criminal offence by the verdict of a jury or the decision of a judge in a court of law', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
 
