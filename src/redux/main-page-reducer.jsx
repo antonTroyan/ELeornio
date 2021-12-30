@@ -470,6 +470,7 @@ const initialState = {
                 {russianWord: 'lewd', correctAnswer: 'crude and offensive in a sexual way', complexity: 60},
                 {russianWord: 'vagary', correctAnswer: 'an unexpected and inexplicable change in a situation or in someone\'s behaviour', complexity: 60},
                 {russianWord: 'minutiae', correctAnswer: 'the small, precise, or trivial details of something', complexity: 60},
+                //
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
@@ -501,7 +502,11 @@ const initialState = {
                 {russianWord: 'quirk', correctAnswer: 'a peculiar aspect of a person\'s character or behaviour', complexity: 60},
                 {russianWord: 'sparkly', correctAnswer: 'shining with glittering flashes of light / bright', complexity: 60},
                 {russianWord: 'convict', correctAnswer: 'someone to be guilty of a criminal offence by the verdict of a jury or the decision of a judge in a court of law', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
+                // Die hard 1988
+                {russianWord: 'tape deck', correctAnswer: 'a device used to play back and often to record on magnetic tape that usually has to be connected to an audio system', complexity: 60},
+                {russianWord: 'as tough as nails', correctAnswer: '(of a person) very strong and resilient in the face of hardship or pain', complexity: 60},
+                {russianWord: 'conceivable', correctAnswer: 'capable of being imagined or grasped mentally', complexity: 60},
+                {russianWord: 'to be in charge', correctAnswer: 'having control of or responsibility for (something)', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
 
             ]
