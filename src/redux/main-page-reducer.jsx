@@ -470,7 +470,17 @@ const initialState = {
                 {russianWord: 'lewd', correctAnswer: 'crude and offensive in a sexual way', complexity: 60},
                 {russianWord: 'vagary', correctAnswer: 'an unexpected and inexplicable change in a situation or in someone\'s behaviour', complexity: 60},
                 {russianWord: 'minutiae', correctAnswer: 'the small, precise, or trivial details of something', complexity: 60},
-                //
+                // Witcher
+                {russianWord: 'lodgings', correctAnswer: 'temporary accommodation', complexity: 60},
+                {russianWord: 'keep low profile', correctAnswer: 'stay out of public notice, avoid attracting attention to oneself', complexity: 60},
+                {russianWord: 'bliss', correctAnswer: 'perfect happiness; great joy', complexity: 60},
+                {russianWord: 'chap', correctAnswer: 'guy or a fellow — a boy or man who\'s a friend, acquaintance, or a friendly stranger', complexity: 60},
+                {russianWord: 'lame', correctAnswer: '(especially of an animal) unable to walk without difficulty as the result of an injury', complexity: 60},
+                {russianWord: 'redeem', correctAnswer: 'compensate for the faults or bad aspects of', complexity: 60},
+                {russianWord: 'den', correctAnswer: 'a wild mammal\'s hidden home; a lair', complexity: 60},
+                {russianWord: 'codger', correctAnswer: 'a man, esp an old or eccentric one', complexity: 60},
+                {russianWord: 'beg', correctAnswer: 'ask someone earnestly or humbly for something', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
