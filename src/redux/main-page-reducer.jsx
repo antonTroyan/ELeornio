@@ -370,6 +370,13 @@ const initialState = {
                 {russianWord: 'loath', correctAnswer: 'reluctant; unwilling', complexity: 60},
                 {russianWord: 'guinea pig', correctAnswer: 'a person or thing used as a subject for experiment', complexity: 60},
                 {russianWord: 'admission', correctAnswer: 'a statement acknowledging the truth of something', complexity: 60},
+                // money
+                {russianWord: 'borrow', correctAnswer: 'take and use (something belonging to someone else) with the intention of returning it', complexity: 60},
+                {russianWord: 'lend', correctAnswer: 'grant to (someone) the use of (something) on the understanding that it will be returned', complexity: 60},
+                {russianWord: 'owe / get into debt', correctAnswer: 'have an obligation to pay or repay (something, especially money) in return for something received', complexity: 60},
+                {russianWord: 'charge [for]', correctAnswer: 'a price asked for goods or services', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
