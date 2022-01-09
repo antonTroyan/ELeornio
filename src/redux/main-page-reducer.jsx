@@ -382,6 +382,12 @@ const initialState = {
                 {russianWord: 'mortgage [могич]', correctAnswer: 'a legal agreement by which a bank, building society, etc. lends money at interest in exchange for taking title of the debtor\'s property', complexity: 60},
                 {russianWord: 'spend money on smth', correctAnswer: 'to pay out for', complexity: 60},
                 {russianWord: 'to cost a fortune', correctAnswer: 'to cost a lot of money', complexity: 60},
+                {russianWord: 'throw money at', correctAnswer: 'spend excess money, trying to solve a problem', complexity: 60},
+                {russianWord: 'throw money around', correctAnswer: 'waste money', complexity: 60},
+                {russianWord: 'rock-bottom prices', correctAnswer: 'very low', complexity: 60},
+                {russianWord: 'soar', correctAnswer: 'fly or rise high in the air', complexity: 60},
+                {russianWord: 'money was always tight', correctAnswer: 'wasn`t much money', complexity: 60},
+                {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
