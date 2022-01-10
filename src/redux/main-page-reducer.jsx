@@ -387,7 +387,10 @@ const initialState = {
                 {russianWord: 'rock-bottom prices', correctAnswer: 'very low', complexity: 60},
                 {russianWord: 'soar', correctAnswer: 'fly or rise high in the air', complexity: 60},
                 {russianWord: 'money was always tight', correctAnswer: 'wasn`t much money', complexity: 60},
-                {russianWord: '', correctAnswer: '', complexity: 60},
+                {russianWord: 'sky-rocket prices', correctAnswer: 'very high', complexity: 60},
+                {russianWord: 'make money / earn / raise money', correctAnswer: 'make a profit', complexity: 60},
+                {russianWord: 'to make a [small] fortune', correctAnswer: 'raise a lot of money', complexity: 60},
+                {russianWord: 'bargain', correctAnswer: 'a thing bought or offered for sale much more cheaply than is usual or expected', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
                 {russianWord: '', correctAnswer: '', complexity: 60},
             ]
