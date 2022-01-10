@@ -6,7 +6,6 @@ Abilities of program:
 
 To deploy on github pages
 
-    -npm run build
     -npm run deployOnGithub
 
 To start app locally
