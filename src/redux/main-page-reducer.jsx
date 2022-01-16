@@ -214,7 +214,7 @@ const initialState = {
                     correctAnswer: 'embrace',
                     complexity: 60
                 },
-                {russianWord: 'an expert judge in matters of taste', correctAnswer: 'connoisseur', complexity: 60},
+                {russianWord: 'an expert judge in matters of taste', correctAnswer: 'connoisseur [конесэ]', complexity: 60},
                 {
                     russianWord: 'a person\'s ability to distinguish between and appreciate different flavours',
                     correctAnswer: 'palate',
