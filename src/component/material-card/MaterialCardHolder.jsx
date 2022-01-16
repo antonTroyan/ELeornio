@@ -15,7 +15,7 @@ const MaterialCardHolder = (props) => {
 
     return (
         <div className={classes.root}>
-            <Grid container spacing={3}>
+            <Grid container spacing={0}>
                 {props.materialPage.materials.map(
                     (element) => {
                         return <MaterialCard key={element.key}
