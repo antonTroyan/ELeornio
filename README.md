@@ -6,13 +6,19 @@ Abilities of program:
 
 ###To deploy on github pages
 
-    -npm run deployOnGithub
+```sh
+npm run deployOnGithub
+```
 
 ###To start app locally
 
-    1 install npm
-    2 run -npm install
-    3 run -npm start
+> Note: Need to install npm first.
+
+After that should run
+```sh
+npm install
+npm start
+```
 	
 ###Working enviroment
 https://antontroyan.github.io/ELeornio/
