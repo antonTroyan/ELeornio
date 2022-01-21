@@ -4,13 +4,13 @@ Abilities of program:
 2. Select different topics to train words or use shuffle mode.
 3. Every time you answer correct - less probability to find this word again. And vice versa.
 
-###To deploy on github pages
+### To deploy on github pages
 
 ```sh
 npm run deployOnGithub
 ```
 
-###To start app locally
+### To start app locally
 
 > Note: Need to install npm first.
 
@@ -20,6 +20,6 @@ npm install
 npm start
 ```
 	
-###Working enviroment
+### Working enviroment
 [ELeornio](https://antontroyan.github.io/ELeornio/)
 	
