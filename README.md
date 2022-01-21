@@ -1,4 +1,4 @@
-This app was created to train english words.
+### This app was created to train english words.
 Abilities of program:
 1. Add new words in main-page-reducer.jsx.
 2. Select different topics to train words or use shuffle mode.
