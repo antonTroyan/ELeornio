@@ -22,4 +22,6 @@ npm start
 	
 ### Working enviroment
 [ELeornio](https://antontroyan.github.io/ELeornio/)
+
+![](https://www.englishexpress.com.sg/wp-content/uploads/2016/09/learn-english-effectively.jpg)
 	
