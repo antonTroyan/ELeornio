@@ -131,12 +131,8 @@ const TranslateGameComponent = (props) => {
             result[currentTaskId] = enteredAnswer === tasks[currentTaskId].correctAnswer
             if (result[currentTaskId]) {
                 props.handleCorrectVariantActionCreator(tasks[currentTaskId].correctAnswer)
-//                 props.incrementScoreActionCreator()
-//                 props.decreaseComplexityActionCreator(tasks[currentTaskId].correctAnswer)
             } else {
                 props.handleWrongVariantActionCreator(tasks[currentTaskId].correctAnswer)
-//                 props.increaseComplexityActionCreator(tasks[currentTaskId].correctAnswer)
-//                 props.resetScoreActionCreator()
             }
             return result
         })
