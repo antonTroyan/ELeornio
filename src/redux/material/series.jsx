@@ -149,7 +149,7 @@ const series = [
 
     // arcane
     {russianWord: 'jinx', correctAnswer: 'a person or thing that brings bad luck', complexity: 60},
-    {russianWord: '', correctAnswer: '', complexity: 60},
+    {russianWord: 'misery', correctAnswer: 'a state or feeling of great physical or mental distress or discomfort', complexity: 60},
     {russianWord: '', correctAnswer: '', complexity: 60},
     {russianWord: '', correctAnswer: '', complexity: 60},
 ]
