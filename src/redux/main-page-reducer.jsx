@@ -63,8 +63,6 @@ const initialState = {
     ]
 }
 
-const INCREMENT_SCORE = "INCREMENT_SCORE"
-const RESET_SCORE = "RESET_SCORE"
 
 const INCREASE_COMPLEXITY = "INCREASE_COMPLEXITY"
 const DECREASE_COMPLEXITY = "DECREASE_COMPLEXITY"
@@ -72,49 +70,37 @@ const DECREASE_COMPLEXITY = "DECREASE_COMPLEXITY"
 const INCREASE_COMPLEXITY_STEP = 30
 const DECREASE_COMPLEXITY_STEP = 30
 
+let LAST_ANSWER = ""
+
 export const mainPageReducer = (state = initialState, action) => {
 
     switch (action.type) {
 
         case INCREASE_COMPLEXITY: {
-            const result = cloneDeep(state)
-            result.materials.map(material => {
-                return material.tasks.map(wordPair => {
-                    if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
-                        const increasedResult = wordPair.complexity + INCREASE_COMPLEXITY_STEP
-                        if (increasedResult < 100) {
-                            wordPair.complexity = increasedResult
-                        }
-                    }
-                    return wordPair
-                })
+            const selectedWord = action.key
+            if (isSameAnswerCheck(selectedWord)) {
+                return state
+            }
+            const clonedState = cloneDeep(state)
+            clonedState.materials.map(material => {
+                return material.tasks.map(e => increaseComplexity(e, selectedWord))
             })
-            return result;
+            clonedState.score = 0
+            return clonedState;
         }
 
 
         case DECREASE_COMPLEXITY: {
-            const result = cloneDeep(state)
-            result.materials.map(material => {
-                return material.tasks.map(wordPair => {
-                    if (wordPair.russianWord === action.key || wordPair.correctAnswer === action.key) {
-                        const decreasedResult = wordPair.complexity - DECREASE_COMPLEXITY_STEP
-                        if (decreasedResult > 1) {
-                            wordPair.complexity = decreasedResult
-                        }
-                    }
-                    return wordPair
-                })
+            const selectedWord = action.key
+            if (isSameAnswerCheck(selectedWord)) {
+                return state
+            }
+            const clonedState = cloneDeep(state)
+            clonedState.materials.map(material => {
+                return material.tasks.map(e => decreaseComplexity(e, selectedWord))
             })
-            return result;
-        }
-
-        case INCREMENT_SCORE: {
-            return {...state, score: state.score + 1}
-        }
-
-        case RESET_SCORE: {
-            return {...state, score: 0}
+            clonedState.score = clonedState.score + 1
+            return clonedState;
         }
 
         default:
@@ -122,8 +108,35 @@ export const mainPageReducer = (state = initialState, action) => {
     }
 }
 
-export const increaseComplexityActionCreator = (key) => ({type: INCREASE_COMPLEXITY, key: key})
-export const decreaseComplexityActionCreator = (key) => ({type: DECREASE_COMPLEXITY, key: key})
+const increaseComplexity = (wordPair, selectedWord) => {
+    if (wordPair.russianWord === selectedWord || wordPair.correctAnswer === selectedWord) {
+    const increasedResult = wordPair.complexity + INCREASE_COMPLEXITY_STEP
+    if (increasedResult < 100) {
+        wordPair.complexity = increasedResult
+        }
+    }
+    return wordPair
+}
 
-export const incrementScoreActionCreator = () => ({type: INCREMENT_SCORE})
-export const resetScoreActionCreator = () => ({type: RESET_SCORE})
+const decreaseComplexity = (wordPair, selectedWord) => {
+    if (wordPair.russianWord === selectedWord || wordPair.correctAnswer === selectedWord) {
+    const decreasedResult = wordPair.complexity - DECREASE_COMPLEXITY_STEP
+    if (decreasedResult > 1) {
+        wordPair.complexity = decreasedResult
+        }
+    }
+    return wordPair
+}
+
+
+const isSameAnswerCheck = (selectedWord) => {
+    // handle excess pressing same button
+    if (selectedWord === LAST_ANSWER) {
+        return true
+    }
+    LAST_ANSWER = selectedWord
+    return false
+}
+
+export const handleWrongVariantActionCreator = (key) => ({type: INCREASE_COMPLEXITY, key: key})
+export const handleCorrectVariantActionCreator = (key) => ({type: DECREASE_COMPLEXITY, key: key})
