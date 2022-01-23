@@ -146,7 +146,9 @@ const series = [
         complexity: 60
     },
     {russianWord: 'flee', correctAnswer: 'run away from a place or situation of danger', complexity: 60},
-    {russianWord: '', correctAnswer: '', complexity: 60},
+
+    // arcane
+    {russianWord: 'jinx', correctAnswer: 'a person or thing that brings bad luck', complexity: 60},
     {russianWord: '', correctAnswer: '', complexity: 60},
     {russianWord: '', correctAnswer: '', complexity: 60},
     {russianWord: '', correctAnswer: '', complexity: 60},

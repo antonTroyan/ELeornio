@@ -104,8 +104,8 @@ const TranslateGameComponent = (props) => {
                 createAnswerItem(element.correctAnswer)
             )
         })
-        const correctAnswer = createAnswerItem(tasks[currentTaskId].correctAnswer)
         if (!isCorrectAnswerAlreadyIn) {
+            const correctAnswer = createAnswerItem(tasks[currentTaskId].correctAnswer)
             result[0] = correctAnswer
         }
 
