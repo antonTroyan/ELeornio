@@ -6,20 +6,19 @@ const initialState = {
     numberAttempt : 0
 }
 
-const resultReducer = (state = initialState, action) => {
+export const resultReducer = (state = initialState, action) => {
 
     switch (action.type) {
 
     case INCREASE_ATTEMPT: {
-
+        const clonedState = cloneDeep(state)
+        clonedState.numberAttempt = clonedState.numberAttempt + 1
+        return clonedState
     }
 
-     default:
-     return state;
+    default:
+        return state;
     }
 }
 
-
 export const increaseAttemptCounterActionCreator = () => ({type: INCREASE_ATTEMPT})
-
-export default resultReducer

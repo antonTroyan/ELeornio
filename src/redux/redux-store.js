@@ -1,10 +1,12 @@
 import {createStore, combineReducers, applyMiddleware, compose} from "redux";
 import {mainPageReducer} from "./main-page-reducer";
+import {resultReducer} from "./result-reducer";
 import thunkMiddleware from "redux-thunk";
 
 let rootReducer = combineReducers({
     // state property and handling reducer
     mainPageReducer : mainPageReducer,
+    resultReducer : resultReducer
 });
 
 // applyMiddleware() add new logic layer

@@ -148,7 +148,10 @@ const TranslateGameComponent = (props) => {
         return (
             <TestResultComponent testResult={testResult}
                                  materialId={materialIdUrl}
-                                 clearGameData={clearGameData}/>
+                                 clearGameData={clearGameData}
+                                 increaseAttemptCounterActionCreator={props.increaseAttemptCounterActionCreator}
+                                 numberAttempt={props.numberAttempt}
+                                 />
         )
     }
 

@@ -32,13 +32,14 @@ const steps = [
   },
 ];
 
-const VerticalLinearStepperComponent = () => {
+const VerticalLinearStepperComponent = (props) => {
   const [activeStep, setActiveStep] = React.useState(0);
   const [attemptCounter, setAttemptCounter] = React.useState(0)
 
   return (
+
     <Box sx={{ maxWidth: 400 }}>
-      <Stepper activeStep={activeStep} orientation="vertical">
+      <Stepper activeStep={props.numberAttempt} orientation="vertical">
         {steps.map((step, index) => (
           <Step key={step.label}>
             <StepLabel>

@@ -39,7 +39,8 @@ const TestResultComponent = (props) => {
     return (
         <div style={styles.mainContainer}>
             <div style={{width: '50%', float: 'left', height: '50%'}}>
-                <VerticalLinearStepperComponent/>
+                <VerticalLinearStepperComponent numberAttempt={props.numberAttempt}
+                                                increaseAttemptCounterActionCreator={props.increaseAttemptCounterActionCreator}/>
             </div>
             <div style={{width: '50%', float: 'right', height: '50%'}}>
                 <h2>Your have {getElements().success} / {getElements().all} points</h2>
