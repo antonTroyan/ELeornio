@@ -15,20 +15,19 @@ const steps = [
   },
   {
     label: 'Level 2',
-    description:
-      'Wow, like a native',
+    description: 'Keep going! ',
   },
   {
     label: 'Level 3',
-    description: `Relax bro, it too tough`,
+    description: `You like a Pro`,
   },
   {
-    label: 'Level 3',
-    description: `Relax bro, it too tough`,
+    label: 'Level 4',
+    description: `Like native level`,
   },
   {
-    label: 'Level 3',
-    description: `Relax bro, it too tough`,
+    label: 'Level 5',
+    description: `Relax bro, you are too tough. Better go to bar and relax`,
   },
 ];
 
