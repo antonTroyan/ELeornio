@@ -85,7 +85,7 @@ export const mainPageReducer = (state = initialState, action) => {
             clonedState.materials.map(material => {
                 return material.tasks.map(e => increaseComplexityHandleElements(e, selectedWord))
             })
-            clonedState.score = 0
+            clonedState.score = clonedState.score + 1
             return clonedState;
         }
 
@@ -99,7 +99,7 @@ export const mainPageReducer = (state = initialState, action) => {
             clonedState.materials.map(material => {
                 return material.tasks.map(e => decreaseComplexityHandleElements(e, selectedWord))
             })
-            clonedState.score = clonedState.score + 1
+            clonedState.score = 0
             return clonedState;
         }
 
@@ -138,5 +138,5 @@ const isSameAnswerCheck = (selectedWord) => {
     return false
 }
 
-export const handleWrongVariantActionCreator = (key) => ({type: HANDLE_CORRECT, key: key})
-export const handleCorrectVariantActionCreator = (key) => ({type: HANDLE_WRONG, key: key})
+export const handleCorrectVariantActionCreator = (key) => ({type: HANDLE_CORRECT, key: key})
+export const handleWrongVariantActionCreator = (key) => ({type: HANDLE_WRONG, key: key})
