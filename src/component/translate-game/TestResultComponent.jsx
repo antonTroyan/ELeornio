@@ -36,6 +36,11 @@ const TestResultComponent = (props) => {
         return result
     }
 
+    const handleClickTryAgain = () => {
+        props.increaseAttemptCounterActionCreator()
+        props.clearGameData()
+    }
+
     return (
         <div style={styles.mainContainer}>
             <div style={{width: '50%', float: 'left', height: '50%'}}>
@@ -47,7 +52,7 @@ const TestResultComponent = (props) => {
                 <NavLink to={"/game/" + props.materialId}>
                 <Button style={{backgroundColor: 'green'}}
                     onClick={() => {
-                        props.clearGameData()
+                        handleClickTryAgain()
                     }}>Try Again</Button>
                 </NavLink>
             </div>

@@ -33,11 +33,8 @@ const steps = [
 ];
 
 const VerticalLinearStepperComponent = (props) => {
-  const [activeStep, setActiveStep] = React.useState(0);
-  const [attemptCounter, setAttemptCounter] = React.useState(0)
 
   return (
-
     <Box sx={{ maxWidth: 400 }}>
       <Stepper activeStep={props.numberAttempt} orientation="vertical">
         {steps.map((step, index) => (
@@ -51,7 +48,7 @@ const VerticalLinearStepperComponent = (props) => {
           </Step>
         ))}
       </Stepper>
-      {activeStep === steps.length && (
+      {props.numberAttempt === steps.length && (
         <Paper square elevation={0} sx={{ p: 3 }}>
           <Typography>All steps completed - you&apos;re finished</Typography>
         </Paper>
