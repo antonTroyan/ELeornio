@@ -11,23 +11,23 @@ import Typography from '@mui/material/Typography';
 const steps = [
   {
     label: 'Level 1',
-    description: `Good start`,
+    description: `Coach potato`,
   },
   {
     label: 'Level 2',
-    description: 'Keep going! ',
+    description: 'Good student',
   },
   {
     label: 'Level 3',
-    description: `You like a Pro`,
+    description: `Professional`,
   },
   {
     label: 'Level 4',
-    description: `Like native level`,
+    description: `Native speaker`,
   },
   {
     label: 'Level 5',
-    description: `Relax bro, you are too tough. Better go to bar and relax`,
+    description: `Stop working man, you are crazy!`,
   },
 ];
 
