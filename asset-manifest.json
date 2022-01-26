@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/ELeornio/static/css/main.22b6e383.chunk.css",
-    "main.js": "/ELeornio/static/js/main.22628ffe.chunk.js",
-    "main.js.map": "/ELeornio/static/js/main.22628ffe.chunk.js.map",
-    "runtime-main.js": "/ELeornio/static/js/runtime-main.61e41156.js",
-    "runtime-main.js.map": "/ELeornio/static/js/runtime-main.61e41156.js.map",
-    "static/js/2.8f6b4acd.chunk.js": "/ELeornio/static/js/2.8f6b4acd.chunk.js",
-    "static/js/2.8f6b4acd.chunk.js.map": "/ELeornio/static/js/2.8f6b4acd.chunk.js.map",
-    "static/js/3.ebb99a00.chunk.js": "/ELeornio/static/js/3.ebb99a00.chunk.js",
-    "static/js/3.ebb99a00.chunk.js.map": "/ELeornio/static/js/3.ebb99a00.chunk.js.map",
+    "main.js": "/ELeornio/static/js/main.decde550.chunk.js",
+    "main.js.map": "/ELeornio/static/js/main.decde550.chunk.js.map",
+    "runtime-main.js": "/ELeornio/static/js/runtime-main.21e7062e.js",
+    "runtime-main.js.map": "/ELeornio/static/js/runtime-main.21e7062e.js.map",
+    "static/js/2.3263298b.chunk.js": "/ELeornio/static/js/2.3263298b.chunk.js",
+    "static/js/2.3263298b.chunk.js.map": "/ELeornio/static/js/2.3263298b.chunk.js.map",
+    "static/js/3.2dd46849.chunk.js": "/ELeornio/static/js/3.2dd46849.chunk.js",
+    "static/js/3.2dd46849.chunk.js.map": "/ELeornio/static/js/3.2dd46849.chunk.js.map",
     "index.html": "/ELeornio/index.html",
     "static/css/main.22b6e383.chunk.css.map": "/ELeornio/static/css/main.22b6e383.chunk.css.map",
-    "static/js/2.8f6b4acd.chunk.js.LICENSE.txt": "/ELeornio/static/js/2.8f6b4acd.chunk.js.LICENSE.txt",
-    "static/media/books.ba6ff360.jpg": "/ELeornio/static/media/books.ba6ff360.jpg",
+    "static/js/2.3263298b.chunk.js.LICENSE.txt": "/ELeornio/static/js/2.3263298b.chunk.js.LICENSE.txt",
     "static/media/english.77003d09.jpg": "/ELeornio/static/media/english.77003d09.jpg",
     "static/media/films.df738c8e.jpg": "/ELeornio/static/media/films.df738c8e.jpg",
     "static/media/internet.1c9974a1.jpg": "/ELeornio/static/media/internet.1c9974a1.jpg",
@@ -20,9 +19,9 @@
     "static/media/shuffle.5586a1ca.jpg": "/ELeornio/static/media/shuffle.5586a1ca.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.61e41156.js",
-    "static/js/2.8f6b4acd.chunk.js",
+    "static/js/runtime-main.21e7062e.js",
+    "static/js/2.3263298b.chunk.js",
     "static/css/main.22b6e383.chunk.css",
-    "static/js/main.22628ffe.chunk.js"
+    "static/js/main.decde550.chunk.js"
   ]
 }
