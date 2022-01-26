@@ -1,13 +1,13 @@
 import cloneDeep from 'lodash/cloneDeep';
-import books from "../resources/books.jpg";
 import englishPic from "../resources/english.jpg";
 import filmsPic from "../resources/films.jpg";
-import internet from "../resources/internet.jpg";
+import internetPic from "../resources/internet.jpg";
 import seriesPic from "../resources/series.jpg";
 import shufflePic from "../resources/shuffle.jpg";
 import englishClasses from "./material/english-classes"
 import series from "./material/series"
 import films from "./material/films"
+import internet from "./material/internet"
 
 const initialState = {
     score: 0,
@@ -44,21 +44,14 @@ const initialState = {
             tasks: films
         },
 
-//         {
-//             key: 4,
-//             image: books,
-//             title: 'Books',
-//             linkToMaterial: '',
-//             tasks: []
-//         },
-//
-//         {
-//             key: 5,
-//             image: internet,
-//             title: 'Internet',
-//             linkToMaterial: '',
-//             tasks: []
-//         },
+        {
+             key: 4,
+             image: internetPic,
+             title: 'Internet',
+             linkToMaterial: '',
+             tasks: internet
+        },
+
 
     ]
 }

@@ -428,7 +428,7 @@ const englishClasses = [
         correctAnswer: 'prefer to be on your own and avoid talking with other people',
         complexity: 60
     },
-    {russianWord: 'be in someone\`s good books` ', correctAnswer: 'some person is pleased with you', complexity: 60},
+    {russianWord: 'be in someone`s good books` ', correctAnswer: 'some person is pleased with you', complexity: 60},
     {russianWord: 'get on like a house on fire', correctAnswer: 'get an extremely well with someone', complexity: 60},
     {
         russianWord: 'make it up to someone',
