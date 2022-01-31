@@ -68,7 +68,7 @@ const englishClasses = [
     {russianWord: 'rapid', correctAnswer: 'very fast', complexity: 60},
     {russianWord: 'exhausted', correctAnswer: 'very tired', complexity: 60},
     {russianWord: 'destitute', correctAnswer: 'very poor', complexity: 60},
-    {russianWord: 'wealthy', correctAnswer: 'very rich', complexity: 60},
+    {russianWord: 'wealthy / well off', correctAnswer: 'very rich', complexity: 60},
     {russianWord: 'drink in large gulps', correctAnswer: 'swig', complexity: 60},
     {russianWord: 'drink/eat greedily', correctAnswer: 'guzzle', complexity: 60},
     {russianWord: 'have a drink in a bar', correctAnswer: 'Take shot in a bar', complexity: 60},
@@ -512,11 +512,11 @@ const englishClasses = [
         complexity: 60
     },
     {
-        russianWord: 'getting by',
+        russianWord: 'getting by / make ends meet',
         correctAnswer: 'manage with difficulty to live or accomplish something',
         complexity: 60
     },
-    {russianWord: 'scrape by', correctAnswer: 'to live with barely enough money', complexity: 60},
+    {russianWord: 'scrape by / live on a shoestring', correctAnswer: 'to live with barely enough money', complexity: 60},
     {russianWord: 'feed as a fiddle', correctAnswer: 'in good physical condition', complexity: 60},
     {
         russianWord: 'save up / sock away',
@@ -545,7 +545,7 @@ const englishClasses = [
         complexity: 60
     },
     {russianWord: 'pay back', correctAnswer: 'repay a loan to someone', complexity: 60},
-    {russianWord: 'pay off', correctAnswer: 'pay a debt in full', complexity: 60},
+    {russianWord: 'pay off / pick up the bill', correctAnswer: 'pay a debt in full', complexity: 60},
     {russianWord: 'mental wellbeing', correctAnswer: 'mental health', complexity: 60},
     {russianWord: 'take money out / pull money', correctAnswer: 'withdraw money', complexity: 60},
     {russianWord: 'cut back on / cut down on', correctAnswer: 'reduce an expenses', complexity: 60},
@@ -566,6 +566,11 @@ const englishClasses = [
     {russianWord: 'skimp on', correctAnswer: 'you use less time, money, or material for it than you really need, so that the result is not good enough', complexity: 60},
     {russianWord: 'bail out', correctAnswer: 'rescue someone from a difficult situation, especially by providing money', complexity: 60},
     {russianWord: 'hint at smth', correctAnswer: 'to talk about (something) in an indirect way', complexity: 60},
+    {russianWord: 'breadwinner / bring home the bacon', correctAnswer: 'a person who earns money to support their family, typically the sole one', complexity: 60},
+    {russianWord: 'cash cow', correctAnswer: 'a business, investment, or product that provides a steady income or profit', complexity: 60},
+    {russianWord: 'sell for a song', correctAnswer: 'very cheaply, for little money, especially for less than something is worth', complexity: 60},
+    {russianWord: '', correctAnswer: '', complexity: 60},
+    {russianWord: '', correctAnswer: '', complexity: 60},
     {russianWord: '', correctAnswer: '', complexity: 60},
     {russianWord: '', correctAnswer: '', complexity: 60},
 ]
