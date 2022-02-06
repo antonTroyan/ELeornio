@@ -1,27 +1,20 @@
 {
   "files": {
-    "main.css": "/ELeornio/static/css/main.22b6e383.chunk.css",
-    "main.js": "/ELeornio/static/js/main.decde550.chunk.js",
-    "main.js.map": "/ELeornio/static/js/main.decde550.chunk.js.map",
-    "runtime-main.js": "/ELeornio/static/js/runtime-main.21e7062e.js",
-    "runtime-main.js.map": "/ELeornio/static/js/runtime-main.21e7062e.js.map",
-    "static/js/2.3263298b.chunk.js": "/ELeornio/static/js/2.3263298b.chunk.js",
-    "static/js/2.3263298b.chunk.js.map": "/ELeornio/static/js/2.3263298b.chunk.js.map",
-    "static/js/3.2dd46849.chunk.js": "/ELeornio/static/js/3.2dd46849.chunk.js",
-    "static/js/3.2dd46849.chunk.js.map": "/ELeornio/static/js/3.2dd46849.chunk.js.map",
+    "main.css": "/ELeornio/static/css/main.e6c13ad2.css",
+    "main.js": "/ELeornio/static/js/main.976b35ca.js",
+    "static/js/787.c9f22f3f.chunk.js": "/ELeornio/static/js/787.c9f22f3f.chunk.js",
+    "static/media/series.jpg": "/ELeornio/static/media/series.7e63e4de0fd9cc79350f.jpg",
+    "static/media/english.jpg": "/ELeornio/static/media/english.77003d0973bf2d00f4ce.jpg",
+    "static/media/internet.jpg": "/ELeornio/static/media/internet.1c9974a167a044b697c2.jpg",
+    "static/media/films.jpg": "/ELeornio/static/media/films.df738c8e81fd2c34828e.jpg",
+    "static/media/shuffle.jpg": "/ELeornio/static/media/shuffle.5586a1cab356afc2c086.jpg",
     "index.html": "/ELeornio/index.html",
-    "static/css/main.22b6e383.chunk.css.map": "/ELeornio/static/css/main.22b6e383.chunk.css.map",
-    "static/js/2.3263298b.chunk.js.LICENSE.txt": "/ELeornio/static/js/2.3263298b.chunk.js.LICENSE.txt",
-    "static/media/english.77003d09.jpg": "/ELeornio/static/media/english.77003d09.jpg",
-    "static/media/films.df738c8e.jpg": "/ELeornio/static/media/films.df738c8e.jpg",
-    "static/media/internet.1c9974a1.jpg": "/ELeornio/static/media/internet.1c9974a1.jpg",
-    "static/media/series.7e63e4de.jpg": "/ELeornio/static/media/series.7e63e4de.jpg",
-    "static/media/shuffle.5586a1ca.jpg": "/ELeornio/static/media/shuffle.5586a1ca.jpg"
+    "main.e6c13ad2.css.map": "/ELeornio/static/css/main.e6c13ad2.css.map",
+    "main.976b35ca.js.map": "/ELeornio/static/js/main.976b35ca.js.map",
+    "787.c9f22f3f.chunk.js.map": "/ELeornio/static/js/787.c9f22f3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.21e7062e.js",
-    "static/js/2.3263298b.chunk.js",
-    "static/css/main.22b6e383.chunk.css",
-    "static/js/main.decde550.chunk.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.976b35ca.js"
   ]
 }
