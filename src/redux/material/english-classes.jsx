@@ -76,7 +76,7 @@ const englishClasses = [
     {russianWord: 'cola, sprite etc', correctAnswer: 'soft drinks/pop', complexity: 60},
     {russianWord: 'a person who never drinks alcohol', correctAnswer: 'teetotaler', complexity: 60},
     {russianWord: 'you do not want to eat', correctAnswer: 'be of your food', complexity: 60},
-    {russianWord: 'smth cannot be obtained in sufficient amounts', correctAnswer: 'shortage', complexity: 60},
+    {russianWord: 'shortage / shortfall', correctAnswer: 'smth cannot be obtained in sufficient amounts', complexity: 60},
     {russianWord: 'make someone long for or desire something', correctAnswer: 'make my mouth water', complexity: 60},
     {
         russianWord: 'cause or allow (liquid) to flow over the edge of its container',
@@ -569,8 +569,10 @@ const englishClasses = [
     {russianWord: 'breadwinner / bring home the bacon', correctAnswer: 'a person who earns money to support their family, typically the sole one', complexity: 60},
     {russianWord: 'cash cow', correctAnswer: 'a business, investment, or product that provides a steady income or profit', complexity: 60},
     {russianWord: 'sell for a song', correctAnswer: 'very cheaply, for little money, especially for less than something is worth', complexity: 60},
-    {russianWord: '', correctAnswer: '', complexity: 60},
-    {russianWord: '', correctAnswer: '', complexity: 60},
+    {russianWord: 'outgoings', correctAnswer: 'a person`s regular expenditure', complexity: 60},
+    {russianWord: 'promptly', correctAnswer: 'with little or no delay; immediately', complexity: 60},
+    {russianWord: 'mount up', correctAnswer: 'to get much larger', complexity: 60},
+    {russianWord: 'surplus', correctAnswer: 'an amount of something left over when requirements have been met', complexity: 60},
     {russianWord: '', correctAnswer: '', complexity: 60},
     {russianWord: '', correctAnswer: '', complexity: 60},
 ]
