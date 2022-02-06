@@ -7,6 +7,7 @@ import AlertTitle from "@material-ui/lab/AlertTitle";
 import TestResultComponent from "./TestResultComponent";
 import {LinearProgress, ListItem, ListItemText} from "@material-ui/core";
 import {NavLink} from 'react-router-dom';
+import {wordApi} from "../../util/word-api";
 
 const styles = {
     mainContainer: {
@@ -169,6 +170,15 @@ const TranslateGameComponent = (props) => {
         return russianWord
     }
 
+
+    const getSynonymsApiCall = () => {
+        if (russianWord.split(' ').length === 1) {
+           wordApi.downloadSynonym(russianWord)
+        } else {
+            alert('multiple words!')
+        }
+    };
+
     return (
         <div>
             {testResult[currentTaskId] &&
@@ -189,6 +199,10 @@ const TranslateGameComponent = (props) => {
 
                 <div style={{width: '50%', float: 'left', height: '50%'}}>
                     <ListItemText primary={handleRussianWord()}/>
+                    <Button onClick={getSynonymsApiCall}
+                            style={{backgroundColor: 'grey'}}
+                            variant="outlined">Get synonyms
+                    </Button>
                     <h1>{props.score}</h1>
                 </div>
 

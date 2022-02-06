@@ -131,5 +131,7 @@ const isSameAnswerCheck = (selectedWord) => {
     return false
 }
 
+
+
 export const handleCorrectVariantActionCreator = (key) => ({type: HANDLE_CORRECT, key: key})
 export const handleWrongVariantActionCreator = (key) => ({type: HANDLE_WRONG, key: key})
