@@ -62,6 +62,7 @@ const HANDLE_WRONG = "HANDLE_WRONG"
 
 const INCREASE_COMPLEXITY_STEP = 30
 const DECREASE_COMPLEXITY_STEP = 30
+const MINIMUM_PROBABILITY = 5
 
 let LAST_ANSWER = ""
 
@@ -76,7 +77,7 @@ export const mainPageReducer = (state = initialState, action) => {
             }
             const clonedState = cloneDeep(state)
             clonedState.materials.map(material => {
-                return material.tasks.map(e => increaseComplexityHandleElements(e, selectedWord))
+                return material.tasks.map(e => decreaseComplexityHandleElements(e, selectedWord))
             })
             clonedState.score = clonedState.score + 1
             return clonedState;
@@ -90,7 +91,7 @@ export const mainPageReducer = (state = initialState, action) => {
             }
             const clonedState = cloneDeep(state)
             clonedState.materials.map(material => {
-                return material.tasks.map(e => decreaseComplexityHandleElements(e, selectedWord))
+                return material.tasks.map(e => increaseComplexityHandleElements(e, selectedWord))
             })
             clonedState.score = 0
             return clonedState;
@@ -116,6 +117,8 @@ const decreaseComplexityHandleElements = (wordPair, selectedWord) => {
         const decreasedResult = wordPair.complexity - DECREASE_COMPLEXITY_STEP
         if (decreasedResult > 1) {
             wordPair.complexity = decreasedResult
+        } else {
+            wordPair.complexity = MINIMUM_PROBABILITY
         }
     }
     return wordPair
