@@ -585,7 +585,14 @@ const englishClasses = [
     {russianWord: 'buddy', correctAnswer: 'a close friend', complexity: 60},
     {russianWord: 'satnav', correctAnswer: 'navigation dependent on information received from satellites', complexity: 60},
     {russianWord: 'drop off', correctAnswer: 'fall asleep easily, especially without intending to', complexity: 60},
-    {russianWord: 'litter', correctAnswer: 'ubbish such as paper, cans, and bottles left lying in an open or public place', complexity: 60},
+    {russianWord: 'litter', correctAnswer: 'rubbish such as paper, cans, and bottles left lying in an open or public place', complexity: 60},
+    {russianWord: 'tram', correctAnswer: 'a passenger vehicle powered by electricity conveyed by overhead cables, and running on rails laid in a public road', complexity: 60},
+    {russianWord: 'coach', correctAnswer: 'a comfortably equipped single-decker bus used for longer journeys', complexity: 60},
+    {russianWord: 'ferry', correctAnswer: 'a boat or ship for conveying passengers and goods, especially over a relatively short distance and as a regular service', complexity: 60},
+    {russianWord: 'traffic jam', correctAnswer: 'a situation in which a long line of vehicles on a road have stopped moving', complexity: 60},
+    {russianWord: 'pavement', correctAnswer: 'a raised paved or asphalted path for pedestrians at the side of a road', complexity: 60},
+    {russianWord: '', correctAnswer: '', complexity: 60},
+    {russianWord: '', correctAnswer: '', complexity: 60},
     {russianWord: '', correctAnswer: '', complexity: 60},
 ]
 
