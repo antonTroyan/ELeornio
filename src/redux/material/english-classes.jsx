@@ -591,20 +591,6 @@ const englishClasses = [
     {russianWord: 'ferry', correctAnswer: 'a boat or ship for conveying passengers and goods, especially over a relatively short distance and as a regular service', complexity: 60},
     {russianWord: 'traffic jam', correctAnswer: 'a situation in which a long line of vehicles on a road have stopped moving', complexity: 60},
     {russianWord: 'pavement', correctAnswer: 'a raised paved or asphalted path for pedestrians at the side of a road', complexity: 60},
-
-    // ways to say - I think
-    {russianWord: '[as far as I`m concerned ...]', correctAnswer: '[as far as I`m concerned ...]', complexity: 60},
-    {russianWord: '[in my opinion ...]', correctAnswer: '[in my opinion ...]', complexity: 60},
-    {russianWord: '[it seems/appears to me that]', correctAnswer: '[it seems/appears to me that]', complexity: 60},
-    {russianWord: '[I would argue that]', correctAnswer: '[I would argue that]', complexity: 60},
-    {russianWord: '[from my point of view]', correctAnswer: '[from my point of view]', complexity: 60},
-    {russianWord: '[I`m inclined to believe that]', correctAnswer: '[I`m inclined to believe that]', complexity: 60},
-    {russianWord: '[if you ask me]', correctAnswer: '[if you ask me]', complexity: 60},
-    {russianWord: '[to be honest]', correctAnswer: '[to be honest]', complexity: 60},
-    {russianWord: '[personally speaking]', correctAnswer: '[personally speaking]', complexity: 60},
-    {russianWord: '[from what I gather]', correctAnswer: '[from what I gather]', complexity: 60},
-    {russianWord: '[Well, I reckon]', correctAnswer: '', complexity: 60},
-
     // from diversity courses
     {russianWord: 'shaping up', correctAnswer: 'develop or progress in a particular way', complexity: 60},
     {russianWord: 'topple over', correctAnswer: 'to stop being steady and fall', complexity: 60},
