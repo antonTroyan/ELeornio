@@ -1,13 +1,13 @@
 import cloneDeep from 'lodash/cloneDeep';
 import englishPic from "../resources/english.jpg";
 import filmsPic from "../resources/films.jpg";
-import internetPic from "../resources/internet.jpg";
+import phrasesPic from "../resources/phrases.png";
 import seriesPic from "../resources/series.jpg";
 import shufflePic from "../resources/shuffle.jpg";
 import englishClasses from "./material/english-classes"
 import series from "./material/series"
 import films from "./material/films"
-import internet from "./material/internet"
+import phrases from "./material/phrases"
 
 const initialState = {
     score: 0,
@@ -46,13 +46,11 @@ const initialState = {
 
         {
              key: 4,
-             image: internetPic,
-             title: 'Internet',
+             image: phrasesPic,
+             title: 'Phrases',
              linkToMaterial: '',
-             tasks: internet
+             tasks: phrases
         },
-
-
     ]
 }
 

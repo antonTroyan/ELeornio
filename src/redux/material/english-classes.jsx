@@ -591,9 +591,36 @@ const englishClasses = [
     {russianWord: 'ferry', correctAnswer: 'a boat or ship for conveying passengers and goods, especially over a relatively short distance and as a regular service', complexity: 60},
     {russianWord: 'traffic jam', correctAnswer: 'a situation in which a long line of vehicles on a road have stopped moving', complexity: 60},
     {russianWord: 'pavement', correctAnswer: 'a raised paved or asphalted path for pedestrians at the side of a road', complexity: 60},
-    {russianWord: '', correctAnswer: '', complexity: 60},
-    {russianWord: '', correctAnswer: '', complexity: 60},
-    {russianWord: '', correctAnswer: '', complexity: 60},
+
+    // ways to say - I think
+    {russianWord: '[as far as I`m concerned ...]', correctAnswer: '[as far as I`m concerned ...]', complexity: 60},
+    {russianWord: '[in my opinion ...]', correctAnswer: '[in my opinion ...]', complexity: 60},
+    {russianWord: '[it seems/appears to me that]', correctAnswer: '[it seems/appears to me that]', complexity: 60},
+    {russianWord: '[I would argue that]', correctAnswer: '[I would argue that]', complexity: 60},
+    {russianWord: '[from my point of view]', correctAnswer: '[from my point of view]', complexity: 60},
+    {russianWord: '[I`m inclined to believe that]', correctAnswer: '[I`m inclined to believe that]', complexity: 60},
+    {russianWord: '[if you ask me]', correctAnswer: '[if you ask me]', complexity: 60},
+    {russianWord: '[to be honest]', correctAnswer: '[to be honest]', complexity: 60},
+    {russianWord: '[personally speaking]', correctAnswer: '[personally speaking]', complexity: 60},
+    {russianWord: '[from what I gather]', correctAnswer: '[from what I gather]', complexity: 60},
+    {russianWord: '[Well, I reckon]', correctAnswer: '', complexity: 60},
+
+    // from diversity courses
+    {russianWord: 'shaping up', correctAnswer: 'develop or progress in a particular way', complexity: 60},
+    {russianWord: 'topple over', correctAnswer: 'to stop being steady and fall', complexity: 60},
+    {russianWord: 'accomplish', correctAnswer: 'achieve or complete successfully', complexity: 60},
+    {russianWord: 'runoff', correctAnswer: 'a further competition, election, race, etc., after a tie or inconclusive result', complexity: 60},
+    {russianWord: 'suffice [сэфайс]', correctAnswer: 'be enough or adequate', complexity: 60},
+    {russianWord: 'inmate', correctAnswer: 'a person confined to an institution such as a prison or hospital.', complexity: 60},
+    {russianWord: 'ample', correctAnswer: 'enough or more than enough; plentiful', complexity: 60},
+    {russianWord: 'bias [байас]', correctAnswer: 'inclination or prejudice for or against one person or group, unfair', complexity: 60},
+    {russianWord: 'tick', correctAnswer: 'a mark (✓) used to indicate that an item in a list or text is correct or has been chosen, checked, or dealt with', complexity: 60},
+    {russianWord: 'cross', correctAnswer: 'a mark, object, or figure formed by two short intersecting lines or pieces (+ or ×)', complexity: 60},
+    {russianWord: 'rural', correctAnswer: 'in, relating to, or characteristic of the countryside rather than the town', complexity: 60},
+    {russianWord: 'tribe', correctAnswer: 'a social division in a traditional society consisting of families or communities', complexity: 60},
+    {russianWord: 'amygdala', correctAnswer: 'amygdala, region of the brain primarily associated with emotional processes', complexity: 60},
+    {russianWord: 'affinity', correctAnswer: 'a natural liking for and understanding of someone or something', complexity: 60},
+    {russianWord: 'confine', correctAnswer: 'keep or restrict someone or something within certain limits of (space, scope, or time)', complexity: 60},
 ]
 
 export default englishClasses
