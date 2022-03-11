@@ -438,7 +438,9 @@ const englishClasses = [
   {russianWord:   'affair',
    correctAnswer: 'a sexual relationship between two people, one or both of whom are married to someone else'
   },
-  // describe peoples
+  //////////////////////
+  // Describe peoples //
+  //////////////////////
   {russianWord:   'fishy',
    correctAnswer: 'arousing feelings of doubt or suspicion'
   },
@@ -580,7 +582,9 @@ const englishClasses = [
   {russianWord:   'discontented',
    correctAnswer: 'dissatisfied, especially with one\'s circumstances'
   },
-  // idioms
+  ////////////
+  // Idioms //
+  ////////////
   {russianWord:   'be at loggerheads',
    correctAnswer: 'disagree strongly with each other'
   },
@@ -647,7 +651,9 @@ const englishClasses = [
   {russianWord:   'admission',
    correctAnswer: 'a statement acknowledging the truth of something'
   },
-  // money
+  ///////////
+  // Money //
+  ///////////
   {russianWord:   'borrow',
    correctAnswer: 'take and use (something belonging to someone else) with the intention of returning it'
   },
