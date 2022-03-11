@@ -864,7 +864,9 @@ const englishClasses = [
   {russianWord:   'pavement',
    correctAnswer: 'a raised paved or asphalted path for pedestrians at the side of a road'
   },
-  // from diversity courses
+  ////////////////////////////
+  // From diversity courses //
+  ////////////////////////////
   {russianWord:   'shaping up',
    correctAnswer: 'develop or progress in a particular way'
   },

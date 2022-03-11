@@ -1,5 +1,7 @@
 const films = [
-  // Don't Look Up 2021
+  ////////////////////////
+  // Don't Look Up 2021 //
+  ////////////////////////
   {russianWord:   'inquiry',
    correctAnswer: 'an act of asking for information'
   },
@@ -21,7 +23,9 @@ const films = [
   {russianWord:   'relieved',
    correctAnswer: 'no longer feeling distressed or anxious; reassured'
   },
-  // Red notice 2021
+  /////////////////////
+  // Red notice 2021 //
+  /////////////////////
   {russianWord:   'sought after',
    correctAnswer: 'much in demand; generally desired'
   },
@@ -55,7 +59,9 @@ const films = [
   {russianWord:   'convict',
    correctAnswer: 'someone to be guilty of a criminal offence by the verdict of a jury or the decision of a judge in a court of law'
   },
-  // Die hard 1988
+  ///////////////////
+  // Die hard 1988 //
+  ///////////////////
   {russianWord:   'tape deck',
    correctAnswer: 'a device used to play back and often to record on magnetic tape that usually has to be connected to an audio system'
   },

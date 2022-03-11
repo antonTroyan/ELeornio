@@ -36,6 +36,10 @@ const phrases = [
   {russianWord:   '',
    correctAnswer: ''
   },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+
 
 ]
 
