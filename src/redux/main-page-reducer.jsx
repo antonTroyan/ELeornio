@@ -4,10 +4,10 @@ import filmsPic from "../resources/films.jpg";
 import phrasesPic from "../resources/phrases.png";
 import seriesPic from "../resources/series.jpg";
 import shufflePic from "../resources/shuffle.jpg";
-import englishClasses from "./material/english-classes"
-import series from "./material/series"
-import films from "./material/films"
-import phrases from "./material/phrases"
+import englishClasses from "./material/english-classes.jsx"
+import series from "./material/series.jsx"
+import films from "./material/films.jsx"
+import phrases from "./material/phrases.jsx"
 
 const initialState = {
     score: 0,
@@ -45,11 +45,11 @@ const initialState = {
         },
 
         {
-             key: 4,
-             image: phrasesPic,
-             title: 'Phrases',
-             linkToMaterial: '',
-             tasks: phrases
+            key: 4,
+            image: phrasesPic,
+            title: 'Phrases',
+            linkToMaterial: '',
+            tasks: phrases
         },
     ]
 }
