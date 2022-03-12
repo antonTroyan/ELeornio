@@ -1,5 +1,7 @@
 const series = [
-  // Cowboy Bebop 2021
+  ///////////////////////
+  // Cowboy Bebop 2021 //
+  ///////////////////////
   {russianWord:   'team up',
    correctAnswer: 'to join with someone to work together'
   },
@@ -108,7 +110,9 @@ const series = [
   {russianWord:   'minutiae [миньюшиай]',
    correctAnswer: 'the small, precise, or trivial details of something'
   },
-  // Witcher
+  /////////////
+  // Witcher //
+  /////////////
   {russianWord:   'lodgings',
    correctAnswer: 'temporary accommodation'
   },
@@ -160,7 +164,9 @@ const series = [
   {russianWord:   'flee',
    correctAnswer: 'run away from a place or situation of danger'
   },
-  // arcane
+  ////////////
+  // Arcane //
+  ////////////
   {russianWord:   'jinx',
    correctAnswer: 'a person or thing that brings bad luck'
   },

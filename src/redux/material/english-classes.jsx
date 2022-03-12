@@ -335,7 +335,9 @@ const englishClasses = [
   {russianWord:   'a dishonest or unscrupulous person; a rogue',
    correctAnswer: 'scoundrel'
   },
-  // family topic
+  //////////////////
+  // Family topic //
+  //////////////////
   {russianWord:   'easy going',
    correctAnswer: 'friendly'
   },
