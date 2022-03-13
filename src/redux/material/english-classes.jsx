@@ -920,6 +920,53 @@ const englishClasses = [
   {russianWord:   'confine',
    correctAnswer: 'keep or restrict someone or something within certain limits of (space, scope, or time)'
   }
-]
+  ///////////////////
+  // Phrasal verbs //
+  ///////////////////
+  {russianWord:   'catch up with',
+   correctAnswer: 'succeed in reaching a person who is ahead of one'
+  }
+  {russianWord:   'drop off',
+   correctAnswer: 'an act of taking people, goods, mail, etc. to a place'
+  }
+  {russianWord:   'keep up with',
+   correctAnswer: 'move or progress at the same rate as someone or something else'
+  }
+  {russianWord:   'make for',
+   correctAnswer: '(make for something) to move towards a place'
+  }
+  {russianWord:   'pull in',
+   correctAnswer: '(of a vehicle) move to the side of or off the road'
+  }
+  {russianWord:   'run over',
+   correctAnswer: '(of a vehicle) knock a person or animal down and pass over their body'
+  }
+  {russianWord:   'see off',
+   correctAnswer: 'to go to an airport, train station, etc., with (someone who is leaving) in order to say goodbye'
+  }
+  {russianWord:   'set out/off',
+   correctAnswer: 'intransitive to start a journey, or to start going in a particular direction'
+  }
+  {russianWord:   'take off',
+   correctAnswer: '(of an aircraft or bird) become airborne / remove clothing from ones body'
+  }
+  {russianWord:   'turn round',
+   correctAnswer: 'move so as to face in the opposite direction'
+  }
+  {russianWord:   '',
+   correctAnswer: ''
+  }
+  {russianWord:   '',
+   correctAnswer: ''
+  }
+
+
+
+
+
+
+
+
+  ]
 
 export default englishClasses
