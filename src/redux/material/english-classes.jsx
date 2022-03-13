@@ -931,7 +931,7 @@ const englishClasses = [
   },
   {russianWord:   'keep up with',
    correctAnswer: 'move or progress at the same rate as someone or something else'
-  }
+  },
   {russianWord:   'make for',
    correctAnswer: '(make for something) to move towards a place'
   },
