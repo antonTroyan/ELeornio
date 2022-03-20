@@ -80,6 +80,18 @@ const phrases = [
   {russianWord:   '[I see your point, but ...]',
    correctAnswer: '[I see your point, but ...]'
   },
+
+
+  {russianWord:   'I used to [instead - had a habit]',
+   correctAnswer: 'I used to [instead - had a habit]'
+  },
+  {russianWord:   'How much money you have? [without do]',
+   correctAnswer: 'How much money you have? [without do]'
+  },
+  {russianWord:   'If I had some juice I would drink it / I would like a cup of coffee',
+   correctAnswer: 'If I had some juice I would drink it / I would like a cup of coffee'
+  },
+
   {russianWord:   '',
    correctAnswer: ''
   },

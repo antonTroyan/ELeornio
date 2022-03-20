@@ -953,6 +953,66 @@ const englishClasses = [
   {russianWord:   'turn round',
    correctAnswer: 'move so as to face in the opposite direction'
   },
+  {russianWord:   'snail',
+   correctAnswer: 'a mollusc with a single spiral shell '
+  },
+  {russianWord:   'slippery',
+   correctAnswer: 'of a surface or object) difficult to hold firmly or stand on because it is smooth, wet, or slimy'
+  },
+  {russianWord:   'slid',
+   correctAnswer: 'move smoothly along a surface while maintaining continuous contact with it.'
+  },
+  {russianWord:   'seaward',
+   correctAnswer: 'towards the sea'
+  },
+  {russianWord:   'Arrange with someone',
+   correctAnswer: 'make plans with them to do it'
+  },
+  {russianWord:   'pull away',
+   correctAnswer: '(of a vehicle) start moving'
+  },
+  {russianWord:   'steer',
+   correctAnswer: 'guide or control the movement of (a vehicle, vessel, or aircraft), for example by turning a wheel or operating a rudder'
+  },
+  {russianWord:   'accelerate',
+   correctAnswer: '(especially of a vehicle) begin to move more quickly'
+  },
+  {russianWord:   'put on the brakes',
+   correctAnswer: 'to slow or stop the progress of something or someone'
+  },
+  {russianWord:   'reverse',
+   correctAnswer: 'move backwards'
+  },
+  {russianWord:   'swerve',
+   correctAnswer: 'an abrupt change of direction'
+  },
+  {russianWord:   'skid',
+   correctAnswer: '(of a vehicle) slide, typically sideways or obliquely, on slippery ground or as a result of stopping or turning too quickly'
+  },
+  {russianWord:   'overtake',
+   correctAnswer: 'catch up with and pass while travelling in the same direction'
+  },
+  {russianWord:   'gear',
+   correctAnswer: 'a toothed wheel that works with others to alter the relation between the speed of a driving mechanism (such as the engine of a vehicle)'
+  },
+  {russianWord:   'on the lookout for',
+   correctAnswer: 'to watch or search for (something or someone)'
+  },
+  {russianWord:   'abrupt',
+   correctAnswer: 'sudden and unexpected'
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
   {russianWord:   '',
    correctAnswer: ''
   },
