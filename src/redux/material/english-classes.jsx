@@ -1001,11 +1001,41 @@ const englishClasses = [
   {russianWord:   'abrupt',
    correctAnswer: 'sudden and unexpected'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'be on the right track',
+   correctAnswer: 'following a course that will lead to success/failure'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'uphill battle',
+   correctAnswer: 'a very difficult struggle'
+  },
+  {russianWord:   'gone downhill',
+   correctAnswer: 'deteriorate, worsen'
+  },
+  {russianWord:   'off the beaten track',
+   correctAnswer: 'in or into an isolated place'
+  },
+  {russianWord:   'to be at a crossroads',
+   correctAnswer: ' at a point of decision or a critical juncture'
+  },
+  {russianWord:   'dead end',
+   correctAnswer: 'an end of a road or passage from which no exit is possible / hard situation'
+  },
+  {russianWord:   'hit the road',
+   correctAnswer: 'start journey / set out on a journey'
+  },
+  {russianWord:   'juncture',
+   correctAnswer: 'a place where things join'
+  },
+  {russianWord:   'stuck in a rut',
+   correctAnswer: 'you\'ve been doing the same old thing for too long'
+  },
+  {russianWord:   'drive me round the bend',
+   correctAnswer: 'it makes you really bored or angry'
+  },
+  {russianWord:   'right up your street',
+   correctAnswer: 'perfect for you'
+  },
+  {russianWord:   'middle of the road',
+   correctAnswer: 'neutral'
   },
   {russianWord:   '',
    correctAnswer: ''
@@ -1020,6 +1050,22 @@ const englishClasses = [
    correctAnswer: ''
   },
 
-]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
 
 export default englishClasses
