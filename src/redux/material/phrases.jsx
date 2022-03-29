@@ -91,7 +91,15 @@ const phrases = [
   {russianWord:   'If I had some juice I would drink it / I would like a cup of coffee',
    correctAnswer: 'If I had some juice I would drink it / I would like a cup of coffee'
   },
-
+  {russianWord:   'gather / pick up speed',
+   correctAnswer: 'gather / pick up speed'
+  },
+  {russianWord:   'take a shortcut',
+   correctAnswer: 'take a shortcut'
+  },
+  {russianWord:   'lost balance / slipped',
+   correctAnswer: 'lost balance / slipped'
+  },
   {russianWord:   '',
    correctAnswer: ''
   },

@@ -1037,8 +1037,44 @@ const englishClasses = [
   {russianWord:   'middle of the road',
    correctAnswer: 'neutral'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'swift',
+   correctAnswer: 'happening quickly or promptly [light action]'
+  },
+  {russianWord:   'rapid',
+   correctAnswer: 'happening in a short time or at a great rate'
+  },
+  {russianWord:   'brisk',
+   correctAnswer: 'active and energetic [оживленный]'
+  },
+  {russianWord:   'hasty',
+   correctAnswer: 'done with excessive speed or urgency; hurried [поспешный]'
+  },
+  {russianWord:   'stand still',
+   correctAnswer: 'a state characterized by absence of motion or of progress'
+  },
+  {russianWord:   'decline',
+   correctAnswer: '(typically of something regarded as good) become smaller, fewer, or less; decrease.'
+  },
+  {russianWord:   'in an unhurried manner',
+   correctAnswer: 'relaxed and leisurely; without hurry or haste'
+  },
+  {russianWord:   'leisurely',
+   correctAnswer: 'acting or done at leisure; unhurried or relaxed'
+  },
+  {russianWord:   'make / take a detour',
+   correctAnswer: 'a deviation from a direct course or the usual procedure especially'
+  },
+  {russianWord:   'steering wheel',
+   correctAnswer: 'a device that a driver rotates in order to steer a vehicle.'
+  },
+  {russianWord:   'steer a conversation away',
+   correctAnswer: 'when there\'s something that you want to talk about, or something that you want to avoid talking about.'
+  },
+  {russianWord:   'turn upside down',
+   correctAnswer: 'put in disorder, mix or mess up'
+  },
+  {russianWord:   'go astray',
+   correctAnswer: '(of an object) become lost or mislaid'
   },
   {russianWord:   '',
    correctAnswer: ''
@@ -1049,23 +1085,12 @@ const englishClasses = [
   {russianWord:   '',
    correctAnswer: ''
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
   ]
 
 export default englishClasses
