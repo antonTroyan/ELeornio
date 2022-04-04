@@ -100,6 +100,9 @@ const phrases = [
   {russianWord:   'lost balance / slipped',
    correctAnswer: 'lost balance / slipped'
   },
+  {russianWord:   'maybe our path will cross again',
+   correctAnswer: 'maybe our path will cross again'
+  },
   {russianWord:   '',
    correctAnswer: ''
   },

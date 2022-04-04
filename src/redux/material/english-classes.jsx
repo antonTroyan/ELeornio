@@ -1076,8 +1076,41 @@ const englishClasses = [
   {russianWord:   'go astray',
    correctAnswer: '(of an object) become lost or mislaid'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'hazard',
+   correctAnswer: 'a danger or risk'
+  },
+  {russianWord:   'stopover',
+   correctAnswer: 'a break in a journey'
+  },
+  {russianWord:   'berth',
+   correctAnswer: 'a fixed bunk on a ship, train, or other means of transport'
+  },
+  {russianWord:   'crossing',
+   correctAnswer: 'a place where roads or railway lines cross'
+  },
+  {russianWord:   'holiday of a lifetime',
+   correctAnswer: 'the best holiday/experience/chance etc that you will ever have'
+  },
+  {russianWord:   'through train',
+   correctAnswer: 'scheduled destination without changing to another train'
+  },
+  {russianWord:   'carriage',
+   correctAnswer: 'any of the separate sections of a train that carry passengers'
+  },
+  {russianWord:   'inquiry office',
+   correctAnswer: 'which deals with inquiries or requests for information'
+  },
+  {russianWord:   'compartment',
+   correctAnswer: 'a separate section or part of a structure or container'
+  },
+  {russianWord:   'self-catering',
+   correctAnswer: '(of a holiday or accommodation) offering facilities for people to cook their own meals'
+  },
+  {russianWord:   'inn',
+   correctAnswer: 'a pub, typically one in the country, in some cases providing accommodation'
+  },
+  {russianWord:   'guest house',
+   correctAnswer: 'a private house offering accommodation to paying guests'
   },
   {russianWord:   '',
    correctAnswer: ''
@@ -1091,6 +1124,18 @@ const englishClasses = [
   {russianWord:   '',
    correctAnswer: ''
   },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+
+
+
+
+
+
+
+
+
   ]
 
 export default englishClasses
