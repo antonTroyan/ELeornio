@@ -1094,7 +1094,7 @@ const englishClasses = [
   {russianWord:   'through train',
    correctAnswer: 'scheduled destination without changing to another train'
   },
-  {russianWord:   'carriage',
+  {russianWord:   'carriage / car',
    correctAnswer: 'any of the separate sections of a train that carry passengers'
   },
   {russianWord:   'inquiry office',
@@ -1112,8 +1112,29 @@ const englishClasses = [
   {russianWord:   'guest house',
    correctAnswer: 'a private house offering accommodation to paying guests'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'rough it',
+   correctAnswer: 'do without the usual comforts and conveniences'
+  },
+  {russianWord:   'exhilarating experience',
+   correctAnswer: 'it makes you feel very happy and excited'
+  },
+  {russianWord:   'to be out in the wild',
+   correctAnswer: 'live in a free and natural state and are not looked after by people'
+  },
+  {russianWord:   'to lounge around',
+   correctAnswer: 'to pass time idly and indolently'
+  },
+  {russianWord:   'idly',
+   correctAnswer: 'with no particular purpose, reason, or foundation'
+  },
+  {russianWord:   'indolently',
+   correctAnswer: 'habitually lazy'
+  },
+  {russianWord:   'cosy',
+   correctAnswer: 'giving a feeling of comfort, warmth, and relaxation'
+  },
+  {russianWord:   'resort',
+   correctAnswer: 'a place that is frequented for holidays or recreation or for a particular purpose'
   },
   {russianWord:   '',
    correctAnswer: ''
@@ -1127,15 +1148,14 @@ const englishClasses = [
   {russianWord:   '',
    correctAnswer: ''
   },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
 
 
 
 
 
-
-
-
-
-  ]
+]
 
 export default englishClasses
