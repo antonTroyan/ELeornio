@@ -176,15 +176,138 @@ const series = [
   {russianWord:   'nun',
    correctAnswer: 'a member of a religious community of women'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  ////////////////
+  // Peacemaker //
+  ////////////////
+  {russianWord:   'clavicle',
+   correctAnswer: 'technical term for collarbone'
+  },
+  {russianWord:   'elbow',
+   correctAnswer: 'the joint between the forearm and the upper arm'
+  },
+  {russianWord:   'bulky',
+   correctAnswer: 'taking up much space; large and unwieldy.'
+  },
+  {russianWord:   'sturgeon',
+   correctAnswer: 'a very large primitive fish with bony plates on the body'
+  },
+  {russianWord:   'vow',
+   correctAnswer: 'a solemn promise'
+  },
+  {russianWord:   'dizzy',
+   correctAnswer: 'having or involving a sensation of spinning around and losing one\'s balance'
+  },
+  {russianWord:   'black ops',
+   correctAnswer: 'a secret mission or campaign'
+  },
+  {russianWord:   'dapper',
+   correctAnswer: 'neat and trim in dress and appearance (typically used of a man)'
+  },
+  {russianWord:   'simp',
+   correctAnswer: 'a silly or foolish person'
+  },
+  {russianWord:   'as you turned out to be',
+   correctAnswer: 'used to say that something or someone eventually becomes something'
+  },
+  {russianWord:   'conducive',
+   correctAnswer: 'making a certain situation or outcome likely or possible'
+  },
+  {russianWord:   'chubbed up',
+   correctAnswer: 'To become noticeably overweight'
+  },
+  {russianWord:   'pliable',
+   correctAnswer: 'easily bent; flexible'
+  },
+  {russianWord:   'bribe',
+   correctAnswer: 'dishonestly persuade (someone) to act in one\'s favour by a gift of money or other inducement'
+  },
+  {russianWord:   'prick',
+   correctAnswer: 'an act of piercing something with a sharp point'
+  },
+  {russianWord:   'hoax',
+   correctAnswer: 'a humorous or malicious deception'
+  },
+  {russianWord:   'adorable',
+   correctAnswer: 'inspiring great affection or delight'
+  },
+  {russianWord:   'dove',
+   correctAnswer: 'a stocky bird with a small head, short legs, and a cooing voice, feeding on seeds or fruit.'
+  },
+  {russianWord:   'engraver',
+   correctAnswer: 'someone who cuts designs or words on metal, glass, or wood'
+  },
+  {russianWord:   'stubborn',
+   correctAnswer: 'having or showing dogged determination not to change one\'s attitude or position on something'
+  },
+  {russianWord:   'make up for',
+   correctAnswer: 'to take the place of something that has been lost or damaged'
+  },
+  {russianWord:   'balk',
+   correctAnswer: 'hesitate or be unwilling to accept an idea or undertaking'
+  },
+  {russianWord:   'coterie',
+   correctAnswer: 'a small group of people with shared interests or tastes, especially one that is exclusive of other people'
+  },
+  {russianWord:   'grower',
+   correctAnswer: 'a person who grows a particular type of crop'
+  },
+  {russianWord:   'guts',
+   correctAnswer: 'the stomach or belly'
+  },
+  {russianWord:   'belly',
+   correctAnswer: 'the front part of the human trunk below the ribs, containing the stomach and bowels'
+  },
+  {russianWord:   'kidney',
+   correctAnswer: 'each of a pair of organs in the abdominal cavity of mammals, birds, and reptiles, that excrete urine'
+  },
+  {russianWord:   'calling',
+   correctAnswer: 'a strong urge towards a particular way of life or career; a vocation'
+  },
+  {russianWord:   'urge',
+   correctAnswer: 'a strong desire or impulse'
+  },
+  {russianWord:   'stud',
+   correctAnswer: 'a large-headed piece of metal that pierces and projects from a surface, especially for decoration'
+  },
+  {russianWord:   'chubster',
+   correctAnswer: 'An overweight person'
+  },
+  {russianWord:   'tuxedo',
+   correctAnswer: 'a man\'s dinner jacket'
+  },
+  {russianWord:   'moron',
+   correctAnswer: 'a stupid person'
+  },
+  {russianWord:   'warrant',
+   correctAnswer: 'a document issued by a legal or government official authorizing the police or another body to make an arrest, search premises'
+  },
+  {russianWord:   'derogatory ',
+   correctAnswer: 'showing a critical or disrespectful attitude'
+  },
+  {russianWord:   'wrap out',
+   correctAnswer: 'put on warm clothes'
+  },
+  {russianWord:   'collarbone',
+   correctAnswer: 'either of the pair of bones joining the breastbone to the shoulder blades'
+  },
+  {russianWord:   'solemn',
+   correctAnswer: 'characterized by deep sincerity'
+  },
+  {russianWord:   'trim',
+   correctAnswer: 'make (something) neat or of the required size or form by cutting away irregular or unwanted parts'
+  },
+  {russianWord:   'inducement',
+   correctAnswer: 'a thing that persuades or leads someone to do something'
+  },
+  {russianWord:   'cavity',
+   correctAnswer: 'an empty space within a solid object'
   },
   {russianWord:   '',
    correctAnswer: ''
   },
   {russianWord:   '',
    correctAnswer: ''
-  }
+  },
 ]
 
 export default series
