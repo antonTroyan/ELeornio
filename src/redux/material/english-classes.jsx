@@ -1136,6 +1136,45 @@ const englishClasses = [
   {russianWord:   'resort',
    correctAnswer: 'a place that is frequented for holidays or recreation or for a particular purpose'
   },
+  {russianWord:   'run out of stream',
+   correctAnswer: 'lost energy or interest'
+  },
+  {russianWord:   'tutor',
+   correctAnswer: 'a private teacher'
+  },
+  {russianWord:   'down the line',
+   correctAnswer: 'later'
+  },
+  {russianWord:   'at / behind the wheel',
+   correctAnswer: 'control situation'
+  },
+  {russianWord:   'do a U-turn',
+   correctAnswer: 'a change of plan, especially a reversal of political policy'
+  },
+  {russianWord:   'go / move / step up a gear',
+   correctAnswer: 'start to work more effectively'
+  },
+  {russianWord:   'take a nosedive',
+   correctAnswer: 'to fall rapidly'
+  },
+  {russianWord:   'nosedive',
+   correctAnswer: 'a steep downward plunge by an aircraft'
+  },
+  {russianWord:   'come to a standstill',
+   correctAnswer: 'stopped'
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
   {russianWord:   '',
    correctAnswer: ''
   },
@@ -1151,6 +1190,38 @@ const englishClasses = [
   {russianWord:   '',
    correctAnswer: ''
   },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

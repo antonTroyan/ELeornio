@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Button from "@material-ui/core/Button";
 import cloneDeep from 'lodash/cloneDeep';
-import {takeRandomElements, invertRussianEnglish} from "../../util/util";
+import {invertRussianEnglish, takeRandomElements} from "../../util/util";
 import Alert from "@material-ui/lab/Alert";
 import AlertTitle from "@material-ui/lab/AlertTitle";
 import TestResultComponent from "./TestResultComponent";
@@ -37,7 +37,6 @@ const initialTestResult = {
 const TranslateGameComponent = (props) => {
 
     const shuffleUrl = '0';
-    const materialIdUrl = props.match.params.materialId;
 
     function createArrayAllWords(materials) {
         let arrayWithAllWords = [];
@@ -51,10 +50,10 @@ const TranslateGameComponent = (props) => {
 
     const extractCorrectArray = (materials) => {
         let result;
-        if (materialIdUrl === shuffleUrl) {
+        if (props.materialIdUrl === shuffleUrl) {
             result = takeRandomElements(10, createArrayAllWords(materials));
         } else {
-            result = takeRandomElements(10, props.materials[materialIdUrl].tasks);
+            result = takeRandomElements(10, props.materials[props.materialIdUrl].tasks);
         }
         const shouldInvert = Math.random() < 0.5;
         if (shouldInvert) {
@@ -105,8 +104,7 @@ const TranslateGameComponent = (props) => {
             )
         })
         if (!isCorrectAnswerAlreadyIn) {
-            const correctAnswer = createAnswerItem(tasks[currentTaskId].correctAnswer)
-            result[0] = correctAnswer
+            result[0] = createAnswerItem(tasks[currentTaskId].correctAnswer)
         }
 
         return shuffle(result)
@@ -147,11 +145,11 @@ const TranslateGameComponent = (props) => {
     if (currentTaskId >= tasks.length) {
         return (
             <TestResultComponent testResult={testResult}
-                                 materialId={materialIdUrl}
+                                 materialId={props.materialIdUrl}
                                  clearGameData={clearGameData}
                                  increaseAttemptCounterActionCreator={props.increaseAttemptCounterActionCreator}
                                  numberAttempt={props.numberAttempt}
-                                 />
+            />
         )
     }
 
@@ -169,19 +167,27 @@ const TranslateGameComponent = (props) => {
         return russianWord
     }
 
+    const convertComplexityToSigns = (complexity) => {
+        if (complexity > 80) return '*****'
+        if (complexity > 60) return '****'
+        if (complexity > 40) return '***'
+        if (complexity > 20) return '**'
+        if (complexity > 0) return '*'
+    }
+
     return (
         <div>
             {testResult[currentTaskId] &&
-            <Alert severity="success">
-                <AlertTitle>Success</AlertTitle>
-                You choose right variant — <strong>cool!</strong>
-            </Alert>
+                <Alert severity="success">
+                    <AlertTitle>Success</AlertTitle>
+                    You choose right variant — <strong>cool!</strong>
+                </Alert>
             }
             {testResult[currentTaskId] === false &&
-            <Alert severity="warning">
-                <AlertTitle>You choose wrong</AlertTitle>
-                The right answer is [<strong>{tasks[currentTaskId].correctAnswer}</strong>]
-            </Alert>
+                <Alert severity="warning">
+                    <AlertTitle>You choose wrong</AlertTitle>
+                    The right answer is [<strong>{tasks[currentTaskId].correctAnswer}</strong>]
+                </Alert>
             }
 
             <div style={styles.mainContainer}>
@@ -189,6 +195,7 @@ const TranslateGameComponent = (props) => {
 
                 <div style={{width: '50%', float: 'left', height: '50%'}}>
                     <ListItemText primary={handleRussianWord()}/>
+                    <ListItemText primary={convertComplexityToSigns(tasks[currentTaskId].complexity)}/>
                     <h1>{props.score}</h1>
                 </div>
 
@@ -196,10 +203,10 @@ const TranslateGameComponent = (props) => {
                     {handlePreparedAnswers()}
                     <div style={{margin: 100}}>
                         {testResult[currentTaskId] !== undefined &&
-                        <Button onClick={handleClickNext}
-                                style={{backgroundColor: 'green'}}
-                                variant="outlined">Next
-                        </Button>}
+                            <Button onClick={handleClickNext}
+                                    style={{backgroundColor: 'green'}}
+                                    variant="outlined">Next
+                            </Button>}
                     </div>
                 </div>
             </div>

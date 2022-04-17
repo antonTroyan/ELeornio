@@ -10,6 +10,7 @@ import films from "./material/films.jsx"
 import phrases from "./material/phrases.jsx"
 
 const initialState = {
+    isInitialized: false,
     score: 0,
     materials: [
         {
@@ -57,10 +58,12 @@ const initialState = {
 
 const HANDLE_CORRECT = "HANDLE_CORRECT"
 const HANDLE_WRONG = "HANDLE_WRONG"
+const INITIALIZE_COMPLEXITY = "INITIALIZE_COMPLEXITY"
 
-const INCREASE_COMPLEXITY_STEP = 30
-const DECREASE_COMPLEXITY_STEP = 30
+const INCREASE_COMPLEXITY_STEP = 20
+const DECREASE_COMPLEXITY_STEP = 20
 const MINIMUM_PROBABILITY = 5
+const INITIAL_COMPLEXITY = 60
 
 let LAST_ANSWER = ""
 
@@ -81,7 +84,6 @@ export const mainPageReducer = (state = initialState, action) => {
             return clonedState;
         }
 
-
         case HANDLE_WRONG: {
             const selectedWord = action.key
             if (isSameAnswerCheck(selectedWord)) {
@@ -95,6 +97,17 @@ export const mainPageReducer = (state = initialState, action) => {
             return clonedState;
         }
 
+        case INITIALIZE_COMPLEXITY: {
+            const clonedState = cloneDeep(state)
+            clonedState.materials.map(material => {
+                 return material.tasks.map(e => {
+                    return e.complexity = INITIAL_COMPLEXITY
+                 })
+            })
+            clonedState.isInitialized = true
+            return clonedState;
+        }
+
         default:
             return state;
     }
@@ -103,7 +116,7 @@ export const mainPageReducer = (state = initialState, action) => {
 const increaseComplexityHandleElements = (wordPair, selectedWord) => {
     if (wordPair.russianWord === selectedWord || wordPair.correctAnswer === selectedWord) {
         const increasedResult = wordPair.complexity + INCREASE_COMPLEXITY_STEP
-        if (increasedResult < 100) {
+        if (increasedResult < 101) {
             wordPair.complexity = increasedResult
         }
     }
@@ -134,3 +147,4 @@ const isSameAnswerCheck = (selectedWord) => {
 
 export const handleCorrectVariantActionCreator = (key) => ({type: HANDLE_CORRECT, key: key})
 export const handleWrongVariantActionCreator = (key) => ({type: HANDLE_WRONG, key: key})
+export const initializeComplexityActionCreator = () => ({type: INITIALIZE_COMPLEXITY})
