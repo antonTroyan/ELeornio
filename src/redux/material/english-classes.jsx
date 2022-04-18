@@ -1163,17 +1163,17 @@ const englishClasses = [
   {russianWord:   'come to a standstill',
    correctAnswer: 'stopped'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'drift along',
+   correctAnswer: 'to live one\'s life without much effort or direction.'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'with flying colors',
+   correctAnswer: 'very successfully'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'miss the boat',
+   correctAnswer: 'miss the chance'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'go off the rails',
+   correctAnswer: 'start to behave in not normal way'
   },
   {russianWord:   '',
    correctAnswer: ''
