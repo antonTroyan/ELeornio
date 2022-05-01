@@ -302,12 +302,118 @@ const series = [
   {russianWord:   'cavity',
    correctAnswer: 'an empty space within a solid object'
   },
+  //////////////////////////
+  // Our flag means death //
+  //////////////////////////
+  {russianWord:   'gouge',
+   correctAnswer: 'make (a groove, hole, or indentation) with or as with a sharp tool or blade'
+  },
+  {russianWord:   'perilous',
+   correctAnswer: 'full of danger or risk'
+  },
+  {russianWord:   'vessel',
+   correctAnswer: 'a ship or large boat'
+  },
+  {russianWord:   'shaky',
+   correctAnswer: 'shaking or trembling'
+  },
+  {russianWord:   'flogging',
+   correctAnswer: 'a punishment in which the victim is hit repeatedly with a whip or stick'
+  },
+  {russianWord:   'amenity',
+   correctAnswer: 'the pleasantness or attractiveness of a place'
+  },
+  {russianWord:   'sew [соу]',
+   correctAnswer: 'join, fasten, or repair (something) by making stitches with a needle and thread or a sewing machine'
+  },
+  {russianWord:   'plot',
+   correctAnswer: 'secretly make plans to carry out (an illegal or harmful action)'
+  },
+  {russianWord:   'mutiny',
+   correctAnswer: 'an open rebellion against the proper authorities'
+  },
+  {russianWord:   'soft belied',
+   correctAnswer: 'a gentle, sympathetic, or lenient towards.'
+  },
+  {russianWord:   'craven',
+   correctAnswer: 'contemptibly lacking in courage; cowardly'
+  },
+  {russianWord:   'ill-equipped',
+   correctAnswer: 'not having the experience or preparation that is needed'
+  },
+  {russianWord:   'firm',
+   correctAnswer: 'having a solid, almost unyielding surface or structure.'
+  },
+  {russianWord:   'whopper',
+   correctAnswer: 'a thing that is extremely or unusually large / lie'
+  },
+  {russianWord:   'snowflake',
+   correctAnswer: 'a small piece of snow that falls from the sky'
+  },
+  {russianWord:   'invigorating',
+   correctAnswer: 'making one feel strong, healthy, and full of energy'
+  },
+  {russianWord:   'thrive',
+   correctAnswer: '(of a child, animal, or plant) grow or develop well or vigorously'
+  },
+  {russianWord:   'vigorously',
+   correctAnswer: 'forcefully'
+  },
+  {russianWord:   'tender',
+   correctAnswer: 'showing gentleness, kindness, and affection'
+  },
+  {russianWord:   'rowdy',
+   correctAnswer: 'a noisy and disorderly person'
+  },
+  {russianWord:   'rowboat',
+   correctAnswer: 'a small boat propelled by use of oars'
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
   {russianWord:   '',
    correctAnswer: ''
   },
   {russianWord:   '',
    correctAnswer: ''
   },
-]
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+
+
+
+
+  ]
 
 export default series

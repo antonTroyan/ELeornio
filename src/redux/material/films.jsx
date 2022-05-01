@@ -74,6 +74,22 @@ const films = [
   {russianWord:   'to be in charge',
    correctAnswer: 'having control of or responsibility for (something)'
   },
+  /////////////////
+  // Batman 2022 //
+  /////////////////
+  {russianWord:   'vigilante',
+   correctAnswer: 'a member of a self-appointed group of citizens who undertake law enforcement in their community without legal authority'
+  },
+  {russianWord:   'apparently',
+   correctAnswer: 'as far as one knows or can see'
+  },
+  {russianWord:   'elusive',
+   correctAnswer: 'difficult to find, catch, or achieve'
+  },
+  {russianWord:   'leap',
+   correctAnswer: 'jump or spring a long way, to a great height, or with great force'
+  },
+
   {russianWord:   '',
    correctAnswer: ''
   }
