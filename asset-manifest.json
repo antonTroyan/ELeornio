@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ELeornio/static/css/main.22b6e383.chunk.css",
-    "main.js": "/ELeornio/static/js/main.16d23c9f.chunk.js",
-    "main.js.map": "/ELeornio/static/js/main.16d23c9f.chunk.js.map",
-    "runtime-main.js": "/ELeornio/static/js/runtime-main.20c4b054.js",
-    "runtime-main.js.map": "/ELeornio/static/js/runtime-main.20c4b054.js.map",
-    "static/js/2.704a0928.chunk.js": "/ELeornio/static/js/2.704a0928.chunk.js",
-    "static/js/2.704a0928.chunk.js.map": "/ELeornio/static/js/2.704a0928.chunk.js.map",
-    "static/js/3.bf1320ba.chunk.js": "/ELeornio/static/js/3.bf1320ba.chunk.js",
-    "static/js/3.bf1320ba.chunk.js.map": "/ELeornio/static/js/3.bf1320ba.chunk.js.map",
+    "main.js": "/ELeornio/static/js/main.341120b6.chunk.js",
+    "main.js.map": "/ELeornio/static/js/main.341120b6.chunk.js.map",
+    "runtime-main.js": "/ELeornio/static/js/runtime-main.6a79d6ac.js",
+    "runtime-main.js.map": "/ELeornio/static/js/runtime-main.6a79d6ac.js.map",
+    "static/js/2.c7b267bc.chunk.js": "/ELeornio/static/js/2.c7b267bc.chunk.js",
+    "static/js/2.c7b267bc.chunk.js.map": "/ELeornio/static/js/2.c7b267bc.chunk.js.map",
+    "static/js/3.d0d479ae.chunk.js": "/ELeornio/static/js/3.d0d479ae.chunk.js",
+    "static/js/3.d0d479ae.chunk.js.map": "/ELeornio/static/js/3.d0d479ae.chunk.js.map",
     "index.html": "/ELeornio/index.html",
     "static/css/main.22b6e383.chunk.css.map": "/ELeornio/static/css/main.22b6e383.chunk.css.map",
-    "static/js/2.704a0928.chunk.js.LICENSE.txt": "/ELeornio/static/js/2.704a0928.chunk.js.LICENSE.txt",
+    "static/js/2.c7b267bc.chunk.js.LICENSE.txt": "/ELeornio/static/js/2.c7b267bc.chunk.js.LICENSE.txt",
     "static/media/english.77003d09.jpg": "/ELeornio/static/media/english.77003d09.jpg",
     "static/media/films.df738c8e.jpg": "/ELeornio/static/media/films.df738c8e.jpg",
     "static/media/phrases.4c509d0c.png": "/ELeornio/static/media/phrases.4c509d0c.png",
@@ -19,9 +19,9 @@
     "static/media/shuffle.5586a1ca.jpg": "/ELeornio/static/media/shuffle.5586a1ca.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.20c4b054.js",
-    "static/js/2.704a0928.chunk.js",
+    "static/js/runtime-main.6a79d6ac.js",
+    "static/js/2.c7b267bc.chunk.js",
     "static/css/main.22b6e383.chunk.css",
-    "static/js/main.16d23c9f.chunk.js"
+    "static/js/main.341120b6.chunk.js"
   ]
 }
