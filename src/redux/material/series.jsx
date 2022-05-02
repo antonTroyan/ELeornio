@@ -368,8 +368,59 @@ const series = [
   {russianWord:   'rowboat',
    correctAnswer: 'a small boat propelled by use of oars'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'plumber',
+   correctAnswer: 'a person who fits and repairs the pipes'
+  },
+  {russianWord:   'tangled',
+   correctAnswer: 'twisted together untidily'
+  },
+  {russianWord:   'blow over',
+   correctAnswer: '(of trouble) fade away without serious consequences'
+  },
+  {russianWord:   'succulent',
+   correctAnswer: '(of food) tender, juicy, and tasty'
+  },
+  {russianWord:   'assemble',
+   correctAnswer: '(of people) gather together in one place for a common purpose'
+  },
+  {russianWord:   'mess up',
+   correctAnswer: 'make something untidy or dirty'
+  },
+  {russianWord:   'callously',
+   correctAnswer: 'in a way that shows an insensitive and cruel disregard for others'
+  },
+  {russianWord:   'mediocre',
+   correctAnswer: 'of only average quality; not very good'
+  },
+  {russianWord:   'dibs',
+   correctAnswer: 'the right to share or choose something'
+  },
+  {russianWord:   'trifling',
+   correctAnswer: 'unimportant or trivial'
+  },
+  {russianWord:   'fancy',
+   correctAnswer: 'the faculty of imagination'
+  },
+  {russianWord:   'faculty',
+   correctAnswer: 'an inherent mental or physical power'
+  },
+  {russianWord:   'fence',
+   correctAnswer: 'a barrier, railing, or other upright structure, typically of wood or wire, enclosing an area of ground to prevent or control access or escape'
+  },
+  {russianWord:   'grit',
+   correctAnswer: 'small loose particles of stone or sand'
+  },
+  {russianWord:   'cesspool',
+   correctAnswer: 'an underground container for the temporary storage of liquid waste and sewage'
+  },
+  {russianWord:   'gauche',
+   correctAnswer: 'unsophisticated and socially awkward'
+  },
+  {russianWord:   'awkward',
+   correctAnswer: 'causing or feeling uneasy embarrassment or inconvenience'
+  },
+  {russianWord:   'jar',
+   correctAnswer: 'a glass of beer'
   },
   {russianWord:   '',
    correctAnswer: ''
@@ -389,31 +440,6 @@ const series = [
   {russianWord:   '',
    correctAnswer: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-
-
-
-
-  ]
+]
 
 export default series
