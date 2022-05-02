@@ -7,6 +7,7 @@ import AlertTitle from "@material-ui/lab/AlertTitle";
 import TestResultComponent from "./TestResultComponent";
 import {LinearProgress, ListItem, ListItemText} from "@material-ui/core";
 import {NavLink} from 'react-router-dom';
+import {Link} from "@mui/material";
 
 const styles = {
     mainContainer: {
@@ -175,6 +176,12 @@ const TranslateGameComponent = (props) => {
         if (complexity > 0) return '*'
     }
 
+    function createRefToPlayPhrase() {
+        const currentWord = tasks[currentTaskId].russianWord
+        const beginning = 'https://playphrase.me/#/search?q='
+        return beginning + currentWord.replaceAll(' ', '+')
+    }
+
     return (
         <div>
             {testResult[currentTaskId] &&
@@ -196,6 +203,12 @@ const TranslateGameComponent = (props) => {
                 <div style={{width: '50%', float: 'left', height: '50%'}}>
                     <ListItemText primary={handleRussianWord()}/>
                     <ListItemText primary={convertComplexityToSigns(tasks[currentTaskId].complexity)}/>
+
+                    <a style={{display: "table-cell", textDecoration: 'none'}}
+                       href={createRefToPlayPhrase()}
+                       target="_blank">
+                        <Button style={{backgroundColor: 'grey'}}>View example</Button>
+                    </a>
                     <h1>{props.score}</h1>
                 </div>
 
@@ -210,7 +223,7 @@ const TranslateGameComponent = (props) => {
                     </div>
                 </div>
             </div>
-            <NavLink to={"/ELeornio"}>
+            <NavLink to={"/ELeornio"} style={{textDecoration: 'none'}}>
                 <Button style={{backgroundColor: 'green'}}>Home Page</Button>
             </NavLink>
         </div>
