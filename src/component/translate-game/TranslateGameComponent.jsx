@@ -1,13 +1,12 @@
 import React, {useState} from 'react';
 import Button from "@material-ui/core/Button";
 import cloneDeep from 'lodash/cloneDeep';
-import {invertRussianEnglish, takeRandomElements} from "../../util/util";
+import {takeRandomElements} from "../../util/util";
 import Alert from "@material-ui/lab/Alert";
 import AlertTitle from "@material-ui/lab/AlertTitle";
 import TestResultComponent from "./TestResultComponent";
 import {LinearProgress, ListItem, ListItemText} from "@material-ui/core";
 import {NavLink} from 'react-router-dom';
-import {Link} from "@mui/material";
 
 const styles = {
     mainContainer: {
@@ -55,10 +54,6 @@ const TranslateGameComponent = (props) => {
             result = takeRandomElements(10, createArrayAllWords(materials));
         } else {
             result = takeRandomElements(10, props.materials[props.materialIdUrl].tasks);
-        }
-        const shouldInvert = Math.random() < 0.5;
-        if (shouldInvert) {
-            return invertRussianEnglish(result)
         }
         return result;
     }
@@ -206,7 +201,8 @@ const TranslateGameComponent = (props) => {
 
                     <a style={{display: "table-cell", textDecoration: 'none'}}
                        href={createRefToPlayPhrase()}
-                       target="_blank">
+                       target="_blank"
+                       rel="noreferrer" >
                         <Button style={{backgroundColor: 'grey'}}>View example</Button>
                     </a>
                     <h1>{props.score}</h1>
