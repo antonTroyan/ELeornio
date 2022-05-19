@@ -93,7 +93,8 @@ export const mainPageReducer = (state = initialState, action) => {
             clonedState.materials.map(material => {
                 return material.tasks.map(e => increaseComplexityHandleElements(e, selectedWord))
             })
-            clonedState.score = 0
+            const newState = clonedState.score - 5
+            clonedState.score = newState >= 0 ? newState : 0
             return clonedState;
         }
 
