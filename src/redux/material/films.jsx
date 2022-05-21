@@ -89,7 +89,27 @@ const films = [
   {russianWord:   'leap',
    correctAnswer: 'jump or spring a long way, to a great height, or with great force'
   },
-
+  /////////////
+  // Morbius //
+  /////////////
+  {russianWord:   'nap',
+   correctAnswer: 'sleep lightly or briefly, especially during the day'
+  },
+  {russianWord:   'hobble',
+   correctAnswer: 'an awkward way of walking, typically due to pain from an injury'
+  },
+  {russianWord:   'artificial',
+   correctAnswer: 'made or produced by human beings rather than occurring naturally'
+  },
+  {russianWord:   'black out',
+   correctAnswer: 'experience a sudden and temporary loss of consciousness.'
+  },
+  {russianWord:   'startle',
+   correctAnswer: 'cause to feel sudden shock or alarm'
+  },
+  {russianWord:   'repulsed',
+   correctAnswer: 'drive back (an attack or attacker) by force'
+  },
   {russianWord:   '',
    correctAnswer: ''
   }

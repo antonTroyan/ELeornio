@@ -422,8 +422,107 @@ const series = [
   {russianWord:   'jar',
    correctAnswer: 'a glass of beer'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'derelict',
+   correctAnswer: 'a person without a home, job, or property'
+  },
+  {russianWord:   'acreage',
+   correctAnswer: 'an area of land, typically when used for agricultural purposes'
+  },
+  {russianWord:   'spare me',
+   correctAnswer: 'to allow someone or something to escape harm'
+  },
+  {russianWord:   'blubbering',
+   correctAnswer: 'cry noisily and uncontrollably'
+  },
+  {russianWord:   'frankfurter',
+   correctAnswer: 'a seasoned smoked sausage made of beef and pork'
+  },
+  {russianWord:   'bored out of my skull',
+   correctAnswer: 'extremely bored to the point of distraction, frustration, or irritation'
+  },
+  {russianWord:   'fond regards',
+   correctAnswer: 'a feeling of affection for a person or an institution.'
+  },
+  {russianWord:   'auxiliary',
+   correctAnswer: 'providing supplementary or additional help and support'
+  },
+  {russianWord:   'wardrobe',
+   correctAnswer: 'a large, tall cupboard or recess in which clothes may be hung or stored'
+  },
+  {russianWord:   'mermaid',
+   correctAnswer: 'a mythical sea creature with the head and trunk of a woman and the tail of a fish'
+  },
+  {russianWord:   'line up',
+   correctAnswer: 'arrange a number of people or things in a straight row'
+  },
+  {russianWord:   'ponce',
+   correctAnswer: 'a man who lives off a prostitute\'s earnings'
+  },
+  {russianWord:   'resignation',
+   correctAnswer: 'an act of resigning from a job or office'
+  },
+  {russianWord:   'munition',
+   correctAnswer: 'military weapons, ammunition, equipment, and stores'
+  },
+  {russianWord:   'spree',
+   correctAnswer: 'a spell or sustained period of unrestrained activity of a particular kind'
+  },
+  {russianWord:   'bargain',
+   correctAnswer: 'an agreement between two or more people or groups as to what each will do for the other'
+  },
+  ///////////////////////
+  // Love.Death.Robots //
+  ///////////////////////
+  {russianWord:   'nascent',
+   correctAnswer: '(especially of a process or organization) just coming into existence and beginning to display signs of future potential'
+  },
+  {russianWord:   'venison',
+   correctAnswer: 'meat from a deer'
+  },
+  {russianWord:   'snackish',
+   correctAnswer: 'means to be in a state of light hunger or desire a snack'
+  },
+  {russianWord:   'barbed wire',
+   correctAnswer: 'wire with clusters of short, sharp spikes set at short intervals along it'
+  },
+  {russianWord:   'saturated',
+   correctAnswer: 'holding as much water or moisture as can be absorbed; thoroughly soaked'
+  },
+  {russianWord:   'cradle',
+   correctAnswer: 'a baby\'s bed or cot, typically one mounted on rockers'
+  },
+  {russianWord:   'fungus',
+   correctAnswer: 'any of a group of spore-producing organisms feeding on organic matter, including moulds, yeast, mushrooms, and toadstools'
+  },
+  {russianWord:   'steady on',
+   correctAnswer: 'used as a way of exhorting someone to calm down or be more reasonable'
+  },
+  {russianWord:   'exhort',
+   correctAnswer: 'strongly encourage or urge (someone) to do somethin'
+  },
+  {russianWord:   'greasy',
+   correctAnswer: 'covered with, resembling, or produced by grease or oil'
+  },
+  {russianWord:   'abundance',
+   correctAnswer: 'a very large quantity of something'
+  },
+  {russianWord:   'talon',
+   correctAnswer: 'a claw, especially one belonging to a bird of prey'
+  },
+  {russianWord:   'hive',
+   correctAnswer: 'a beehive'
+  },
+  {russianWord:   'sentient',
+   correctAnswer: 'able to perceive or feel things'
+  },
+  {russianWord:   'adrift',
+   correctAnswer: 'floating without being either moored or steered'
+  },
+  {russianWord:   'tide',
+   correctAnswer: 'the alternate rising and falling of the sea, usually twice in each lunar day at a particular place'
+  },
+  {russianWord:   'ebb',
+   correctAnswer: 'the movement of the tide out to sea'
   },
   {russianWord:   '',
    correctAnswer: ''
