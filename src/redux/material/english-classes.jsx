@@ -1175,8 +1175,44 @@ const englishClasses = [
   {russianWord:   'go off the rails',
    correctAnswer: 'start to behave in not normal way'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'tenant',
+   correctAnswer: 'a person who occupies land or property rented from a landlord'
+  },
+  {russianWord:   'mouldy',
+   correctAnswer: 'covered with a fungal growth which causes decay, due to age or damp conditions'
+  },
+  {russianWord:   'fungus',
+   correctAnswer: 'any of a group of spore-producing organisms feeding on organic matter, including moulds, yeast, mushrooms, and toadstools.'
+  },
+  {russianWord:   'spotless',
+   correctAnswer: 'absolutely clean or pure; immaculate'
+  },
+  {russianWord:   'snap up',
+   correctAnswer: 'to buy or take (something or someone) quickly or eagerly'
+  },
+  {russianWord:   'vacate',
+   correctAnswer: 'leave (a place that one previously occupied)'
+  },
+  {russianWord:   'amenity',
+   correctAnswer: 'a desirable or useful feature or facility of a building or place'
+  },
+  {russianWord:   'fizzy',
+   correctAnswer: '(of a drink) containing bubbles of gas / full of energy or exuberance'
+  },
+  {russianWord:   'poured out',
+   correctAnswer: 'to freely express'
+  },
+  {russianWord:   'thaw (co)',
+   correctAnswer: 'a period of warmer weather that thaws ice and snow'
+  },
+  {russianWord:   'melt',
+   correctAnswer: 'make or become liquefied by heat'
+  },
+  {russianWord:   'stifling',
+   correctAnswer: 'of heat, air, or a room) very hot and causing difficulties in breathing'
+  },
+  {russianWord:   'muggy',
+   correctAnswer: '(of the weather) unpleasantly warm and humid'
   },
   {russianWord:   '',
    correctAnswer: ''
@@ -1184,49 +1220,6 @@ const englishClasses = [
   {russianWord:   '',
    correctAnswer: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
 
 export default englishClasses

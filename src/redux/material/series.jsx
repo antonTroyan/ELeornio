@@ -524,8 +524,29 @@ const series = [
   {russianWord:   'ebb',
    correctAnswer: 'the movement of the tide out to sea'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  ////////////////
+  // SOUTH PARK //
+  ////////////////
+  {russianWord:   'drought',
+   correctAnswer: 'a prolonged period of abnormally low rainfall, leading to a shortage of water'
+  },
+  {russianWord:   'pejorative',
+   correctAnswer: 'expressing contempt or disapproval'
+  },
+  {russianWord:   'pissant',
+   correctAnswer: 'an insignificant or contemptible person or thing'
+  },
+  {russianWord:   'haul',
+   correctAnswer: '(of a person) pull or drag with effort or force / a quantity of something that has been stolen'
+  },
+  {russianWord:   'give in',
+   correctAnswer: 'cease fighting or arguing; admit defeat'
+  },
+  {russianWord:   'cease',
+   correctAnswer: 'stop / come or bring to an end'
+  },
+  {russianWord:   'cunt',
+   correctAnswer: 'a woman\'s genitals'
   },
   {russianWord:   '',
    correctAnswer: ''
