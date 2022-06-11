@@ -11,7 +11,7 @@ import {NavLink} from 'react-router-dom';
 const styles = {
     mainContainer: {
         position: 'absolute',
-        top: '40%',
+        top: '30%',
         left: '30%',
         'margin-top': '-50px',
         'margin-left': '-50px',
@@ -180,6 +180,14 @@ const TranslateGameComponent = (props) => {
     return (
         <div>
             <div style={styles.mainContainer}>
+
+                {testResult[currentTaskId] === undefined &&
+                    <Alert severity="info">
+                        <AlertTitle>PLEASE SELECT VARIANT</AlertTitle>
+                        You need to select appropriate variant, also you can click example to view clips with word.
+                    </Alert>
+                }
+
                 {testResult[currentTaskId] &&
                     <Alert severity="success">
                         <AlertTitle>Success</AlertTitle>
