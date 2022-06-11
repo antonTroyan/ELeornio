@@ -179,20 +179,20 @@ const TranslateGameComponent = (props) => {
 
     return (
         <div>
-            {testResult[currentTaskId] &&
-                <Alert severity="success">
-                    <AlertTitle>Success</AlertTitle>
-                    You choose right variant — <strong>cool!</strong>
-                </Alert>
-            }
-            {testResult[currentTaskId] === false &&
-                <Alert severity="warning">
-                    <AlertTitle>You choose wrong</AlertTitle>
-                    The right answer is [<strong>{tasks[currentTaskId].correctAnswer}</strong>]
-                </Alert>
-            }
-
             <div style={styles.mainContainer}>
+                {testResult[currentTaskId] &&
+                    <Alert severity="success">
+                        <AlertTitle>Success</AlertTitle>
+                        You choose right variant — <strong>cool!</strong>
+                    </Alert>
+                }
+                {testResult[currentTaskId] === false &&
+                    <Alert severity="warning">
+                        <AlertTitle>You choose wrong</AlertTitle>
+                        The right answer is [<strong>{tasks[currentTaskId].correctAnswer}</strong>]
+                    </Alert>
+                }
+
                 <p><LinearProgress variant="determinate" value={(currentTaskId - 1) * 10}/></p>
 
                 <div style={{width: '50%', float: 'left', height: '50%'}}>
