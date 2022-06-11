@@ -470,6 +470,67 @@ const series = [
   {russianWord:   'bargain',
    correctAnswer: 'an agreement between two or more people or groups as to what each will do for the other'
   },
+  {russianWord:   'gusto',
+   correctAnswer: 'enjoyment and enthusiasm in doing something'
+  },
+  {russianWord:   'humble',
+   correctAnswer: 'cause (someone) to feel less important or proud'
+  },
+  {russianWord:   'cutlery',
+   correctAnswer: 'knives, forks, and spoons used for eating or serving food'
+  },
+  {russianWord:   'pageantry',
+   correctAnswer: 'elaborate display or ceremony'
+  },
+  {russianWord:   'elaborate',
+   correctAnswer: 'detailed and complicated in design and planning.'
+  },
+  {russianWord:   'tureen',
+   correctAnswer: 'a deep covered dish from which soup is served'
+  },
+  {russianWord:   'posh',
+   correctAnswer: 'elegant or stylishly luxurious'
+  },
+  {russianWord:   'nob',
+   correctAnswer: 'a person of wealth or high social position'
+  },
+  {russianWord:   'viceroy [вайсрой]',
+   correctAnswer: 'a ruler exercising authority in a colony on behalf of a sovereign'
+  },
+  {russianWord:   'incessant',
+   correctAnswer: '(of something regarded as unpleasant) continuing without pause or interruption'
+  },
+  {russianWord:   'natter',
+   correctAnswer: 'talk casually, especially on unimportant matters; chat'
+  },
+  {russianWord:   'fickle',
+   correctAnswer: 'changing frequently, especially as regards one\'s loyalties or affections'
+  },
+  {russianWord:   'wedlock',
+   correctAnswer: 'the state of being married'
+  },
+  {russianWord:   'inane',
+   correctAnswer: 'lacking sense or meaning; silly'
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+
+
+
+
   ///////////////////////
   // Love.Death.Robots //
   ///////////////////////
