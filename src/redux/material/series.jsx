@@ -360,7 +360,7 @@ const series = [
    correctAnswer: 'forcefully'
   },
   {russianWord:   'tender',
-   correctAnswer: 'showing gentleness, kindness, and affection'
+   correctAnswer: 'showing gentleness, kindness, and affection / an offer'
   },
   {russianWord:   'rowdy',
    correctAnswer: 'a noisy and disorderly person'
@@ -512,25 +512,36 @@ const series = [
   {russianWord:   'inane',
    correctAnswer: 'lacking sense or meaning; silly'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'wring',
+   correctAnswer: 'squeeze and twist (something) to force liquid from it'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'befoul',
+   correctAnswer: 'make dirty; pollute'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'disposal',
+   correctAnswer: 'the action or process of getting rid of something'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'get rid off',
+   correctAnswer: 'remove'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {russianWord:   'rehearsal',
+   correctAnswer: 'a practice or trial performance of a play or other work for later public performance'
   },
-
-
-
-
+  {russianWord:   'infirmary',
+   correctAnswer: 'a hospital'
+  },
+  {russianWord:   'taut',
+   correctAnswer: 'stretched or pulled tight; not slack'
+  },
+  {russianWord:   'maim',
+   correctAnswer: 'wound or injure (a person or animal) so that part of the body is permanently damaged'
+  },
+  {russianWord:   'rancid',
+   correctAnswer: 'highly unpleasant'
+  },
+  {russianWord:   'dollop',
+   correctAnswer: 'a large, shapeless mass of something, especially soft food'
+  },
   ///////////////////////
   // Love.Death.Robots //
   ///////////////////////
