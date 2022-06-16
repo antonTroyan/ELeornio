@@ -15,7 +15,7 @@ const styles = {
         left: '30%',
         'margin-top': '-50px',
         'margin-left': '-50px',
-        width: '700px',
+        width: '900px',
         height: '100px'
     }
 }
