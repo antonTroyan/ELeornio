@@ -605,7 +605,7 @@ const series = [
   {russianWord:   'pejorative',
    correctAnswer: 'expressing contempt or disapproval'
   },
-  {russianWord:   'pissant',
+  {russianWord:   'puissant',
    correctAnswer: 'an insignificant or contemptible person or thing'
   },
   {russianWord:   'haul',
@@ -620,18 +620,70 @@ const series = [
   {russianWord:   'cunt',
    correctAnswer: 'a woman\'s genitals'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  //////////////////////////////
+  // Showdown in little Tokio //
+  //////////////////////////////
+  {russianWord:   'grumpy',
+   correctAnswer: 'bad-tempered and irritable'
+  },
+  {russianWord:   'conscious',
+   correctAnswer: 'aware of and responding to one\'s surroundings'
+  },
+  {russianWord:   'perversion',
+   correctAnswer: 'sexual behaviour that is considered abnormal and unacceptable'
+  },
+  {russianWord:   'pleading',
+   correctAnswer: 'the action of making an emotional or earnest appeal to someone'
+  },
+  {russianWord:   'dilate',
+   correctAnswer: 'make or become wider, larger, or more open'
+  },
+  //////////////
+  // The.Boys //
+  //////////////
+  {russianWord:   'chuckle',
+   correctAnswer: 'laugh quietly or inwardly'
+  },
+  {russianWord:   'restitution',
+   correctAnswer: 'the restoration of something lost or stolen to its proper owner'
+  },
+  {russianWord:   'addict',
+   correctAnswer: 'a person who is addicted to a particular substance, typically an illegal drug'
+  },
+  {russianWord:   'humble',
+   correctAnswer: 'of low social, administrative, or political rank'
+  },
+  {russianWord:   'distinguished',
+   correctAnswer: 'very successful, authoritative, and commanding great respect'
+  },
+  {russianWord:   'shatter',
+   correctAnswer: 'break or cause to break suddenly and violently into pieces'
+  },
+  {russianWord:   'curb',
+   correctAnswer: 'restrain or keep in check'
+  },
+  {russianWord:   'piss about',
+   correctAnswer: 'spend time doing stupid or unimportant things'
+  },
+  {russianWord:   'rug',
+   correctAnswer: 'a floor covering of thick woven material or animal skin, typically not extending over the entire floor'
+  },
+  {russianWord:   'molar',
+   correctAnswer: 'a grinding tooth at the back of a mammal\'s mouth'
+  },
+  {russianWord:   'compound',
+   correctAnswer: 'a thing that is composed of two or more separate elements; a mixture'
+  },
+  {russianWord:   'congenial',
+   correctAnswer: '(of a person) pleasing or liked on account of having qualities or interests that are similar to one\'s own'
+  },
+  {russianWord:   'discretion',
+   correctAnswer: 'the quality of behaving or speaking in such a way as to avoid causing offence or revealing confidential information'
   },
   {russianWord:   '',
    correctAnswer: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
-  {russianWord:   '',
-   correctAnswer: ''
-  },
+
 ]
 
 export default series

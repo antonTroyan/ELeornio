@@ -1214,12 +1214,171 @@ const englishClasses = [
   {russianWord:   'muggy',
    correctAnswer: '(of the weather) unpleasantly warm and humid'
   },
+  ////////////
+  // HEALTH //
+  ////////////
+  {russianWord:   'rash',
+   correctAnswer: 'breaking out of the skin with red spots (as from illness or an allergic reaction)'
+  },
+  {russianWord:   'ankle',
+   correctAnswer: 'the joint connecting the foot with the leg.'
+  },
+  {russianWord:   'unconscious',
+   correctAnswer: 'unconsciousness is when a person is unable to respond to people and activities'
+  },
+  {russianWord:   'sprain',
+   correctAnswer: 'wrench or twist the ligaments of (an ankle, wrist, or other joint) violently so as to cause pain and swelling but not dislocation'
+  },
+  {russianWord:   'choke',
+   correctAnswer: '(of a person or animal) have severe difficulty in breathing because of a constricted or obstructed throat or a lack of air'
+  },
+  {russianWord:   'swell',
+   correctAnswer: '(especially of a part of the body) become larger or rounder in size, typically as a result of an accumulation of fluid.'
+  },
+  {russianWord:   'faint / dizzy',
+   correctAnswer: 'feeling weak and dizzy and close to losing consciousness'
+  },
+  {russianWord:   'blister',
+   correctAnswer: 'a small bubble on the skin filled with serum and caused by friction, burning, or other damage'
+  },
+  {russianWord:   'pass out',
+   correctAnswer: 'become unconscious'
+  },
+  {russianWord:   'throw up',
+   correctAnswer: 'vomit / abandon or give up something, especially one\'s job'
+  },
+  {russianWord:   'twist',
+   correctAnswer: 'cause to rotate around a stationary point; turn'
+  },
+  {russianWord:   'dislocation',
+   correctAnswer: 'injury or disability caused when the normal position of a joint or other part of the body is disturbed'
+  },
+  {russianWord:   'ligaments',
+   correctAnswer: 'a membranous fold that supports an organ and keeps it in position'
+  },
+  {russianWord:   'consciousness [коншиснес]',
+   correctAnswer: 'the state of being aware of and responsive to one\'s surroundings'
+  },
+  {russianWord:   'fold',
+   correctAnswer: 'over or wrap something in (a soft or flexible material)'
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
   {russianWord:   '',
    correctAnswer: ''
   },
   {russianWord:   '',
    correctAnswer: ''
   },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+  {russianWord:   '',
+   correctAnswer: ''
+  },
+
+
+
 ]
 
 export default englishClasses
