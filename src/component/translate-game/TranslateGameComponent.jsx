@@ -209,10 +209,10 @@ const TranslateGameComponent = (props) => {
 
                 <div style={{width: '50%', float: 'right'}}>
                     {handlePreparedAnswers()}
-                    <div style={{margin: 100}}>
+                    <div style={{margin: 15}}>
                         {testResult[currentTaskId] !== undefined &&
                             <Button onClick={handleClickNext}
-                                    style={{backgroundColor: 'green', width: '200px', height: '100px'}}
+                                    style={{backgroundColor: 'green'}}
                                     variant="outlined">Next
                             </Button>}
                     </div>
