@@ -171,6 +171,7 @@ const TranslateGameComponent = (props) => {
             <NavLink to={"/ELeornio"} style={{textDecoration: 'none'}}>
                 <Button style={{backgroundColor: 'green'}}>Home Page</Button>
             </NavLink>
+            <div style={{height: '200px',}}></div>
             <div>
                 {testResult[currentTaskId] === undefined &&
                     <Alert severity="info">
