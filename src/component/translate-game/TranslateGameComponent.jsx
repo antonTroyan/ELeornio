@@ -7,18 +7,7 @@ import AlertTitle from "@material-ui/lab/AlertTitle";
 import TestResultComponent from "./TestResultComponent";
 import {LinearProgress, ListItem, ListItemText} from "@material-ui/core";
 import {NavLink} from 'react-router-dom';
-
-const styles = {
-    mainContainer: {
-        position: 'absolute',
-        top: '30%',
-        left: '30%',
-        'margin-top': '-50px',
-        'margin-left': '-50px',
-        width: '900px',
-        height: '100px'
-    }
-}
+import Container from '@mui/material/Container';
 
 const initialTestResult = {
     0: undefined,
@@ -178,9 +167,11 @@ const TranslateGameComponent = (props) => {
     }
 
     return (
-        <div>
-            <div style={styles.mainContainer}>
-
+        <Container maxWidth="lg">
+            <NavLink to={"/ELeornio"} style={{textDecoration: 'none'}}>
+                <Button style={{backgroundColor: 'green'}}>Home Page</Button>
+            </NavLink>
+            <div>
                 {testResult[currentTaskId] === undefined &&
                     <Alert severity="info">
                         <AlertTitle>PLEASE SELECT VARIANT</AlertTitle>
@@ -221,16 +212,13 @@ const TranslateGameComponent = (props) => {
                     <div style={{margin: 100}}>
                         {testResult[currentTaskId] !== undefined &&
                             <Button onClick={handleClickNext}
-                                    style={{backgroundColor: 'green'}}
+                                    style={{backgroundColor: 'green', width: '200px', height: '100px'}}
                                     variant="outlined">Next
                             </Button>}
                     </div>
                 </div>
             </div>
-            <NavLink to={"/ELeornio"} style={{textDecoration: 'none'}}>
-                <Button style={{backgroundColor: 'green'}}>Home Page</Button>
-            </NavLink>
-        </div>
+        </Container>
     )
 }
 
