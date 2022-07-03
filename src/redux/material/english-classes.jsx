@@ -35,71 +35,68 @@ const englishClasses = [
   {russianWord:   'hysterical',
    correctAnswer: 'throw a tantrum'
   },
-  {russianWord:   'abide, keep calm about smth',
-   correctAnswer: 'come to terms with'
+  {russianWord:   'come to terms with',
+   correctAnswer: 'abide, keep calm about smth'
   },
   {russianWord:   'to fraud smb',
    correctAnswer: 'deceive'
   },
-  {russianWord:   'to worry and suffer because of something that one did',
-   correctAnswer: 'to stew in one`s own juices'
+  {russianWord:   'to stew in one`s own juices',
+   correctAnswer: 'to worry and suffer because of something that one did'
   },
-  {russianWord:   'to be in a small or tight space between two people',
-   correctAnswer: 'to be sandwiched'
+  {russianWord:   'to be sandwiched',
+   correctAnswer: 'to be in a small or tight space between two people'
   },
-  {russianWord:   'make superficially attractive or acceptable',
-   correctAnswer: 'to sugarcoat smth'
+  {russianWord:   'to sugarcoat smth',
+   correctAnswer: 'make superficially attractive or acceptable'
   },
-  {russianWord:   'a rich older man who lavishes gifts on a young woman',
-   correctAnswer: 'sugar daddy'
+  {russianWord:   'sugar daddy',
+   correctAnswer: 'a rich older man who lavishes gifts on a young woman'
   },
-  {russianWord:   'a position in which a person or group receives excessive and unjustified money with no effort',
-   correctAnswer: 'to be on a gravy train'
+  {russianWord:   'to be on a gravy train',
+   correctAnswer: 'a position in which a person or group receives excessive and unjustified money with no effort'
   },
-  {russianWord:   'lazy person',
-   correctAnswer: 'lazy bone / coach potato'
+  {russianWord:   'lazy bone / coach potato',
+   correctAnswer: 'lazy person'
   },
-  {russianWord:   'schedule (something) to take place at a particular time',
-   correctAnswer: 'timetable'
+  {russianWord:   'timetable',
+   correctAnswer: 'schedule (something) to take place at a particular time'
   },
-  {russianWord:   'a round stone fruit with juicy yellow flesh and downy pinkish-yellow skin',
-   correctAnswer: 'peach'
+  {russianWord:   'peach',
+   correctAnswer: 'a round stone fruit with juicy yellow flesh and downy pinkish-yellow skin'
   },
-  {russianWord:   'an edible soft fruit related to the blackberry, consisting of a cluster of reddish-pink drupelets',
-   correctAnswer: 'raspberries'
+  {russianWord:   'raspberries',
+   correctAnswer: 'an edible soft fruit related to the blackberry, consisting of a cluster of reddish-pink drupelets'
   },
-  {russianWord:   'to become very excited or angry',
-   correctAnswer: 'go bananas'
+  {russianWord:   'go bananas',
+   correctAnswer: 'to become very excited or angry'
   },
-  {russianWord:   'use your brain, dummy',
-   correctAnswer: 'to use your noodles'
+  {russianWord:   'to use your noodles',
+   correctAnswer: 'use your brain, dummy'
   },
-  {russianWord:   'not what one likes or is interested in',
-   correctAnswer: 'not my cup of tea'
+  {russianWord:   'not my cup of tea',
+   correctAnswer: 'not what one likes or is interested in'
   },
-  {russianWord:   'calm and relaxed',
-   correctAnswer: 'as cool as a cucumber'
+  {russianWord:   'cool as a cucumber',
+   correctAnswer: 'calm and relaxed'
   },
-  {russianWord:   'lively; in high spirits',
-   correctAnswer: 'full of beans'
+  {russianWord:   'nibble',
+   correctAnswer: 'take small bites out of'
   },
-  {russianWord:   'take small bites out of',
-   correctAnswer: 'nibble'
+  {russianWord:   'munch',
+   correctAnswer: 'eat (something) steadily and often audibly'
   },
-  {russianWord:   'eat (something) steadily and often audibly',
-   correctAnswer: 'munch'
+  {russianWord:   'devour',
+   correctAnswer: 'eat (food or prey) hungrily or quickly'
   },
-  {russianWord:   'eat (food or prey) hungrily or quickly',
-   correctAnswer: 'devour'
+  {russianWord:   'spit',
+   correctAnswer: 'eject saliva forcibly from one\'s mouth'
   },
-  {russianWord:   'eject saliva forcibly from one\'s mouth',
-   correctAnswer: 'spit'
+  {russianWord:   'eat like a bird',
+   correctAnswer: 'eat very little'
   },
-  {russianWord:   'eat very little',
-   correctAnswer: 'eat like a bird'
-  },
-  {russianWord:   'a poor piece of work; a mess',
-   correctAnswer: 'dog breakfast'
+  {russianWord:   'dog breakfast',
+   correctAnswer: 'a poor piece of work; a mess'
   },
   {russianWord:   'vulgar',
    correctAnswer: 'very rude'
@@ -137,47 +134,38 @@ const englishClasses = [
   {russianWord:   'wealthy / well off',
    correctAnswer: 'very rich'
   },
-  {russianWord:   'drink in large gulps',
-   correctAnswer: 'swig'
+  {russianWord:   'swig',
+   correctAnswer: 'drink in large gulps'
   },
-  {russianWord:   'drink/eat greedily',
-   correctAnswer: 'guzzle'
+  {russianWord:   'guzzle',
+   correctAnswer: 'drink/eat greedily'
   },
-  {russianWord:   'have a drink in a bar',
-   correctAnswer: 'Take shot in a bar'
+  {russianWord:   'Take shot in a bar',
+   correctAnswer: 'have a drink in a bar'
   },
-  {russianWord:   'kind of drink (напиток)',
-   correctAnswer: 'kind of beverage'
+  {russianWord:   'kind of beverage',
+   correctAnswer: 'kind of drink (напиток)'
   },
-  {russianWord:   'cola, sprite etc',
-   correctAnswer: 'soft drinks/pop'
+  {russianWord:   'soft drinks/pop',
+   correctAnswer: 'cola, sprite etc'
   },
-  {russianWord:   'a person who never drinks alcohol',
-   correctAnswer: 'teetotaler'
+  {russianWord:   'teetotaler',
+   correctAnswer: 'a person who never drinks alcohol'
   },
-  {russianWord:   'you do not want to eat',
-   correctAnswer: 'be of your food'
+  {russianWord:   'smth cannot be obtained in sufficient amounts',
+   correctAnswer: 'shortage / shortfall'
   },
-  {russianWord:   'shortage / shortfall',
-   correctAnswer: 'smth cannot be obtained in sufficient amounts'
+  {russianWord:   'make my mouth water',
+   correctAnswer: 'make someone long for or desire something'
   },
-  {russianWord:   'make someone long for or desire something',
-   correctAnswer: 'make my mouth water'
+  {russianWord:   'spill',
+   correctAnswer: 'cause or allow (liquid) to flow over the edge of its container'
   },
-  {russianWord:   'cause or allow (liquid) to flow over the edge of its container',
-   correctAnswer: 'spill'
+  {russianWord:   'stiff drink / hard liquor',
+   correctAnswer: 'strong alcoholic drink'
   },
-  {russianWord:   'strong alcoholic drink',
-   correctAnswer: 'stiff drink / hard liquor'
-  },
-  {russianWord:   'how do you do?',
-   correctAnswer: 'how is it rolling?'
-  },
-  {russianWord:   'how are you?',
-   correctAnswer: 'how are you holding up?'
-  },
-  {russianWord:   'very busy',
-   correctAnswer: 'have a lot on my plate'
+  {russianWord:   'have a lot on my plate',
+   correctAnswer: 'very busy'
   },
   {russianWord:   'all well',
    correctAnswer: 'everything is on a track'
@@ -197,104 +185,101 @@ const englishClasses = [
   {russianWord:   'decompose / wither',
    correctAnswer: 'decay'
   },
-  {russianWord:   'good taste/moral integrity[person]',
-   correctAnswer: 'decent'
+  {russianWord:   'decent ',
+   correctAnswer: 'good taste/moral integrity[person]'
   },
-  {russianWord:   'a connoisseur of good food; a person with a discerning palate',
-   correctAnswer: 'gourmet'
+  {russianWord:   'gourmet',
+   correctAnswer: 'a connoisseur of good food; a person with a discerning palate'
   },
-  {russianWord:   '(meal or celebration) large and sumptuous',
-   correctAnswer: 'slap-up meal'
+  {russianWord:   'slap-up meal ',
+   correctAnswer: '(meal or celebration) large and sumptuous'
   },
-  {russianWord:   'strong alcohol',
-   correctAnswer: 'stiff drink'
+  {russianWord:   'stiff drink',
+   correctAnswer: 'strong alcohol'
   },
   {russianWord:   'dodge',
    correctAnswer: 'duck out'
   },
-  {russianWord:   'clean / neatly',
-   correctAnswer: 'tidy'
+  {russianWord:   'tidy',
+   correctAnswer: 'clean / neatly'
   },
-  {russianWord:   'feeling or showing a lack of ambition',
-   correctAnswer: 'unambitious'
+  {russianWord:   'unambitious ',
+   correctAnswer: 'feeling or showing a lack of ambition'
   },
-  {russianWord:   'inconsiderate and harsh to others',
-   correctAnswer: 'unkind'
+  {russianWord:   'unkind',
+   correctAnswer: 'inconsiderate and harsh to others'
   },
-  {russianWord:   'thoughtlessly causing hurt or inconvenience to others',
-   correctAnswer: 'inconsiderate'
+  {russianWord:   'inconsiderate',
+   correctAnswer: 'thoughtlessly causing hurt or inconvenience to others'
   },
-  {russianWord:   'strict ',
-   correctAnswer: 'harsh'
+  {russianWord:   'harsh',
+   correctAnswer: 'strict'
   },
-  {russianWord:   'willing to put the needs of others before one\'s own',
-   correctAnswer: 'unselfish'
+  {russianWord:   'unselfish',
+   correctAnswer: 'willing to put the needs of others before one\'s own'
   },
-  {russianWord:   'not enjoying to behave sociably',
-   correctAnswer: 'unsociable'
+  {russianWord:   'unsociable',
+   correctAnswer: 'not enjoying to behave sociably'
   },
-  {russianWord:   'not arranged neatly and in order',
-   correctAnswer: 'untidy'
+  {russianWord:   'arrange',
+   correctAnswer: 'put (things) in a neat, attractive, or required order'
   },
-  {russianWord:   'put (things) in a neat, attractive, or required order',
-   correctAnswer: 'arrange'
+  {russianWord:   'immature',
+   correctAnswer: 'not fully developed'
   },
-  {russianWord:   'not fully developed',
-   correctAnswer: 'immature'
+  {russianWord:   'impatient',
+   correctAnswer: 'having or showing a tendency to be quickly irritated'
   },
-  {russianWord:   'having or showing a tendency to be quickly irritated',
-   correctAnswer: 'impatient'
+  {russianWord:   'irresponsible',
+   correctAnswer: 'person not showing a proper sense of responsibility'
   },
-  {russianWord:   'person not showing a proper sense of responsibility',
-   correctAnswer: 'irresponsible'
+  {russianWord:   'insensitive',
+   correctAnswer: 'showing or feeling no concern for others\' feelings'
   },
-  {russianWord:   'showing or feeling no concern for others\' feelings',
-   correctAnswer: 'insensitive'
+  {russianWord:   'concern',
+   correctAnswer: 'anxiety / worry'
   },
-  {russianWord:   'anxiety / worry',
-   correctAnswer: 'concern'
+  {russianWord:   'thoughtlessly',
+   correctAnswer: 'lacking in consideration for others'
   },
-  {russianWord:   'lacking in consideration for others',
-   correctAnswer: 'thoughtlessly'
+  {russianWord:   'consideration',
+   correctAnswer: 'careful thought, typically over a period of time'
   },
-  {russianWord:   'careful thought, typically over a period of time',
-   correctAnswer: 'consideration'
+  {russianWord:   'thought',
+   correctAnswer: 'an idea or opinion produced by thinking'
   },
-  {russianWord:   'an idea or opinion produced by thinking',
-   correctAnswer: 'thought'
+  {russianWord:   'sumptuous',
+   correctAnswer: 'luxurious / deluxe'
   },
-  {russianWord:   'luxurious / deluxe',
-   correctAnswer: 'sumptuous'
+  {russianWord:   'rouse',
+   correctAnswer: 'make angry or excited / cause to stop sleeping'
   },
-  {russianWord:   'make angry or excited / cause to stop sleeping',
-   correctAnswer: 'rouse'
+  {russianWord:   'row',
+   correctAnswer: 'a noisy argument or fight / one after another without a break'
   },
-  {russianWord:   'a noisy argument or fight / one after another without a break',
-   correctAnswer: 'row'
+  {russianWord:   'dreaded',
+   correctAnswer: 'regarded with great fear or apprehension'
   },
-  {russianWord:   'regarded with great fear or apprehension.',
-   correctAnswer: 'dreaded'
+  {russianWord:   'apprehension / misgiving',
+   correctAnswer: 'anxiety or fear that something bad or unpleasant will happen'
   },
-  {russianWord:   'anxiety or fear that something bad or unpleasant will happen',
-   correctAnswer: 'apprehension / misgiving'
+  {russianWord:   'regarded',
+   correctAnswer: 'consider or think of in a specified way'
   },
-  {russianWord:   'consider or think of in a specified way',
-   correctAnswer: 'regarded'
+  {russianWord:   'embrace',
+   correctAnswer: 'accept (a belief, theory, or change) willingly and enthusiastically'
   },
-  {russianWord:   'accept (a belief, theory, or change) willingly and enthusiastically',
-   correctAnswer: 'embrace'
+  {russianWord:   'connoisseur [конесэ]',
+   correctAnswer: 'an expert judge in matters of taste'
   },
-  {russianWord:   'an expert judge in matters of taste',
-   correctAnswer: 'connoisseur [конесэ]'
+  {russianWord:   'palate',
+   correctAnswer: 'a person\'s ability to distinguish between and appreciate different flavours'
   },
-  {russianWord:   'a person\'s ability to distinguish between and appreciate different flavours',
-   correctAnswer: 'palate'
+  {russianWord:   'discerning',
+   correctAnswer: 'having or showing good judgement'
   },
-  {russianWord:   'having or showing good judgement',
-   correctAnswer: 'discerning'
-  },
-  {russianWord:   'bestow something in generous or extravagant quantities on',
-   correctAnswer: 'lavish'
+  {russianWord:   'lavish ',
+   correctAnswer: 'bestow something in generous or extravagant quantities on'
   },
   {russianWord:   'grant/confer or present (an honour, right, or gift)',
    correctAnswer: 'bestow'
@@ -302,38 +287,38 @@ const englishClasses = [
   {russianWord:   'covered with fine, soft hair or feathers',
    correctAnswer: 'downy'
   },
-  {russianWord:   'fit or suitable to be eaten',
-   correctAnswer: 'edible'
+  {russianWord:   'edible',
+   correctAnswer: 'fit or suitable to be eaten'
   },
-  {russianWord:   'having a red tinge; slightly red',
+  {russianWord:   'reddish having a red tinge; slightly red',
    correctAnswer: 'reddish'
   },
-  {russianWord:   'any of the small individual drupes forming a fleshy aggregate fruit such as a blackberry or raspberry',
-   correctAnswer: 'drupelets'
+  {russianWord:   'drupelets',
+   correctAnswer: 'any of the small individual drupes forming a fleshy aggregate fruit such as a blackberry or raspberry'
   },
-  {russianWord:   'colour slightly',
-   correctAnswer: 'tinge'
+  {russianWord:   'tinge',
+   correctAnswer: 'colour slightly'
   },
-  {russianWord:   'simple fleshy fruit that usually contains a single seed',
-   correctAnswer: 'drupe'
+  {russianWord:   'drupe',
+   correctAnswer: 'simple fleshy fruit that usually contains a single seed'
   },
-  {russianWord:   'in a regular and even manner',
-   correctAnswer: 'steadily '
+  {russianWord:   'steadily',
+   correctAnswer: 'in a regular and even manner'
   },
-  {russianWord:   'watery liquid secreted into the mouth by glands',
-   correctAnswer: 'saliva'
+  {russianWord:   'saliva',
+   correctAnswer: 'watery liquid secreted into the mouth by glands'
   },
-  {russianWord:   'An odd-eccentric or insane person',
-   correctAnswer: 'nutbag'
+  {russianWord:   'nutbag',
+   correctAnswer: 'an odd-eccentric or insane person'
   },
-  {russianWord:   'different to what is usual or expected; strange',
-   correctAnswer: 'odd'
+  {russianWord:   'odd',
+   correctAnswer: 'different to what is usual or expected; strange'
   },
-  {russianWord:   'having or showing no pity or compassion for others',
-   correctAnswer: 'ruthless'
+  {russianWord:   'ruthless ',
+   correctAnswer: 'having or showing no pity or compassion for others'
   },
-  {russianWord:   'a dishonest or unscrupulous person; a rogue',
-   correctAnswer: 'scoundrel'
+  {russianWord:   'scoundrel',
+   correctAnswer: 'a dishonest or unscrupulous person; a rogue'
   },
   //////////////////
   // Family topic //
@@ -912,7 +897,7 @@ const englishClasses = [
    correctAnswer: 'a social division in a traditional society consisting of families or communities'
   },
   {russianWord:   'amygdala',
-   correctAnswer: 'amygdala, region of the brain primarily associated with emotional processes'
+   correctAnswer: 'region of the brain primarily associated with emotional processes'
   },
   {russianWord:   'affinity',
    correctAnswer: 'a natural liking for and understanding of someone or something'
