@@ -2,116 +2,116 @@ const films = [
   ////////////////////////
   // Don't Look Up 2021 //
   ////////////////////////
-  {russianWord:   'inquiry',
-   correctAnswer: 'an act of asking for information'
+  {primaryWord:   'inquiry',
+   meaning: 'an act of asking for information'
   },
-  {russianWord:   'tenured professor',
-   correctAnswer: 'with permanent job contract'
+  {primaryWord:   'tenured professor',
+   meaning: 'with permanent job contract'
   },
-  {russianWord:   'heavy hitter',
-   correctAnswer: 'a very important or influential person'
+  {primaryWord:   'heavy hitter',
+   meaning: 'a very important or influential person'
   },
-  {russianWord:   'gesture',
-   correctAnswer: 'a movement of part of the body, especially a hand or the head, to express an idea or meaning'
+  {primaryWord:   'gesture',
+   meaning: 'a movement of part of the body, especially a hand or the head, to express an idea or meaning'
   },
-  {russianWord:   'soothe',
-   correctAnswer: 'gently calm (a person or their feelings)'
+  {primaryWord:   'soothe',
+   meaning: 'gently calm (a person or their feelings)'
   },
-  {russianWord:   'fruition',
-   correctAnswer: 'the realization or fulfilment of a plan or project'
+  {primaryWord:   'fruition',
+   meaning: 'the realization or fulfilment of a plan or project'
   },
-  {russianWord:   'relieved',
-   correctAnswer: 'no longer feeling distressed or anxious; reassured'
+  {primaryWord:   'relieved',
+   meaning: 'no longer feeling distressed or anxious; reassured'
   },
   /////////////////////
   // Red notice 2021 //
   /////////////////////
-  {russianWord:   'sought after',
-   correctAnswer: 'much in demand; generally desired'
+  {primaryWord:   'sought after',
+   meaning: 'much in demand; generally desired'
   },
-  {russianWord:   'bejewel',
-   correctAnswer: 'cover or adorn with jewels'
+  {primaryWord:   'bejewel',
+   meaning: 'cover or adorn with jewels'
   },
-  {russianWord:   'adorn',
-   correctAnswer: 'make more beautiful or attractive'
+  {primaryWord:   'adorn',
+   meaning: 'make more beautiful or attractive'
   },
-  {russianWord:   'chaps',
-   correctAnswer: 'leather trousers without a seat, worn by a cowboy over ordinary trousers to protect the legs'
+  {primaryWord:   'chaps',
+   meaning: 'leather trousers without a seat, worn by a cowboy over ordinary trousers to protect the legs'
   },
-  {russianWord:   'ingress',
-   correctAnswer: 'the action or fact of going in or entering; the capacity or right of entrance'
+  {primaryWord:   'ingress',
+   meaning: 'the action or fact of going in or entering; the capacity or right of entrance'
   },
-  {russianWord:   'compel',
-   correctAnswer: 'force or oblige (someone) to do something'
+  {primaryWord:   'compel',
+   meaning: 'force or oblige (someone) to do something'
   },
-  {russianWord:   'kinks',
-   correctAnswer: 'a mental or physical peculiarity : eccentricity, quirk'
+  {primaryWord:   'kinks',
+   meaning: 'a mental or physical peculiarity : eccentricity, quirk'
   },
-  {russianWord:   'peculiarity',
-   correctAnswer: 'a strange or unusual feature or habit'
+  {primaryWord:   'peculiarity',
+   meaning: 'a strange or unusual feature or habit'
   },
-  {russianWord:   'quirk',
-   correctAnswer: 'a peculiar aspect of a person\'s character or behaviour'
+  {primaryWord:   'quirk',
+   meaning: 'a peculiar aspect of a person\'s character or behaviour'
   },
-  {russianWord:   'sparkly',
-   correctAnswer: 'shining with glittering flashes of light / bright'
+  {primaryWord:   'sparkly',
+   meaning: 'shining with glittering flashes of light / bright'
   },
-  {russianWord:   'convict',
-   correctAnswer: 'someone to be guilty of a criminal offence by the verdict of a jury or the decision of a judge in a court of law'
+  {primaryWord:   'convict',
+   meaning: 'someone to be guilty of a criminal offence by the verdict of a jury or the decision of a judge in a court of law'
   },
   ///////////////////
   // Die hard 1988 //
   ///////////////////
-  {russianWord:   'tape deck',
-   correctAnswer: 'a device used to play back and often to record on magnetic tape that usually has to be connected to an audio system'
+  {primaryWord:   'tape deck',
+   meaning: 'a device used to play back and often to record on magnetic tape that usually has to be connected to an audio system'
   },
-  {russianWord:   'as tough as nails',
-   correctAnswer: '(of a person) very strong and resilient in the face of hardship or pain'
+  {primaryWord:   'as tough as nails',
+   meaning: '(of a person) very strong and resilient in the face of hardship or pain'
   },
-  {russianWord:   'conceivable',
-   correctAnswer: 'capable of being imagined or grasped mentally'
+  {primaryWord:   'conceivable',
+   meaning: 'capable of being imagined or grasped mentally'
   },
-  {russianWord:   'to be in charge',
-   correctAnswer: 'having control of or responsibility for (something)'
+  {primaryWord:   'to be in charge',
+   meaning: 'having control of or responsibility for (something)'
   },
   /////////////////
   // Batman 2022 //
   /////////////////
-  {russianWord:   'vigilante',
-   correctAnswer: 'a member of a self-appointed group of citizens who undertake law enforcement in their community without legal authority'
+  {primaryWord:   'vigilante',
+   meaning: 'a member of a self-appointed group of citizens who undertake law enforcement in their community without legal authority'
   },
-  {russianWord:   'apparently',
-   correctAnswer: 'as far as one knows or can see'
+  {primaryWord:   'apparently',
+   meaning: 'as far as one knows or can see'
   },
-  {russianWord:   'elusive',
-   correctAnswer: 'difficult to find, catch, or achieve'
+  {primaryWord:   'elusive',
+   meaning: 'difficult to find, catch, or achieve'
   },
-  {russianWord:   'leap',
-   correctAnswer: 'jump or spring a long way, to a great height, or with great force'
+  {primaryWord:   'leap',
+   meaning: 'jump or spring a long way, to a great height, or with great force'
   },
   /////////////
   // Morbius //
   /////////////
-  {russianWord:   'nap',
-   correctAnswer: 'sleep lightly or briefly, especially during the day'
+  {primaryWord:   'nap',
+   meaning: 'sleep lightly or briefly, especially during the day'
   },
-  {russianWord:   'hobble',
-   correctAnswer: 'an awkward way of walking, typically due to pain from an injury'
+  {primaryWord:   'hobble',
+   meaning: 'an awkward way of walking, typically due to pain from an injury'
   },
-  {russianWord:   'artificial',
-   correctAnswer: 'made or produced by human beings rather than occurring naturally'
+  {primaryWord:   'artificial',
+   meaning: 'made or produced by human beings rather than occurring naturally'
   },
-  {russianWord:   'black out',
-   correctAnswer: 'experience a sudden and temporary loss of consciousness.'
+  {primaryWord:   'black out',
+   meaning: 'experience a sudden and temporary loss of consciousness.'
   },
-  {russianWord:   'startle',
-   correctAnswer: 'cause to feel sudden shock or alarm'
+  {primaryWord:   'startle',
+   meaning: 'cause to feel sudden shock or alarm'
   },
-  {russianWord:   'repulsed',
-   correctAnswer: 'drive back (an attack or attacker) by force'
+  {primaryWord:   'repulsed',
+   meaning: 'drive back (an attack or attacker) by force'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   }
 ]
 

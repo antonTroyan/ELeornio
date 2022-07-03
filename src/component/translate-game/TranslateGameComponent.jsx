@@ -51,14 +51,14 @@ const TranslateGameComponent = (props) => {
     const [testResult, setTestResult] = useState(initialTestResult)
     const [tasks, setTasks] = useState(extractCorrectArray(props.materials))
     const [preparedAnswers, setPreparedAnswers] = useState(null)
-    const [russianWord, setRussianWord] = useState(null)
+    const [primaryWord, setPrimaryWord] = useState(null)
 
     const clearGameData = () => {
         setCurrentTaskId(1)
         setTestResult(initialTestResult)
         setTasks((extractCorrectArray(props.materials)))
         setPreparedAnswers(null)
-        setRussianWord(null)
+        setPrimaryWord(null)
     }
 
     const shuffle = (a) => {
@@ -77,31 +77,31 @@ const TranslateGameComponent = (props) => {
     }
 
     const prepareAnswers = () => {
-        let isCorrectAnswerAlreadyIn = false
+        let isMeaningAlreadyIn = false
 
         const wrongAnswers = takeRandomElements(4, tasks)
         const result = wrongAnswers.map((element) => {
-            if (element.correctAnswer === tasks[currentTaskId].correctAnswer) {
-                isCorrectAnswerAlreadyIn = true
+            if (element.meaning === tasks[currentTaskId].meaning) {
+                isMeaningAlreadyIn = true
             }
             return (
-                createAnswerItem(element.correctAnswer)
+                createAnswerItem(element.meaning)
             )
         })
-        if (!isCorrectAnswerAlreadyIn) {
-            result[0] = createAnswerItem(tasks[currentTaskId].correctAnswer)
+        if (!isMeaningAlreadyIn) {
+            result[0] = createAnswerItem(tasks[currentTaskId].meaning)
         }
 
         return shuffle(result)
     }
 
 
-    const createAnswerItem = (correctAnswer) => {
+    const createAnswerItem = (meaning) => {
         return (
             <ListItemLink
-                key={correctAnswer}
+                key={meaning}
                 onClick={handleChooseVariant}>
-                <ListItemText primary={correctAnswer}/>
+                <ListItemText primary={meaning}/>
             </ListItemLink>
         )
     }
@@ -111,11 +111,11 @@ const TranslateGameComponent = (props) => {
 
         setTestResult((prev) => {
             const result = cloneDeep(prev)
-            result[currentTaskId] = enteredAnswer === tasks[currentTaskId].correctAnswer
+            result[currentTaskId] = enteredAnswer === tasks[currentTaskId].meaning
             if (result[currentTaskId]) {
-                props.handleCorrectVariantActionCreator(tasks[currentTaskId].correctAnswer)
+                props.handleCorrectVariantActionCreator(tasks[currentTaskId].meaning)
             } else {
-                props.handleWrongVariantActionCreator(tasks[currentTaskId].correctAnswer)
+                props.handleWrongVariantActionCreator(tasks[currentTaskId].meaning)
             }
             return result
         })
@@ -124,7 +124,7 @@ const TranslateGameComponent = (props) => {
     const handleClickNext = () => {
         setCurrentTaskId((prev) => ++prev)
         setPreparedAnswers(null)
-        setRussianWord(null)
+        setPrimaryWord(null)
     }
 
     if (currentTaskId >= tasks.length) {
@@ -145,11 +145,11 @@ const TranslateGameComponent = (props) => {
         return preparedAnswers
     }
 
-    const handleRussianWord = () => {
-        if (russianWord === null) {
-            setRussianWord(tasks[currentTaskId].russianWord)
+    const handlePrimaryWord = () => {
+        if (primaryWord === null) {
+            setPrimaryWord(tasks[currentTaskId].primaryWord)
         }
-        return russianWord
+        return primaryWord
     }
 
     const convertComplexityToSigns = (complexity) => {
@@ -161,7 +161,7 @@ const TranslateGameComponent = (props) => {
     }
 
     function createRefToPlayPhrase() {
-        const currentWord = tasks[currentTaskId].russianWord
+        const currentWord = tasks[currentTaskId].primaryWord
         const beginning = 'https://playphrase.me/#/search?q='
         return beginning + currentWord.replaceAll(' ', '+')
     }
@@ -189,14 +189,14 @@ const TranslateGameComponent = (props) => {
                 {testResult[currentTaskId] === false &&
                     <Alert severity="warning">
                         <AlertTitle>You choose wrong</AlertTitle>
-                        The right answer is [<strong>{tasks[currentTaskId].correctAnswer}</strong>]
+                        The right answer is [<strong>{tasks[currentTaskId].meaning}</strong>]
                     </Alert>
                 }
 
                 <p><LinearProgress variant="determinate" value={(currentTaskId - 1) * 10}/></p>
 
                 <div style={{width: '50%', float: 'left', height: '50%'}}>
-                    <h1>{handleRussianWord()}</h1>
+                    <h1>{handlePrimaryWord()}</h1>
                     <ListItemText primary={convertComplexityToSigns(tasks[currentTaskId].complexity)}/>
 
                     <a style={{display: "table-cell", textDecoration: 'none'}}

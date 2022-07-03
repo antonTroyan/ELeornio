@@ -115,7 +115,7 @@ export const mainPageReducer = (state = initialState, action) => {
 }
 
 const increaseComplexityHandleElements = (wordPair, selectedWord) => {
-    if (wordPair.russianWord === selectedWord || wordPair.correctAnswer === selectedWord) {
+    if (wordPair.primaryWord === selectedWord || wordPair.meaning === selectedWord) {
         const increasedResult = wordPair.complexity + INCREASE_COMPLEXITY_STEP
         if (increasedResult < 101) {
             wordPair.complexity = increasedResult
@@ -125,7 +125,7 @@ const increaseComplexityHandleElements = (wordPair, selectedWord) => {
 }
 
 const decreaseComplexityHandleElements = (wordPair, selectedWord) => {
-    if (wordPair.russianWord === selectedWord || wordPair.correctAnswer === selectedWord) {
+    if (wordPair.primaryWord === selectedWord || wordPair.meaning === selectedWord) {
         const decreasedResult = wordPair.complexity - DECREASE_COMPLEXITY_STEP
         if (decreasedResult > 1) {
             wordPair.complexity = decreasedResult

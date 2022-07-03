@@ -2,112 +2,112 @@ const phrases = [
   ////////////////////
   // Giving opinion //
   ////////////////////
-  {russianWord:   '[as far as I`m concerned ...]',
-   correctAnswer: '[as far as I`m concerned ...]'
+  {primaryWord:   '[as far as I`m concerned ...]',
+   meaning: '[as far as I`m concerned ...]'
   },
-  {russianWord:   '[in my opinion ...]',
-   correctAnswer: '[in my opinion ...]'
+  {primaryWord:   '[in my opinion ...]',
+   meaning: '[in my opinion ...]'
   },
-  {russianWord:   '[it seems/appears to me that]',
-   correctAnswer: '[it seems/appears to me that]'
+  {primaryWord:   '[it seems/appears to me that]',
+   meaning: '[it seems/appears to me that]'
   },
-  {russianWord:   '[I would argue that]',
-   correctAnswer: '[I would argue that]'
+  {primaryWord:   '[I would argue that]',
+   meaning: '[I would argue that]'
   },
-  {russianWord:   '[from my point of view]',
-   correctAnswer: '[from my point of view]'
+  {primaryWord:   '[from my point of view]',
+   meaning: '[from my point of view]'
   },
-  {russianWord:   '[I`m inclined to believe that]',
-   correctAnswer: '[I`m inclined to believe that]'
+  {primaryWord:   '[I`m inclined to believe that]',
+   meaning: '[I`m inclined to believe that]'
   },
-  {russianWord:   '[if you ask me]',
-   correctAnswer: '[if you ask me]'
+  {primaryWord:   '[if you ask me]',
+   meaning: '[if you ask me]'
   },
-  {russianWord:   '[to be honest]',
-   correctAnswer: '[to be honest]'
+  {primaryWord:   '[to be honest]',
+   meaning: '[to be honest]'
   },
-  {russianWord:   '[personally speaking, I believe]',
-   correctAnswer: '[personally speaking, I believe]'
+  {primaryWord:   '[personally speaking, I believe]',
+   meaning: '[personally speaking, I believe]'
   },
-  {russianWord:   '[from what I gather]',
-   correctAnswer: '[from what I gather]'
+  {primaryWord:   '[from what I gather]',
+   meaning: '[from what I gather]'
   },
-  {russianWord:   '[Well, I reckon]',
-   correctAnswer: '[Well, I reckon]'
+  {primaryWord:   '[Well, I reckon]',
+   meaning: '[Well, I reckon]'
   },
   ////////////////////
   // Asking opinion //
   ////////////////////
-  {russianWord:   '[Do you see what I`m getting at?]',
-   correctAnswer: '[Do you see what I`m getting at?]'
+  {primaryWord:   '[Do you see what I`m getting at?]',
+   meaning: '[Do you see what I`m getting at?]'
   },
-  {russianWord:   '[What are your thought on that?]',
-   correctAnswer: '[What are your thought on that?]'
+  {primaryWord:   '[What are your thought on that?]',
+   meaning: '[What are your thought on that?]'
   },
-  {russianWord:   '[Would you agree with me that?]',
-   correctAnswer: '[Would you agree with me that?]'
+  {primaryWord:   '[Would you agree with me that?]',
+   meaning: '[Would you agree with me that?]'
   },
   //////////////
   // Agreeing //
   //////////////
-  {russianWord:   '[I could not agree more]',
-   correctAnswer: '[I could not agree more]'
+  {primaryWord:   '[I could not agree more]',
+   meaning: '[I could not agree more]'
   },
-  {russianWord:   '[I would go along with that]',
-   correctAnswer: '[I would go along with that]'
+  {primaryWord:   '[I would go along with that]',
+   meaning: '[I would go along with that]'
   },
-  {russianWord:   '[That`s good point]',
-   correctAnswer: '[That`s good point]'
+  {primaryWord:   '[That`s good point]',
+   meaning: '[That`s good point]'
   },
-  {russianWord:   '[No doubt about it]',
-   correctAnswer: '[No doubt about it]'
+  {primaryWord:   '[No doubt about it]',
+   meaning: '[No doubt about it]'
   },
   /////////////////
   // Disagreeing //
   /////////////////
-  {russianWord:   '[I`m afraid I disagree]',
-   correctAnswer: '[I`m afraid I disagree]'
+  {primaryWord:   '[I`m afraid I disagree]',
+   meaning: '[I`m afraid I disagree]'
   },
-  {russianWord:   '[That`s not the way I see it]',
-   correctAnswer: '[That`s not the way I see it]'
+  {primaryWord:   '[That`s not the way I see it]',
+   meaning: '[That`s not the way I see it]'
   },
-  {russianWord:   '[I don`t feel the same]',
-   correctAnswer: '[I don`t feel the same]'
+  {primaryWord:   '[I don`t feel the same]',
+   meaning: '[I don`t feel the same]'
   },
   /////////////////////
   // Partially agree //
   /////////////////////
-  {russianWord:   '[I see your point, but ...]',
-   correctAnswer: '[I see your point, but ...]'
+  {primaryWord:   '[I see your point, but ...]',
+   meaning: '[I see your point, but ...]'
   },
 
 
-  {russianWord:   'I used to [instead - had a habit]',
-   correctAnswer: 'I used to [instead - had a habit]'
+  {primaryWord:   'I used to [instead - had a habit]',
+   meaning: 'I used to [instead - had a habit]'
   },
-  {russianWord:   'How much money you have? [without do]',
-   correctAnswer: 'How much money you have? [without do]'
+  {primaryWord:   'How much money you have? [without do]',
+   meaning: 'How much money you have? [without do]'
   },
-  {russianWord:   'If I had some juice I would drink it / I would like a cup of coffee',
-   correctAnswer: 'If I had some juice I would drink it / I would like a cup of coffee'
+  {primaryWord:   'If I had some juice I would drink it / I would like a cup of coffee',
+   meaning: 'If I had some juice I would drink it / I would like a cup of coffee'
   },
-  {russianWord:   'gather / pick up speed',
-   correctAnswer: 'gather / pick up speed'
+  {primaryWord:   'gather / pick up speed',
+   meaning: 'gather / pick up speed'
   },
-  {russianWord:   'take a shortcut',
-   correctAnswer: 'take a shortcut'
+  {primaryWord:   'take a shortcut',
+   meaning: 'take a shortcut'
   },
-  {russianWord:   'lost balance / slipped',
-   correctAnswer: 'lost balance / slipped'
+  {primaryWord:   'lost balance / slipped',
+   meaning: 'lost balance / slipped'
   },
-  {russianWord:   'maybe our path will cross again',
-   correctAnswer: 'maybe our path will cross again'
+  {primaryWord:   'maybe our path will cross again',
+   meaning: 'maybe our path will cross again'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
 ]
 

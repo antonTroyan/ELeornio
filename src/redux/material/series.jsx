@@ -2,686 +2,686 @@ const series = [
   ///////////////////////
   // Cowboy Bebop 2021 //
   ///////////////////////
-  {russianWord:   'team up',
-   correctAnswer: 'to join with someone to work together'
+  {primaryWord:   'team up',
+   meaning: 'to join with someone to work together'
   },
-  {russianWord:   'tie',
-   correctAnswer: 'a piece of string, cord, or similar used for fastening or tying something'
+  {primaryWord:   'tie',
+   meaning: 'a piece of string, cord, or similar used for fastening or tying something'
   },
-  {russianWord:   'fastening',
-   correctAnswer: 'a device that closes or secures something'
+  {primaryWord:   'fastening',
+   meaning: 'a device that closes or secures something'
   },
-  {russianWord:   'cord',
-   correctAnswer: 'thin, flexible string or rope made from several twisted strands'
+  {primaryWord:   'cord',
+   meaning: 'thin, flexible string or rope made from several twisted strands'
   },
-  {russianWord:   'string',
-   correctAnswer: 'material consisting of threads of cotton, hemp, or other material twisted together to form a thin length.'
+  {primaryWord:   'string',
+   meaning: 'material consisting of threads of cotton, hemp, or other material twisted together to form a thin length.'
   },
-  {russianWord:   'hemp',
-   correctAnswer: 'the cannabis plant, especially when grown for fibre'
+  {primaryWord:   'hemp',
+   meaning: 'the cannabis plant, especially when grown for fibre'
   },
-  {russianWord:   'thin',
-   correctAnswer: 'with opposite surfaces or sides that are close or relatively close together'
+  {primaryWord:   'thin',
+   meaning: 'with opposite surfaces or sides that are close or relatively close together'
   },
-  {russianWord:   'nab',
-   correctAnswer: 'catch (someone) doing something wrong'
+  {primaryWord:   'nab',
+   meaning: 'catch (someone) doing something wrong'
   },
-  {russianWord:   'contempt',
-   correctAnswer: 'the feeling that a person or a thing is worthless or beneath consideration'
+  {primaryWord:   'contempt',
+   meaning: 'the feeling that a person or a thing is worthless or beneath consideration'
   },
-  {russianWord:   'chump',
-   correctAnswer: 'a foolish or easily deceived person'
+  {primaryWord:   'chump',
+   meaning: 'a foolish or easily deceived person'
   },
-  {russianWord:   'chump change',
-   correctAnswer: 'a small or insignificant amount of money'
+  {primaryWord:   'chump change',
+   meaning: 'a small or insignificant amount of money'
   },
-  {russianWord:   'chop',
-   correctAnswer: 'cut (something) into pieces with repeated sharp blows of an axe or knife'
+  {primaryWord:   'chop',
+   meaning: 'cut (something) into pieces with repeated sharp blows of an axe or knife'
   },
-  {russianWord:   'mole',
-   correctAnswer: 'a small burrowing mammal with dark velvety fur, a long muzzle, and very small eyes'
+  {primaryWord:   'mole',
+   meaning: 'a small burrowing mammal with dark velvety fur, a long muzzle, and very small eyes'
   },
-  {russianWord:   'burrow',
-   correctAnswer: '(of an animal) make a hole or tunnel, typically for use as a dwelling'
+  {primaryWord:   'burrow',
+   meaning: '(of an animal) make a hole or tunnel, typically for use as a dwelling'
   },
-  {russianWord:   'dwelling',
-   correctAnswer: 'a house, flat, or other place of residence'
+  {primaryWord:   'dwelling',
+   meaning: 'a house, flat, or other place of residence'
   },
-  {russianWord:   'nickel and dime',
-   correctAnswer: 'unimportant / insignificant'
+  {primaryWord:   'nickel and dime',
+   meaning: 'unimportant / insignificant'
   },
-  {russianWord:   'mercenary',
-   correctAnswer: 'primarily concerned with making money at the expense of ethics'
+  {primaryWord:   'mercenary',
+   meaning: 'primarily concerned with making money at the expense of ethics'
   },
-  {russianWord:   'vile',
-   correctAnswer: 'morally bad; wicked'
+  {primaryWord:   'vile',
+   meaning: 'morally bad; wicked'
   },
-  {russianWord:   'moniker',
-   correctAnswer: 'a person\'s name, especially a nickname or alias'
+  {primaryWord:   'moniker',
+   meaning: 'a person\'s name, especially a nickname or alias'
   },
-  {russianWord:   'loofah',
-   correctAnswer: 'the fibrous interior of a fruit that resembles a marrow, dried and used as a sponge for washing the body'
+  {primaryWord:   'loofah',
+   meaning: 'the fibrous interior of a fruit that resembles a marrow, dried and used as a sponge for washing the body'
   },
-  {russianWord:   'duct tape',
-   correctAnswer: 'strong cloth-backed waterproof adhesive tape'
+  {primaryWord:   'duct tape',
+   meaning: 'strong cloth-backed waterproof adhesive tape'
   },
-  {russianWord:   'tape',
-   correctAnswer: 'a narrow strip of material, typically used to hold or fasten something.'
+  {primaryWord:   'tape',
+   meaning: 'a narrow strip of material, typically used to hold or fasten something.'
   },
-  {russianWord:   'adhesive',
-   correctAnswer: 'a substance used for sticking objects or materials together; glue'
+  {primaryWord:   'adhesive',
+   meaning: 'a substance used for sticking objects or materials together; glue'
   },
-  {russianWord:   'wrench',
-   correctAnswer: 'adjustable metal tool used for tightening or loosening metal nuts of different sizes. '
+  {primaryWord:   'wrench',
+   meaning: 'adjustable metal tool used for tightening or loosening metal nuts of different sizes. '
   },
-  {russianWord:   'ham',
-   correctAnswer: 'salted or smoked meat from the upper part of a pig\'s leg'
+  {primaryWord:   'ham',
+   meaning: 'salted or smoked meat from the upper part of a pig\'s leg'
   },
-  {russianWord:   'rustle up',
-   correctAnswer: 'to make, find, or prepare something quickly'
+  {primaryWord:   'rustle up',
+   meaning: 'to make, find, or prepare something quickly'
   },
-  {russianWord:   'scam',
-   correctAnswer: 'a dishonest scheme; a fraud'
+  {primaryWord:   'scam',
+   meaning: 'a dishonest scheme; a fraud'
   },
-  {russianWord:   'pipe dream',
-   correctAnswer: 'an unattainable or fanciful hope or scheme'
+  {primaryWord:   'pipe dream',
+   meaning: 'an unattainable or fanciful hope or scheme'
   },
-  {russianWord:   'hustle',
-   correctAnswer: 'a state of great activity'
+  {primaryWord:   'hustle',
+   meaning: 'a state of great activity'
   },
-  {russianWord:   'interstellar',
-   correctAnswer: 'occurring or situated between stars'
+  {primaryWord:   'interstellar',
+   meaning: 'occurring or situated between stars'
   },
-  {russianWord:   'kink',
-   correctAnswer: 'a sharp twist or curve in something that is otherwise straight'
+  {primaryWord:   'kink',
+   meaning: 'a sharp twist or curve in something that is otherwise straight'
   },
-  {russianWord:   'recital',
-   correctAnswer: 'a performance of a programme of music'
+  {primaryWord:   'recital',
+   meaning: 'a performance of a programme of music'
   },
-  {russianWord:   'be on the lam ',
-   correctAnswer: 'running away / in escape status.'
+  {primaryWord:   'be on the lam ',
+   meaning: 'running away / in escape status.'
   },
-  {russianWord:   'lewd',
-   correctAnswer: 'crude and offensive in a sexual way'
+  {primaryWord:   'lewd',
+   meaning: 'crude and offensive in a sexual way'
   },
-  {russianWord:   'vagary',
-   correctAnswer: 'an unexpected and inexplicable change in a situation or in someone\'s behaviour'
+  {primaryWord:   'vagary',
+   meaning: 'an unexpected and inexplicable change in a situation or in someone\'s behaviour'
   },
-  {russianWord:   'minutiae [миньюшиай]',
-   correctAnswer: 'the small, precise, or trivial details of something'
+  {primaryWord:   'minutiae [миньюшиай]',
+   meaning: 'the small, precise, or trivial details of something'
   },
   /////////////
   // Witcher //
   /////////////
-  {russianWord:   'lodgings',
-   correctAnswer: 'temporary accommodation'
+  {primaryWord:   'lodgings',
+   meaning: 'temporary accommodation'
   },
-  {russianWord:   'keep low profile',
-   correctAnswer: 'stay out of public notice, avoid attracting attention to oneself'
+  {primaryWord:   'keep low profile',
+   meaning: 'stay out of public notice, avoid attracting attention to oneself'
   },
-  {russianWord:   'bliss',
-   correctAnswer: 'perfect happiness; great joy'
+  {primaryWord:   'bliss',
+   meaning: 'perfect happiness; great joy'
   },
-  {russianWord:   'chap',
-   correctAnswer: 'guy or a fellow — a boy or man who\'s a friend, acquaintance, or a friendly stranger'
+  {primaryWord:   'chap',
+   meaning: 'guy or a fellow — a boy or man who\'s a friend, acquaintance, or a friendly stranger'
   },
-  {russianWord:   'lame',
-   correctAnswer: '(especially of an animal) unable to walk without difficulty as the result of an injury'
+  {primaryWord:   'lame',
+   meaning: '(especially of an animal) unable to walk without difficulty as the result of an injury'
   },
-  {russianWord:   'redeem',
-   correctAnswer: 'compensate for the faults or bad aspects of'
+  {primaryWord:   'redeem',
+   meaning: 'compensate for the faults or bad aspects of'
   },
-  {russianWord:   'den',
-   correctAnswer: 'a wild mammal\'s hidden home; a lair'
+  {primaryWord:   'den',
+   meaning: 'a wild mammal\'s hidden home; a lair'
   },
-  {russianWord:   'codger',
-   correctAnswer: 'a man, esp an old or eccentric one'
+  {primaryWord:   'codger',
+   meaning: 'a man, esp an old or eccentric one'
   },
-  {russianWord:   'beg',
-   correctAnswer: 'ask someone earnestly or humbly for something'
+  {primaryWord:   'beg',
+   meaning: 'ask someone earnestly or humbly for something'
   },
-  {russianWord:   'hesitation',
-   correctAnswer: 'the action of pausing before saying or doing something'
+  {primaryWord:   'hesitation',
+   meaning: 'the action of pausing before saying or doing something'
   },
-  {russianWord:   'lurk',
-   correctAnswer: 'be or remain hidden so as to wait in ambush for someone or something'
+  {primaryWord:   'lurk',
+   meaning: 'be or remain hidden so as to wait in ambush for someone or something'
   },
-  {russianWord:   'ambush',
-   correctAnswer: 'a surprise attack by people lying in wait in a concealed position'
+  {primaryWord:   'ambush',
+   meaning: 'a surprise attack by people lying in wait in a concealed position'
   },
-  {russianWord:   'concealed',
-   correctAnswer: 'kept secret; hidden'
+  {primaryWord:   'concealed',
+   meaning: 'kept secret; hidden'
   },
-  {russianWord:   'hatred',
-   correctAnswer: 'intense dislike; hate'
+  {primaryWord:   'hatred',
+   meaning: 'intense dislike; hate'
   },
-  {russianWord:   'conduit',
-   correctAnswer: 'a channel for conveying water or other fluid'
+  {primaryWord:   'conduit',
+   meaning: 'a channel for conveying water or other fluid'
   },
-  {russianWord:   'gossip',
-   correctAnswer: 'casual conversation about other people, typically involving details that are not confirmed as being true'
+  {primaryWord:   'gossip',
+   meaning: 'casual conversation about other people, typically involving details that are not confirmed as being true'
   },
-  {russianWord:   'flee',
-   correctAnswer: 'run away from a place or situation of danger'
+  {primaryWord:   'flee',
+   meaning: 'run away from a place or situation of danger'
   },
   ////////////
   // Arcane //
   ////////////
-  {russianWord:   'jinx',
-   correctAnswer: 'a person or thing that brings bad luck'
+  {primaryWord:   'jinx',
+   meaning: 'a person or thing that brings bad luck'
   },
-  {russianWord:   'misery',
-   correctAnswer: 'a state or feeling of great physical or mental distress or discomfort'
+  {primaryWord:   'misery',
+   meaning: 'a state or feeling of great physical or mental distress or discomfort'
   },
-  {russianWord:   'nun',
-   correctAnswer: 'a member of a religious community of women'
+  {primaryWord:   'nun',
+   meaning: 'a member of a religious community of women'
   },
   ////////////////
   // Peacemaker //
   ////////////////
-  {russianWord:   'clavicle',
-   correctAnswer: 'technical term for collarbone'
+  {primaryWord:   'clavicle',
+   meaning: 'technical term for collarbone'
   },
-  {russianWord:   'elbow',
-   correctAnswer: 'the joint between the forearm and the upper arm'
+  {primaryWord:   'elbow',
+   meaning: 'the joint between the forearm and the upper arm'
   },
-  {russianWord:   'bulky',
-   correctAnswer: 'taking up much space; large and unwieldy.'
+  {primaryWord:   'bulky',
+   meaning: 'taking up much space; large and unwieldy.'
   },
-  {russianWord:   'sturgeon',
-   correctAnswer: 'a very large primitive fish with bony plates on the body'
+  {primaryWord:   'sturgeon',
+   meaning: 'a very large primitive fish with bony plates on the body'
   },
-  {russianWord:   'vow',
-   correctAnswer: 'a solemn promise'
+  {primaryWord:   'vow',
+   meaning: 'a solemn promise'
   },
-  {russianWord:   'dizzy',
-   correctAnswer: 'having or involving a sensation of spinning around and losing one\'s balance'
+  {primaryWord:   'dizzy',
+   meaning: 'having or involving a sensation of spinning around and losing one\'s balance'
   },
-  {russianWord:   'black ops',
-   correctAnswer: 'a secret mission or campaign'
+  {primaryWord:   'black ops',
+   meaning: 'a secret mission or campaign'
   },
-  {russianWord:   'dapper',
-   correctAnswer: 'neat and trim in dress and appearance (typically used of a man)'
+  {primaryWord:   'dapper',
+   meaning: 'neat and trim in dress and appearance (typically used of a man)'
   },
-  {russianWord:   'simp',
-   correctAnswer: 'a silly or foolish person'
+  {primaryWord:   'simp',
+   meaning: 'a silly or foolish person'
   },
-  {russianWord:   'as you turned out to be',
-   correctAnswer: 'used to say that something or someone eventually becomes something'
+  {primaryWord:   'as you turned out to be',
+   meaning: 'used to say that something or someone eventually becomes something'
   },
-  {russianWord:   'conducive',
-   correctAnswer: 'making a certain situation or outcome likely or possible'
+  {primaryWord:   'conducive',
+   meaning: 'making a certain situation or outcome likely or possible'
   },
-  {russianWord:   'chubbed up',
-   correctAnswer: 'To become noticeably overweight'
+  {primaryWord:   'chubbed up',
+   meaning: 'To become noticeably overweight'
   },
-  {russianWord:   'pliable',
-   correctAnswer: 'easily bent; flexible'
+  {primaryWord:   'pliable',
+   meaning: 'easily bent; flexible'
   },
-  {russianWord:   'bribe',
-   correctAnswer: 'dishonestly persuade (someone) to act in one\'s favour by a gift of money or other inducement'
+  {primaryWord:   'bribe',
+   meaning: 'dishonestly persuade (someone) to act in one\'s favour by a gift of money or other inducement'
   },
-  {russianWord:   'prick',
-   correctAnswer: 'an act of piercing something with a sharp point'
+  {primaryWord:   'prick',
+   meaning: 'an act of piercing something with a sharp point'
   },
-  {russianWord:   'hoax',
-   correctAnswer: 'a humorous or malicious deception'
+  {primaryWord:   'hoax',
+   meaning: 'a humorous or malicious deception'
   },
-  {russianWord:   'adorable',
-   correctAnswer: 'inspiring great affection or delight'
+  {primaryWord:   'adorable',
+   meaning: 'inspiring great affection or delight'
   },
-  {russianWord:   'dove',
-   correctAnswer: 'a stocky bird with a small head, short legs, and a cooing voice, feeding on seeds or fruit.'
+  {primaryWord:   'dove',
+   meaning: 'a stocky bird with a small head, short legs, and a cooing voice, feeding on seeds or fruit.'
   },
-  {russianWord:   'engraver',
-   correctAnswer: 'someone who cuts designs or words on metal, glass, or wood'
+  {primaryWord:   'engraver',
+   meaning: 'someone who cuts designs or words on metal, glass, or wood'
   },
-  {russianWord:   'stubborn',
-   correctAnswer: 'having or showing dogged determination not to change one\'s attitude or position on something'
+  {primaryWord:   'stubborn',
+   meaning: 'having or showing dogged determination not to change one\'s attitude or position on something'
   },
-  {russianWord:   'make up for',
-   correctAnswer: 'to take the place of something that has been lost or damaged'
+  {primaryWord:   'make up for',
+   meaning: 'to take the place of something that has been lost or damaged'
   },
-  {russianWord:   'balk',
-   correctAnswer: 'hesitate or be unwilling to accept an idea or undertaking'
+  {primaryWord:   'balk',
+   meaning: 'hesitate or be unwilling to accept an idea or undertaking'
   },
-  {russianWord:   'coterie',
-   correctAnswer: 'a small group of people with shared interests or tastes, especially one that is exclusive of other people'
+  {primaryWord:   'coterie',
+   meaning: 'a small group of people with shared interests or tastes, especially one that is exclusive of other people'
   },
-  {russianWord:   'grower',
-   correctAnswer: 'a person who grows a particular type of crop'
+  {primaryWord:   'grower',
+   meaning: 'a person who grows a particular type of crop'
   },
-  {russianWord:   'guts',
-   correctAnswer: 'the stomach or belly'
+  {primaryWord:   'guts',
+   meaning: 'the stomach or belly'
   },
-  {russianWord:   'belly',
-   correctAnswer: 'the front part of the human trunk below the ribs, containing the stomach and bowels'
+  {primaryWord:   'belly',
+   meaning: 'the front part of the human trunk below the ribs, containing the stomach and bowels'
   },
-  {russianWord:   'kidney',
-   correctAnswer: 'each of a pair of organs in the abdominal cavity of mammals, birds, and reptiles, that excrete urine'
+  {primaryWord:   'kidney',
+   meaning: 'each of a pair of organs in the abdominal cavity of mammals, birds, and reptiles, that excrete urine'
   },
-  {russianWord:   'calling',
-   correctAnswer: 'a strong urge towards a particular way of life or career; a vocation'
+  {primaryWord:   'calling',
+   meaning: 'a strong urge towards a particular way of life or career; a vocation'
   },
-  {russianWord:   'urge',
-   correctAnswer: 'a strong desire or impulse'
+  {primaryWord:   'urge',
+   meaning: 'a strong desire or impulse'
   },
-  {russianWord:   'stud',
-   correctAnswer: 'a large-headed piece of metal that pierces and projects from a surface, especially for decoration'
+  {primaryWord:   'stud',
+   meaning: 'a large-headed piece of metal that pierces and projects from a surface, especially for decoration'
   },
-  {russianWord:   'chubster',
-   correctAnswer: 'An overweight person'
+  {primaryWord:   'chubster',
+   meaning: 'An overweight person'
   },
-  {russianWord:   'tuxedo',
-   correctAnswer: 'a man\'s dinner jacket'
+  {primaryWord:   'tuxedo',
+   meaning: 'a man\'s dinner jacket'
   },
-  {russianWord:   'moron',
-   correctAnswer: 'a stupid person'
+  {primaryWord:   'moron',
+   meaning: 'a stupid person'
   },
-  {russianWord:   'warrant',
-   correctAnswer: 'a document issued by a legal or government official authorizing the police or another body to make an arrest, search premises'
+  {primaryWord:   'warrant',
+   meaning: 'a document issued by a legal or government official authorizing the police or another body to make an arrest, search premises'
   },
-  {russianWord:   'derogatory ',
-   correctAnswer: 'showing a critical or disrespectful attitude'
+  {primaryWord:   'derogatory ',
+   meaning: 'showing a critical or disrespectful attitude'
   },
-  {russianWord:   'wrap out',
-   correctAnswer: 'put on warm clothes'
+  {primaryWord:   'wrap out',
+   meaning: 'put on warm clothes'
   },
-  {russianWord:   'collarbone',
-   correctAnswer: 'either of the pair of bones joining the breastbone to the shoulder blades'
+  {primaryWord:   'collarbone',
+   meaning: 'either of the pair of bones joining the breastbone to the shoulder blades'
   },
-  {russianWord:   'solemn',
-   correctAnswer: 'characterized by deep sincerity'
+  {primaryWord:   'solemn',
+   meaning: 'characterized by deep sincerity'
   },
-  {russianWord:   'trim',
-   correctAnswer: 'make (something) neat or of the required size or form by cutting away irregular or unwanted parts'
+  {primaryWord:   'trim',
+   meaning: 'make (something) neat or of the required size or form by cutting away irregular or unwanted parts'
   },
-  {russianWord:   'inducement',
-   correctAnswer: 'a thing that persuades or leads someone to do something'
+  {primaryWord:   'inducement',
+   meaning: 'a thing that persuades or leads someone to do something'
   },
-  {russianWord:   'cavity',
-   correctAnswer: 'an empty space within a solid object'
+  {primaryWord:   'cavity',
+   meaning: 'an empty space within a solid object'
   },
   //////////////////////////
   // Our flag means death //
   //////////////////////////
-  {russianWord:   'gouge',
-   correctAnswer: 'make (a groove, hole, or indentation) with or as with a sharp tool or blade'
+  {primaryWord:   'gouge',
+   meaning: 'make (a groove, hole, or indentation) with or as with a sharp tool or blade'
   },
-  {russianWord:   'perilous',
-   correctAnswer: 'full of danger or risk'
+  {primaryWord:   'perilous',
+   meaning: 'full of danger or risk'
   },
-  {russianWord:   'vessel',
-   correctAnswer: 'a ship or large boat'
+  {primaryWord:   'vessel',
+   meaning: 'a ship or large boat'
   },
-  {russianWord:   'shaky',
-   correctAnswer: 'shaking or trembling'
+  {primaryWord:   'shaky',
+   meaning: 'shaking or trembling'
   },
-  {russianWord:   'flogging',
-   correctAnswer: 'a punishment in which the victim is hit repeatedly with a whip or stick'
+  {primaryWord:   'flogging',
+   meaning: 'a punishment in which the victim is hit repeatedly with a whip or stick'
   },
-  {russianWord:   'amenity',
-   correctAnswer: 'the pleasantness or attractiveness of a place'
+  {primaryWord:   'amenity',
+   meaning: 'the pleasantness or attractiveness of a place'
   },
-  {russianWord:   'sew [соу]',
-   correctAnswer: 'join, fasten, or repair (something) by making stitches with a needle and thread or a sewing machine'
+  {primaryWord:   'sew [соу]',
+   meaning: 'join, fasten, or repair (something) by making stitches with a needle and thread or a sewing machine'
   },
-  {russianWord:   'plot',
-   correctAnswer: 'secretly make plans to carry out (an illegal or harmful action)'
+  {primaryWord:   'plot',
+   meaning: 'secretly make plans to carry out (an illegal or harmful action)'
   },
-  {russianWord:   'mutiny',
-   correctAnswer: 'an open rebellion against the proper authorities'
+  {primaryWord:   'mutiny',
+   meaning: 'an open rebellion against the proper authorities'
   },
-  {russianWord:   'soft belied',
-   correctAnswer: 'a gentle, sympathetic, or lenient towards.'
+  {primaryWord:   'soft belied',
+   meaning: 'a gentle, sympathetic, or lenient towards.'
   },
-  {russianWord:   'craven',
-   correctAnswer: 'contemptibly lacking in courage; cowardly'
+  {primaryWord:   'craven',
+   meaning: 'contemptibly lacking in courage; cowardly'
   },
-  {russianWord:   'ill-equipped',
-   correctAnswer: 'not having the experience or preparation that is needed'
+  {primaryWord:   'ill-equipped',
+   meaning: 'not having the experience or preparation that is needed'
   },
-  {russianWord:   'firm',
-   correctAnswer: 'having a solid, almost unyielding surface or structure.'
+  {primaryWord:   'firm',
+   meaning: 'having a solid, almost unyielding surface or structure.'
   },
-  {russianWord:   'whopper',
-   correctAnswer: 'a thing that is extremely or unusually large / lie'
+  {primaryWord:   'whopper',
+   meaning: 'a thing that is extremely or unusually large / lie'
   },
-  {russianWord:   'snowflake',
-   correctAnswer: 'a small piece of snow that falls from the sky'
+  {primaryWord:   'snowflake',
+   meaning: 'a small piece of snow that falls from the sky'
   },
-  {russianWord:   'invigorating',
-   correctAnswer: 'making one feel strong, healthy, and full of energy'
+  {primaryWord:   'invigorating',
+   meaning: 'making one feel strong, healthy, and full of energy'
   },
-  {russianWord:   'thrive',
-   correctAnswer: '(of a child, animal, or plant) grow or develop well or vigorously'
+  {primaryWord:   'thrive',
+   meaning: '(of a child, animal, or plant) grow or develop well or vigorously'
   },
-  {russianWord:   'vigorously',
-   correctAnswer: 'forcefully'
+  {primaryWord:   'vigorously',
+   meaning: 'forcefully'
   },
-  {russianWord:   'tender',
-   correctAnswer: 'showing gentleness, kindness, and affection / an offer'
+  {primaryWord:   'tender',
+   meaning: 'showing gentleness, kindness, and affection / an offer'
   },
-  {russianWord:   'rowdy',
-   correctAnswer: 'a noisy and disorderly person'
+  {primaryWord:   'rowdy',
+   meaning: 'a noisy and disorderly person'
   },
-  {russianWord:   'rowboat',
-   correctAnswer: 'a small boat propelled by use of oars'
+  {primaryWord:   'rowboat',
+   meaning: 'a small boat propelled by use of oars'
   },
-  {russianWord:   'plumber',
-   correctAnswer: 'a person who fits and repairs the pipes'
+  {primaryWord:   'plumber',
+   meaning: 'a person who fits and repairs the pipes'
   },
-  {russianWord:   'tangled',
-   correctAnswer: 'twisted together untidily'
+  {primaryWord:   'tangled',
+   meaning: 'twisted together untidily'
   },
-  {russianWord:   'blow over',
-   correctAnswer: '(of trouble) fade away without serious consequences'
+  {primaryWord:   'blow over',
+   meaning: '(of trouble) fade away without serious consequences'
   },
-  {russianWord:   'succulent',
-   correctAnswer: '(of food) tender, juicy, and tasty'
+  {primaryWord:   'succulent',
+   meaning: '(of food) tender, juicy, and tasty'
   },
-  {russianWord:   'assemble',
-   correctAnswer: '(of people) gather together in one place for a common purpose'
+  {primaryWord:   'assemble',
+   meaning: '(of people) gather together in one place for a common purpose'
   },
-  {russianWord:   'mess up',
-   correctAnswer: 'make something untidy or dirty'
+  {primaryWord:   'mess up',
+   meaning: 'make something untidy or dirty'
   },
-  {russianWord:   'callously',
-   correctAnswer: 'in a way that shows an insensitive and cruel disregard for others'
+  {primaryWord:   'callously',
+   meaning: 'in a way that shows an insensitive and cruel disregard for others'
   },
-  {russianWord:   'mediocre',
-   correctAnswer: 'of only average quality; not very good'
+  {primaryWord:   'mediocre',
+   meaning: 'of only average quality; not very good'
   },
-  {russianWord:   'dibs',
-   correctAnswer: 'the right to share or choose something'
+  {primaryWord:   'dibs',
+   meaning: 'the right to share or choose something'
   },
-  {russianWord:   'trifling',
-   correctAnswer: 'unimportant or trivial'
+  {primaryWord:   'trifling',
+   meaning: 'unimportant or trivial'
   },
-  {russianWord:   'fancy',
-   correctAnswer: 'the faculty of imagination'
+  {primaryWord:   'fancy',
+   meaning: 'the faculty of imagination'
   },
-  {russianWord:   'faculty',
-   correctAnswer: 'an inherent mental or physical power'
+  {primaryWord:   'faculty',
+   meaning: 'an inherent mental or physical power'
   },
-  {russianWord:   'fence',
-   correctAnswer: 'a barrier, railing, or other upright structure, typically of wood or wire, enclosing an area of ground to prevent or control access or escape'
+  {primaryWord:   'fence',
+   meaning: 'a barrier, railing, or other upright structure, typically of wood or wire, enclosing an area of ground to prevent or control access or escape'
   },
-  {russianWord:   'grit',
-   correctAnswer: 'small loose particles of stone or sand'
+  {primaryWord:   'grit',
+   meaning: 'small loose particles of stone or sand'
   },
-  {russianWord:   'cesspool',
-   correctAnswer: 'an underground container for the temporary storage of liquid waste and sewage'
+  {primaryWord:   'cesspool',
+   meaning: 'an underground container for the temporary storage of liquid waste and sewage'
   },
-  {russianWord:   'gauche',
-   correctAnswer: 'unsophisticated and socially awkward'
+  {primaryWord:   'gauche',
+   meaning: 'unsophisticated and socially awkward'
   },
-  {russianWord:   'awkward',
-   correctAnswer: 'causing or feeling uneasy embarrassment or inconvenience'
+  {primaryWord:   'awkward',
+   meaning: 'causing or feeling uneasy embarrassment or inconvenience'
   },
-  {russianWord:   'jar',
-   correctAnswer: 'a glass of beer'
+  {primaryWord:   'jar',
+   meaning: 'a glass of beer'
   },
-  {russianWord:   'derelict',
-   correctAnswer: 'a person without a home, job, or property'
+  {primaryWord:   'derelict',
+   meaning: 'a person without a home, job, or property'
   },
-  {russianWord:   'acreage',
-   correctAnswer: 'an area of land, typically when used for agricultural purposes'
+  {primaryWord:   'acreage',
+   meaning: 'an area of land, typically when used for agricultural purposes'
   },
-  {russianWord:   'spare me',
-   correctAnswer: 'to allow someone or something to escape harm'
+  {primaryWord:   'spare me',
+   meaning: 'to allow someone or something to escape harm'
   },
-  {russianWord:   'blubbering',
-   correctAnswer: 'cry noisily and uncontrollably'
+  {primaryWord:   'blubbering',
+   meaning: 'cry noisily and uncontrollably'
   },
-  {russianWord:   'frankfurter',
-   correctAnswer: 'a seasoned smoked sausage made of beef and pork'
+  {primaryWord:   'frankfurter',
+   meaning: 'a seasoned smoked sausage made of beef and pork'
   },
-  {russianWord:   'bored out of my skull',
-   correctAnswer: 'extremely bored to the point of distraction, frustration, or irritation'
+  {primaryWord:   'bored out of my skull',
+   meaning: 'extremely bored to the point of distraction, frustration, or irritation'
   },
-  {russianWord:   'fond regards',
-   correctAnswer: 'a feeling of affection for a person or an institution.'
+  {primaryWord:   'fond regards',
+   meaning: 'a feeling of affection for a person or an institution.'
   },
-  {russianWord:   'auxiliary',
-   correctAnswer: 'providing supplementary or additional help and support'
+  {primaryWord:   'auxiliary',
+   meaning: 'providing supplementary or additional help and support'
   },
-  {russianWord:   'wardrobe',
-   correctAnswer: 'a large, tall cupboard or recess in which clothes may be hung or stored'
+  {primaryWord:   'wardrobe',
+   meaning: 'a large, tall cupboard or recess in which clothes may be hung or stored'
   },
-  {russianWord:   'mermaid',
-   correctAnswer: 'a mythical sea creature with the head and trunk of a woman and the tail of a fish'
+  {primaryWord:   'mermaid',
+   meaning: 'a mythical sea creature with the head and trunk of a woman and the tail of a fish'
   },
-  {russianWord:   'line up',
-   correctAnswer: 'arrange a number of people or things in a straight row'
+  {primaryWord:   'line up',
+   meaning: 'arrange a number of people or things in a straight row'
   },
-  {russianWord:   'ponce',
-   correctAnswer: 'a man who lives off a prostitute\'s earnings'
+  {primaryWord:   'ponce',
+   meaning: 'a man who lives off a prostitute\'s earnings'
   },
-  {russianWord:   'resignation',
-   correctAnswer: 'an act of resigning from a job or office'
+  {primaryWord:   'resignation',
+   meaning: 'an act of resigning from a job or office'
   },
-  {russianWord:   'munition',
-   correctAnswer: 'military weapons, ammunition, equipment, and stores'
+  {primaryWord:   'munition',
+   meaning: 'military weapons, ammunition, equipment, and stores'
   },
-  {russianWord:   'spree',
-   correctAnswer: 'a spell or sustained period of unrestrained activity of a particular kind'
+  {primaryWord:   'spree',
+   meaning: 'a spell or sustained period of unrestrained activity of a particular kind'
   },
-  {russianWord:   'bargain',
-   correctAnswer: 'an agreement between two or more people or groups as to what each will do for the other'
+  {primaryWord:   'bargain',
+   meaning: 'an agreement between two or more people or groups as to what each will do for the other'
   },
-  {russianWord:   'gusto',
-   correctAnswer: 'enjoyment and enthusiasm in doing something'
+  {primaryWord:   'gusto',
+   meaning: 'enjoyment and enthusiasm in doing something'
   },
-  {russianWord:   'humble',
-   correctAnswer: 'cause (someone) to feel less important or proud'
+  {primaryWord:   'humble',
+   meaning: 'cause (someone) to feel less important or proud'
   },
-  {russianWord:   'cutlery',
-   correctAnswer: 'knives, forks, and spoons used for eating or serving food'
+  {primaryWord:   'cutlery',
+   meaning: 'knives, forks, and spoons used for eating or serving food'
   },
-  {russianWord:   'pageantry',
-   correctAnswer: 'elaborate display or ceremony'
+  {primaryWord:   'pageantry',
+   meaning: 'elaborate display or ceremony'
   },
-  {russianWord:   'elaborate',
-   correctAnswer: 'detailed and complicated in design and planning.'
+  {primaryWord:   'elaborate',
+   meaning: 'detailed and complicated in design and planning.'
   },
-  {russianWord:   'tureen',
-   correctAnswer: 'a deep covered dish from which soup is served'
+  {primaryWord:   'tureen',
+   meaning: 'a deep covered dish from which soup is served'
   },
-  {russianWord:   'posh',
-   correctAnswer: 'elegant or stylishly luxurious'
+  {primaryWord:   'posh',
+   meaning: 'elegant or stylishly luxurious'
   },
-  {russianWord:   'nob',
-   correctAnswer: 'a person of wealth or high social position'
+  {primaryWord:   'nob',
+   meaning: 'a person of wealth or high social position'
   },
-  {russianWord:   'viceroy [вайсрой]',
-   correctAnswer: 'a ruler exercising authority in a colony on behalf of a sovereign'
+  {primaryWord:   'viceroy [вайсрой]',
+   meaning: 'a ruler exercising authority in a colony on behalf of a sovereign'
   },
-  {russianWord:   'incessant',
-   correctAnswer: '(of something regarded as unpleasant) continuing without pause or interruption'
+  {primaryWord:   'incessant',
+   meaning: '(of something regarded as unpleasant) continuing without pause or interruption'
   },
-  {russianWord:   'natter',
-   correctAnswer: 'talk casually, especially on unimportant matters; chat'
+  {primaryWord:   'natter',
+   meaning: 'talk casually, especially on unimportant matters; chat'
   },
-  {russianWord:   'fickle',
-   correctAnswer: 'changing frequently, especially as regards one\'s loyalties or affections'
+  {primaryWord:   'fickle',
+   meaning: 'changing frequently, especially as regards one\'s loyalties or affections'
   },
-  {russianWord:   'wedlock',
-   correctAnswer: 'the state of being married'
+  {primaryWord:   'wedlock',
+   meaning: 'the state of being married'
   },
-  {russianWord:   'inane',
-   correctAnswer: 'lacking sense or meaning; silly'
+  {primaryWord:   'inane',
+   meaning: 'lacking sense or meaning; silly'
   },
-  {russianWord:   'wring',
-   correctAnswer: 'squeeze and twist (something) to force liquid from it'
+  {primaryWord:   'wring',
+   meaning: 'squeeze and twist (something) to force liquid from it'
   },
-  {russianWord:   'befoul',
-   correctAnswer: 'make dirty; pollute'
+  {primaryWord:   'befoul',
+   meaning: 'make dirty; pollute'
   },
-  {russianWord:   'disposal',
-   correctAnswer: 'the action or process of getting rid of something'
+  {primaryWord:   'disposal',
+   meaning: 'the action or process of getting rid of something'
   },
-  {russianWord:   'get rid off',
-   correctAnswer: 'remove'
+  {primaryWord:   'get rid off',
+   meaning: 'remove'
   },
-  {russianWord:   'rehearsal',
-   correctAnswer: 'a practice or trial performance of a play or other work for later public performance'
+  {primaryWord:   'rehearsal',
+   meaning: 'a practice or trial performance of a play or other work for later public performance'
   },
-  {russianWord:   'infirmary',
-   correctAnswer: 'a hospital'
+  {primaryWord:   'infirmary',
+   meaning: 'a hospital'
   },
-  {russianWord:   'taut',
-   correctAnswer: 'stretched or pulled tight; not slack'
+  {primaryWord:   'taut',
+   meaning: 'stretched or pulled tight; not slack'
   },
-  {russianWord:   'maim',
-   correctAnswer: 'wound or injure (a person or animal) so that part of the body is permanently damaged'
+  {primaryWord:   'maim',
+   meaning: 'wound or injure (a person or animal) so that part of the body is permanently damaged'
   },
-  {russianWord:   'rancid',
-   correctAnswer: 'highly unpleasant'
+  {primaryWord:   'rancid',
+   meaning: 'highly unpleasant'
   },
-  {russianWord:   'dollop',
-   correctAnswer: 'a large, shapeless mass of something, especially soft food'
+  {primaryWord:   'dollop',
+   meaning: 'a large, shapeless mass of something, especially soft food'
   },
   ///////////////////////
   // Love.Death.Robots //
   ///////////////////////
-  {russianWord:   'nascent',
-   correctAnswer: '(especially of a process or organization) just coming into existence and beginning to display signs of future potential'
+  {primaryWord:   'nascent',
+   meaning: '(especially of a process or organization) just coming into existence and beginning to display signs of future potential'
   },
-  {russianWord:   'venison',
-   correctAnswer: 'meat from a deer'
+  {primaryWord:   'venison',
+   meaning: 'meat from a deer'
   },
-  {russianWord:   'snackish',
-   correctAnswer: 'means to be in a state of light hunger or desire a snack'
+  {primaryWord:   'snackish',
+   meaning: 'means to be in a state of light hunger or desire a snack'
   },
-  {russianWord:   'barbed wire',
-   correctAnswer: 'wire with clusters of short, sharp spikes set at short intervals along it'
+  {primaryWord:   'barbed wire',
+   meaning: 'wire with clusters of short, sharp spikes set at short intervals along it'
   },
-  {russianWord:   'saturated',
-   correctAnswer: 'holding as much water or moisture as can be absorbed; thoroughly soaked'
+  {primaryWord:   'saturated',
+   meaning: 'holding as much water or moisture as can be absorbed; thoroughly soaked'
   },
-  {russianWord:   'cradle',
-   correctAnswer: 'a baby\'s bed or cot, typically one mounted on rockers'
+  {primaryWord:   'cradle',
+   meaning: 'a baby\'s bed or cot, typically one mounted on rockers'
   },
-  {russianWord:   'fungus',
-   correctAnswer: 'any of a group of spore-producing organisms feeding on organic matter, including moulds, yeast, mushrooms, and toadstools'
+  {primaryWord:   'fungus',
+   meaning: 'any of a group of spore-producing organisms feeding on organic matter, including moulds, yeast, mushrooms, and toadstools'
   },
-  {russianWord:   'steady on',
-   correctAnswer: 'used as a way of exhorting someone to calm down or be more reasonable'
+  {primaryWord:   'steady on',
+   meaning: 'used as a way of exhorting someone to calm down or be more reasonable'
   },
-  {russianWord:   'exhort',
-   correctAnswer: 'strongly encourage or urge (someone) to do somethin'
+  {primaryWord:   'exhort',
+   meaning: 'strongly encourage or urge (someone) to do somethin'
   },
-  {russianWord:   'greasy',
-   correctAnswer: 'covered with, resembling, or produced by grease or oil'
+  {primaryWord:   'greasy',
+   meaning: 'covered with, resembling, or produced by grease or oil'
   },
-  {russianWord:   'abundance',
-   correctAnswer: 'a very large quantity of something'
+  {primaryWord:   'abundance',
+   meaning: 'a very large quantity of something'
   },
-  {russianWord:   'talon',
-   correctAnswer: 'a claw, especially one belonging to a bird of prey'
+  {primaryWord:   'talon',
+   meaning: 'a claw, especially one belonging to a bird of prey'
   },
-  {russianWord:   'hive',
-   correctAnswer: 'a beehive'
+  {primaryWord:   'hive',
+   meaning: 'a beehive'
   },
-  {russianWord:   'sentient',
-   correctAnswer: 'able to perceive or feel things'
+  {primaryWord:   'sentient',
+   meaning: 'able to perceive or feel things'
   },
-  {russianWord:   'adrift',
-   correctAnswer: 'floating without being either moored or steered'
+  {primaryWord:   'adrift',
+   meaning: 'floating without being either moored or steered'
   },
-  {russianWord:   'tide',
-   correctAnswer: 'the alternate rising and falling of the sea, usually twice in each lunar day at a particular place'
+  {primaryWord:   'tide',
+   meaning: 'the alternate rising and falling of the sea, usually twice in each lunar day at a particular place'
   },
-  {russianWord:   'ebb',
-   correctAnswer: 'the movement of the tide out to sea'
+  {primaryWord:   'ebb',
+   meaning: 'the movement of the tide out to sea'
   },
   ////////////////
   // SOUTH PARK //
   ////////////////
-  {russianWord:   'drought',
-   correctAnswer: 'a prolonged period of abnormally low rainfall, leading to a shortage of water'
+  {primaryWord:   'drought',
+   meaning: 'a prolonged period of abnormally low rainfall, leading to a shortage of water'
   },
-  {russianWord:   'pejorative',
-   correctAnswer: 'expressing contempt or disapproval'
+  {primaryWord:   'pejorative',
+   meaning: 'expressing contempt or disapproval'
   },
-  {russianWord:   'puissant',
-   correctAnswer: 'an insignificant or contemptible person or thing'
+  {primaryWord:   'puissant',
+   meaning: 'an insignificant or contemptible person or thing'
   },
-  {russianWord:   'haul',
-   correctAnswer: '(of a person) pull or drag with effort or force / a quantity of something that has been stolen'
+  {primaryWord:   'haul',
+   meaning: '(of a person) pull or drag with effort or force / a quantity of something that has been stolen'
   },
-  {russianWord:   'give in',
-   correctAnswer: 'cease fighting or arguing; admit defeat'
+  {primaryWord:   'give in',
+   meaning: 'cease fighting or arguing; admit defeat'
   },
-  {russianWord:   'cease',
-   correctAnswer: 'stop / come or bring to an end'
+  {primaryWord:   'cease',
+   meaning: 'stop / come or bring to an end'
   },
-  {russianWord:   'cunt',
-   correctAnswer: 'a woman\'s genitals'
+  {primaryWord:   'cunt',
+   meaning: 'a woman\'s genitals'
   },
   //////////////////////////////
   // Showdown in little Tokio //
   //////////////////////////////
-  {russianWord:   'grumpy',
-   correctAnswer: 'bad-tempered and irritable'
+  {primaryWord:   'grumpy',
+   meaning: 'bad-tempered and irritable'
   },
-  {russianWord:   'conscious',
-   correctAnswer: 'aware of and responding to one\'s surroundings'
+  {primaryWord:   'conscious',
+   meaning: 'aware of and responding to one\'s surroundings'
   },
-  {russianWord:   'perversion',
-   correctAnswer: 'sexual behaviour that is considered abnormal and unacceptable'
+  {primaryWord:   'perversion',
+   meaning: 'sexual behaviour that is considered abnormal and unacceptable'
   },
-  {russianWord:   'pleading',
-   correctAnswer: 'the action of making an emotional or earnest appeal to someone'
+  {primaryWord:   'pleading',
+   meaning: 'the action of making an emotional or earnest appeal to someone'
   },
-  {russianWord:   'dilate',
-   correctAnswer: 'make or become wider, larger, or more open'
+  {primaryWord:   'dilate',
+   meaning: 'make or become wider, larger, or more open'
   },
   //////////////
   // The.Boys //
   //////////////
-  {russianWord:   'chuckle',
-   correctAnswer: 'laugh quietly or inwardly'
+  {primaryWord:   'chuckle',
+   meaning: 'laugh quietly or inwardly'
   },
-  {russianWord:   'restitution',
-   correctAnswer: 'the restoration of something lost or stolen to its proper owner'
+  {primaryWord:   'restitution',
+   meaning: 'the restoration of something lost or stolen to its proper owner'
   },
-  {russianWord:   'addict',
-   correctAnswer: 'a person who is addicted to a particular substance, typically an illegal drug'
+  {primaryWord:   'addict',
+   meaning: 'a person who is addicted to a particular substance, typically an illegal drug'
   },
-  {russianWord:   'humble',
-   correctAnswer: 'of low social, administrative, or political rank'
+  {primaryWord:   'humble',
+   meaning: 'of low social, administrative, or political rank'
   },
-  {russianWord:   'distinguished',
-   correctAnswer: 'very successful, authoritative, and commanding great respect'
+  {primaryWord:   'distinguished',
+   meaning: 'very successful, authoritative, and commanding great respect'
   },
-  {russianWord:   'shatter',
-   correctAnswer: 'break or cause to break suddenly and violently into pieces'
+  {primaryWord:   'shatter',
+   meaning: 'break or cause to break suddenly and violently into pieces'
   },
-  {russianWord:   'curb',
-   correctAnswer: 'restrain or keep in check'
+  {primaryWord:   'curb',
+   meaning: 'restrain or keep in check'
   },
-  {russianWord:   'piss about',
-   correctAnswer: 'spend time doing stupid or unimportant things'
+  {primaryWord:   'piss about',
+   meaning: 'spend time doing stupid or unimportant things'
   },
-  {russianWord:   'rug',
-   correctAnswer: 'a floor covering of thick woven material or animal skin, typically not extending over the entire floor'
+  {primaryWord:   'rug',
+   meaning: 'a floor covering of thick woven material or animal skin, typically not extending over the entire floor'
   },
-  {russianWord:   'molar',
-   correctAnswer: 'a grinding tooth at the back of a mammal\'s mouth'
+  {primaryWord:   'molar',
+   meaning: 'a grinding tooth at the back of a mammal\'s mouth'
   },
-  {russianWord:   'compound',
-   correctAnswer: 'a thing that is composed of two or more separate elements; a mixture'
+  {primaryWord:   'compound',
+   meaning: 'a thing that is composed of two or more separate elements; a mixture'
   },
-  {russianWord:   'congenial',
-   correctAnswer: '(of a person) pleasing or liked on account of having qualities or interests that are similar to one\'s own'
+  {primaryWord:   'congenial',
+   meaning: '(of a person) pleasing or liked on account of having qualities or interests that are similar to one\'s own'
   },
-  {russianWord:   'discretion',
-   correctAnswer: 'the quality of behaving or speaking in such a way as to avoid causing offence or revealing confidential information'
+  {primaryWord:   'discretion',
+   meaning: 'the quality of behaving or speaking in such a way as to avoid causing offence or revealing confidential information'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
 
 ]

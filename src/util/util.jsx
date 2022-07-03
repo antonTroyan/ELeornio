@@ -5,7 +5,7 @@ export const takeRandomElements = (numberOfElements, array) => {
         const randomElementIndex = Math.floor(Math.random() * array.length)
         const randomElement = array[randomElementIndex]
         if (!result.includes(array[randomElementIndex])
-            && randomElement.correctAnswer !== ''
+            && randomElement.meaning !== ''
             && Math.floor(Math.random() * 100) < randomElement.complexity) {
 
             result.push(randomElement)

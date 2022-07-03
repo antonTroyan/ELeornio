@@ -1,1365 +1,1365 @@
 const englishClasses = [
-  {russianWord:   'selfish behavior',
-   correctAnswer: 'selfish streak'
+  {primaryWord:   'selfish behavior',
+   meaning: 'selfish streak'
   },
-  {russianWord:   'bright imagination',
-   correctAnswer: 'vivid imagination'
+  {primaryWord:   'bright imagination',
+   meaning: 'vivid imagination'
   },
-  {russianWord:   'smart',
-   correctAnswer: 'razor sharp mind'
+  {primaryWord:   'smart',
+   meaning: 'razor sharp mind'
   },
-  {russianWord:   'cruelly, strongly',
-   correctAnswer: 'fiercely'
+  {primaryWord:   'cruelly, strongly',
+   meaning: 'fiercely'
   },
-  {russianWord:   'quick decisions',
-   correctAnswer: 'snap decisions'
+  {primaryWord:   'quick decisions',
+   meaning: 'snap decisions'
   },
-  {russianWord:   'took offense',
-   correctAnswer: 'bear a grudge'
+  {primaryWord:   'took offense',
+   meaning: 'bear a grudge'
   },
-  {russianWord:   'nature',
-   correctAnswer: 'temper'
+  {primaryWord:   'nature',
+   meaning: 'temper'
   },
-  {russianWord:   'sure',
-   correctAnswer: 'confident'
+  {primaryWord:   'sure',
+   meaning: 'confident'
   },
-  {russianWord:   'keep cool',
-   correctAnswer: 'keep your temper'
+  {primaryWord:   'keep cool',
+   meaning: 'keep your temper'
   },
-  {russianWord:   'I like',
-   correctAnswer: 'I am fond of'
+  {primaryWord:   'I like',
+   meaning: 'I am fond of'
   },
-  {russianWord:   'exceedingly',
-   correctAnswer: 'supremely'
+  {primaryWord:   'exceedingly',
+   meaning: 'supremely'
   },
-  {russianWord:   'hysterical',
-   correctAnswer: 'throw a tantrum'
+  {primaryWord:   'hysterical',
+   meaning: 'throw a tantrum'
   },
-  {russianWord:   'come to terms with',
-   correctAnswer: 'abide, keep calm about smth'
+  {primaryWord:   'come to terms with',
+   meaning: 'abide, keep calm about smth'
   },
-  {russianWord:   'to fraud smb',
-   correctAnswer: 'deceive'
+  {primaryWord:   'to fraud smb',
+   meaning: 'deceive'
   },
-  {russianWord:   'to stew in one`s own juices',
-   correctAnswer: 'to worry and suffer because of something that one did'
+  {primaryWord:   'to stew in one`s own juices',
+   meaning: 'to worry and suffer because of something that one did'
   },
-  {russianWord:   'to be sandwiched',
-   correctAnswer: 'to be in a small or tight space between two people'
+  {primaryWord:   'to be sandwiched',
+   meaning: 'to be in a small or tight space between two people'
   },
-  {russianWord:   'to sugarcoat smth',
-   correctAnswer: 'make superficially attractive or acceptable'
+  {primaryWord:   'to sugarcoat smth',
+   meaning: 'make superficially attractive or acceptable'
   },
-  {russianWord:   'sugar daddy',
-   correctAnswer: 'a rich older man who lavishes gifts on a young woman'
+  {primaryWord:   'sugar daddy',
+   meaning: 'a rich older man who lavishes gifts on a young woman'
   },
-  {russianWord:   'to be on a gravy train',
-   correctAnswer: 'a position in which a person or group receives excessive and unjustified money with no effort'
+  {primaryWord:   'to be on a gravy train',
+   meaning: 'a position in which a person or group receives excessive and unjustified money with no effort'
   },
-  {russianWord:   'lazy bone / coach potato',
-   correctAnswer: 'lazy person'
+  {primaryWord:   'lazy bone / coach potato',
+   meaning: 'lazy person'
   },
-  {russianWord:   'timetable',
-   correctAnswer: 'schedule (something) to take place at a particular time'
+  {primaryWord:   'timetable',
+   meaning: 'schedule (something) to take place at a particular time'
   },
-  {russianWord:   'peach',
-   correctAnswer: 'a round stone fruit with juicy yellow flesh and downy pinkish-yellow skin'
+  {primaryWord:   'peach',
+   meaning: 'a round stone fruit with juicy yellow flesh and downy pinkish-yellow skin'
   },
-  {russianWord:   'raspberries',
-   correctAnswer: 'an edible soft fruit related to the blackberry, consisting of a cluster of reddish-pink drupelets'
+  {primaryWord:   'raspberries',
+   meaning: 'an edible soft fruit related to the blackberry, consisting of a cluster of reddish-pink drupelets'
   },
-  {russianWord:   'go bananas',
-   correctAnswer: 'to become very excited or angry'
+  {primaryWord:   'go bananas',
+   meaning: 'to become very excited or angry'
   },
-  {russianWord:   'to use your noodles',
-   correctAnswer: 'use your brain, dummy'
+  {primaryWord:   'to use your noodles',
+   meaning: 'use your brain, dummy'
   },
-  {russianWord:   'not my cup of tea',
-   correctAnswer: 'not what one likes or is interested in'
+  {primaryWord:   'not my cup of tea',
+   meaning: 'not what one likes or is interested in'
   },
-  {russianWord:   'cool as a cucumber',
-   correctAnswer: 'calm and relaxed'
+  {primaryWord:   'cool as a cucumber',
+   meaning: 'calm and relaxed'
   },
-  {russianWord:   'nibble',
-   correctAnswer: 'take small bites out of'
+  {primaryWord:   'nibble',
+   meaning: 'take small bites out of'
   },
-  {russianWord:   'munch',
-   correctAnswer: 'eat (something) steadily and often audibly'
+  {primaryWord:   'munch',
+   meaning: 'eat (something) steadily and often audibly'
   },
-  {russianWord:   'devour',
-   correctAnswer: 'eat (food or prey) hungrily or quickly'
+  {primaryWord:   'devour',
+   meaning: 'eat (food or prey) hungrily or quickly'
   },
-  {russianWord:   'spit',
-   correctAnswer: 'eject saliva forcibly from one\'s mouth'
+  {primaryWord:   'spit',
+   meaning: 'eject saliva forcibly from one\'s mouth'
   },
-  {russianWord:   'eat like a bird',
-   correctAnswer: 'eat very little'
+  {primaryWord:   'eat like a bird',
+   meaning: 'eat very little'
   },
-  {russianWord:   'dog breakfast',
-   correctAnswer: 'a poor piece of work; a mess'
+  {primaryWord:   'dog breakfast',
+   meaning: 'a poor piece of work; a mess'
   },
-  {russianWord:   'vulgar',
-   correctAnswer: 'very rude'
+  {primaryWord:   'vulgar',
+   meaning: 'very rude'
   },
-  {russianWord:   'brief',
-   correctAnswer: 'very short'
+  {primaryWord:   'brief',
+   meaning: 'very short'
   },
-  {russianWord:   'dull',
-   correctAnswer: 'very boring/stupid'
+  {primaryWord:   'dull',
+   meaning: 'very boring/stupid'
   },
-  {russianWord:   'superb',
-   correctAnswer: 'very good'
+  {primaryWord:   'superb',
+   meaning: 'very good'
   },
-  {russianWord:   'scalding',
-   correctAnswer: 'very hot'
+  {primaryWord:   'scalding',
+   meaning: 'very hot'
   },
-  {russianWord:   'freezing',
-   correctAnswer: 'very cold'
+  {primaryWord:   'freezing',
+   meaning: 'very cold'
   },
-  {russianWord:   'ravenous',
-   correctAnswer: 'very hungry'
+  {primaryWord:   'ravenous',
+   meaning: 'very hungry'
   },
-  {russianWord:   'sluggish',
-   correctAnswer: 'very slow'
+  {primaryWord:   'sluggish',
+   meaning: 'very slow'
   },
-  {russianWord:   'rapid',
-   correctAnswer: 'very fast'
+  {primaryWord:   'rapid',
+   meaning: 'very fast'
   },
-  {russianWord:   'exhausted',
-   correctAnswer: 'very tired'
+  {primaryWord:   'exhausted',
+   meaning: 'very tired'
   },
-  {russianWord:   'destitute',
-   correctAnswer: 'very poor'
+  {primaryWord:   'destitute',
+   meaning: 'very poor'
   },
-  {russianWord:   'wealthy / well off',
-   correctAnswer: 'very rich'
+  {primaryWord:   'wealthy / well off',
+   meaning: 'very rich'
   },
-  {russianWord:   'swig',
-   correctAnswer: 'drink in large gulps'
+  {primaryWord:   'swig',
+   meaning: 'drink in large gulps'
   },
-  {russianWord:   'guzzle',
-   correctAnswer: 'drink/eat greedily'
+  {primaryWord:   'guzzle',
+   meaning: 'drink/eat greedily'
   },
-  {russianWord:   'Take shot in a bar',
-   correctAnswer: 'have a drink in a bar'
+  {primaryWord:   'Take shot in a bar',
+   meaning: 'have a drink in a bar'
   },
-  {russianWord:   'kind of beverage',
-   correctAnswer: 'kind of drink (напиток)'
+  {primaryWord:   'kind of beverage',
+   meaning: 'kind of drink (напиток)'
   },
-  {russianWord:   'soft drinks/pop',
-   correctAnswer: 'cola, sprite etc'
+  {primaryWord:   'soft drinks/pop',
+   meaning: 'cola, sprite etc'
   },
-  {russianWord:   'teetotaler',
-   correctAnswer: 'a person who never drinks alcohol'
+  {primaryWord:   'teetotaler',
+   meaning: 'a person who never drinks alcohol'
   },
-  {russianWord:   'smth cannot be obtained in sufficient amounts',
-   correctAnswer: 'shortage / shortfall'
+  {primaryWord:   'smth cannot be obtained in sufficient amounts',
+   meaning: 'shortage / shortfall'
   },
-  {russianWord:   'make my mouth water',
-   correctAnswer: 'make someone long for or desire something'
+  {primaryWord:   'make my mouth water',
+   meaning: 'make someone long for or desire something'
   },
-  {russianWord:   'spill',
-   correctAnswer: 'cause or allow (liquid) to flow over the edge of its container'
+  {primaryWord:   'spill',
+   meaning: 'cause or allow (liquid) to flow over the edge of its container'
   },
-  {russianWord:   'stiff drink / hard liquor',
-   correctAnswer: 'strong alcoholic drink'
+  {primaryWord:   'stiff drink / hard liquor',
+   meaning: 'strong alcoholic drink'
   },
-  {russianWord:   'have a lot on my plate',
-   correctAnswer: 'very busy'
+  {primaryWord:   'have a lot on my plate',
+   meaning: 'very busy'
   },
-  {russianWord:   'all well',
-   correctAnswer: 'everything is on a track'
+  {primaryWord:   'all well',
+   meaning: 'everything is on a track'
   },
-  {russianWord:   'deadlines drive me nut',
-   correctAnswer: 'deadlines make me go bananas'
+  {primaryWord:   'deadlines drive me nut',
+   meaning: 'deadlines make me go bananas'
   },
-  {russianWord:   'what did you do?',
-   correctAnswer: 'what have you been up to?'
+  {primaryWord:   'what did you do?',
+   meaning: 'what have you been up to?'
   },
-  {russianWord:   'big portion[of food]',
-   correctAnswer: 'substantial'
+  {primaryWord:   'big portion[of food]',
+   meaning: 'substantial'
   },
-  {russianWord:   'food likely to decay or go bad quickly.',
-   correctAnswer: 'perishable'
+  {primaryWord:   'food likely to decay or go bad quickly.',
+   meaning: 'perishable'
   },
-  {russianWord:   'decompose / wither',
-   correctAnswer: 'decay'
+  {primaryWord:   'decompose / wither',
+   meaning: 'decay'
   },
-  {russianWord:   'decent ',
-   correctAnswer: 'good taste/moral integrity[person]'
+  {primaryWord:   'decent ',
+   meaning: 'good taste/moral integrity[person]'
   },
-  {russianWord:   'gourmet',
-   correctAnswer: 'a connoisseur of good food; a person with a discerning palate'
+  {primaryWord:   'gourmet',
+   meaning: 'a connoisseur of good food; a person with a discerning palate'
   },
-  {russianWord:   'slap-up meal ',
-   correctAnswer: '(meal or celebration) large and sumptuous'
+  {primaryWord:   'slap-up meal ',
+   meaning: '(meal or celebration) large and sumptuous'
   },
-  {russianWord:   'stiff drink',
-   correctAnswer: 'strong alcohol'
+  {primaryWord:   'stiff drink',
+   meaning: 'strong alcohol'
   },
-  {russianWord:   'dodge',
-   correctAnswer: 'duck out'
+  {primaryWord:   'dodge',
+   meaning: 'duck out'
   },
-  {russianWord:   'tidy',
-   correctAnswer: 'clean / neatly'
+  {primaryWord:   'tidy',
+   meaning: 'clean / neatly'
   },
-  {russianWord:   'unambitious ',
-   correctAnswer: 'feeling or showing a lack of ambition'
+  {primaryWord:   'unambitious ',
+   meaning: 'feeling or showing a lack of ambition'
   },
-  {russianWord:   'unkind',
-   correctAnswer: 'inconsiderate and harsh to others'
+  {primaryWord:   'unkind',
+   meaning: 'inconsiderate and harsh to others'
   },
-  {russianWord:   'inconsiderate',
-   correctAnswer: 'thoughtlessly causing hurt or inconvenience to others'
+  {primaryWord:   'inconsiderate',
+   meaning: 'thoughtlessly causing hurt or inconvenience to others'
   },
-  {russianWord:   'harsh',
-   correctAnswer: 'strict'
+  {primaryWord:   'harsh',
+   meaning: 'strict'
   },
-  {russianWord:   'unselfish',
-   correctAnswer: 'willing to put the needs of others before one\'s own'
+  {primaryWord:   'unselfish',
+   meaning: 'willing to put the needs of others before one\'s own'
   },
-  {russianWord:   'unsociable',
-   correctAnswer: 'not enjoying to behave sociably'
+  {primaryWord:   'unsociable',
+   meaning: 'not enjoying to behave sociably'
   },
-  {russianWord:   'arrange',
-   correctAnswer: 'put (things) in a neat, attractive, or required order'
+  {primaryWord:   'arrange',
+   meaning: 'put (things) in a neat, attractive, or required order'
   },
-  {russianWord:   'immature',
-   correctAnswer: 'not fully developed'
+  {primaryWord:   'immature',
+   meaning: 'not fully developed'
   },
-  {russianWord:   'impatient',
-   correctAnswer: 'having or showing a tendency to be quickly irritated'
+  {primaryWord:   'impatient',
+   meaning: 'having or showing a tendency to be quickly irritated'
   },
-  {russianWord:   'irresponsible',
-   correctAnswer: 'person not showing a proper sense of responsibility'
+  {primaryWord:   'irresponsible',
+   meaning: 'person not showing a proper sense of responsibility'
   },
-  {russianWord:   'insensitive',
-   correctAnswer: 'showing or feeling no concern for others\' feelings'
+  {primaryWord:   'insensitive',
+   meaning: 'showing or feeling no concern for others\' feelings'
   },
-  {russianWord:   'concern',
-   correctAnswer: 'anxiety / worry'
+  {primaryWord:   'concern',
+   meaning: 'anxiety / worry'
   },
-  {russianWord:   'thoughtlessly',
-   correctAnswer: 'lacking in consideration for others'
+  {primaryWord:   'thoughtlessly',
+   meaning: 'lacking in consideration for others'
   },
-  {russianWord:   'consideration',
-   correctAnswer: 'careful thought, typically over a period of time'
+  {primaryWord:   'consideration',
+   meaning: 'careful thought, typically over a period of time'
   },
-  {russianWord:   'thought',
-   correctAnswer: 'an idea or opinion produced by thinking'
+  {primaryWord:   'thought',
+   meaning: 'an idea or opinion produced by thinking'
   },
-  {russianWord:   'sumptuous',
-   correctAnswer: 'luxurious / deluxe'
+  {primaryWord:   'sumptuous',
+   meaning: 'luxurious / deluxe'
   },
-  {russianWord:   'rouse',
-   correctAnswer: 'make angry or excited / cause to stop sleeping'
+  {primaryWord:   'rouse',
+   meaning: 'make angry or excited / cause to stop sleeping'
   },
-  {russianWord:   'row',
-   correctAnswer: 'a noisy argument or fight / one after another without a break'
+  {primaryWord:   'row',
+   meaning: 'a noisy argument or fight / one after another without a break'
   },
-  {russianWord:   'dreaded',
-   correctAnswer: 'regarded with great fear or apprehension'
+  {primaryWord:   'dreaded',
+   meaning: 'regarded with great fear or apprehension'
   },
-  {russianWord:   'apprehension / misgiving',
-   correctAnswer: 'anxiety or fear that something bad or unpleasant will happen'
+  {primaryWord:   'apprehension / misgiving',
+   meaning: 'anxiety or fear that something bad or unpleasant will happen'
   },
-  {russianWord:   'regarded',
-   correctAnswer: 'consider or think of in a specified way'
+  {primaryWord:   'regarded',
+   meaning: 'consider or think of in a specified way'
   },
-  {russianWord:   'embrace',
-   correctAnswer: 'accept (a belief, theory, or change) willingly and enthusiastically'
+  {primaryWord:   'embrace',
+   meaning: 'accept (a belief, theory, or change) willingly and enthusiastically'
   },
-  {russianWord:   'connoisseur [конесэ]',
-   correctAnswer: 'an expert judge in matters of taste'
+  {primaryWord:   'connoisseur [конесэ]',
+   meaning: 'an expert judge in matters of taste'
   },
-  {russianWord:   'palate',
-   correctAnswer: 'a person\'s ability to distinguish between and appreciate different flavours'
+  {primaryWord:   'palate',
+   meaning: 'a person\'s ability to distinguish between and appreciate different flavours'
   },
-  {russianWord:   'discerning',
-   correctAnswer: 'having or showing good judgement'
+  {primaryWord:   'discerning',
+   meaning: 'having or showing good judgement'
   },
-  {russianWord:   'lavish ',
-   correctAnswer: 'bestow something in generous or extravagant quantities on'
+  {primaryWord:   'lavish ',
+   meaning: 'bestow something in generous or extravagant quantities on'
   },
-  {russianWord:   'grant/confer or present (an honour, right, or gift)',
-   correctAnswer: 'bestow'
+  {primaryWord:   'grant/confer or present (an honour, right, or gift)',
+   meaning: 'bestow'
   },
-  {russianWord:   'covered with fine, soft hair or feathers',
-   correctAnswer: 'downy'
+  {primaryWord:   'covered with fine, soft hair or feathers',
+   meaning: 'downy'
   },
-  {russianWord:   'edible',
-   correctAnswer: 'fit or suitable to be eaten'
+  {primaryWord:   'edible',
+   meaning: 'fit or suitable to be eaten'
   },
-  {russianWord:   'reddish having a red tinge; slightly red',
-   correctAnswer: 'reddish'
+  {primaryWord:   'reddish having a red tinge; slightly red',
+   meaning: 'reddish'
   },
-  {russianWord:   'drupelets',
-   correctAnswer: 'any of the small individual drupes forming a fleshy aggregate fruit such as a blackberry or raspberry'
+  {primaryWord:   'drupelets',
+   meaning: 'any of the small individual drupes forming a fleshy aggregate fruit such as a blackberry or raspberry'
   },
-  {russianWord:   'tinge',
-   correctAnswer: 'colour slightly'
+  {primaryWord:   'tinge',
+   meaning: 'colour slightly'
   },
-  {russianWord:   'drupe',
-   correctAnswer: 'simple fleshy fruit that usually contains a single seed'
+  {primaryWord:   'drupe',
+   meaning: 'simple fleshy fruit that usually contains a single seed'
   },
-  {russianWord:   'steadily',
-   correctAnswer: 'in a regular and even manner'
+  {primaryWord:   'steadily',
+   meaning: 'in a regular and even manner'
   },
-  {russianWord:   'saliva',
-   correctAnswer: 'watery liquid secreted into the mouth by glands'
+  {primaryWord:   'saliva',
+   meaning: 'watery liquid secreted into the mouth by glands'
   },
-  {russianWord:   'nutbag',
-   correctAnswer: 'an odd-eccentric or insane person'
+  {primaryWord:   'nutbag',
+   meaning: 'an odd-eccentric or insane person'
   },
-  {russianWord:   'odd',
-   correctAnswer: 'different to what is usual or expected; strange'
+  {primaryWord:   'odd',
+   meaning: 'different to what is usual or expected; strange'
   },
-  {russianWord:   'ruthless ',
-   correctAnswer: 'having or showing no pity or compassion for others'
+  {primaryWord:   'ruthless ',
+   meaning: 'having or showing no pity or compassion for others'
   },
-  {russianWord:   'scoundrel',
-   correctAnswer: 'a dishonest or unscrupulous person; a rogue'
+  {primaryWord:   'scoundrel',
+   meaning: 'a dishonest or unscrupulous person; a rogue'
   },
   //////////////////
   // Family topic //
   //////////////////
-  {russianWord:   'easy going',
-   correctAnswer: 'friendly'
+  {primaryWord:   'easy going',
+   meaning: 'friendly'
   },
-  {russianWord:   'bossy',
-   correctAnswer: 'fond of giving people orders; domineering'
+  {primaryWord:   'bossy',
+   meaning: 'fond of giving people orders; domineering'
   },
-  {russianWord:   'moody',
-   correctAnswer: '(of a person) given to unpredictable changes of mood, especially sudden bouts of gloominess or sullenness.'
+  {primaryWord:   'moody',
+   meaning: '(of a person) given to unpredictable changes of mood, especially sudden bouts of gloominess or sullenness.'
   },
-  {russianWord:   'competitive',
-   correctAnswer: 'relating to or characterized by competition'
+  {primaryWord:   'competitive',
+   meaning: 'relating to or characterized by competition'
   },
-  {russianWord:   'mean',
-   correctAnswer: 'being unkind to another person'
+  {primaryWord:   'mean',
+   meaning: 'being unkind to another person'
   },
-  {russianWord:   'close-knit family',
-   correctAnswer: 'bound together by intimate social or cultural ties or by close economic or political ties'
+  {primaryWord:   'close-knit family',
+   meaning: 'bound together by intimate social or cultural ties or by close economic or political ties'
   },
-  {russianWord:   'nuclear family',
-   correctAnswer: 'a couple and their dependent children, regarded as a basic social unit'
+  {primaryWord:   'nuclear family',
+   meaning: 'a couple and their dependent children, regarded as a basic social unit'
   },
-  {russianWord:   'estranged husband',
-   correctAnswer: 'a husband who no longer lives with his wife'
+  {primaryWord:   'estranged husband',
+   meaning: 'a husband who no longer lives with his wife'
   },
-  {russianWord:   'deprived home',
-   correctAnswer: 'lacking important things like food and water'
+  {primaryWord:   'deprived home',
+   meaning: 'lacking important things like food and water'
   },
-  {russianWord:   'spinster',
-   correctAnswer: 'confirmed bachelor [woman]'
+  {primaryWord:   'spinster',
+   meaning: 'confirmed bachelor [woman]'
   },
-  {russianWord:   'custody',
-   correctAnswer: 'the protective care or guardianship of someone or something / imprisonment'
+  {primaryWord:   'custody',
+   meaning: 'the protective care or guardianship of someone or something / imprisonment'
   },
-  {russianWord:   'provide for family',
-   correctAnswer: 'earn money for family'
+  {primaryWord:   'provide for family',
+   meaning: 'earn money for family'
   },
-  {russianWord:   'distant relatives',
-   correctAnswer: 'relative who is not closely related to you'
+  {primaryWord:   'distant relatives',
+   meaning: 'relative who is not closely related to you'
   },
-  {russianWord:   'dysfunctional family',
-   correctAnswer: 'family is characterized by “conflict, misbehavior, or abuse” '
+  {primaryWord:   'dysfunctional family',
+   meaning: 'family is characterized by “conflict, misbehavior, or abuse” '
   },
-  {russianWord:   'late wife',
-   correctAnswer: 'wife has passed away'
+  {primaryWord:   'late wife',
+   meaning: 'wife has passed away'
   },
-  {russianWord:   'set up home',
-   correctAnswer: 'start a family'
+  {primaryWord:   'set up home',
+   meaning: 'start a family'
   },
-  {russianWord:   'expect a baby',
-   correctAnswer: 'pregnant woman'
+  {primaryWord:   'expect a baby',
+   meaning: 'pregnant woman'
   },
-  {russianWord:   'baby due to come',
-   correctAnswer: 'baby will born'
+  {primaryWord:   'baby due to come',
+   meaning: 'baby will born'
   },
-  {russianWord:   'bring up a child',
-   correctAnswer: 'raise a child'
+  {primaryWord:   'bring up a child',
+   meaning: 'raise a child'
   },
-  {russianWord:   'collocation',
-   correctAnswer: 'habitual juxtaposition of a particular word with another word'
+  {primaryWord:   'collocation',
+   meaning: 'habitual juxtaposition of a particular word with another word'
   },
-  {russianWord:   'bout',
-   correctAnswer: 'a short period of intense activity of a specified kind'
+  {primaryWord:   'bout',
+   meaning: 'a short period of intense activity of a specified kind'
   },
-  {russianWord:   'gloominess ',
-   correctAnswer: 'a feeling of melancholy apprehension'
+  {primaryWord:   'gloominess ',
+   meaning: 'a feeling of melancholy apprehension'
   },
-  {russianWord:   'sullenness',
-   correctAnswer: 'showing irritation or ill humor by a gloomy silence or reserve'
+  {primaryWord:   'sullenness',
+   meaning: 'showing irritation or ill humor by a gloomy silence or reserve'
   },
-  {russianWord:   'intimate',
-   correctAnswer: 'private and personal / closely acquainted; familiar'
+  {primaryWord:   'intimate',
+   meaning: 'private and personal / closely acquainted; familiar'
   },
-  {russianWord:   'acquaint',
-   correctAnswer: 'make someone aware of or familiar with'
+  {primaryWord:   'acquaint',
+   meaning: 'make someone aware of or familiar with'
   },
-  {russianWord:   'bitter',
-   correctAnswer: 'having a sharp, pungent taste or smell; not sweet'
+  {primaryWord:   'bitter',
+   meaning: 'having a sharp, pungent taste or smell; not sweet'
   },
-  {russianWord:   'acrimonious',
-   correctAnswer: '(typically of speech or discussion) angry and bitter'
+  {primaryWord:   'acrimonious',
+   meaning: '(typically of speech or discussion) angry and bitter'
   },
-  {russianWord:   'juxtaposition',
-   correctAnswer: 'the fact of two things being seen or placed close together with contrasting effect'
+  {primaryWord:   'juxtaposition',
+   meaning: 'the fact of two things being seen or placed close together with contrasting effect'
   },
-  {russianWord:   'make friends',
-   correctAnswer: 'establish a relationship or relationships based on mutual affection'
+  {primaryWord:   'make friends',
+   meaning: 'establish a relationship or relationships based on mutual affection'
   },
-  {russianWord:   'strike up a friendship',
-   correctAnswer: 'start a friendship'
+  {primaryWord:   'strike up a friendship',
+   meaning: 'start a friendship'
   },
-  {russianWord:   'mutual',
-   correctAnswer: '(of a feeling or action) experienced or done by each of two or more parties towards the other or others'
+  {primaryWord:   'mutual',
+   meaning: '(of a feeling or action) experienced or done by each of two or more parties towards the other or others'
   },
-  {russianWord:   'casual acquaintances',
-   correctAnswer: 'someone you know a little'
+  {primaryWord:   'casual acquaintances',
+   meaning: 'someone you know a little'
   },
-  {russianWord:   'keep in contact',
-   correctAnswer: 'to maintain (close) contact (with someone)'
+  {primaryWord:   'keep in contact',
+   meaning: 'to maintain (close) contact (with someone)'
   },
-  {russianWord:   'affair',
-   correctAnswer: 'a sexual relationship between two people, one or both of whom are married to someone else'
+  {primaryWord:   'affair',
+   meaning: 'a sexual relationship between two people, one or both of whom are married to someone else'
   },
   //////////////////////
   // Describe peoples //
   //////////////////////
-  {russianWord:   'fishy',
-   correctAnswer: 'arousing feelings of doubt or suspicion'
+  {primaryWord:   'fishy',
+   meaning: 'arousing feelings of doubt or suspicion'
   },
-  {russianWord:   'something fishy going on',
-   correctAnswer: 'smth suspicion going on'
+  {primaryWord:   'something fishy going on',
+   meaning: 'smth suspicion going on'
   },
-  {russianWord:   'backstabber / snake',
-   correctAnswer: 'one who betrays a trust or an allegiance'
+  {primaryWord:   'backstabber / snake',
+   meaning: 'one who betrays a trust or an allegiance'
   },
-  {russianWord:   'allegiance',
-   correctAnswer: 'loyalty or commitment to a superior or to a group or cause'
+  {primaryWord:   'allegiance',
+   meaning: 'loyalty or commitment to a superior or to a group or cause'
   },
-  {russianWord:   'sheepish',
-   correctAnswer: 'showing or feeling embarrassment from shame or a lack of self-confidence'
+  {primaryWord:   'sheepish',
+   meaning: 'showing or feeling embarrassment from shame or a lack of self-confidence'
   },
-  {russianWord:   'do you have a beef with me',
-   correctAnswer: 'outstanding or unsettled dispute or disagreement with someone'
+  {primaryWord:   'do you have a beef with me',
+   meaning: 'outstanding or unsettled dispute or disagreement with someone'
   },
-  {russianWord:   'squirrelly',
-   correctAnswer: 'restless, nervous, or unpredictable'
+  {primaryWord:   'squirrelly',
+   meaning: 'restless, nervous, or unpredictable'
   },
-  {russianWord:   'asinine / donkey',
-   correctAnswer: 'stupid'
+  {primaryWord:   'asinine / donkey',
+   meaning: 'stupid'
   },
-  {russianWord:   'take instant dislike',
-   correctAnswer: 'do not like smb'
+  {primaryWord:   'take instant dislike',
+   meaning: 'do not like smb'
   },
-  {russianWord:   'tough',
-   correctAnswer: 'able to endure hardship or pain / a rough and violent man'
+  {primaryWord:   'tough',
+   meaning: 'able to endure hardship or pain / a rough and violent man'
   },
-  {russianWord:   'inevitable',
-   correctAnswer: 'certain to happen; unavoidable'
+  {primaryWord:   'inevitable',
+   meaning: 'certain to happen; unavoidable'
   },
-  {russianWord:   'put a strain',
-   correctAnswer: 'place an undue or overwhelming burden on someone\'s or something\'s resources or ability to cope'
+  {primaryWord:   'put a strain',
+   meaning: 'place an undue or overwhelming burden on someone\'s or something\'s resources or ability to cope'
   },
-  {russianWord:   'stick up',
-   correctAnswer: 'staying aloof from others because one thinks one is superior'
+  {primaryWord:   'stick up',
+   meaning: 'staying aloof from others because one thinks one is superior'
   },
-  {russianWord:   'settle down',
-   correctAnswer: 'become quiet, calm'
+  {primaryWord:   'settle down',
+   meaning: 'become quiet, calm'
   },
-  {russianWord:   'burden',
-   correctAnswer: 'a load, typically a heavy one'
+  {primaryWord:   'burden',
+   meaning: 'a load, typically a heavy one'
   },
-  {russianWord:   'cope',
-   correctAnswer: '(of a person) deal effectively with something difficult'
+  {primaryWord:   'cope',
+   meaning: '(of a person) deal effectively with something difficult'
   },
-  {russianWord:   'undue',
-   correctAnswer: 'unwarranted or inappropriate because excessive or disproportionate'
+  {primaryWord:   'undue',
+   meaning: 'unwarranted or inappropriate because excessive or disproportionate'
   },
-  {russianWord:   'strain',
-   correctAnswer: 'a force tending to pull or stretch something to an extreme or damaging degree'
+  {primaryWord:   'strain',
+   meaning: 'a force tending to pull or stretch something to an extreme or damaging degree'
   },
-  {russianWord:   'to stick up for smb',
-   correctAnswer: 'to support someone or something'
+  {primaryWord:   'to stick up for smb',
+   meaning: 'to support someone or something'
   },
-  {russianWord:   'aloof',
-   correctAnswer: 'not friendly or forthcoming; cool and distant'
+  {primaryWord:   'aloof',
+   meaning: 'not friendly or forthcoming; cool and distant'
   },
-  {russianWord:   'whoop',
-   correctAnswer: 'a loud cry of joy or excitement'
+  {primaryWord:   'whoop',
+   meaning: 'a loud cry of joy or excitement'
   },
-  {russianWord:   'ruck',
-   correctAnswer: 'a tightly packed crowd of people'
+  {primaryWord:   'ruck',
+   meaning: 'a tightly packed crowd of people'
   },
-  {russianWord:   'muck',
-   correctAnswer: 'dirt, rubbish, or waste matter'
+  {primaryWord:   'muck',
+   meaning: 'dirt, rubbish, or waste matter'
   },
-  {russianWord:   'ruck the muck',
-   correctAnswer: 'remove dirt / make clean'
+  {primaryWord:   'ruck the muck',
+   meaning: 'remove dirt / make clean'
   },
-  {russianWord:   'phony',
-   correctAnswer: 'having a misleading appearance'
+  {primaryWord:   'phony',
+   meaning: 'having a misleading appearance'
   },
-  {russianWord:   'pass the torch',
-   correctAnswer: 'to give one\'s job, duties, etc'
+  {primaryWord:   'pass the torch',
+   meaning: 'to give one\'s job, duties, etc'
   },
-  {russianWord:   'hinge on it ',
-   correctAnswer: 'to be determined or decided by (something)'
+  {primaryWord:   'hinge on it ',
+   meaning: 'to be determined or decided by (something)'
   },
-  {russianWord:   'rotten',
-   correctAnswer: 'suffering from decay / very bad'
+  {primaryWord:   'rotten',
+   meaning: 'suffering from decay / very bad'
   },
-  {russianWord:   'look up',
-   correctAnswer: '(of a situation) improve / search for and find a piece of information in a book or database'
+  {primaryWord:   'look up',
+   meaning: '(of a situation) improve / search for and find a piece of information in a book or database'
   },
-  {russianWord:   'reluctant',
-   correctAnswer: 'unwilling and hesitant; disinclined'
+  {primaryWord:   'reluctant',
+   meaning: 'unwilling and hesitant; disinclined'
   },
-  {russianWord:   'fault',
-   correctAnswer: 'responsibility for an accident or misfortune'
+  {primaryWord:   'fault',
+   meaning: 'responsibility for an accident or misfortune'
   },
-  {russianWord:   'screw up',
-   correctAnswer: 'cause something to fail or go wrong'
+  {primaryWord:   'screw up',
+   meaning: 'cause something to fail or go wrong'
   },
-  {russianWord:   'culprit',
-   correctAnswer: 'a person who is responsible for a crime or other misdeed'
+  {primaryWord:   'culprit',
+   meaning: 'a person who is responsible for a crime or other misdeed'
   },
-  {russianWord:   'chatterbox',
-   correctAnswer: 'one who engages in much idle talk / talkative'
+  {primaryWord:   'chatterbox',
+   meaning: 'one who engages in much idle talk / talkative'
   },
-  {russianWord:   'idle',
-   correctAnswer: '(of a person) avoiding work; lazy / without purpose or effect; pointless'
+  {primaryWord:   'idle',
+   meaning: '(of a person) avoiding work; lazy / without purpose or effect; pointless'
   },
-  {russianWord:   'make up your mind',
-   correctAnswer: 'make a decision; decide'
+  {primaryWord:   'make up your mind',
+   meaning: 'make a decision; decide'
   },
-  {russianWord:   'make of somebody',
-   correctAnswer: 'understand a person or thing\'s meaning or character'
+  {primaryWord:   'make of somebody',
+   meaning: 'understand a person or thing\'s meaning or character'
   },
-  {russianWord:   'come across',
-   correctAnswer: '(of a person) appear or sound in a specified way; give a specified impression'
+  {primaryWord:   'come across',
+   meaning: '(of a person) appear or sound in a specified way; give a specified impression'
   },
-  {russianWord:   'timid',
-   correctAnswer: '(neutral) a person who is nervous and shy'
+  {primaryWord:   'timid',
+   meaning: '(neutral) a person who is nervous and shy'
   },
-  {russianWord:   'come across',
-   correctAnswer: 'give a specified impression'
+  {primaryWord:   'come across',
+   meaning: 'give a specified impression'
   },
-  {russianWord:   'conscientious [коншиеншес]',
-   correctAnswer: 'wishing to do one\'s work or duty well and thoroughly'
+  {primaryWord:   'conscientious [коншиеншес]',
+   meaning: 'wishing to do one\'s work or duty well and thoroughly'
   },
-  {russianWord:   'take to someone',
-   correctAnswer: 'you like someone, especially after knowing someone for only a short time'
+  {primaryWord:   'take to someone',
+   meaning: 'you like someone, especially after knowing someone for only a short time'
   },
-  {russianWord:   'strike someone as confident',
-   correctAnswer: 'make someone have particular opinion or feeling [impress as confident]'
+  {primaryWord:   'strike someone as confident',
+   meaning: 'make someone have particular opinion or feeling [impress as confident]'
   },
-  {russianWord:   'envy',
-   correctAnswer: 'a feeling of discontented or resentful longing aroused by someone else\'s possessions, qualities, or luck'
+  {primaryWord:   'envy',
+   meaning: 'a feeling of discontented or resentful longing aroused by someone else\'s possessions, qualities, or luck'
   },
-  {russianWord:   'coward',
-   correctAnswer: 'a person who is contemptibly lacking in the courage to do or endure dangerous or unpleasant things'
+  {primaryWord:   'coward',
+   meaning: 'a person who is contemptibly lacking in the courage to do or endure dangerous or unpleasant things'
   },
-  {russianWord:   'cupboard',
-   correctAnswer: 'a recess or piece of furniture with a door and typically shelves, used for storage'
+  {primaryWord:   'cupboard',
+   meaning: 'a recess or piece of furniture with a door and typically shelves, used for storage'
   },
-  {russianWord:   'discontented',
-   correctAnswer: 'dissatisfied, especially with one\'s circumstances'
+  {primaryWord:   'discontented',
+   meaning: 'dissatisfied, especially with one\'s circumstances'
   },
   ////////////
   // Idioms //
   ////////////
-  {russianWord:   'be at loggerheads',
-   correctAnswer: 'disagree strongly with each other'
+  {primaryWord:   'be at loggerheads',
+   meaning: 'disagree strongly with each other'
   },
-  {russianWord:   'be at cross-purposes',
-   correctAnswer: 'not understand each other because they are trying to say different things'
+  {primaryWord:   'be at cross-purposes',
+   meaning: 'not understand each other because they are trying to say different things'
   },
-  {russianWord:   'have it in for someone',
-   correctAnswer: 'be determined to criticise or harm someone'
+  {primaryWord:   'have it in for someone',
+   meaning: 'be determined to criticise or harm someone'
   },
-  {russianWord:   'have it out with someone',
-   correctAnswer: 'talk to someone about something they have done in order to solve the problem'
+  {primaryWord:   'have it out with someone',
+   meaning: 'talk to someone about something they have done in order to solve the problem'
   },
-  {russianWord:   'rub someone up the wrong way',
-   correctAnswer: 'irritate someone'
+  {primaryWord:   'rub someone up the wrong way',
+   meaning: 'irritate someone'
   },
-  {russianWord:   'two-time someone',
-   correctAnswer: 'have a romantic or sexual relationship with 2 people at the same time'
+  {primaryWord:   'two-time someone',
+   meaning: 'have a romantic or sexual relationship with 2 people at the same time'
   },
-  {russianWord:   'keep someone/smth at bay ',
-   correctAnswer: 'prevent smone/smth from coming near or harming you'
+  {primaryWord:   'keep someone/smth at bay ',
+   meaning: 'prevent smone/smth from coming near or harming you'
   },
-  {russianWord:   'keep yourself to yourself',
-   correctAnswer: 'prefer to be on your own and avoid talking with other people'
+  {primaryWord:   'keep yourself to yourself',
+   meaning: 'prefer to be on your own and avoid talking with other people'
   },
-  {russianWord:   'be in someone`s good books` ',
-   correctAnswer: 'some person is pleased with you'
+  {primaryWord:   'be in someone`s good books` ',
+   meaning: 'some person is pleased with you'
   },
-  {russianWord:   'get on like a house on fire',
-   correctAnswer: 'get an extremely well with someone'
+  {primaryWord:   'get on like a house on fire',
+   meaning: 'get an extremely well with someone'
   },
-  {russianWord:   'make it up to someone',
-   correctAnswer: 'do smth good for someone after you did smth bad in past / compensate'
+  {primaryWord:   'make it up to someone',
+   meaning: 'do smth good for someone after you did smth bad in past / compensate'
   },
-  {russianWord:   'take a shine to',
-   correctAnswer: 'to like someone immediately [informal]'
+  {primaryWord:   'take a shine to',
+   meaning: 'to like someone immediately [informal]'
   },
-  {russianWord:   'have a soft spot for',
-   correctAnswer: 'feel a lot of affection for one particular person'
+  {primaryWord:   'have a soft spot for',
+   meaning: 'feel a lot of affection for one particular person'
   },
-  {russianWord:   'affection',
-   correctAnswer: 'a gentle feeling of fondness or liking'
+  {primaryWord:   'affection',
+   meaning: 'a gentle feeling of fondness or liking'
   },
-  {russianWord:   'chimney',
-   correctAnswer: 'a vertical channel or pipe which conducts smoke and combustion gases up from a fire'
+  {primaryWord:   'chimney',
+   meaning: 'a vertical channel or pipe which conducts smoke and combustion gases up from a fire'
   },
-  {russianWord:   'roast',
-   correctAnswer: 'cook (food, especially meat) by prolonged exposure to heat in an oven or over a fire'
+  {primaryWord:   'roast',
+   meaning: 'cook (food, especially meat) by prolonged exposure to heat in an oven or over a fire'
   },
-  {russianWord:   'mayhem',
-   correctAnswer: 'violent or extreme disorder; chaos'
+  {primaryWord:   'mayhem',
+   meaning: 'violent or extreme disorder; chaos'
   },
-  {russianWord:   'grumpy',
-   correctAnswer: 'bad-tempered and irritable'
+  {primaryWord:   'grumpy',
+   meaning: 'bad-tempered and irritable'
   },
-  {russianWord:   'penny-pinching',
-   correctAnswer: 'unwilling to spend money; miserly'
+  {primaryWord:   'penny-pinching',
+   meaning: 'unwilling to spend money; miserly'
   },
-  {russianWord:   'loath',
-   correctAnswer: 'reluctant; unwilling'
+  {primaryWord:   'loath',
+   meaning: 'reluctant; unwilling'
   },
-  {russianWord:   'guinea pig',
-   correctAnswer: 'a person or thing used as a subject for experiment'
+  {primaryWord:   'guinea pig',
+   meaning: 'a person or thing used as a subject for experiment'
   },
-  {russianWord:   'admission',
-   correctAnswer: 'a statement acknowledging the truth of something'
+  {primaryWord:   'admission',
+   meaning: 'a statement acknowledging the truth of something'
   },
   ///////////
   // Money //
   ///////////
-  {russianWord:   'borrow',
-   correctAnswer: 'take and use (something belonging to someone else) with the intention of returning it'
+  {primaryWord:   'borrow',
+   meaning: 'take and use (something belonging to someone else) with the intention of returning it'
   },
-  {russianWord:   'lend',
-   correctAnswer: 'grant to (someone) the use of (something) on the understanding that it will be returned'
+  {primaryWord:   'lend',
+   meaning: 'grant to (someone) the use of (something) on the understanding that it will be returned'
   },
-  {russianWord:   'owe / get into debt',
-   correctAnswer: 'have an obligation to pay or repay (something, especially money) in return for something received'
+  {primaryWord:   'owe / get into debt',
+   meaning: 'have an obligation to pay or repay (something, especially money) in return for something received'
   },
-  {russianWord:   'charge [for]',
-   correctAnswer: 'a price asked for goods or services'
+  {primaryWord:   'charge [for]',
+   meaning: 'a price asked for goods or services'
   },
-  {russianWord:   'stink',
-   correctAnswer: 'have a strong unpleasant smell'
+  {primaryWord:   'stink',
+   meaning: 'have a strong unpleasant smell'
   },
-  {russianWord:   'put some money aside',
-   correctAnswer: 'to save or keep (something, such as money) to be used at a later time'
+  {primaryWord:   'put some money aside',
+   meaning: 'to save or keep (something, such as money) to be used at a later time'
   },
-  {russianWord:   'to be worth about',
-   correctAnswer: 'equivalent in value to the sum or item specified'
+  {primaryWord:   'to be worth about',
+   meaning: 'equivalent in value to the sum or item specified'
   },
-  {russianWord:   'get into debt [дэт] whole',
-   correctAnswer: 'to come to be in a position of owing money to someone'
+  {primaryWord:   'get into debt [дэт] whole',
+   meaning: 'to come to be in a position of owing money to someone'
   },
-  {russianWord:   'mortgage [могич]',
-   correctAnswer: 'a legal agreement by which a bank, building society, etc. lends money at interest in exchange for taking title of the debtor\'s property'
+  {primaryWord:   'mortgage [могич]',
+   meaning: 'a legal agreement by which a bank, building society, etc. lends money at interest in exchange for taking title of the debtor\'s property'
   },
-  {russianWord:   'spend money on smth',
-   correctAnswer: 'to pay out for'
+  {primaryWord:   'spend money on smth',
+   meaning: 'to pay out for'
   },
-  {russianWord:   'to cost a fortune',
-   correctAnswer: 'to cost a lot of money'
+  {primaryWord:   'to cost a fortune',
+   meaning: 'to cost a lot of money'
   },
-  {russianWord:   'throw money at',
-   correctAnswer: 'spend excess money, trying to solve a problem'
+  {primaryWord:   'throw money at',
+   meaning: 'spend excess money, trying to solve a problem'
   },
-  {russianWord:   'throw money around',
-   correctAnswer: 'waste money'
+  {primaryWord:   'throw money around',
+   meaning: 'waste money'
   },
-  {russianWord:   'rock-bottom prices',
-   correctAnswer: 'very low'
+  {primaryWord:   'rock-bottom prices',
+   meaning: 'very low'
   },
-  {russianWord:   'soar',
-   correctAnswer: 'fly or rise high in the air'
+  {primaryWord:   'soar',
+   meaning: 'fly or rise high in the air'
   },
-  {russianWord:   'money was always tight',
-   correctAnswer: 'wasn`t much money'
+  {primaryWord:   'money was always tight',
+   meaning: 'wasn`t much money'
   },
-  {russianWord:   'sky-rocket prices',
-   correctAnswer: 'very high'
+  {primaryWord:   'sky-rocket prices',
+   meaning: 'very high'
   },
-  {russianWord:   'make money / earn / raise money',
-   correctAnswer: 'make a profit'
+  {primaryWord:   'make money / earn / raise money',
+   meaning: 'make a profit'
   },
-  {russianWord:   'to make a [small] fortune',
-   correctAnswer: 'raise a lot of money'
+  {primaryWord:   'to make a [small] fortune',
+   meaning: 'raise a lot of money'
   },
-  {russianWord:   'bargain',
-   correctAnswer: 'a thing bought or offered for sale much more cheaply than is usual or expected'
+  {primaryWord:   'bargain',
+   meaning: 'a thing bought or offered for sale much more cheaply than is usual or expected'
   },
-  {russianWord:   'getting by / make ends meet',
-   correctAnswer: 'manage with difficulty to live or accomplish something'
+  {primaryWord:   'getting by / make ends meet',
+   meaning: 'manage with difficulty to live or accomplish something'
   },
-  {russianWord:   'scrape by / live on a shoestring',
-   correctAnswer: 'to live with barely enough money'
+  {primaryWord:   'scrape by / live on a shoestring',
+   meaning: 'to live with barely enough money'
   },
-  {russianWord:   'feed as a fiddle',
-   correctAnswer: 'in good physical condition'
+  {primaryWord:   'feed as a fiddle',
+   meaning: 'in good physical condition'
   },
-  {russianWord:   'save up / sock away',
-   correctAnswer: 'accumulate something for a particular purpose [big purchase]'
+  {primaryWord:   'save up / sock away',
+   meaning: 'accumulate something for a particular purpose [big purchase]'
   },
-  {russianWord:   'fork over / out',
-   correctAnswer: 'to give something, especially money to someone, especially when you do not want to'
+  {primaryWord:   'fork over / out',
+   meaning: 'to give something, especially money to someone, especially when you do not want to'
   },
-  {russianWord:   'cough up',
-   correctAnswer: 'give something reluctantly, especially money or information that is due or required'
+  {primaryWord:   'cough up',
+   meaning: 'give something reluctantly, especially money or information that is due or required'
   },
-  {russianWord:   'shell out',
-   correctAnswer: 'pay a specified amount of money, especially an amount that is resented as being excessive'
+  {primaryWord:   'shell out',
+   meaning: 'pay a specified amount of money, especially an amount that is resented as being excessive'
   },
-  {russianWord:   'dip into',
-   correctAnswer: 'withdraw something in small amounts, usually money'
+  {primaryWord:   'dip into',
+   meaning: 'withdraw something in small amounts, usually money'
   },
-  {russianWord:   'break into [savings]',
-   correctAnswer: 'to start to spend money that you did not want to spend [savings disappears]'
+  {primaryWord:   'break into [savings]',
+   meaning: 'to start to spend money that you did not want to spend [savings disappears]'
   },
-  {russianWord:   'pay back',
-   correctAnswer: 'repay a loan to someone'
+  {primaryWord:   'pay back',
+   meaning: 'repay a loan to someone'
   },
-  {russianWord:   'pay off / pick up the bill',
-   correctAnswer: 'pay a debt in full'
+  {primaryWord:   'pay off / pick up the bill',
+   meaning: 'pay a debt in full'
   },
-  {russianWord:   'mental wellbeing',
-   correctAnswer: 'mental health'
+  {primaryWord:   'mental wellbeing',
+   meaning: 'mental health'
   },
-  {russianWord:   'take money out / pull money',
-   correctAnswer: 'withdraw money'
+  {primaryWord:   'take money out / pull money',
+   meaning: 'withdraw money'
   },
-  {russianWord:   'cut back on / cut down on',
-   correctAnswer: 'reduce an expenses'
+  {primaryWord:   'cut back on / cut down on',
+   meaning: 'reduce an expenses'
   },
-  {russianWord:   'interest rate',
-   correctAnswer: 'the proportion of a loan that is charged as interest to the borrower'
+  {primaryWord:   'interest rate',
+   meaning: 'the proportion of a loan that is charged as interest to the borrower'
   },
-  {russianWord:   'take back',
-   correctAnswer: 'reclaim possession of something'
+  {primaryWord:   'take back',
+   meaning: 'reclaim possession of something'
   },
-  {russianWord:   'reluctantly',
-   correctAnswer: 'in an unwilling and hesitant way'
+  {primaryWord:   'reluctantly',
+   meaning: 'in an unwilling and hesitant way'
   },
-  {russianWord:   'superficially',
-   correctAnswer: 'lacking in depth or solidity'
+  {primaryWord:   'superficially',
+   meaning: 'lacking in depth or solidity'
   },
-  {russianWord:   'sort out',
-   correctAnswer: 'resolve a problem or difficulty'
+  {primaryWord:   'sort out',
+   meaning: 'resolve a problem or difficulty'
   },
-  {russianWord:   'rip off',
-   correctAnswer: 'cheat someone, especially financially'
+  {primaryWord:   'rip off',
+   meaning: 'cheat someone, especially financially'
   },
-  {russianWord:   'pick up',
-   correctAnswer: 'take hold of and lift or move someone or something'
+  {primaryWord:   'pick up',
+   meaning: 'take hold of and lift or move someone or something'
   },
-  {russianWord:   'write off',
-   correctAnswer: 'dismiss someone or something as insignificant'
+  {primaryWord:   'write off',
+   meaning: 'dismiss someone or something as insignificant'
   },
-  {russianWord:   'tide over',
-   correctAnswer: 'help someone through a difficult period, especially with financial assistance'
+  {primaryWord:   'tide over',
+   meaning: 'help someone through a difficult period, especially with financial assistance'
   },
-  {russianWord:   'sell out',
-   correctAnswer: 'an event for which all tickets are sold'
+  {primaryWord:   'sell out',
+   meaning: 'an event for which all tickets are sold'
   },
-  {russianWord:   'skimp on',
-   correctAnswer: 'you use less time, money, or material for it than you really need, so that the result is not good enough'
+  {primaryWord:   'skimp on',
+   meaning: 'you use less time, money, or material for it than you really need, so that the result is not good enough'
   },
-  {russianWord:   'bail out',
-   correctAnswer: 'rescue someone from a difficult situation, especially by providing money'
+  {primaryWord:   'bail out',
+   meaning: 'rescue someone from a difficult situation, especially by providing money'
   },
-  {russianWord:   'hint at smth',
-   correctAnswer: 'to talk about (something) in an indirect way'
+  {primaryWord:   'hint at smth',
+   meaning: 'to talk about (something) in an indirect way'
   },
-  {russianWord:   'breadwinner / bring home the bacon',
-   correctAnswer: 'a person who earns money to support their family, typically the sole one'
+  {primaryWord:   'breadwinner / bring home the bacon',
+   meaning: 'a person who earns money to support their family, typically the sole one'
   },
-  {russianWord:   'cash cow',
-   correctAnswer: 'a business, investment, or product that provides a steady income or profit'
+  {primaryWord:   'cash cow',
+   meaning: 'a business, investment, or product that provides a steady income or profit'
   },
-  {russianWord:   'sell for a song',
-   correctAnswer: 'very cheaply, for little money, especially for less than something is worth'
+  {primaryWord:   'sell for a song',
+   meaning: 'very cheaply, for little money, especially for less than something is worth'
   },
-  {russianWord:   'outgoings',
-   correctAnswer: 'a person`s regular expenditure'
+  {primaryWord:   'outgoings',
+   meaning: 'a person`s regular expenditure'
   },
-  {russianWord:   'promptly',
-   correctAnswer: 'with little or no delay; immediately'
+  {primaryWord:   'promptly',
+   meaning: 'with little or no delay; immediately'
   },
-  {russianWord:   'mount up',
-   correctAnswer: 'to get much larger'
+  {primaryWord:   'mount up',
+   meaning: 'to get much larger'
   },
-  {russianWord:   'surplus',
-   correctAnswer: 'an amount of something left over when requirements have been met'
+  {primaryWord:   'surplus',
+   meaning: 'an amount of something left over when requirements have been met'
   },
-  {russianWord:   'have never done it',
-   correctAnswer: 'never did it'
+  {primaryWord:   'have never done it',
+   meaning: 'never did it'
   },
-  {russianWord:   'relief',
-   correctAnswer: 'a feeling of reassurance and relaxation following release from anxiety or distress'
+  {primaryWord:   'relief',
+   meaning: 'a feeling of reassurance and relaxation following release from anxiety or distress'
   },
-  {russianWord:   'famine',
-   correctAnswer: 'extreme scarcity of food'
+  {primaryWord:   'famine',
+   meaning: 'extreme scarcity of food'
   },
-  {russianWord:   'sweep',
-   correctAnswer: 'clean (an area) by brushing away dirt or litter'
+  {primaryWord:   'sweep',
+   meaning: 'clean (an area) by brushing away dirt or litter'
   },
-  {russianWord:   'sweat',
-   correctAnswer: 'moisture exuded through the pores of the skin, typically in profuse quantities as a reaction to heat'
+  {primaryWord:   'sweat',
+   meaning: 'moisture exuded through the pores of the skin, typically in profuse quantities as a reaction to heat'
   },
-  {russianWord:   'set off',
-   correctAnswer: 'begin a journey'
+  {primaryWord:   'set off',
+   meaning: 'begin a journey'
   },
-  {russianWord:   'end up',
-   correctAnswer: 'to reach or come to a place, condition, or situation that was not planned or expected'
+  {primaryWord:   'end up',
+   meaning: 'to reach or come to a place, condition, or situation that was not planned or expected'
   },
-  {russianWord:   'run out of something',
-   correctAnswer: 'to finish, use, or sell all of something, so that there is none left'
+  {primaryWord:   'run out of something',
+   meaning: 'to finish, use, or sell all of something, so that there is none left'
   },
-  {russianWord:   'lorry',
-   correctAnswer: 'a large, heavy motor vehicle for transporting goods or troops; a truck'
+  {primaryWord:   'lorry',
+   meaning: 'a large, heavy motor vehicle for transporting goods or troops; a truck'
   },
-  {russianWord:   'buddy',
-   correctAnswer: 'a close friend'
+  {primaryWord:   'buddy',
+   meaning: 'a close friend'
   },
-  {russianWord:   'satnav',
-   correctAnswer: 'navigation dependent on information received from satellites'
+  {primaryWord:   'satnav',
+   meaning: 'navigation dependent on information received from satellites'
   },
-  {russianWord:   'drop off',
-   correctAnswer: 'fall asleep easily, especially without intending to'
+  {primaryWord:   'drop off',
+   meaning: 'fall asleep easily, especially without intending to'
   },
-  {russianWord:   'litter',
-   correctAnswer: 'rubbish such as paper, cans, and bottles left lying in an open or public place'
+  {primaryWord:   'litter',
+   meaning: 'rubbish such as paper, cans, and bottles left lying in an open or public place'
   },
-  {russianWord:   'tram',
-   correctAnswer: 'a passenger vehicle powered by electricity conveyed by overhead cables, and running on rails laid in a public road'
+  {primaryWord:   'tram',
+   meaning: 'a passenger vehicle powered by electricity conveyed by overhead cables, and running on rails laid in a public road'
   },
-  {russianWord:   'coach',
-   correctAnswer: 'a comfortably equipped single-decker bus used for longer journeys'
+  {primaryWord:   'coach',
+   meaning: 'a comfortably equipped single-decker bus used for longer journeys'
   },
-  {russianWord:   'ferry',
-   correctAnswer: 'a boat or ship for conveying passengers and goods, especially over a relatively short distance and as a regular service'
+  {primaryWord:   'ferry',
+   meaning: 'a boat or ship for conveying passengers and goods, especially over a relatively short distance and as a regular service'
   },
-  {russianWord:   'traffic jam',
-   correctAnswer: 'a situation in which a long line of vehicles on a road have stopped moving'
+  {primaryWord:   'traffic jam',
+   meaning: 'a situation in which a long line of vehicles on a road have stopped moving'
   },
-  {russianWord:   'pavement',
-   correctAnswer: 'a raised paved or asphalted path for pedestrians at the side of a road'
+  {primaryWord:   'pavement',
+   meaning: 'a raised paved or asphalted path for pedestrians at the side of a road'
   },
   ////////////////////////////
   // From diversity courses //
   ////////////////////////////
-  {russianWord:   'shaping up',
-   correctAnswer: 'develop or progress in a particular way'
+  {primaryWord:   'shaping up',
+   meaning: 'develop or progress in a particular way'
   },
-  {russianWord:   'topple over',
-   correctAnswer: 'to stop being steady and fall'
+  {primaryWord:   'topple over',
+   meaning: 'to stop being steady and fall'
   },
-  {russianWord:   'accomplish',
-   correctAnswer: 'achieve or complete successfully'
+  {primaryWord:   'accomplish',
+   meaning: 'achieve or complete successfully'
   },
-  {russianWord:   'runoff',
-   correctAnswer: 'a further competition, election, race, etc., after a tie or inconclusive result'
+  {primaryWord:   'runoff',
+   meaning: 'a further competition, election, race, etc., after a tie or inconclusive result'
   },
-  {russianWord:   'suffice [сэфайс]',
-   correctAnswer: 'be enough or adequate'
+  {primaryWord:   'suffice [сэфайс]',
+   meaning: 'be enough or adequate'
   },
-  {russianWord:   'inmate',
-   correctAnswer: 'a person confined to an institution such as a prison or hospital.'
+  {primaryWord:   'inmate',
+   meaning: 'a person confined to an institution such as a prison or hospital.'
   },
-  {russianWord:   'ample',
-   correctAnswer: 'enough or more than enough; plentiful'
+  {primaryWord:   'ample',
+   meaning: 'enough or more than enough; plentiful'
   },
-  {russianWord:   'bias [байас]',
-   correctAnswer: 'inclination or prejudice for or against one person or group, unfair'
+  {primaryWord:   'bias [байас]',
+   meaning: 'inclination or prejudice for or against one person or group, unfair'
   },
-  {russianWord:   'tick',
-   correctAnswer: 'a mark (✓) used to indicate that an item in a list or text is correct or has been chosen, checked, or dealt with'
+  {primaryWord:   'tick',
+   meaning: 'a mark (✓) used to indicate that an item in a list or text is correct or has been chosen, checked, or dealt with'
   },
-  {russianWord:   'cross',
-   correctAnswer: 'a mark, object, or figure formed by two short intersecting lines or pieces (+ or ×)'
+  {primaryWord:   'cross',
+   meaning: 'a mark, object, or figure formed by two short intersecting lines or pieces (+ or ×)'
   },
-  {russianWord:   'rural',
-   correctAnswer: 'in, relating to, or characteristic of the countryside rather than the town'
+  {primaryWord:   'rural',
+   meaning: 'in, relating to, or characteristic of the countryside rather than the town'
   },
-  {russianWord:   'tribe',
-   correctAnswer: 'a social division in a traditional society consisting of families or communities'
+  {primaryWord:   'tribe',
+   meaning: 'a social division in a traditional society consisting of families or communities'
   },
-  {russianWord:   'amygdala',
-   correctAnswer: 'region of the brain primarily associated with emotional processes'
+  {primaryWord:   'amygdala',
+   meaning: 'region of the brain primarily associated with emotional processes'
   },
-  {russianWord:   'affinity',
-   correctAnswer: 'a natural liking for and understanding of someone or something'
+  {primaryWord:   'affinity',
+   meaning: 'a natural liking for and understanding of someone or something'
   },
-  {russianWord:   'confine',
-   correctAnswer: 'keep or restrict someone or something within certain limits of (space, scope, or time)'
+  {primaryWord:   'confine',
+   meaning: 'keep or restrict someone or something within certain limits of (space, scope, or time)'
   },
   ///////////////////
   // Phrasal verbs //
   ///////////////////
-  {russianWord:   'catch up with',
-   correctAnswer: 'succeed in reaching a person who is ahead of one'
+  {primaryWord:   'catch up with',
+   meaning: 'succeed in reaching a person who is ahead of one'
   },
-  {russianWord:   'drop off',
-   correctAnswer: 'an act of taking people, goods, mail, etc. to a place'
+  {primaryWord:   'drop off',
+   meaning: 'an act of taking people, goods, mail, etc. to a place'
   },
-  {russianWord:   'keep up with',
-   correctAnswer: 'move or progress at the same rate as someone or something else'
+  {primaryWord:   'keep up with',
+   meaning: 'move or progress at the same rate as someone or something else'
   },
-  {russianWord:   'make for',
-   correctAnswer: '(make for something) to move towards a place'
+  {primaryWord:   'make for',
+   meaning: '(make for something) to move towards a place'
   },
-  {russianWord:   'pull in',
-   correctAnswer: '(of a vehicle) move to the side of or off the road'
+  {primaryWord:   'pull in',
+   meaning: '(of a vehicle) move to the side of or off the road'
   },
-  {russianWord:   'run over',
-   correctAnswer: '(of a vehicle) knock a person or animal down and pass over their body'
+  {primaryWord:   'run over',
+   meaning: '(of a vehicle) knock a person or animal down and pass over their body'
   },
-  {russianWord:   'see off',
-   correctAnswer: 'to go to an airport, train station, etc., with (someone who is leaving) in order to say goodbye'
+  {primaryWord:   'see off',
+   meaning: 'to go to an airport, train station, etc., with (someone who is leaving) in order to say goodbye'
   },
-  {russianWord:   'set out/off',
-   correctAnswer: 'intransitive to start a journey, or to start going in a particular direction'
+  {primaryWord:   'set out/off',
+   meaning: 'intransitive to start a journey, or to start going in a particular direction'
   },
-  {russianWord:   'take off',
-   correctAnswer: '(of an aircraft or bird) become airborne / remove clothing from ones body'
+  {primaryWord:   'take off',
+   meaning: '(of an aircraft or bird) become airborne / remove clothing from ones body'
   },
-  {russianWord:   'turn round',
-   correctAnswer: 'move so as to face in the opposite direction'
+  {primaryWord:   'turn round',
+   meaning: 'move so as to face in the opposite direction'
   },
-  {russianWord:   'snail',
-   correctAnswer: 'a mollusc with a single spiral shell '
+  {primaryWord:   'snail',
+   meaning: 'a mollusc with a single spiral shell '
   },
-  {russianWord:   'slippery',
-   correctAnswer: 'of a surface or object) difficult to hold firmly or stand on because it is smooth, wet, or slimy'
+  {primaryWord:   'slippery',
+   meaning: 'of a surface or object) difficult to hold firmly or stand on because it is smooth, wet, or slimy'
   },
-  {russianWord:   'slid',
-   correctAnswer: 'move smoothly along a surface while maintaining continuous contact with it.'
+  {primaryWord:   'slid',
+   meaning: 'move smoothly along a surface while maintaining continuous contact with it.'
   },
-  {russianWord:   'seaward',
-   correctAnswer: 'towards the sea'
+  {primaryWord:   'seaward',
+   meaning: 'towards the sea'
   },
-  {russianWord:   'Arrange with someone',
-   correctAnswer: 'make plans with them to do it'
+  {primaryWord:   'Arrange with someone',
+   meaning: 'make plans with them to do it'
   },
-  {russianWord:   'pull away',
-   correctAnswer: '(of a vehicle) start moving'
+  {primaryWord:   'pull away',
+   meaning: '(of a vehicle) start moving'
   },
-  {russianWord:   'steer',
-   correctAnswer: 'guide or control the movement of (a vehicle, vessel, or aircraft), for example by turning a wheel or operating a rudder'
+  {primaryWord:   'steer',
+   meaning: 'guide or control the movement of (a vehicle, vessel, or aircraft), for example by turning a wheel or operating a rudder'
   },
-  {russianWord:   'accelerate',
-   correctAnswer: '(especially of a vehicle) begin to move more quickly'
+  {primaryWord:   'accelerate',
+   meaning: '(especially of a vehicle) begin to move more quickly'
   },
-  {russianWord:   'put on the brakes',
-   correctAnswer: 'to slow or stop the progress of something or someone'
+  {primaryWord:   'put on the brakes',
+   meaning: 'to slow or stop the progress of something or someone'
   },
-  {russianWord:   'reverse',
-   correctAnswer: 'move backwards'
+  {primaryWord:   'reverse',
+   meaning: 'move backwards'
   },
-  {russianWord:   'swerve',
-   correctAnswer: 'an abrupt change of direction'
+  {primaryWord:   'swerve',
+   meaning: 'an abrupt change of direction'
   },
-  {russianWord:   'skid',
-   correctAnswer: '(of a vehicle) slide, typically sideways or obliquely, on slippery ground or as a result of stopping or turning too quickly'
+  {primaryWord:   'skid',
+   meaning: '(of a vehicle) slide, typically sideways or obliquely, on slippery ground or as a result of stopping or turning too quickly'
   },
-  {russianWord:   'overtake',
-   correctAnswer: 'catch up with and pass while travelling in the same direction'
+  {primaryWord:   'overtake',
+   meaning: 'catch up with and pass while travelling in the same direction'
   },
-  {russianWord:   'gear',
-   correctAnswer: 'a toothed wheel that works with others to alter the relation between the speed of a driving mechanism (such as the engine of a vehicle)'
+  {primaryWord:   'gear',
+   meaning: 'a toothed wheel that works with others to alter the relation between the speed of a driving mechanism (such as the engine of a vehicle)'
   },
-  {russianWord:   'on the lookout for',
-   correctAnswer: 'to watch or search for (something or someone)'
+  {primaryWord:   'on the lookout for',
+   meaning: 'to watch or search for (something or someone)'
   },
-  {russianWord:   'abrupt',
-   correctAnswer: 'sudden and unexpected'
+  {primaryWord:   'abrupt',
+   meaning: 'sudden and unexpected'
   },
-  {russianWord:   'be on the right track',
-   correctAnswer: 'following a course that will lead to success/failure'
+  {primaryWord:   'be on the right track',
+   meaning: 'following a course that will lead to success/failure'
   },
-  {russianWord:   'uphill battle',
-   correctAnswer: 'a very difficult struggle'
+  {primaryWord:   'uphill battle',
+   meaning: 'a very difficult struggle'
   },
-  {russianWord:   'gone downhill',
-   correctAnswer: 'deteriorate, worsen'
+  {primaryWord:   'gone downhill',
+   meaning: 'deteriorate, worsen'
   },
-  {russianWord:   'off the beaten track',
-   correctAnswer: 'in or into an isolated place'
+  {primaryWord:   'off the beaten track',
+   meaning: 'in or into an isolated place'
   },
-  {russianWord:   'to be at a crossroads',
-   correctAnswer: ' at a point of decision or a critical juncture'
+  {primaryWord:   'to be at a crossroads',
+   meaning: ' at a point of decision or a critical juncture'
   },
-  {russianWord:   'dead end',
-   correctAnswer: 'an end of a road or passage from which no exit is possible / hard situation'
+  {primaryWord:   'dead end',
+   meaning: 'an end of a road or passage from which no exit is possible / hard situation'
   },
-  {russianWord:   'hit the road',
-   correctAnswer: 'start journey / set out on a journey'
+  {primaryWord:   'hit the road',
+   meaning: 'start journey / set out on a journey'
   },
-  {russianWord:   'juncture',
-   correctAnswer: 'a place where things join'
+  {primaryWord:   'juncture',
+   meaning: 'a place where things join'
   },
-  {russianWord:   'stuck in a rut',
-   correctAnswer: 'you\'ve been doing the same old thing for too long'
+  {primaryWord:   'stuck in a rut',
+   meaning: 'you\'ve been doing the same old thing for too long'
   },
-  {russianWord:   'drive me round the bend',
-   correctAnswer: 'it makes you really bored or angry'
+  {primaryWord:   'drive me round the bend',
+   meaning: 'it makes you really bored or angry'
   },
-  {russianWord:   'right up your street',
-   correctAnswer: 'perfect for you'
+  {primaryWord:   'right up your street',
+   meaning: 'perfect for you'
   },
-  {russianWord:   'middle of the road',
-   correctAnswer: 'neutral'
+  {primaryWord:   'middle of the road',
+   meaning: 'neutral'
   },
-  {russianWord:   'swift',
-   correctAnswer: 'happening quickly or promptly [light action]'
+  {primaryWord:   'swift',
+   meaning: 'happening quickly or promptly [light action]'
   },
-  {russianWord:   'rapid',
-   correctAnswer: 'happening in a short time or at a great rate'
+  {primaryWord:   'rapid',
+   meaning: 'happening in a short time or at a great rate'
   },
-  {russianWord:   'brisk',
-   correctAnswer: 'active and energetic [оживленный]'
+  {primaryWord:   'brisk',
+   meaning: 'active and energetic [оживленный]'
   },
-  {russianWord:   'hasty',
-   correctAnswer: 'done with excessive speed or urgency; hurried [поспешный]'
+  {primaryWord:   'hasty',
+   meaning: 'done with excessive speed or urgency; hurried [поспешный]'
   },
-  {russianWord:   'stand still',
-   correctAnswer: 'a state characterized by absence of motion or of progress'
+  {primaryWord:   'stand still',
+   meaning: 'a state characterized by absence of motion or of progress'
   },
-  {russianWord:   'decline',
-   correctAnswer: '(typically of something regarded as good) become smaller, fewer, or less; decrease.'
+  {primaryWord:   'decline',
+   meaning: '(typically of something regarded as good) become smaller, fewer, or less; decrease.'
   },
-  {russianWord:   'in an unhurried manner',
-   correctAnswer: 'relaxed and leisurely; without hurry or haste'
+  {primaryWord:   'in an unhurried manner',
+   meaning: 'relaxed and leisurely; without hurry or haste'
   },
-  {russianWord:   'leisurely',
-   correctAnswer: 'acting or done at leisure; unhurried or relaxed'
+  {primaryWord:   'leisurely',
+   meaning: 'acting or done at leisure; unhurried or relaxed'
   },
-  {russianWord:   'make / take a detour',
-   correctAnswer: 'a deviation from a direct course or the usual procedure especially'
+  {primaryWord:   'make / take a detour',
+   meaning: 'a deviation from a direct course or the usual procedure especially'
   },
-  {russianWord:   'steering wheel',
-   correctAnswer: 'a device that a driver rotates in order to steer a vehicle.'
+  {primaryWord:   'steering wheel',
+   meaning: 'a device that a driver rotates in order to steer a vehicle.'
   },
-  {russianWord:   'steer a conversation away',
-   correctAnswer: 'when there\'s something that you want to talk about, or something that you want to avoid talking about.'
+  {primaryWord:   'steer a conversation away',
+   meaning: 'when there\'s something that you want to talk about, or something that you want to avoid talking about.'
   },
-  {russianWord:   'turn upside down',
-   correctAnswer: 'put in disorder, mix or mess up'
+  {primaryWord:   'turn upside down',
+   meaning: 'put in disorder, mix or mess up'
   },
-  {russianWord:   'go astray',
-   correctAnswer: '(of an object) become lost or mislaid'
+  {primaryWord:   'go astray',
+   meaning: '(of an object) become lost or mislaid'
   },
-  {russianWord:   'hazard',
-   correctAnswer: 'a danger or risk'
+  {primaryWord:   'hazard',
+   meaning: 'a danger or risk'
   },
-  {russianWord:   'stopover',
-   correctAnswer: 'a break in a journey'
+  {primaryWord:   'stopover',
+   meaning: 'a break in a journey'
   },
-  {russianWord:   'berth',
-   correctAnswer: 'a fixed bunk on a ship, train, or other means of transport'
+  {primaryWord:   'berth',
+   meaning: 'a fixed bunk on a ship, train, or other means of transport'
   },
-  {russianWord:   'crossing',
-   correctAnswer: 'a place where roads or railway lines cross'
+  {primaryWord:   'crossing',
+   meaning: 'a place where roads or railway lines cross'
   },
-  {russianWord:   'holiday of a lifetime',
-   correctAnswer: 'the best holiday/experience/chance etc that you will ever have'
+  {primaryWord:   'holiday of a lifetime',
+   meaning: 'the best holiday/experience/chance etc that you will ever have'
   },
-  {russianWord:   'through train',
-   correctAnswer: 'scheduled destination without changing to another train'
+  {primaryWord:   'through train',
+   meaning: 'scheduled destination without changing to another train'
   },
-  {russianWord:   'carriage / car',
-   correctAnswer: 'any of the separate sections of a train that carry passengers'
+  {primaryWord:   'carriage / car',
+   meaning: 'any of the separate sections of a train that carry passengers'
   },
-  {russianWord:   'inquiry office',
-   correctAnswer: 'which deals with inquiries or requests for information'
+  {primaryWord:   'inquiry office',
+   meaning: 'which deals with inquiries or requests for information'
   },
-  {russianWord:   'compartment',
-   correctAnswer: 'a separate section or part of a structure or container'
+  {primaryWord:   'compartment',
+   meaning: 'a separate section or part of a structure or container'
   },
-  {russianWord:   'self-catering',
-   correctAnswer: '(of a holiday or accommodation) offering facilities for people to cook their own meals'
+  {primaryWord:   'self-catering',
+   meaning: '(of a holiday or accommodation) offering facilities for people to cook their own meals'
   },
-  {russianWord:   'inn',
-   correctAnswer: 'a pub, typically one in the country, in some cases providing accommodation'
+  {primaryWord:   'inn',
+   meaning: 'a pub, typically one in the country, in some cases providing accommodation'
   },
-  {russianWord:   'guest house',
-   correctAnswer: 'a private house offering accommodation to paying guests'
+  {primaryWord:   'guest house',
+   meaning: 'a private house offering accommodation to paying guests'
   },
-  {russianWord:   'rough it',
-   correctAnswer: 'do without the usual comforts and conveniences'
+  {primaryWord:   'rough it',
+   meaning: 'do without the usual comforts and conveniences'
   },
-  {russianWord:   'exhilarating experience',
-   correctAnswer: 'it makes you feel very happy and excited'
+  {primaryWord:   'exhilarating experience',
+   meaning: 'it makes you feel very happy and excited'
   },
-  {russianWord:   'to be out in the wild',
-   correctAnswer: 'live in a free and natural state and are not looked after by people'
+  {primaryWord:   'to be out in the wild',
+   meaning: 'live in a free and natural state and are not looked after by people'
   },
-  {russianWord:   'to lounge around',
-   correctAnswer: 'to pass time idly and indolently'
+  {primaryWord:   'to lounge around',
+   meaning: 'to pass time idly and indolently'
   },
-  {russianWord:   'idly',
-   correctAnswer: 'with no particular purpose, reason, or foundation'
+  {primaryWord:   'idly',
+   meaning: 'with no particular purpose, reason, or foundation'
   },
-  {russianWord:   'indolently',
-   correctAnswer: 'habitually lazy'
+  {primaryWord:   'indolently',
+   meaning: 'habitually lazy'
   },
-  {russianWord:   'cosy',
-   correctAnswer: 'giving a feeling of comfort, warmth, and relaxation'
+  {primaryWord:   'cosy',
+   meaning: 'giving a feeling of comfort, warmth, and relaxation'
   },
-  {russianWord:   'resort',
-   correctAnswer: 'a place that is frequented for holidays or recreation or for a particular purpose'
+  {primaryWord:   'resort',
+   meaning: 'a place that is frequented for holidays or recreation or for a particular purpose'
   },
-  {russianWord:   'run out of stream',
-   correctAnswer: 'lost energy or interest'
+  {primaryWord:   'run out of stream',
+   meaning: 'lost energy or interest'
   },
-  {russianWord:   'tutor',
-   correctAnswer: 'a private teacher'
+  {primaryWord:   'tutor',
+   meaning: 'a private teacher'
   },
-  {russianWord:   'down the line',
-   correctAnswer: 'later'
+  {primaryWord:   'down the line',
+   meaning: 'later'
   },
-  {russianWord:   'at / behind the wheel',
-   correctAnswer: 'control situation'
+  {primaryWord:   'at / behind the wheel',
+   meaning: 'control situation'
   },
-  {russianWord:   'do a U-turn',
-   correctAnswer: 'a change of plan, especially a reversal of political policy'
+  {primaryWord:   'do a U-turn',
+   meaning: 'a change of plan, especially a reversal of political policy'
   },
-  {russianWord:   'go / move / step up a gear',
-   correctAnswer: 'start to work more effectively'
+  {primaryWord:   'go / move / step up a gear',
+   meaning: 'start to work more effectively'
   },
-  {russianWord:   'take a nosedive',
-   correctAnswer: 'to fall rapidly'
+  {primaryWord:   'take a nosedive',
+   meaning: 'to fall rapidly'
   },
-  {russianWord:   'nosedive',
-   correctAnswer: 'a steep downward plunge by an aircraft'
+  {primaryWord:   'nosedive',
+   meaning: 'a steep downward plunge by an aircraft'
   },
-  {russianWord:   'come to a standstill',
-   correctAnswer: 'stopped'
+  {primaryWord:   'come to a standstill',
+   meaning: 'stopped'
   },
-  {russianWord:   'drift along',
-   correctAnswer: 'to live one\'s life without much effort or direction.'
+  {primaryWord:   'drift along',
+   meaning: 'to live one\'s life without much effort or direction.'
   },
-  {russianWord:   'with flying colors',
-   correctAnswer: 'very successfully'
+  {primaryWord:   'with flying colors',
+   meaning: 'very successfully'
   },
-  {russianWord:   'miss the boat',
-   correctAnswer: 'miss the chance'
+  {primaryWord:   'miss the boat',
+   meaning: 'miss the chance'
   },
-  {russianWord:   'go off the rails',
-   correctAnswer: 'start to behave in not normal way'
+  {primaryWord:   'go off the rails',
+   meaning: 'start to behave in not normal way'
   },
-  {russianWord:   'tenant',
-   correctAnswer: 'a person who occupies land or property rented from a landlord'
+  {primaryWord:   'tenant',
+   meaning: 'a person who occupies land or property rented from a landlord'
   },
-  {russianWord:   'mouldy',
-   correctAnswer: 'covered with a fungal growth which causes decay, due to age or damp conditions'
+  {primaryWord:   'mouldy',
+   meaning: 'covered with a fungal growth which causes decay, due to age or damp conditions'
   },
-  {russianWord:   'fungus',
-   correctAnswer: 'any of a group of spore-producing organisms feeding on organic matter, including moulds, yeast, mushrooms, and toadstools.'
+  {primaryWord:   'fungus',
+   meaning: 'any of a group of spore-producing organisms feeding on organic matter, including moulds, yeast, mushrooms, and toadstools.'
   },
-  {russianWord:   'spotless',
-   correctAnswer: 'absolutely clean or pure; immaculate'
+  {primaryWord:   'spotless',
+   meaning: 'absolutely clean or pure; immaculate'
   },
-  {russianWord:   'snap up',
-   correctAnswer: 'to buy or take (something or someone) quickly or eagerly'
+  {primaryWord:   'snap up',
+   meaning: 'to buy or take (something or someone) quickly or eagerly'
   },
-  {russianWord:   'vacate',
-   correctAnswer: 'leave (a place that one previously occupied)'
+  {primaryWord:   'vacate',
+   meaning: 'leave (a place that one previously occupied)'
   },
-  {russianWord:   'amenity',
-   correctAnswer: 'a desirable or useful feature or facility of a building or place'
+  {primaryWord:   'amenity',
+   meaning: 'a desirable or useful feature or facility of a building or place'
   },
-  {russianWord:   'fizzy',
-   correctAnswer: '(of a drink) containing bubbles of gas / full of energy or exuberance'
+  {primaryWord:   'fizzy',
+   meaning: '(of a drink) containing bubbles of gas / full of energy or exuberance'
   },
-  {russianWord:   'poured out',
-   correctAnswer: 'to freely express'
+  {primaryWord:   'poured out',
+   meaning: 'to freely express'
   },
-  {russianWord:   'thaw (co)',
-   correctAnswer: 'a period of warmer weather that thaws ice and snow'
+  {primaryWord:   'thaw (co)',
+   meaning: 'a period of warmer weather that thaws ice and snow'
   },
-  {russianWord:   'melt',
-   correctAnswer: 'make or become liquefied by heat'
+  {primaryWord:   'melt',
+   meaning: 'make or become liquefied by heat'
   },
-  {russianWord:   'stifling',
-   correctAnswer: 'of heat, air, or a room) very hot and causing difficulties in breathing'
+  {primaryWord:   'stifling',
+   meaning: 'of heat, air, or a room) very hot and causing difficulties in breathing'
   },
-  {russianWord:   'muggy',
-   correctAnswer: '(of the weather) unpleasantly warm and humid'
+  {primaryWord:   'muggy',
+   meaning: '(of the weather) unpleasantly warm and humid'
   },
   ////////////
   // HEALTH //
   ////////////
-  {russianWord:   'rash',
-   correctAnswer: 'breaking out of the skin with red spots (as from illness or an allergic reaction)'
+  {primaryWord:   'rash',
+   meaning: 'breaking out of the skin with red spots (as from illness or an allergic reaction)'
   },
-  {russianWord:   'ankle',
-   correctAnswer: 'the joint connecting the foot with the leg.'
+  {primaryWord:   'ankle',
+   meaning: 'the joint connecting the foot with the leg.'
   },
-  {russianWord:   'unconscious',
-   correctAnswer: 'unconsciousness is when a person is unable to respond to people and activities'
+  {primaryWord:   'unconscious',
+   meaning: 'unconsciousness is when a person is unable to respond to people and activities'
   },
-  {russianWord:   'sprain',
-   correctAnswer: 'wrench or twist the ligaments of (an ankle, wrist, or other joint) violently so as to cause pain and swelling but not dislocation'
+  {primaryWord:   'sprain',
+   meaning: 'wrench or twist the ligaments of (an ankle, wrist, or other joint) violently so as to cause pain and swelling but not dislocation'
   },
-  {russianWord:   'choke',
-   correctAnswer: '(of a person or animal) have severe difficulty in breathing because of a constricted or obstructed throat or a lack of air'
+  {primaryWord:   'choke',
+   meaning: '(of a person or animal) have severe difficulty in breathing because of a constricted or obstructed throat or a lack of air'
   },
-  {russianWord:   'swell',
-   correctAnswer: '(especially of a part of the body) become larger or rounder in size, typically as a result of an accumulation of fluid.'
+  {primaryWord:   'swell',
+   meaning: '(especially of a part of the body) become larger or rounder in size, typically as a result of an accumulation of fluid.'
   },
-  {russianWord:   'faint / dizzy',
-   correctAnswer: 'feeling weak and dizzy and close to losing consciousness'
+  {primaryWord:   'faint / dizzy',
+   meaning: 'feeling weak and dizzy and close to losing consciousness'
   },
-  {russianWord:   'blister',
-   correctAnswer: 'a small bubble on the skin filled with serum and caused by friction, burning, or other damage'
+  {primaryWord:   'blister',
+   meaning: 'a small bubble on the skin filled with serum and caused by friction, burning, or other damage'
   },
-  {russianWord:   'pass out',
-   correctAnswer: 'become unconscious'
+  {primaryWord:   'pass out',
+   meaning: 'become unconscious'
   },
-  {russianWord:   'throw up',
-   correctAnswer: 'vomit / abandon or give up something, especially one\'s job'
+  {primaryWord:   'throw up',
+   meaning: 'vomit / abandon or give up something, especially one\'s job'
   },
-  {russianWord:   'twist',
-   correctAnswer: 'cause to rotate around a stationary point; turn'
+  {primaryWord:   'twist',
+   meaning: 'cause to rotate around a stationary point; turn'
   },
-  {russianWord:   'dislocation',
-   correctAnswer: 'injury or disability caused when the normal position of a joint or other part of the body is disturbed'
+  {primaryWord:   'dislocation',
+   meaning: 'injury or disability caused when the normal position of a joint or other part of the body is disturbed'
   },
-  {russianWord:   'ligaments',
-   correctAnswer: 'a membranous fold that supports an organ and keeps it in position'
+  {primaryWord:   'ligaments',
+   meaning: 'a membranous fold that supports an organ and keeps it in position'
   },
-  {russianWord:   'consciousness [коншиснес]',
-   correctAnswer: 'the state of being aware of and responsive to one\'s surroundings'
+  {primaryWord:   'consciousness [коншиснес]',
+   meaning: 'the state of being aware of and responsive to one\'s surroundings'
   },
-  {russianWord:   'fold',
-   correctAnswer: 'over or wrap something in (a soft or flexible material)'
+  {primaryWord:   'fold',
+   meaning: 'over or wrap something in (a soft or flexible material)'
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
-  {russianWord:   '',
-   correctAnswer: ''
+  {primaryWord:   '',
+   meaning: ''
   },
 
 
