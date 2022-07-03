@@ -196,7 +196,7 @@ const TranslateGameComponent = (props) => {
                 <p><LinearProgress variant="determinate" value={(currentTaskId - 1) * 10}/></p>
 
                 <div style={{width: '50%', float: 'left', height: '50%'}}>
-                    <ListItemText primary={handleRussianWord()}/>
+                    <h1>{handleRussianWord()}</h1>
                     <ListItemText primary={convertComplexityToSigns(tasks[currentTaskId].complexity)}/>
 
                     <a style={{display: "table-cell", textDecoration: 'none'}}
