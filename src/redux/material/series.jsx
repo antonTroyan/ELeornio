@@ -206,8 +206,8 @@ const series = [
   {primaryWord:   'simp',
    meaning: 'a silly or foolish person'
   },
-  {primaryWord:   'as you turned out to be',
-   meaning: 'used to say that something or someone eventually becomes something'
+  {primaryWord:   'turned out to be',
+   meaning: 'become / turn'
   },
   {primaryWord:   'conducive',
    meaning: 'making a certain situation or outcome likely or possible'
